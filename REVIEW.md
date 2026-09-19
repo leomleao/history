@@ -1,5 +1,7 @@
 # Panzonato animated voyage, timeline and archive review — 19 September 2026
 
+The subsequent shared entrance and `/panzonato/{locale}/` migration are reviewed in [HISTORY_LANDING_REVIEW.md](HISTORY_LANDING_REVIEW.md). The legacy URLs in this earlier report now redirect to the corresponding Panzonato pages.
+
 The expanded exhibition is running at **http://localhost:18775/en/** and **http://localhost:18775/pt-br/**. Start with the [animated Atlantic crossing](http://localhost:18775/en/#crossing-voyage), explore the [interwoven historical timeline](http://localhost:18775/en/#timeline), or start with [Fosca and six children at sea](http://localhost:18775/en/stories/fosca-six-children-at-sea/), then follow the crossing chapter or explore the historical collections. The approved typography, palette, motion, and image inspection remain in use.
 
 ## What changed

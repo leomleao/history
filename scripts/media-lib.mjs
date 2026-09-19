@@ -6,7 +6,7 @@ export function assertPublicPath(path) {
   if (typeof path !== 'string' || !/^[a-z0-9][a-z0-9._/-]*$/.test(path) || path.split('/').some(p => p === '..' || p === '.' || !p) || isAbsolute(path)) {
     throw new Error(`Unsafe media path: ${path}`);
   }
-  if (!/^[a-z0-9-]+\/[a-z0-9-]+-[a-f0-9]{12}-\d+\.webp$/.test(path)) throw new Error(`Media filename is not content-versioned: ${path}`);
+  if (!/^(?:[a-z0-9-]+\/)+[a-z0-9-]+-[a-f0-9]{12}-\d+\.webp$/.test(path)) throw new Error(`Media filename is not content-versioned: ${path}`);
   return path;
 }
 export function validateManifest(manifest) {

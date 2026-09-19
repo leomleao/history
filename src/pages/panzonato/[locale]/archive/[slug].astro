@@ -1,10 +1,10 @@
 ---
-import BaseLayout from '../../../layouts/BaseLayout.astro';
-import Breadcrumbs from '../../../components/Breadcrumbs.astro';
-import EvidenceDialog from '../../../components/EvidenceDialog.astro';
-import MediaImage from '../../../components/MediaImage.astro';
-import { getChapters, getSources, locales, otherLocale, route, type Locale } from '../../../lib/content';
-import { exhibitionPayload, safeJson, strings } from '../../../lib/ui';
+import BaseLayout from '../../../../layouts/BaseLayout.astro';
+import Breadcrumbs from '../../../../components/Breadcrumbs.astro';
+import EvidenceDialog from '../../../../components/EvidenceDialog.astro';
+import MediaImage from '../../../../components/MediaImage.astro';
+import { getChapters, getSources, locales, otherLocale, route, type Locale } from '../../../../lib/content';
+import { exhibitionPayload, safeJson, strings } from '../../../../lib/ui';
 
 export function getStaticPaths() {
   return locales.flatMap((locale) => getSources(locale).map((source) => ({ params: { locale, slug: source.id }, props: { locale, source } })));

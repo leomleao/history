@@ -1,0 +1,40 @@
+---
+import '@fontsource-variable/newsreader/wght.css';
+import '@fontsource-variable/newsreader/wght-italic.css';
+import '@fontsource-variable/dm-sans/wght.css';
+import '../styles/history-landing.css';
+
+interface Props {
+  locale: 'en' | 'pt-br';
+  title: string;
+  description: string;
+}
+
+const { locale, title, description } = Astro.props;
+const isPortuguese = locale === 'pt-br';
+const canonicalPath = isPortuguese ? '/home/pt-br/' : '/';
+const alternatePath = isPortuguese ? '/' : '/home/pt-br/';
+const canonical = new URL(canonicalPath, Astro.site);
+const alternate = new URL(alternatePath, Astro.site);
+const english = new URL('/', Astro.site);
+const noindex = process.env.PUBLICATION_MODE !== 'published';
+---
+
+<!doctype html>
+<html lang={isPortuguese ? 'pt-BR' : 'en'}>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content={description} />
+    {noindex && <meta name="robots" content="noindex, nofollow" />}
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="canonical" href={canonical} />
+    <link rel="alternate" hreflang={isPortuguese ? 'pt-BR' : 'en'} href={canonical} />
+    <link rel="alternate" hreflang={isPortuguese ? 'en' : 'pt-BR'} href={alternate} />
+    <link rel="alternate" hreflang="x-default" href={english} />
+    <title>{title}</title>
+  </head>
+  <body>
+    <slot />
+  </body>
+</html>

@@ -1,11 +1,11 @@
 ---
-import BaseLayout from '../../layouts/BaseLayout.astro';
-import EvidenceDialog from '../../components/EvidenceDialog.astro';
-import MediaImage from '../../components/MediaImage.astro';
-import Timeline from '../../components/Timeline.astro';
-import VoyageMap from '../../components/VoyageMap.astro';
-import { getAllMedia, getChapters, getFeatures, getHistoricalCollections, getMedia, getPeople, getSources, locales, otherLocale, route, type Locale } from '../../lib/content';
-import { exhibitionPayload, safeJson, strings } from '../../lib/ui';
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import EvidenceDialog from '../../../components/EvidenceDialog.astro';
+import MediaImage from '../../../components/MediaImage.astro';
+import Timeline from '../../../components/Timeline.astro';
+import VoyageMap from '../../../components/VoyageMap.astro';
+import { getAllMedia, getChapters, getFeatures, getHistoricalCollections, getMedia, getPeople, getSources, locales, otherLocale, route, type Locale } from '../../../lib/content';
+import { exhibitionPayload, safeJson, strings } from '../../../lib/ui';
 
 export function getStaticPaths() {
   return locales.map((locale) => ({ params: { locale }, props: { locale } }));

@@ -1,0 +1,37 @@
+---
+import '@fontsource-variable/newsreader/wght.css';
+import '@fontsource-variable/dm-sans/wght.css';
+import '../../styles/global.css';
+import { isPreview } from '../../lib/content';
+
+const site = Astro.site;
+const canonical = new URL('/panzonato/', site);
+const english = new URL('/panzonato/en/', site);
+const portuguese = new URL('/panzonato/pt-br/', site);
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Choose English or Brazilian Portuguese for the Panzonato family history exhibition." />
+    {isPreview && <meta name="robots" content="noindex, nofollow" />}
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="canonical" href={canonical} />
+    <link rel="alternate" hreflang="en" href={english} />
+    <link rel="alternate" hreflang="pt-BR" href={portuguese} />
+    <link rel="alternate" hreflang="x-default" href={canonical} />
+    <title>Panzonato · Choose a language</title>
+  </head>
+  <body>
+    <main id="main-content">
+      <section class="page-intro not-found">
+        <span class="eyebrow">Family history · História de família</span>
+        <h1>Panzonato</h1>
+        <p>Choose a language · Escolha um idioma</p>
+        <div class="edition-links"><a href="/panzonato/en/" hreflang="en">English</a><a href="/panzonato/pt-br/" hreflang="pt-BR" lang="pt-BR">Português do Brasil</a><a href="/">All histories</a></div>
+      </section>
+    </main>
+  </body>
+</html>

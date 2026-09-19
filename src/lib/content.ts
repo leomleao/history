@@ -9,10 +9,11 @@ export type Localized<T = string> = Record<Locale, T>;
 export type Publication = 'preview' | 'published' | 'draft';
 export const publicationMode = process.env.PUBLICATION_MODE === 'published' ? 'published' : 'preview';
 export const isPreview = publicationMode === 'preview';
+export const exhibitionRoot = '/panzonato';
 export function otherLocale(locale: Locale): Locale { return locale === 'en' ? 'pt-br' : 'en'; }
 export type RouteKind = 'home' | 'chapters' | 'stories' | 'collections' | 'people' | 'archive' | 'about';
 export function route(locale: Locale, kind: RouteKind = 'home', slug = '') {
-  return `/${locale}/${kind === 'home' ? '' : `${kind}/${slug ? `${slug}/` : ''}`}`;
+  return `${exhibitionRoot}/${locale}/${kind === 'home' ? '' : `${kind}/${slug ? `${slug}/` : ''}`}`;
 }
 export interface Variant { path: string; width: number; height: number; bytes: number; sha256: string }
 export interface MediaRecord {

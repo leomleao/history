@@ -1,11 +1,11 @@
 ---
-import BaseLayout from '../../../layouts/BaseLayout.astro';
-import Breadcrumbs from '../../../components/Breadcrumbs.astro';
-import SourceCard from '../../../components/SourceCard.astro';
-import EvidenceDialog from '../../../components/EvidenceDialog.astro';
-import MediaImage from '../../../components/MediaImage.astro';
-import { getChapters, getPeople, getSources, locales, otherLocale, route, type Locale, type MediaView } from '../../../lib/content';
-import { exhibitionPayload, safeJson, strings } from '../../../lib/ui';
+import BaseLayout from '../../../../layouts/BaseLayout.astro';
+import Breadcrumbs from '../../../../components/Breadcrumbs.astro';
+import SourceCard from '../../../../components/SourceCard.astro';
+import EvidenceDialog from '../../../../components/EvidenceDialog.astro';
+import MediaImage from '../../../../components/MediaImage.astro';
+import { getChapters, getPeople, getSources, locales, otherLocale, route, type Locale, type MediaView } from '../../../../lib/content';
+import { exhibitionPayload, safeJson, strings } from '../../../../lib/ui';
 
 export async function getStaticPaths() {
   return locales.flatMap((locale) => getPeople(locale).map((person) => ({ params: { locale, slug: person.id }, props: { locale, person } })));

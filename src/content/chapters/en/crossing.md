@@ -17,21 +17,21 @@ translation: "provisional"
 
 ## A family, not a passenger count
 
-The crossing begins with eight people. Giuseppe was recorded as thirty-five and Fosca as thirty. With them travelled Luigia, ten; Catarina, nine; Candida, seven; Luigi, five; Domenico, three; and Eugenio, one. Written in order in the [São Paulo immigrant-hostel register](/en/archive/panzonato-hospedaria-1891/), the names look contained. Read aloud, they become a household spread across childhood: three daughters, three sons, one child old enough to approach adolescence and another barely beyond infancy.
+The crossing begins with eight people. Giuseppe was recorded as thirty-five and Fosca as thirty. With them travelled Luigia, ten; Catarina, nine; Candida, seven; Luigi, five; Domenico, three; and Eugenio, one. Written in order in the [São Paulo immigrant-hostel register](/panzonato/en/archive/panzonato-hospedaria-1891/), the names look contained. Read aloud, they become a household spread across childhood: three daughters, three sons, one child old enough to approach adolescence and another barely beyond infancy.
 
 That range matters. Luigi was five, while three-year-old Domenico and one-year-old Eugenio were the two youngest. Every movement through a port or ship involved adults who could understand instructions, older children who might keep close, and two very young children whose pace and balance were different. The family did not cross as eight interchangeable places on a manifest. They crossed as a web of dependence centred on two parents.
 
 ## The Colombo takes shape
 
-The vessel named in the entry had already lived another life. Built on the Tyne in 1873 as the *Brazil*, it began as a freighter. Giacomo Cresta bought it in 1888 and ordered its conversion into a mixed cargo-and-passenger ship. After a collision in December 1889 and repairs at Genoa, it was renamed *Colombo* at the start of 1890. José Carlos Rossini’s [full ship history](/en/archive/context-colombo-rossini-1994/) gives its dimensions: 104 metres long, about ten metres across the beam, 2,408 gross tons, and an average speed of nine knots.
+The vessel named in the entry had already lived another life. Built on the Tyne in 1873 as the *Brazil*, it began as a freighter. Giacomo Cresta bought it in 1888 and ordered its conversion into a mixed cargo-and-passenger ship. After a collision in December 1889 and repairs at Genoa, it was renamed *Colombo* at the start of 1890. José Carlos Rossini’s [full ship history](/panzonato/en/archive/context-colombo-rossini-1994/) gives its dimensions: 104 metres long, about ten metres across the beam, 2,408 gross tons, and an average speed of nine knots.
 
-A [photograph after the 1901 refit](/en/archive/colombo-drydock-1901/) shows the Colombo in Orlando drydock at Livorno. It is ten years later, but the high, exposed hull turns a name in a ledger into iron, scale, and volume. The ship was long enough to hold several distinct worlds: cargo, machinery, individual cabins, and common accommodation for mass migration.
+A [photograph after the 1901 refit](/panzonato/en/archive/colombo-drydock-1901/) shows the Colombo in Orlando drydock at Livorno. It is ten years later, but the high, exposed hull turns a name in a ledger into iron, scale, and volume. The ship was long enough to hold several distinct worlds: cargo, machinery, individual cabins, and common accommodation for mass migration.
 
 ## Hundreds inside one hull
 
 Rossini describes the regular Genoa–Lisbon–Rio de Janeiro–Santos service carrying around seven hundred emigrants in precarious common accommodation, plus eighty to one hundred passengers in cabins. Refrigerated installations stored fresh provisions. These facts should be held together. Fresh food could be carried aboard a ship whose common sleeping and living spaces remained rough, crowded, and shaped by its conversion from cargo service.
 
-The article’s eighteen days from Genoa to Rio describes the line’s service, not a clock for this family. Nor does the family record identify its European boarding port or exact class. The [1891 steerage illustration](/en/archive/steerage-interior-1891/) therefore works as comparison rather than a picture of their compartment: berths, tables, parcels, and people occupy nearly every surface. A contemporary [gangplank image](/en/archive/gangplank-before-sailing-1891/) shows how the passage began physically—with bodies and bundles negotiating a narrow incline between land and ship.
+The article’s eighteen days from Genoa to Rio describes the line’s service, not a clock for this family. Nor does the family record identify its European boarding port or exact class. The [1891 steerage illustration](/panzonato/en/archive/steerage-interior-1891/) therefore works as comparison rather than a picture of their compartment: berths, tables, parcels, and people occupy nearly every surface. A contemporary [gangplank image](/panzonato/en/archive/gangplank-before-sailing-1891/) shows how the passage began physically—with bodies and bundles negotiating a narrow incline between land and ship.
 
 ## Fosca’s moving household
 
@@ -41,7 +41,7 @@ Imagine only what the evidence permits. On a moving vessel, keeping one-year-old
 
 ## An ocean in another emigrant’s words
 
-Francesco Costantin, from Biadene in Treviso, crossed in the same era. Writing home from South America in 1889, he began: “Non trovo parole adeguate per descriverle per l'intiero lo sconvolgimento del Piroscafo”—he could not find adequate words for the upheaval of the steamship. In the [excerpt reproduced by Gian Antonio Stella](/en/archive/francesco-costantin-letter-1889/), waves rise and fall into deep valleys; the human sounds are cries, rosaries, and curses; bodies answer the motion with spasms and vomiting.
+Francesco Costantin, from Biadene in Treviso, crossed in the same era. Writing home from South America in 1889, he began: “Non trovo parole adeguate per descriverle per l'intiero lo sconvolgimento del Piroscafo”—he could not find adequate words for the upheaval of the steamship. In the [excerpt reproduced by Gian Antonio Stella](/panzonato/en/archive/francesco-costantin-letter-1889/), waves rise and fall into deep valleys; the human sounds are cries, rosaries, and curses; bodies answer the motion with spasms and vomiting.
 
 Costantin’s letter belongs to his voyage, not theirs. Its value is sensory and contemporary. It tells us what violent ship motion could do to passengers unused to the sea and why even ordinary care could become exhausting. The Ferraguti image in the gallery adds a quieter register: a family sits close among bundles on an open deck, their temporary world reduced to bodies, clothing, and what they could carry.
 
@@ -53,6 +53,6 @@ The family record does not report illness, weather, or a death at sea. The docum
 
 ## Eight names reach the next page
 
-On 15 December 1891, all eight appear in São Paulo. The [certified extract](/en/archive/panzonato-desembarque-certificate-2002/) points back to book 031, page 283, order 07264. Two fields turn the household into a Brazilian route: provenance, Rio de Janeiro; destination, Tietê. The document associates them with the *Colombo*, but it does not fill the journey between those points.
+On 15 December 1891, all eight appear in São Paulo. The [certified extract](/panzonato/en/archive/panzonato-desembarque-certificate-2002/) points back to book 031, page 283, order 07264. Two fields turn the household into a Brazilian route: provenance, Rio de Janeiro; destination, Tietê. The document associates them with the *Colombo*, but it does not fill the journey between those points.
 
 What it preserves is enough for a powerful arrival. Fosca is still beside Giuseppe. Luigia, Catarina, Candida, Luigi, Domenico, and Eugenio are still written beneath them. The ocean has not reduced the family to a count; the page restores every name. Ahead lie Tietê, a documentary gap, and then Capivari. Behind them lies the last shared record of an Italian household becoming a Brazilian one.

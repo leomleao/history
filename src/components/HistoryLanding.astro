@@ -1,0 +1,168 @@
+---
+import { getMedia, type Locale } from '../lib/content';
+import { getHistoryMedia } from '../lib/history-media';
+
+interface Props {
+  locale: Locale;
+}
+
+const { locale } = Astro.props;
+const isPortuguese = locale === 'pt-br';
+const panzonatoMedia = getMedia('genoa-emigrant-embarkation-1898', locale);
+const cardrossMedia = getHistoryMedia('cardross-house-1862', locale);
+
+const copy = isPortuguese
+  ? {
+      skip: 'Ir para o conteúdo',
+      homeLabel: 'History — página inicial',
+      languageLabel: 'Ver esta página em inglês',
+      language: 'English',
+      languageHref: '/',
+      eyebrow: 'Duas histórias independentes',
+      headline: 'Vidas deixam vestígios.',
+      introduction: 'Acompanhe uma família da Itália ao Brasil ou explore a história da Casa Cardross e de sua paisagem.',
+      panzonatoPlace: 'Itália · Brasil',
+      panzonatoDescription: 'Oito nomes em um registro de chegada. Gerações de vidas para além dele.',
+      panzonatoAction: 'Explorar a história Panzonato',
+      cardrossPlace: 'Menteith · Escócia',
+      cardrossDescription: 'Uma casa, uma paisagem e as pessoas que lhes deram forma.',
+      cardrossStatus: 'Em preparação',
+      cardrossExplanation: 'Esta história está sendo preparada. A entrada será disponibilizada quando a exposição estiver pronta.',
+      closing: 'Duas histórias independentes, exploradas por meio de fotografias, mapas, documentos e dos vestígios deixados pelas pessoas.',
+      credits: 'Créditos e direitos das imagens',
+      panzonatoCreditLabel: 'Imagem Panzonato',
+      cardrossCreditLabel: 'Imagem Cardross',
+      source: 'Fonte',
+      projectNote: 'Um projeto independente de história familiar e local.',
+    }
+  : {
+      skip: 'Skip to content',
+      homeLabel: 'History — home',
+      languageLabel: 'View this page in Brazilian Portuguese',
+      language: 'Português',
+      languageHref: '/home/pt-br/',
+      eyebrow: 'Two independent histories',
+      headline: 'Lives leave traces.',
+      introduction: 'Follow a family from Italy to Brazil, or explore the history of Cardross House and its landscape.',
+      panzonatoPlace: 'Italy · Brazil',
+      panzonatoDescription: 'Eight names in an arrival record. Generations of lives beyond it.',
+      panzonatoAction: 'Explore Panzonato history',
+      cardrossPlace: 'Menteith · Scotland',
+      cardrossDescription: 'A house, a landscape, and the people who shaped them.',
+      cardrossStatus: 'In progress',
+      cardrossExplanation: 'This history is being prepared. Its entrance will be added when the exhibition is ready.',
+      closing: 'Two independent histories, explored through photographs, maps, documents, and the traces people leave behind.',
+      credits: 'Image credits and rights',
+      panzonatoCreditLabel: 'Panzonato image',
+      cardrossCreditLabel: 'Cardross image',
+      source: 'Source',
+      projectNote: 'An independent family and local history project.',
+    };
+---
+
+<a class="history-skip-link" href="#history-main">{copy.skip}</a>
+
+<div class="history-shell">
+  <header class="history-header">
+    <a
+      class="history-wordmark"
+      href={isPortuguese ? '/home/pt-br/' : '/'}
+      aria-label={copy.homeLabel}
+      lang="en"
+    >History</a>
+    <a
+      class="history-language"
+      href={copy.languageHref}
+      hreflang={isPortuguese ? 'en' : 'pt-BR'}
+      lang={isPortuguese ? 'en' : 'pt-BR'}
+      aria-label={copy.languageLabel}
+    >
+      {copy.language}
+    </a>
+  </header>
+
+  <main id="history-main">
+    <section class="history-introduction" aria-labelledby="history-heading">
+      <p class="history-eyebrow">{copy.eyebrow}</p>
+      <div class="history-introduction-copy">
+        <h1 id="history-heading">{copy.headline}</h1>
+        <p>{copy.introduction}</p>
+      </div>
+    </section>
+
+    <section class="history-entrances" aria-label={isPortuguese ? 'Escolha uma história' : 'Choose a history'}>
+      <article class="history-entrance history-entrance--panzonato">
+        <figure class="history-visual">
+          <img
+            src={panzonatoMedia.src}
+            srcset={panzonatoMedia.srcset}
+            sizes="(min-width: 64rem) 48vw, 100vw"
+            width={panzonatoMedia.width}
+            height={panzonatoMedia.height}
+            alt={panzonatoMedia.alt}
+            loading="eager"
+            fetchpriority="high"
+            decoding="async"
+            style={`object-position:${panzonatoMedia.focalPoint}`}
+          />
+          <span class="history-figure-index" aria-hidden="true">01</span>
+        </figure>
+
+        <div class="history-entrance-copy">
+          <p class="history-place">{copy.panzonatoPlace}</p>
+          <h2>Panzonato</h2>
+          <p class="history-description">{copy.panzonatoDescription}</p>
+          <a class="history-action" href={`/panzonato/${locale}/`}>
+            <span>{copy.panzonatoAction}</span>
+            <span class="history-action-mark" aria-hidden="true">→</span>
+          </a>
+        </div>
+      </article>
+
+      <article class="history-entrance history-entrance--cardross">
+        <figure class="history-visual">
+          <img
+            src={cardrossMedia.src}
+            srcset={cardrossMedia.srcset}
+            sizes="(min-width: 64rem) 48vw, 100vw"
+            width={cardrossMedia.width}
+            height={cardrossMedia.height}
+            alt={cardrossMedia.alt}
+            loading="eager"
+            decoding="async"
+            style={`object-position:${cardrossMedia.focalPoint}`}
+          />
+          <span class="history-figure-index" aria-hidden="true">02</span>
+        </figure>
+
+        <div class="history-entrance-copy">
+          <div class="history-place-row">
+            <p class="history-place">{copy.cardrossPlace}</p>
+            <p class="history-status">{copy.cardrossStatus}</p>
+          </div>
+          <h2>Cardross</h2>
+          <p class="history-description">{copy.cardrossDescription}</p>
+          <p class="history-pending-note">{copy.cardrossExplanation}</p>
+        </div>
+      </article>
+    </section>
+
+    <section class="history-closing" aria-label={isPortuguese ? 'Sobre o projeto' : 'About the project'}>
+      <p>{copy.closing}</p>
+      <details class="history-credits">
+        <summary>{copy.credits}</summary>
+        <div>
+          <p><strong>{copy.panzonatoCreditLabel}:</strong> {panzonatoMedia.caption} {panzonatoMedia.credit}</p>
+          <p>{panzonatoMedia.rights}</p>
+          <p><strong>{copy.cardrossCreditLabel}:</strong> {cardrossMedia.caption} {cardrossMedia.credit}</p>
+          <p>{cardrossMedia.rights} <a href={cardrossMedia.sourceUrl} rel="external">{copy.source}</a>.</p>
+        </div>
+      </details>
+    </section>
+  </main>
+
+  <footer class="history-footer">
+    <p>{copy.projectNote}</p>
+    <p>© {new Date().getFullYear()} History</p>
+  </footer>
+</div>

@@ -1,7 +1,7 @@
 ---
 import voyageMap from '../data/voyage-map.json';
 import '../styles/voyage-map.css';
-import { getMedia, type Locale } from '../lib/content';
+import { getMedia, route, type Locale } from '../lib/content';
 
 interface Props {
   locale: Locale;
@@ -37,8 +37,8 @@ const media = getMedia(data.id, locale);
 const ports = data.route.stops.map((id) => data.route.points.find((point) => point.id === id)).filter((point): point is RoutePoint => Boolean(point));
 const finalPort = ports.at(-1)!;
 const mapArchiveHref = media.href;
-const rossiniHref = `/${locale}/archive/context-colombo-rossini-1994/`;
-const arrivalHref = `/${locale}/archive/panzonato-hospedaria-1891/`;
+const rossiniHref = route(locale, 'archive', 'context-colombo-rossini-1994');
+const arrivalHref = route(locale, 'archive', 'panzonato-hospedaria-1891');
 
 // The plate shows a tighter window of the full crop. The image is offset and scaled so the
 // SVG overlay, whose viewBox is the window, lines up with the printed map.

@@ -1,0 +1,50 @@
+[
+  {
+    "id": "cardross-house-1862",
+    "sourceId": "SRC-000012",
+    "assetId": "AST-000110",
+    "publication": "preview",
+    "role": "historical-context",
+    "alt": {
+      "en": "Sepia photograph of Cardross House seen across a lawn, with mature trees framing the long, pale house.",
+      "pt-br": "Fotografia em sépia da Cardross House vista através de um gramado, com árvores maduras emoldurando a longa casa clara."
+    },
+    "caption": {
+      "en": "Cardross House as it appeared in 1862; the photographer is unknown.",
+      "pt-br": "Cardross House como aparecia em 1862; o fotógrafo é desconhecido."
+    },
+    "credit": {
+      "en": "Unknown photographer, 1862. Courtesy of National Galleries of Scotland; reproduced via The Folly Flâneuse.",
+      "pt-br": "Fotógrafo desconhecido, 1862. Cortesia das National Galleries of Scotland; reproduzida via The Folly Flâneuse."
+    },
+    "rights": {
+      "en": "National Galleries of Scotland, Creative Commons CC BY-NC; license version unspecified in the archived source.",
+      "pt-br": "National Galleries of Scotland, Creative Commons CC BY-NC; a versão da licença não é especificada na fonte arquivada."
+    },
+    "focalPoint": "center 64%",
+    "sourceUrl": "https://thefollyflaneuse.com/the-pagoda-cardross-stirlingshire/",
+    "variants": [
+      {
+        "path": "history/cardross-house-1862/cardross-house-1862-1356766ad67e-480.webp",
+        "width": 480,
+        "height": 354,
+        "bytes": 29760,
+        "sha256": "1356766ad67ed9988652c74848bc07a0ef333b4d30aab0056b880cca1a4fb572"
+      },
+      {
+        "path": "history/cardross-house-1862/cardross-house-1862-72c32d418a26-800.webp",
+        "width": 800,
+        "height": 589,
+        "bytes": 79416,
+        "sha256": "72c32d418a261f9af61d021a8b3e52dcf8eaf0e8c4c303a5f5dd4086d36d6165"
+      },
+      {
+        "path": "history/cardross-house-1862/cardross-house-1862-31d1a3a44e46-1200.webp",
+        "width": 1200,
+        "height": 884,
+        "bytes": 169890,
+        "sha256": "31d1a3a44e463e6de94ba467c5ec3063ed8d42d615ea014fe926edcc3604692a"
+      }
+    ]
+  }
+]

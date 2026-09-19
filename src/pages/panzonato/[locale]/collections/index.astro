@@ -1,9 +1,9 @@
 ---
-import BaseLayout from '../../../layouts/BaseLayout.astro';
-import Breadcrumbs from '../../../components/Breadcrumbs.astro';
-import MediaImage from '../../../components/MediaImage.astro';
-import { getHistoricalCollections, locales, otherLocale, route, type Locale } from '../../../lib/content';
-import { strings } from '../../../lib/ui';
+import BaseLayout from '../../../../layouts/BaseLayout.astro';
+import Breadcrumbs from '../../../../components/Breadcrumbs.astro';
+import MediaImage from '../../../../components/MediaImage.astro';
+import { getHistoricalCollections, locales, otherLocale, route, type Locale } from '../../../../lib/content';
+import { strings } from '../../../../lib/ui';
 
 export function getStaticPaths() { return locales.map(locale => ({ params: { locale }, props: { locale } })); }
 const { locale } = Astro.props as { locale: Locale };

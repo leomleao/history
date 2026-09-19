@@ -1,12 +1,12 @@
 ---
-import BaseLayout from '../layouts/BaseLayout.astro';
+import HistoryLanding from '../components/HistoryLanding.astro';
+import HistoryLayout from '../layouts/HistoryLayout.astro';
 ---
 
-<BaseLayout locale="en" title="Choose an edition" description="Choose the English or Brazilian Portuguese edition of the Panzonato family history exhibition." alternateHref="/pt-br/">
-  <section class="page-intro edition-choice">
-    <span class="eyebrow">Panzonato</span>
-    <h1>Choose an edition.</h1>
-    <p>Escolha uma edição.</p>
-    <div class="edition-links"><a href="/en/" hreflang="en">English</a><a href="/pt-br/" hreflang="pt-BR" lang="pt-BR">Português do Brasil</a></div>
-  </section>
-</BaseLayout>
+<HistoryLayout
+  locale="en"
+  title="History — Lives leave traces"
+  description="Choose between two independent histories: the Panzonato family across Italy and Brazil, and Cardross House and Estate in Scotland."
+>
+  <HistoryLanding locale="en" />
+</HistoryLayout>

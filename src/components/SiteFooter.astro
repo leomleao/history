@@ -9,4 +9,5 @@ const t = strings(locale);
 <footer class="site-footer">
   <span>Panzonato · {t.footerLine}</span>
   <a href={route(locale, 'about')}>{t.preview}</a>
+  <a href={locale === 'pt-br' ? '/home/pt-br/' : '/'}>{locale === 'pt-br' ? 'Todas as histórias' : 'All histories'}</a>
 </footer>

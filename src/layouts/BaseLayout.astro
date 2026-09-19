@@ -23,6 +23,7 @@ const t = strings(locale);
 const canonical = new URL(canonicalPath ?? Astro.url.pathname, Astro.site);
 const alternate = new URL(alternateHref, Astro.site);
 const alternateLocale = locale === 'en' ? 'pt-BR' : 'en';
+const englishAlternate = locale === 'en' ? canonical : alternate;
 const noindex = isPreview || canonicalPath === '/404.html' || Astro.url.pathname === '/404/';
 const documentTitle = title === 'Panzonato' ? title : `${title} · Panzonato`;
 ---
@@ -38,6 +39,7 @@ const documentTitle = title === 'Panzonato' ? title : `${title} · Panzonato`;
     <link rel="canonical" href={canonical} />
     <link rel="alternate" hreflang={locale === 'en' ? 'en' : 'pt-BR'} href={canonical} />
     <link rel="alternate" hreflang={alternateLocale} href={alternate} />
+    <link rel="alternate" hreflang="x-default" href={englishAlternate} />
     <title>{documentTitle}</title>
   </head>
   <body>
