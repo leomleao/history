@@ -21,6 +21,7 @@ type VoyageMapData = {
   originalHeight: number;
   crop: { x: number; y: number; width: number; height: number };
   viewBox: string;
+  window: { x: number; y: number; width: number; height: number };
   variants: { path: string; width: number; height: number; bytes: number; sha256: string }[];
   alt: Localized;
   caption: Localized;
@@ -38,71 +39,89 @@ const finalPort = ports.at(-1)!;
 const mapArchiveHref = media.href;
 const rossiniHref = `/${locale}/archive/context-colombo-rossini-1994/`;
 const arrivalHref = `/${locale}/archive/panzonato-hospedaria-1891/`;
+
+// The plate shows a tighter window of the full crop. The image is offset and scaled so the
+// SVG overlay, whose viewBox is the window, lines up with the printed map.
+const [, , fullWidth = 1000, fullHeight = 1000] = data.viewBox.split(' ').map(Number);
+const win = data.window;
+const windowViewBox = `${win.x} ${win.y} ${win.width} ${win.height}`;
+const imageStyle = [
+  `width:${((fullWidth / win.width) * 100).toFixed(3)}%`,
+  `height:${((fullHeight / win.height) * 100).toFixed(3)}%`,
+  `left:${((-win.x / win.width) * 100).toFixed(3)}%`,
+  `top:${((-win.y / win.height) * 100).toFixed(3)}%`,
+].join(';');
+
 const labelPlacement: Record<string, { dx: number; dy: number; anchor: 'start' | 'end' }> = {
-  genoa: { dx: -18, dy: -20, anchor: 'end' },
-  lisbon: { dx: 18, dy: -20, anchor: 'start' },
-  'rio-de-janeiro': { dx: -20, dy: -30, anchor: 'end' },
-  santos: { dx: 18, dy: 42, anchor: 'start' },
+  genoa: { dx: -14, dy: -14, anchor: 'end' },
+  lisbon: { dx: -14, dy: -14, anchor: 'end' },
+  'cape-verde': { dx: -15, dy: -12, anchor: 'end' },
+  'rio-de-janeiro': { dx: 17, dy: -17, anchor: 'start' },
+  santos: { dx: 13, dy: 34, anchor: 'start' },
 };
 const copy = pt ? {
-  kicker: 'Uma rota em quatro portos',
+  kicker: 'Uma rota em cinco portos',
   title: 'A rota do Colombo',
-  sequence: 'Gênova · Lisboa · Rio de Janeiro · Santos',
+  sequence: 'Gênova · Lisboa · Cabo Verde · Rio de Janeiro · Santos',
   play: 'Reproduzir',
   pause: 'Pausar',
   replay: 'Repetir',
   flat: 'Vista plana',
   tilted: 'Vista inclinada',
   progress: 'Progresso da rota',
-  routeDescription: 'A linha sai de Gênova, contorna o Mediterrâneo ocidental pelo Estreito de Gibraltar, passa por Lisboa e cruza o Atlântico até o Rio de Janeiro e Santos.',
-  inspect: 'Examinar o mapa',
+  routeDescription: 'A linha sai de Gênova, contorna o Mediterrâneo ocidental pelo Estreito de Gibraltar, faz escala em Lisboa, desce até a escala de carvão em Cabo Verde e cruza o Atlântico até o Rio de Janeiro e Santos.',
+  inspect: 'Inspecionar o mapa',
   mapFallback: 'O mapa histórico não pôde ser exibido. A rota, os portos e as fontes continuam disponíveis.',
   playingStatus: 'O Colombo está percorrendo a rota.',
   pausedStatus: 'A viagem está pausada.',
   replayingStatus: 'A viagem recomeçou em Gênova.',
   completeStatus: 'O navio chegou a Santos.',
+  callingStatus: 'Escala em {port}.',
   progressStatus: 'Progresso da rota: {value}%.',
   imageError: 'O mapa histórico não pôde ser carregado; a rota e as fontes continuam disponíveis.',
   noteBefore: 'A ',
   noteRoute: 'rota regular Gênova–Lisboa–Rio–Santos do Colombo',
-  noteMiddle: ` é ilustrada aqui sobre um atlas de ${data.source.date}. O `,
+  noteMiddle: ` é ilustrada aqui sobre um atlas de ${data.source.date}, com a escala de carvão em Cabo Verde habitual dos vapores da linha, reconstruída e não documentada para esta viagem. O `,
   noteRecord: 'registro da família',
-  noteAfter: ' informa procedência do Rio de Janeiro e a Hospedaria de São Paulo em 15 de dezembro de 1891; os portos exatos de embarque e desembarque não estão confirmados. ',
+  noteAfter: ' informa procedência do Rio de Janeiro e a Hospedaria de São Paulo em 15 de dezembro de 1891; os portos e as datas exatos de embarque e desembarque não estão confirmados. ',
   mapSource: 'Fonte do mapa',
   portContext: {
     genoa: 'No extremo mediterrâneo da linha: Gênova, porto italiano de partida do Colombo.',
-    lisbon: 'A última escala europeia programada antes da travessia atlântica rumo ao sul.',
+    lisbon: 'A escala europeia programada antes da travessia atlântica rumo ao sul.',
+    'cape-verde': 'Porto Grande, em São Vicente: a escala de carvão e água habitual dos vapores antes do salto oceânico. Uma reconstrução para esta viagem.',
     'rio-de-janeiro': 'O local de procedência mencionado no próprio registro da família.',
     santos: 'Depois do Rio, o serviço regular seguia até Santos, no litoral paulista.',
   },
 } : {
-  kicker: 'One route, four ports',
+  kicker: 'One route, five ports',
   title: 'The Colombo route',
-  sequence: 'Genoa · Lisbon · Rio de Janeiro · Santos',
+  sequence: 'Genoa · Lisbon · Cape Verde · Rio de Janeiro · Santos',
   play: 'Play',
   pause: 'Pause',
   replay: 'Replay',
   flat: 'Flat view',
   tilted: 'Tilted view',
   progress: 'Route progress',
-  routeDescription: 'The line leaves Genoa, rounds the western Mediterranean through the Strait of Gibraltar, calls at Lisbon, and crosses the Atlantic to Rio de Janeiro and Santos.',
+  routeDescription: 'The line leaves Genoa, rounds the western Mediterranean through the Strait of Gibraltar, calls at Lisbon, runs south to the coaling call at Cape Verde, and crosses the Atlantic to Rio de Janeiro and Santos.',
   inspect: 'Inspect the map',
   mapFallback: 'The historical map could not be displayed. The route, ports, and sources remain available.',
   playingStatus: 'The Colombo is following the route.',
   pausedStatus: 'The voyage is paused.',
   replayingStatus: 'The voyage has started again in Genoa.',
   completeStatus: 'The ship has reached Santos.',
+  callingStatus: 'Calling at {port}.',
   progressStatus: 'Route progress: {value}%.',
   imageError: 'The historical map could not be loaded; the route and sources remain available.',
   noteBefore: 'The ',
   noteRoute: `Colombo's regular Genoa–Lisbon–Rio–Santos service`,
-  noteMiddle: ` is illustrated here on a ${data.source.date} atlas. The `,
+  noteMiddle: ` is illustrated here on a ${data.source.date} atlas, with the coaling call at Cape Verde usual for the line's steamers, reconstructed rather than documented for this voyage. The `,
   noteRecord: `family record`,
-  noteAfter: ' gives Rio de Janeiro as provenance and the São Paulo Hospedaria on 15 December 1891; exact boarding and landing ports are unconfirmed. ',
+  noteAfter: ' gives Rio de Janeiro as provenance and the São Paulo Hospedaria on 15 December 1891; exact boarding and landing ports and dates are unconfirmed. ',
   mapSource: 'Map source',
   portContext: {
     genoa: `At the Mediterranean end of the line: Genoa, the Colombo's Italian departure port.`,
-    lisbon: 'The last scheduled European call before the southbound Atlantic crossing.',
+    lisbon: 'The scheduled European call before the southbound Atlantic crossing.',
+    'cape-verde': `Porto Grande on São Vicente: the steamers' usual call for coal and water before the ocean leg. A reconstruction for this voyage.`,
     'rio-de-janeiro': `The place of provenance named in the family's own record.`,
     santos: 'Beyond Rio, the regular service continued to the São Paulo coast at Santos.',
   },
@@ -115,6 +134,7 @@ const copy = pt ? {
   aria-labelledby="voyage-map-title"
   aria-describedby="voyage-route-description voyage-historical-note"
   data-voyage-map
+  data-flat
   data-duration="30000"
   data-play-label={copy.play}
   data-pause-label={copy.pause}
@@ -125,6 +145,7 @@ const copy = pt ? {
   data-paused-status={copy.pausedStatus}
   data-replaying-status={copy.replayingStatus}
   data-complete-status={copy.completeStatus}
+  data-calling-status={copy.callingStatus}
   data-progress-status={copy.progressStatus}
   data-image-error={copy.imageError}
 >
@@ -138,7 +159,7 @@ const copy = pt ? {
 
   <figure>
     <div class="voyage-map__stage">
-      <div class="voyage-map__plate" style={`aspect-ratio:${data.crop.width}/${data.crop.height}`}>
+      <div class="voyage-map__plate" style={`aspect-ratio:${win.width}/${win.height}`}>
         <p class="voyage-map__fallback" aria-hidden="true">{copy.mapFallback}</p>
         <img
           data-voyage-image
@@ -150,31 +171,49 @@ const copy = pt ? {
           alt={media.alt}
           loading="lazy"
           decoding="async"
+          style={imageStyle}
         />
-        <svg class="voyage-map__overlay" viewBox={data.viewBox} aria-hidden="true">
-          <path class="voyage-map__route-underlay" d={data.route.path}></path>
+        <svg class="voyage-map__overlay" viewBox={windowViewBox} aria-hidden="true">
           <path class="voyage-map__route-track" data-voyage-track d={data.route.path}></path>
           <path class="voyage-map__route-progress" data-voyage-progress d={data.route.path} pathLength="1"></path>
           {ports.map((port) => {
             const placement = labelPlacement[port.id] ?? { dx: 14, dy: -14, anchor: 'start' as const };
-            return <g>
-              <circle class="voyage-map__port-dot" cx={port.x} cy={port.y} r="9"></circle>
+            return <g class="voyage-map__port" data-voyage-port-mark={port.id}>
+              <g class="voyage-map__port-mark">
+                <circle class="voyage-map__port-ring" cx={port.x} cy={port.y} r="6.5"></circle>
+                <circle class="voyage-map__port-core" cx={port.x} cy={port.y} r="2.6"></circle>
+              </g>
               <text class="voyage-map__port-label" x={port.x + placement.dx} y={port.y + placement.dy} text-anchor={placement.anchor}>{port.label?.[locale]}</text>
             </g>;
           })}
           <g class="voyage-map__ship" data-voyage-ship transform={`translate(${finalPort.x} ${finalPort.y})`}>
-            <g class="voyage-map__ship-shape">
-              <path class="wake" d="M-27 -8 C-37 -11 -43 -13 -51 -16 M-30 0 C-40 0 -48 0 -57 0 M-27 8 C-37 11 -43 13 -51 16"></path>
-              <path class="hull" d="M28 0 C20 -10 5 -14 -14 -12 L-27 -6 L-31 0 L-27 6 L-14 12 C5 14 20 10 28 0 Z"></path>
-              <path class="deck" d="M18 0 C11 -6 0 -8 -14 -7 L-22 -3 L-22 3 L-14 7 C0 8 11 6 18 0 Z"></path>
-              <rect class="cabin" x="-8" y="-6" width="16" height="12" rx="2"></rect>
-              <circle class="stack" cx="-12" cy="0" r="4.5"></circle>
-              <circle class="stack-top" cx="-12" cy="0" r="2.25"></circle>
-              <circle class="stack" cx="2" cy="0" r="4.5"></circle>
-              <circle class="stack-top" cx="2" cy="0" r="2.25"></circle>
-              <path class="bow-line" d="M17 -5 L23 0 L17 5"></path>
+            <g class="voyage-map__ship-shape" data-voyage-ship-shape>
+              <g class="voyage-map__ship-roll">
+                <path class="bow-wave" d="M 29 -2 C 24 -6.5 17 -9.5 7 -11.5"></path>
+                <path class="bow-wave" d="M 29 2 C 24 6.5 17 9.5 7 11.5"></path>
+                <path class="hull-halo" d="M 33 0 C 30 -3.4 22 -6.8 8 -7.6 L -22 -7.6 C -29.5 -7.6 -33.5 -4.4 -33.5 0 C -33.5 4.4 -29.5 7.6 -22 7.6 L 8 7.6 C 22 6.8 30 3.4 33 0 Z"></path>
+                <path class="hull" d="M 33 0 C 30 -3.4 22 -6.8 8 -7.6 L -22 -7.6 C -29.5 -7.6 -33.5 -4.4 -33.5 0 C -33.5 4.4 -29.5 7.6 -22 7.6 L 8 7.6 C 22 6.8 30 3.4 33 0 Z"></path>
+                <path class="boot-line" d="M 31 0 C 28.4 -2.6 21 -5.4 8 -6.1 L -22 -6.1 C -28 -6.1 -31.6 -3.5 -31.6 0 C -31.6 3.5 -28 6.1 -22 6.1 L 8 6.1 C 21 5.4 28.4 2.6 31 0"></path>
+                <path class="deck" d="M 30 0 C 27.5 -2.2 20.5 -4.6 8 -5.2 L -22 -5.2 C -27 -5.2 -30.4 -2.9 -30.4 0 C -30.4 2.9 -27 5.2 -22 5.2 L 8 5.2 C 20.5 4.6 27.5 2.2 30 0 Z"></path>
+                <rect class="forecastle" x="21" y="-2.6" width="6.5" height="5.2"></rect>
+                <rect class="hatch" x="10.5" y="-2.8" width="7.5" height="5.6"></rect>
+                <line class="yard" x1="20.2" y1="-9.4" x2="20.2" y2="9.4"></line>
+                <circle class="mast" cx="20.2" cy="0" r="1.5"></circle>
+                <rect class="bridge" x="-1" y="-4.1" width="9.5" height="8.2"></rect>
+                <rect class="wheelhouse" x="5.5" y="-2.4" width="3.2" height="4.8"></rect>
+                <ellipse class="boat" cx="-8" cy="-6.4" rx="3.2" ry="1.25"></ellipse>
+                <ellipse class="boat" cx="-8" cy="6.4" rx="3.2" ry="1.25"></ellipse>
+                <ellipse class="boat" cx="-15.5" cy="-6.4" rx="3.2" ry="1.25"></ellipse>
+                <ellipse class="boat" cx="-15.5" cy="6.4" rx="3.2" ry="1.25"></ellipse>
+                <rect class="skylight" x="-11.5" y="-2.2" width="5" height="4.4"></rect>
+                <circle class="funnel" cx="-4.6" cy="0" r="3.3"></circle>
+                <circle class="funnel-top" cx="-4.6" cy="0" r="1.9"></circle>
+                <circle class="mast" cx="-17.5" cy="0" r="1.35"></circle>
+                <rect class="hatch" x="-27" y="-2.6" width="7" height="5.2"></rect>
+              </g>
             </g>
           </g>
+          <g class="voyage-map__smoke" data-voyage-smoke></g>
         </svg>
       </div>
     </div>
@@ -192,7 +231,7 @@ const copy = pt ? {
       <input data-voyage-range type="range" min="0" max="1000" step="1" value="1000" aria-label={copy.progress} />
       <output data-voyage-output>100%</output>
     </label>
-    <button type="button" data-voyage-view aria-pressed="false">{copy.flat}</button>
+    <button type="button" data-voyage-view aria-pressed="true">{copy.tilted}</button>
   </div>
   <div class="voyage-map__ports" data-voyage-enhancement aria-label={copy.sequence}>
     {ports.map((port) => <button

@@ -4,6 +4,8 @@ type VoyageElements = {
   track: SVGPathElement;
   progress: SVGPathElement;
   ship: SVGGElement;
+  shipShape: SVGGElement;
+  smoke: SVGGElement;
   play: HTMLButtonElement;
   replay: HTMLButtonElement;
   view: HTMLButtonElement;
@@ -11,22 +13,50 @@ type VoyageElements = {
   output: HTMLOutputElement;
   status: HTMLElement;
   ports: HTMLButtonElement[];
+  portMarks: SVGGElement[];
 };
 
+type Puff = {
+  el: SVGCircleElement;
+  x: number;
+  y: number;
+  vx: number;
+  vy: number;
+  age: number;
+  life: number;
+  r0: number;
+  r1: number;
+  a0: number;
+};
+
+const SVG_NS = 'http://www.w3.org/2000/svg';
 const motionQuery = window.matchMedia('(prefers-reduced-motion: reduce)');
+
+/** How long the ship holds at an intermediate port before getting under way again. */
+const PORT_DWELL_MS = 1400;
+/** Time constant for the heading to settle toward the route tangent. */
+const HEADING_TAU_MS = 220;
+/** Time constant for the smoothed speed estimate. */
+const SPEED_TAU_MS = 300;
+/** Interval between smoke puffs while under way. */
+const SMOKE_INTERVAL_MS = 300;
+/** Funnel position in ship-local units (bow at +x). */
+const FUNNEL_OFFSET = -4.6;
 
 function findElements(root: HTMLElement): VoyageElements | null {
   const image = root.querySelector<HTMLImageElement>('[data-voyage-image]');
   const track = root.querySelector<SVGPathElement>('[data-voyage-track]');
   const progress = root.querySelector<SVGPathElement>('[data-voyage-progress]');
   const ship = root.querySelector<SVGGElement>('[data-voyage-ship]');
+  const shipShape = root.querySelector<SVGGElement>('[data-voyage-ship-shape]');
+  const smoke = root.querySelector<SVGGElement>('[data-voyage-smoke]');
   const play = root.querySelector<HTMLButtonElement>('[data-voyage-play]');
   const replay = root.querySelector<HTMLButtonElement>('[data-voyage-replay]');
   const view = root.querySelector<HTMLButtonElement>('[data-voyage-view]');
   const range = root.querySelector<HTMLInputElement>('[data-voyage-range]');
   const output = root.querySelector<HTMLOutputElement>('[data-voyage-output]');
   const status = root.querySelector<HTMLElement>('[data-voyage-status]');
-  if (!image || !track || !progress || !ship || !play || !replay || !view || !range || !output || !status) {
+  if (!image || !track || !progress || !ship || !shipShape || !smoke || !play || !replay || !view || !range || !output || !status) {
     return null;
   }
   return {
@@ -35,6 +65,8 @@ function findElements(root: HTMLElement): VoyageElements | null {
     track,
     progress,
     ship,
+    shipShape,
+    smoke,
     play,
     replay,
     view,
@@ -42,7 +74,12 @@ function findElements(root: HTMLElement): VoyageElements | null {
     output,
     status,
     ports: Array.from(root.querySelectorAll<HTMLButtonElement>('[data-voyage-port]')),
+    portMarks: Array.from(root.querySelectorAll<SVGGElement>('[data-voyage-port-mark]')),
   };
+}
+
+function easeInOutSine(x: number): number {
+  return -(Math.cos(Math.PI * x) - 1) / 2;
 }
 
 function enhanceVoyageMap(root: HTMLElement): void {
@@ -54,6 +91,8 @@ function enhanceVoyageMap(root: HTMLElement): void {
     track,
     progress: progressPath,
     ship,
+    shipShape,
+    smoke,
     play,
     replay,
     view,
@@ -61,6 +100,7 @@ function enhanceVoyageMap(root: HTMLElement): void {
     output,
     status,
     ports,
+    portMarks,
   } = elements;
   const totalLength = track.getTotalLength();
   if (!Number.isFinite(totalLength) || totalLength <= 0) return;
@@ -76,11 +116,25 @@ function enhanceVoyageMap(root: HTMLElement): void {
     paused: root.dataset.pausedStatus ?? 'The voyage is paused.',
     replaying: root.dataset.replayingStatus ?? 'The voyage has started again.',
     complete: root.dataset.completeStatus ?? 'The ship has reached Santos.',
+    calling: root.dataset.callingStatus ?? 'Calling at {port}.',
     progress: root.dataset.progressStatus ?? 'Route progress: {value}%.',
     imageError: root.dataset.imageError ?? 'The historical map could not be loaded; the route remains available.',
   };
 
+  /** Raw progress along the scrubber, 0–1. */
   let value = motionQuery.matches ? 1 : 0;
+  /** Eased position along the track from the previous render, used for the speed estimate. */
+  let lastPosition = value;
+  /** Displayed heading in degrees, smoothed toward the route tangent while playing. */
+  let heading = 0;
+  /** When true the next render snaps the heading instead of easing it. */
+  let snap = true;
+  /** Smoothed speed relative to the nominal constant-speed traversal (1 = nominal). */
+  let speed = 0;
+  let dwellRemaining = 0;
+  const dwelled = new Set<string>();
+  let smokeClock = 0;
+  const puffs: Puff[] = [];
   let playing = false;
   let visible = false;
   let imageReady = false;
@@ -122,13 +176,107 @@ function enhanceVoyageMap(root: HTMLElement): void {
     return best;
   }
 
+  type Stop = { id: string; label: string; position: number; button: HTMLButtonElement; mark?: SVGGElement };
+  const stops: Stop[] = [];
   ports.forEach((port) => {
     const x = Number(port.dataset.voyageX);
     const y = Number(port.dataset.voyageY);
-    if (Number.isFinite(x) && Number.isFinite(y)) {
-      port.dataset.voyagePosition = String(locatePointOnRoute(x, y));
-    }
+    const id = port.dataset.voyagePort ?? '';
+    if (!Number.isFinite(x) || !Number.isFinite(y)) return;
+    const position = locatePointOnRoute(x, y);
+    port.dataset.voyagePosition = String(position);
+    stops.push({
+      id,
+      label: port.textContent?.trim() ?? id,
+      position,
+      button: port,
+      mark: portMarks.find((mark) => mark.dataset.voyagePortMark === id),
+    });
   });
+  stops.sort((a, b) => a.position - b.position);
+  const legBounds = [0, ...stops.map((stop) => stop.position).filter((position) => position > 0.001 && position < 0.999), 1];
+  const intermediateStops = stops.filter((stop) => stop.position > 0.001 && stop.position < 0.999);
+
+  /** Remaps raw progress so the ship slows into each port and gathers way on leaving. */
+  function easedPosition(raw: number): number {
+    for (let index = 0; index < legBounds.length - 1; index += 1) {
+      const start = legBounds[index] ?? 0;
+      const end = legBounds[index + 1] ?? 1;
+      if (raw >= start && raw <= end && end > start) {
+        return start + easeInOutSine((raw - start) / (end - start)) * (end - start);
+      }
+    }
+    return raw;
+  }
+
+  function syncDwelled(): void {
+    dwelled.clear();
+    stops.forEach((stop) => {
+      if (stop.position <= value + 0.0015) dwelled.add(stop.id);
+    });
+    dwellRemaining = 0;
+  }
+
+  function shipScale(): number {
+    const transform = getComputedStyle(shipShape).transform;
+    if (!transform || transform === 'none') return 1;
+    const match = /matrix\(([^,]+),/.exec(transform);
+    const scale = match ? Number(match[1]) : 1;
+    return Number.isFinite(scale) && scale > 0 ? scale : 1;
+  }
+
+  function clearSmoke(): void {
+    puffs.forEach((puff) => puff.el.remove());
+    puffs.length = 0;
+    smokeClock = 0;
+  }
+
+  /** Smoke lives in map space: each puff is released at the funnel and then lifts from that spot. */
+  function stepSmoke(elapsed: number, sea: number, position: DOMPoint): void {
+    if (motionQuery.matches) return;
+    const scale = shipScale();
+    smokeClock += elapsed;
+    if (smokeClock >= SMOKE_INTERVAL_MS && sea > 0.05) {
+      smokeClock = 0;
+      const radians = (heading * Math.PI) / 180;
+      const x = position.x + Math.cos(radians) * FUNNEL_OFFSET * scale;
+      const y = position.y + Math.sin(radians) * FUNNEL_OFFSET * scale;
+      const el = document.createElementNS(SVG_NS, 'circle');
+      el.setAttribute('cx', x.toFixed(1));
+      el.setAttribute('cy', y.toFixed(1));
+      el.setAttribute('r', (3 * scale).toFixed(2));
+      smoke.appendChild(el);
+      puffs.push({
+        el,
+        x,
+        y,
+        age: 0,
+        life: 3200 + Math.random() * 800,
+        vx: 0.0028 + (Math.random() - 0.5) * 0.002,
+        vy: -0.0052 + (Math.random() - 0.5) * 0.002,
+        r0: 3 * scale,
+        r1: (11 + Math.random() * 4) * scale,
+        a0: 0.55 + 0.3 * sea,
+      });
+    }
+    for (let index = puffs.length - 1; index >= 0; index -= 1) {
+      const puff = puffs[index];
+      if (!puff) continue;
+      puff.age += elapsed;
+      if (puff.age >= puff.life) {
+        puff.el.remove();
+        puffs.splice(index, 1);
+        continue;
+      }
+      const k = puff.age / puff.life;
+      puff.x += puff.vx * elapsed;
+      puff.y += puff.vy * elapsed;
+      puff.el.setAttribute('cx', puff.x.toFixed(1));
+      puff.el.setAttribute('cy', puff.y.toFixed(1));
+      puff.el.setAttribute('r', (puff.r0 + (puff.r1 - puff.r0) * Math.sqrt(k)).toFixed(2));
+      puff.el.setAttribute('opacity', (puff.a0 * (1 - k) * (1 - k * 0.5)).toFixed(3));
+    }
+  }
 
   function announce(message: string): void {
     status.textContent = message;
@@ -143,25 +291,53 @@ function enhanceVoyageMap(root: HTMLElement): void {
     if (text) text.textContent = label;
   }
 
-  function render(nextValue: number): void {
+  function tangentAt(position: number): number {
+    const sample = Math.max(totalLength * 0.006, 0.5);
+    const before = track.getPointAtLength(Math.max(0, totalLength * position - sample));
+    const after = track.getPointAtLength(Math.min(totalLength, totalLength * position + sample));
+    return (Math.atan2(after.y - before.y, after.x - before.x) * 180) / Math.PI;
+  }
+
+  /**
+   * Draws the current state. `elapsed` is the frame time in ms while playing; when omitted the
+   * ship is positioned instantly (scrub, port jump, initial render) with no smoothing.
+   */
+  function render(nextValue: number, elapsed = 0): void {
     value = Math.max(0, Math.min(1, nextValue));
-    root.style.setProperty('--voyage-progress', String(value));
-    progressPath.style.strokeDashoffset = String(1 - value);
-    const rangeValue = String(Math.round(value * 1000));
-    range.value = rangeValue;
+    const position = easedPosition(value);
+    root.style.setProperty('--voyage-progress', String(position));
+    progressPath.style.strokeDashoffset = String(1 - position);
+    range.value = String(Math.round(value * 1000));
     range.setAttribute('aria-valuetext', `${Math.round(value * 100)}%`);
     output.value = `${Math.round(value * 100)}%`;
 
-    const position = track.getPointAtLength(totalLength * value);
-    const sample = Math.max(totalLength * 0.004, 0.5);
-    const before = track.getPointAtLength(Math.max(0, totalLength * value - sample));
-    const after = track.getPointAtLength(Math.min(totalLength, totalLength * value + sample));
-    const heading = Math.atan2(after.y - before.y, after.x - before.x) * 180 / Math.PI;
-    ship.setAttribute('transform', `translate(${position.x} ${position.y}) rotate(${heading})`);
+    const point = track.getPointAtLength(totalLength * position);
+    const target = tangentAt(position);
+    if (snap || elapsed <= 0) {
+      heading = target;
+      snap = false;
+    } else {
+      let delta = target - heading;
+      delta = ((delta % 360) + 540) % 360 - 180;
+      heading += delta * (1 - Math.exp(-elapsed / HEADING_TAU_MS));
+    }
+    ship.setAttribute('transform', `translate(${point.x} ${point.y}) rotate(${heading})`);
 
-    ports.forEach((port) => {
-      const portValue = Number(port.dataset.voyagePosition);
-      port.setAttribute('aria-pressed', String(Number.isFinite(portValue) && Math.abs(portValue - value) < 0.002));
+    if (elapsed > 0) {
+      const instantaneous = Math.max(0, (position - lastPosition) / elapsed) * duration;
+      speed += (instantaneous - speed) * (1 - Math.exp(-elapsed / SPEED_TAU_MS));
+    } else {
+      speed = 0;
+    }
+    lastPosition = position;
+    const sea = Math.min(1, Math.max(0, (speed - 0.32) / 0.45));
+    ship.style.setProperty('--voyage-sea', sea.toFixed(3));
+    root.toggleAttribute('data-at-sea', sea > 0.02);
+    if (elapsed > 0 && playing) stepSmoke(elapsed, sea, point);
+
+    stops.forEach((stop) => {
+      stop.button.setAttribute('aria-pressed', String(Math.abs(stop.position - position) < 0.002));
+      stop.mark?.toggleAttribute('data-reached', position >= stop.position - 0.0015);
     });
   }
 
@@ -175,10 +351,34 @@ function enhanceVoyageMap(root: HTMLElement): void {
 
   function tick(timestamp: number): void {
     if (!playing) return;
-    if (!lastFrame) lastFrame = timestamp;
-    const elapsed = Math.min(timestamp - lastFrame, 100);
+    if (!lastFrame) {
+      lastFrame = timestamp;
+      frame = window.requestAnimationFrame(tick);
+      return;
+    }
+    const elapsed = Math.max(0, Math.min(timestamp - lastFrame, 100));
     lastFrame = timestamp;
-    render(value + elapsed / duration);
+    if (!elapsed) {
+      frame = window.requestAnimationFrame(tick);
+      return;
+    }
+    if (dwellRemaining > 0) {
+      dwellRemaining -= elapsed;
+      render(value, elapsed);
+      frame = window.requestAnimationFrame(tick);
+      return;
+    }
+    let next = value + elapsed / duration;
+    for (const stop of intermediateStops) {
+      if (value < stop.position && next >= stop.position && !dwelled.has(stop.id)) {
+        next = stop.position;
+        dwelled.add(stop.id);
+        dwellRemaining = PORT_DWELL_MS;
+        announce(labels.calling.replace('{port}', stop.label));
+        break;
+      }
+    }
+    render(next, elapsed);
     if (value >= 1) {
       stopPlayback();
       resumeWhenVisible = false;
@@ -190,14 +390,19 @@ function enhanceVoyageMap(root: HTMLElement): void {
 
   function startPlayback(message?: string): void {
     if (playing) return;
-    if (value >= 1) render(0);
+    if (value >= 1) {
+      clearSmoke();
+      snap = true;
+      render(0);
+      syncDwelled();
+    }
     if (!visible || document.visibilityState !== 'visible') {
       resumeWhenVisible = true;
       queuedAnnouncement = message ?? queuedAnnouncement;
       return;
     }
     playing = true;
-    lastFrame = performance.now();
+    lastFrame = 0;
     updatePlayControl();
     const announcement = message ?? queuedAnnouncement;
     queuedAnnouncement = '';
@@ -225,6 +430,15 @@ function enhanceVoyageMap(root: HTMLElement): void {
     stopPlayback();
   }
 
+  /** Stops playback and positions the ship instantly, clearing anything tied to motion. */
+  function jumpTo(nextValue: number): void {
+    stopPlayback();
+    clearSmoke();
+    snap = true;
+    render(nextValue);
+    syncDwelled();
+  }
+
   play.addEventListener('click', () => {
     autoStarted = true;
     if (playing) {
@@ -247,8 +461,7 @@ function enhanceVoyageMap(root: HTMLElement): void {
     userPaused = false;
     resumeWhenVisible = false;
     queuedAnnouncement = '';
-    stopPlayback();
-    render(0);
+    jumpTo(0);
     if (!visible) {
       stage.scrollIntoView({ behavior: motionQuery.matches ? 'auto' : 'smooth', block: 'center' });
     }
@@ -260,24 +473,20 @@ function enhanceVoyageMap(root: HTMLElement): void {
     userPaused = true;
     resumeWhenVisible = false;
     queuedAnnouncement = '';
-    stopPlayback();
-    render(Number(range.value) / 1000);
+    jumpTo(Number(range.value) / 1000);
   });
   range.addEventListener('change', () => {
     announce(labels.progress.replace('{value}', String(Math.round(value * 100))));
   });
 
-  ports.forEach((port) => {
-    port.addEventListener('click', () => {
-      const portValue = Number(port.dataset.voyagePosition);
-      if (!Number.isFinite(portValue)) return;
+  stops.forEach((stop) => {
+    stop.button.addEventListener('click', () => {
       autoStarted = true;
       userPaused = true;
       resumeWhenVisible = false;
       queuedAnnouncement = '';
-      stopPlayback();
-      render(portValue);
-      announce(port.dataset.voyageContext ?? port.textContent?.trim() ?? '');
+      jumpTo(stop.position);
+      announce(stop.button.dataset.voyageContext ?? stop.label);
     });
   });
 
@@ -288,23 +497,21 @@ function enhanceVoyageMap(root: HTMLElement): void {
   });
 
   const markImageReady = (): void => {
-    if (image.naturalWidth <= 0) return;
     imageReady = true;
     root.dataset.imageState = 'ready';
-    if (status.textContent === labels.imageError) status.textContent = '';
     maybeStartOrResume();
   };
-
-  const markImageError = (): void => {
-    imageReady = false;
+  if (image.complete && image.naturalWidth > 0) markImageReady();
+  else if (image.complete) {
     root.dataset.imageState = 'error';
     announce(labels.imageError);
-  };
-
-  image.addEventListener('load', markImageReady);
-  image.addEventListener('error', markImageError);
-  if (image.complete && image.naturalWidth > 0) markImageReady();
-  else if (image.complete && image.currentSrc) markImageError();
+  } else {
+    image.addEventListener('load', markImageReady, { once: true });
+    image.addEventListener('error', () => {
+      root.dataset.imageState = 'error';
+      announce(labels.imageError);
+    }, { once: true });
+  }
 
   if ('IntersectionObserver' in window) {
     const observer = new IntersectionObserver(([entry]) => {
@@ -329,13 +536,13 @@ function enhanceVoyageMap(root: HTMLElement): void {
     userPaused = true;
     resumeWhenVisible = false;
     queuedAnnouncement = '';
-    stopPlayback();
-    render(1);
+    jumpTo(1);
   });
 
   root.dataset.enhanced = 'true';
   updatePlayControl();
   render(value);
+  syncDwelled();
 }
 
 document.querySelectorAll<HTMLElement>('[data-voyage-map]').forEach(enhanceVoyageMap);

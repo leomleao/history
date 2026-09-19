@@ -104,9 +104,8 @@
   display: grid;
   place-items: center;
   min-width: 0;
-  height: clamp(31rem, 38vw, 35rem);
   margin-block: 0.35rem;
-  padding: 1.15rem clamp(1rem, 3vw, 2.5rem) 1.4rem;
+  padding: 0.9rem clamp(0.75rem, 2vw, 1.5rem) 1.1rem;
   overflow: hidden;
   background:
     radial-gradient(ellipse at 50% 46%, rgb(240 224 190 / 12%), transparent 45%),
@@ -118,16 +117,15 @@
   position: relative;
   isolation: isolate;
   overflow: hidden;
-  width: auto;
-  height: min(29rem, calc(100% - 4.5rem));
-  max-width: calc(100% - 5rem);
+  width: 100%;
+  max-width: 58rem;
   border: clamp(0.32rem, 0.8vw, 0.6rem) solid #d9ccb0;
   background: var(--voyage-paper);
   box-shadow:
     0 0.38rem 0 #a79879,
     0.25rem 1.45rem 2.2rem rgb(3 20 25 / 52%),
     inset 0 0 0 0.0625rem rgb(77 59 35 / 38%);
-  transform: rotateX(30deg) rotateZ(18deg);
+  transform: rotateX(26deg) rotateZ(12deg) scale(0.86);
   transform-origin: 50% 52%;
   transform-style: preserve-3d;
   transition: transform 420ms cubic-bezier(.2, .7, .2, 1), box-shadow 420ms ease;
@@ -140,9 +138,9 @@
 
 .voyage-map__plate img {
   display: block;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
+  position: absolute;
+  z-index: 1;
+  max-width: none;
   filter: saturate(0.92) contrast(1.03);
 }
 
@@ -165,11 +163,6 @@
   display: grid;
 }
 
-.voyage-map__plate img {
-  position: relative;
-  z-index: 1;
-}
-
 .voyage-map[data-image-state='error'] .voyage-map__plate img {
   display: none;
 }
@@ -185,97 +178,199 @@
   pointer-events: none;
 }
 
-.voyage-map__route-underlay,
-.voyage-map__route-track,
+/* The track path only supplies geometry; the travelled line is drawn by the progress path. */
+.voyage-map__route-track {
+  fill: none;
+  stroke: none;
+}
+
 .voyage-map__route-progress {
   fill: none;
+  stroke: #a21f19;
+  stroke-width: 4.6;
   stroke-linecap: round;
   stroke-linejoin: round;
-}
-
-.voyage-map__route-underlay {
-  stroke: #fff4d6;
-  stroke-width: 7;
-  opacity: 0.88;
-}
-
-.voyage-map__route-track {
-  stroke: var(--voyage-red);
-  stroke-width: 4.4;
-  opacity: 0.5;
-}
-
-.voyage-map__route-progress {
-  stroke: #a21f19;
-  stroke-width: 5.2;
   stroke-dasharray: 1;
   stroke-dashoffset: 0;
-  filter: drop-shadow(0 0.12rem 0.1rem rgb(71 24 15 / 35%));
 }
 
-.voyage-map__port-dot {
-  fill: #f8efd9;
-  stroke: #76291f;
-  stroke-width: 3;
+/* Port marks and names are set like the map's own city lettering and appear when the ship calls. */
+.voyage-map__port-ring {
+  fill: #efe6cf;
+  stroke: #2a2622;
+  stroke-width: 1.4;
+}
+
+.voyage-map__port-core {
+  fill: #2a2622;
 }
 
 .voyage-map__port-label {
-  fill: #26332e;
-  stroke: #f5e9cf;
-  stroke-width: 5;
-  paint-order: stroke fill;
-  font: 650 36px/1 var(--sans);
-  letter-spacing: 0.4px;
+  fill: #2a2622;
+  font: 500 28px/1 var(--serif);
+  letter-spacing: 0.9px;
 }
 
+.voyage-map[data-enhanced='true'] .voyage-map__port {
+  opacity: 0;
+}
+
+.voyage-map[data-enhanced='true'] .voyage-map__port-mark {
+  transform-box: fill-box;
+  transform-origin: center;
+  transform: scale(0);
+}
+
+.voyage-map[data-enhanced='true'] .voyage-map__port-label {
+  transform-box: fill-box;
+  transform-origin: center;
+  opacity: 0;
+}
+
+.voyage-map[data-enhanced='true'] .voyage-map__port[data-reached] {
+  opacity: 1;
+}
+
+.voyage-map[data-enhanced='true'] .voyage-map__port[data-reached] .voyage-map__port-mark {
+  animation: voyage-port-pop 560ms cubic-bezier(.2, 1.5, .4, 1) forwards;
+}
+
+.voyage-map[data-enhanced='true'] .voyage-map__port[data-reached] .voyage-map__port-label {
+  animation: voyage-port-rise 520ms 160ms cubic-bezier(.2, .8, .2, 1) forwards;
+}
+
+@keyframes voyage-port-pop {
+  from { transform: scale(0); }
+  to { transform: scale(1); }
+}
+
+@keyframes voyage-port-rise {
+  from { opacity: 0; transform: translateY(6px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* Plan-view steamship, bow at +x, drawn from the 1901 dry-dock photograph and Rossini's table. */
 .voyage-map__ship {
-  color: #192b2c;
-  filter: drop-shadow(0 0.16rem 0.12rem rgb(0 0 0 / 45%));
+  color: #1c2a2b;
+  filter: drop-shadow(0 0.16rem 0.12rem rgb(0 0 0 / 40%));
 }
 
 .voyage-map__ship-shape {
   transform-origin: 0 0;
 }
 
-.voyage-map__ship .wake {
+.voyage-map__ship-roll {
+  transform-origin: 0 0;
+}
+
+.voyage-map[data-playing][data-at-sea] .voyage-map__ship-roll {
+  animation: voyage-roll 5.2s ease-in-out infinite alternate;
+}
+
+@keyframes voyage-roll {
+  from { transform: rotate(-1.4deg); }
+  to { transform: rotate(1.4deg); }
+}
+
+.voyage-map__ship .hull-halo {
   fill: none;
-  stroke: #f8edd3;
-  stroke-linecap: round;
-  stroke-width: 2.6;
-  opacity: 0.72;
+  stroke: #fbf3e0;
+  stroke-width: 4.2;
+  stroke-linejoin: round;
+  opacity: 0.85;
 }
 
-.voyage-map__ship .hull,
-.voyage-map__ship .deck,
-.voyage-map__ship .cabin,
-.voyage-map__ship .stack {
-  fill: currentColor;
-  stroke: #f5e9cf;
-  stroke-width: 1.2;
+.voyage-map__ship .hull {
+  fill: #f1e6cc;
+  stroke: currentColor;
+  stroke-width: 1.35;
+  stroke-linejoin: round;
 }
 
-.voyage-map__ship .stack-top {
-  fill: #a43324;
-  stroke: #f5e9cf;
-  stroke-width: 0.8;
+.voyage-map__ship .boot-line {
+  fill: none;
+  stroke: var(--voyage-red);
+  stroke-width: 0.9;
+  opacity: 0.85;
 }
 
 .voyage-map__ship .deck {
-  fill: #d6c7a7;
-  stroke: #192b2c;
+  fill: #e2d4b4;
 }
 
-.voyage-map__ship .cabin {
-  fill: #f3e7cc;
-  stroke: #192b2c;
+.voyage-map__ship .bridge {
+  fill: #f9f1de;
+  stroke: currentColor;
+  stroke-width: 0.9;
 }
 
-.voyage-map__ship .bow-line {
-  fill: none;
-  stroke: #a43324;
+.voyage-map__ship .forecastle {
+  fill: #ebdfc3;
+  stroke: currentColor;
+  stroke-width: 0.9;
+}
+
+.voyage-map__ship .wheelhouse {
+  fill: currentColor;
+  opacity: 0.85;
+}
+
+.voyage-map__ship .hatch {
+  fill: #cdbb95;
+  stroke: currentColor;
+  stroke-width: 0.8;
+}
+
+.voyage-map__ship .skylight {
+  fill: #d9cba9;
+  stroke: currentColor;
+  stroke-width: 0.7;
+}
+
+.voyage-map__ship .yard {
+  stroke: currentColor;
+  stroke-width: 1.15;
   stroke-linecap: round;
-  stroke-linejoin: round;
-  stroke-width: 2;
+}
+
+.voyage-map__ship .mast {
+  fill: currentColor;
+  stroke: #f9f1de;
+  stroke-width: 0.6;
+}
+
+.voyage-map__ship .boat {
+  fill: #f9f1de;
+  stroke: currentColor;
+  stroke-width: 0.75;
+}
+
+.voyage-map__ship .funnel {
+  fill: currentColor;
+  stroke: #f9f1de;
+  stroke-width: 0.9;
+}
+
+.voyage-map__ship .funnel-top {
+  fill: var(--voyage-red);
+}
+
+/* The bow wave follows the speed estimate the script exposes; a stopped ship keeps a faint one. */
+.voyage-map__ship .bow-wave {
+  fill: none;
+  stroke: #fbf3e0;
+  stroke-width: 1.5;
+  stroke-linecap: round;
+  opacity: 0.85;
+}
+
+.voyage-map[data-enhanced='true'] .voyage-map__ship .bow-wave {
+  opacity: calc(0.12 + 0.75 * var(--voyage-sea, 0));
+  transition: opacity 500ms ease;
+}
+
+.voyage-map__smoke circle {
+  fill: #26251f;
 }
 
 .voyage-map__caption {
@@ -406,10 +501,6 @@
     grid-template-columns: minmax(0, 2.35fr) minmax(13rem, 0.85fr);
   }
 
-  .voyage-map__stage {
-    height: clamp(29rem, 50vw, 33rem);
-  }
-
   .voyage-map[data-enhanced='true'] .voyage-map__controls {
     grid-template-columns: auto auto 1fr;
   }
@@ -461,21 +552,18 @@
   }
 
   .voyage-map__stage {
-    height: 24rem;
     margin-inline: calc(var(--page-gutter) * -1);
-    padding: 1rem var(--page-gutter) 1.3rem;
+    padding: 0.75rem var(--page-gutter) 1rem;
   }
 
   .voyage-map__plate {
-    height: 21.5rem;
-    max-width: calc(100% - 1.35rem);
     border-width: 0.3rem;
-    transform: rotateX(19deg) rotateZ(8deg);
+    transform: rotateX(19deg) rotateZ(8deg) scale(0.92);
     transform-origin: 50% 52%;
   }
 
   .voyage-map__port-label {
-    font-size: 44px;
+    font-size: 36px;
   }
 
   .voyage-map__ship-shape {
@@ -538,8 +626,23 @@
 @media (prefers-reduced-motion: reduce) {
   .voyage-map__plate,
   .voyage-map__controls button,
-  .voyage-map__ports button {
+  .voyage-map__ports button,
+  .voyage-map__ship .bow-wave {
     transition: none;
+  }
+
+  .voyage-map__ship-roll,
+  .voyage-map__port-mark,
+  .voyage-map__port-label {
+    animation: none !important;
+  }
+
+  .voyage-map[data-enhanced='true'] .voyage-map__port[data-reached] .voyage-map__port-mark {
+    transform: none;
+  }
+
+  .voyage-map[data-enhanced='true'] .voyage-map__port[data-reached] .voyage-map__port-label {
+    opacity: 1;
   }
 }
 
@@ -560,6 +663,19 @@
   .voyage-map__plate {
     box-shadow: none;
     transform: none;
+  }
+
+  .voyage-map__port,
+  .voyage-map__port-label {
+    opacity: 1 !important;
+  }
+
+  .voyage-map__port-mark {
+    transform: none !important;
+  }
+
+  .voyage-map__smoke {
+    display: none;
   }
 
   .voyage-map__controls,
