@@ -1,0 +1,24 @@
+name: panzonato
+services:
+  web:
+    build:
+      context: .
+      args:
+        SITE_URL: ${SITE_URL:-http://localhost:18775}
+        PUBLICATION_MODE: ${PUBLICATION_MODE:-preview}
+        MEDIA_URL_PREFIX: ${MEDIA_URL_PREFIX:-/media/}
+    ports:
+      - "127.0.0.1:${PORT:-18775}:8080"
+    volumes:
+      - type: bind
+        source: ${MEDIA_ROOT:-./media/published/exhibition}
+        target: /srv/media
+        read_only: true
+        bind:
+          create_host_path: false
+    read_only: true
+    tmpfs:
+      - /tmp:size=32m,mode=1777
+    cap_drop: [ALL]
+    security_opt: [no-new-privileges:true]
+    restart: unless-stopped

@@ -1,0 +1,27 @@
+# Keep research and media outside the image and the build context.
+/assets/
+/media/
+/research/
+/public/media/
+/public/documents/
+/src/assets/published/
+/work/
+/family_history_catalog.md
+
+# Build from committed source and the lockfile, not local build state.
+/.git/
+/.worktrees/
+/node_modules/
+/dist/
+/.astro/
+.env
+.env.*
+!.env.example
+**/.DS_Store
+**/*.log
+/output/
+/tests/
+/.env
+/.env.*
+
+/.playwright-cli/

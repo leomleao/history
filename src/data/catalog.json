@@ -1,0 +1,2519 @@
+{
+  "people": [
+    {
+      "id": "giuseppe-giacomo-panzonato",
+      "name": "Giuseppe Giacomo Panzonato",
+      "aliases": [
+        "Giuseppe Panzonato",
+        "José Pansonatto",
+        "José Pansonato"
+      ],
+      "publication": "preview",
+      "dates": "1856–1937",
+      "generation": "crossing",
+      "summary": {
+        "en": "Born in Gambarare, married in Mira and documented with an eight-person household at São Paulo's immigrant hostel in 1891; later Brazilian records preserve his life under the name José Pansonatto.",
+        "pt-br": "Nascido em Gambarare, casado em Mira e documentado com uma família de oito pessoas na Hospedaria de Imigrantes de São Paulo em 1891; registros brasileiros posteriores preservam sua vida sob o nome José Pansonatto."
+      },
+      "biography": {
+        "en": [
+          "A parish-issued birth extract names Giuseppe Giacomo Panzonato as the son of Domenico Panzonato and Angela Salviato, known as Campanella, born on 22 July 1856 in Gambarare, now part of Mira. A civil extract records the marriage of Giuseppe Panzonato and Fosca Moro in Mira on 20 November 1881. Together these records establish the Italian beginning of the documented family line.",
+          "On 15 December 1891, the Hospedaria de São Paulo register recorded Giuseppe, age 35, Fosca and six children. The entry says the family came from Rio de Janeiro, was associated with the steamship Colombo and was destined for Tietê. It does not establish a Genoa departure or a Santos landing. By 1899 the family was in Capivari, where their son José was born.",
+          "Giuseppe's Capivari death record calls him José Pansonatto and records his death on 5 December 1937. It describes him as an agricultural worker, widower of Fosca Morro, with ten adult children. Its age and parent names conflict with the contemporary Italian birth evidence, making the record part of the family's story of changing names as well as a source for his final years."
+        ],
+        "pt-br": [
+          "Uma certidão de nascimento emitida pela paróquia registra Giuseppe Giacomo Panzonato como filho de Domenico Panzonato e Angela Salviato, conhecida como Campanella, nascido em 22 de julho de 1856 em Gambarare, hoje parte de Mira. Um extrato civil registra o casamento de Giuseppe Panzonato e Fosca Moro em Mira em 20 de novembro de 1881. Em conjunto, esses documentos estabelecem o início italiano da linhagem familiar documentada.",
+          "Em 15 de dezembro de 1891, o registro da Hospedaria de São Paulo anotou Giuseppe, de 35 anos, Fosca e seis filhos. O registro informa procedência do Rio de Janeiro, associação ao vapor Colombo e destino a Tietê. Ele não comprova embarque em Gênova nem desembarque em Santos. Em 1899 a família estava em Capivari, onde nasceu o filho José.",
+          "O registro de óbito de Capivari chama Giuseppe de José Pansonatto e registra sua morte em 5 de dezembro de 1937. Descreve-o como lavrador, viúvo de Fosca Morro, com dez filhos maiores. A idade e os nomes dos pais divergem do documento italiano contemporâneo, fazendo do registro parte da história das mudanças de nome da família, além de uma fonte para seus últimos anos."
+        ]
+      },
+      "chapterKeys": [
+        "origins",
+        "crossing",
+        "brazil",
+        "generations"
+      ],
+      "sourceIds": [
+        "giuseppe-birth-1856",
+        "giuseppe-fosca-marriage-1881",
+        "panzonato-hospedaria-1891",
+        "panzonato-desembarque-certificate-2002",
+        "jose-filho-birth-1899",
+        "giuseppe-death-1937"
+      ],
+      "relationships": [
+        {
+          "personId": "domenico-panzonato",
+          "label": {
+            "en": "father",
+            "pt-br": "pai"
+          },
+          "sourceIds": [
+            "giuseppe-birth-1856",
+            "giuseppe-fosca-marriage-1881"
+          ]
+        },
+        {
+          "personId": "angela-salviato",
+          "label": {
+            "en": "mother",
+            "pt-br": "mãe"
+          },
+          "sourceIds": [
+            "giuseppe-birth-1856",
+            "giuseppe-fosca-marriage-1881"
+          ]
+        },
+        {
+          "personId": "fosca-moro",
+          "label": {
+            "en": "wife",
+            "pt-br": "esposa"
+          },
+          "sourceIds": [
+            "giuseppe-fosca-marriage-1881",
+            "panzonato-hospedaria-1891"
+          ]
+        },
+        {
+          "personId": "catharina-pansonato",
+          "label": {
+            "en": "daughter",
+            "pt-br": "filha"
+          },
+          "sourceIds": [
+            "panzonato-hospedaria-1891",
+            "catharina-luigi-marriage-1902"
+          ]
+        },
+        {
+          "personId": "luiz-pansonatto",
+          "label": {
+            "en": "son",
+            "pt-br": "filho"
+          },
+          "sourceIds": [
+            "panzonato-hospedaria-1891",
+            "luiz-death-1969"
+          ]
+        },
+        {
+          "personId": "jose-pansonatto-filho",
+          "label": {
+            "en": "son",
+            "pt-br": "filho"
+          },
+          "sourceIds": [
+            "jose-filho-birth-1899"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fosca-moro",
+      "name": "Fosca Moro",
+      "aliases": [
+        "Fosca Morro",
+        "Maria Fosca"
+      ],
+      "publication": "preview",
+      "dates": "c. 1860–1927",
+      "generation": "crossing",
+      "summary": {
+        "en": "Fosca appears as Giuseppe's wife in the 1881 marriage record and as the mother travelling with six children in the 1891 Hospedaria entry.",
+        "pt-br": "Fosca aparece como esposa de Giuseppe no registro de casamento de 1881 e como mãe viajando com seis filhos no registro da Hospedaria de 1891."
+      },
+      "biography": {
+        "en": [
+          "Fosca Moro married Giuseppe Panzonato in Mira on 20 November 1881. The original marriage register and her son José's later birth record identify her parents as Andrea Moro and Pasqua, or Paschoa, Toffano. The supplied files do not contain a verified birth record for Fosca, and the tree exports contradict themselves about her exact birth date.",
+          "The 1891 Hospedaria register records Fosca as Giuseppe's wife, age 30, travelling with Luigia, Catarina, Candida, Luigi, Domenico and Eugenio. This family-specific record gives her a central role in the migration story without requiring invented details about the crossing.",
+          "Her Capivari death certificate records the name Fosca Morro, death on 3 August 1927, age 70 and marriage to José Pansonatto. It leaves her parents unrecorded and names chronic nephritis as the cause. Because an 1860 birth would make her 67, the age difference remains visible rather than being silently reconciled."
+        ],
+        "pt-br": [
+          "Fosca Moro casou-se com Giuseppe Panzonato em Mira em 20 de novembro de 1881. O registro matrimonial original e o registro posterior de nascimento de seu filho José identificam seus pais como Andrea Moro e Pasqua, ou Paschoa, Toffano. Os arquivos fornecidos não contêm um registro de nascimento verificado de Fosca, e as exportações da árvore se contradizem sobre a data exata.",
+          "O registro da Hospedaria de 1891 anota Fosca como esposa de Giuseppe, com 30 anos, viajando com Luigia, Catarina, Candida, Luigi, Domenico e Eugenio. Esse documento específico da família lhe dá papel central na história da migração sem exigir detalhes inventados sobre a travessia.",
+          "Sua certidão de óbito de Capivari registra o nome Fosca Morro, a morte em 3 de agosto de 1927, a idade de 70 anos e o casamento com José Pansonatto. Não informa seus pais e indica nefrite crônica como causa. Como um nascimento em 1860 resultaria em 67 anos, a diferença permanece visível, sem conciliação silenciosa."
+        ]
+      },
+      "chapterKeys": [
+        "origins",
+        "crossing",
+        "brazil",
+        "generations"
+      ],
+      "sourceIds": [
+        "giuseppe-fosca-marriage-1881",
+        "panzonato-hospedaria-1891",
+        "jose-filho-birth-1899",
+        "fosca-death-1927"
+      ],
+      "relationships": [
+        {
+          "personId": "andrea-moro",
+          "label": {
+            "en": "father",
+            "pt-br": "pai"
+          },
+          "sourceIds": [
+            "giuseppe-fosca-marriage-1881",
+            "jose-filho-birth-1899"
+          ]
+        },
+        {
+          "personId": "giuseppe-giacomo-panzonato",
+          "label": {
+            "en": "husband",
+            "pt-br": "marido"
+          },
+          "sourceIds": [
+            "giuseppe-fosca-marriage-1881",
+            "panzonato-hospedaria-1891"
+          ]
+        },
+        {
+          "personId": "catharina-pansonato",
+          "label": {
+            "en": "daughter",
+            "pt-br": "filha"
+          },
+          "sourceIds": [
+            "panzonato-hospedaria-1891",
+            "catharina-luigi-marriage-1902"
+          ]
+        },
+        {
+          "personId": "luiz-pansonatto",
+          "label": {
+            "en": "son",
+            "pt-br": "filho"
+          },
+          "sourceIds": [
+            "panzonato-hospedaria-1891",
+            "luiz-death-1969"
+          ]
+        },
+        {
+          "personId": "jose-pansonatto-filho",
+          "label": {
+            "en": "son",
+            "pt-br": "filho"
+          },
+          "sourceIds": [
+            "jose-filho-birth-1899"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "domenico-panzonato",
+      "name": "Domenico Panzonato",
+      "aliases": [
+        "Domingos Pansonato",
+        "Domingos Pansonatto"
+      ],
+      "publication": "preview",
+      "generation": "roots",
+      "summary": {
+        "en": "Giuseppe's father is securely named in the 1856 birth extract, while later Brazilian records preserve Portuguese variants of his name.",
+        "pt-br": "O pai de Giuseppe é identificado com segurança no registro de nascimento de 1856, enquanto registros brasileiros posteriores preservam variantes portuguesas de seu nome."
+      },
+      "biography": {
+        "en": [
+          "Giuseppe's 1856 Gambarare birth extract names Domenico Panzonato as his father and Angela Salviato, known as Campanella, as his mother. This is the strongest supplied evidence for Domenico's place in the family.",
+          "The 1881 original marriage entry appears to describe Domenico as deceased. Later Brazilian records render the name as Domingos Pansonato or Pansonatto, illustrating the change from Italian to Portuguese recordkeeping. No direct birth or death record for Domenico is present in the archive, so a precise lifespan is not published."
+        ],
+        "pt-br": [
+          "O registro de nascimento de Giuseppe em Gambarare, de 1856, identifica Domenico Panzonato como seu pai e Angela Salviato, conhecida como Campanella, como sua mãe. Esse é o indício fornecido mais forte para o lugar de Domenico na família.",
+          "O registro matrimonial original de 1881 parece descrever Domenico como falecido. Registros brasileiros posteriores vertem o nome como Domingos Pansonato ou Pansonatto, ilustrando a mudança do registro italiano para o português. O arquivo não contém registro direto de nascimento ou óbito de Domenico, por isso não se publica uma cronologia precisa."
+        ]
+      },
+      "chapterKeys": [
+        "origins",
+        "generations"
+      ],
+      "sourceIds": [
+        "giuseppe-birth-1856",
+        "giuseppe-fosca-marriage-1881",
+        "jose-filho-birth-1899"
+      ],
+      "relationships": [
+        {
+          "personId": "angela-salviato",
+          "label": {
+            "en": "wife",
+            "pt-br": "esposa"
+          },
+          "sourceIds": [
+            "giuseppe-birth-1856",
+            "giuseppe-fosca-marriage-1881"
+          ]
+        },
+        {
+          "personId": "giuseppe-giacomo-panzonato",
+          "label": {
+            "en": "son",
+            "pt-br": "filho"
+          },
+          "sourceIds": [
+            "giuseppe-birth-1856",
+            "giuseppe-fosca-marriage-1881"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "angela-salviato",
+      "name": "Angela Salviato",
+      "aliases": [
+        "Angela Salviato detta Campanella",
+        "Angela Saviotti",
+        "Angelina Pasqualini"
+      ],
+      "publication": "preview",
+      "generation": "roots",
+      "summary": {
+        "en": "Giuseppe's birth extract preserves both Angela's surname and the branch nickname Campanella; later Brazilian records distort the name in different ways.",
+        "pt-br": "O registro de nascimento de Giuseppe preserva tanto o sobrenome de Angela quanto o apelido de ramo Campanella; registros brasileiros posteriores distorcem o nome de formas diferentes."
+      },
+      "biography": {
+        "en": [
+          "The 1856 birth extract names Giuseppe's mother as Angela Salviato, detta Campanella. The wording is unusually valuable because it preserves a local distinguishing name as well as the formal surname.",
+          "Her grandson José's Brazilian birth certificate calls her Angela Saviotti, while Giuseppe's death certificate gives Angelina Pasqualini. The Italian record is contemporary with Giuseppe's birth and therefore takes precedence for her identity. The 1826–1893 lifespan in the export remains a research lead, not a verified fact in this archive."
+        ],
+        "pt-br": [
+          "O registro de nascimento de 1856 identifica a mãe de Giuseppe como Angela Salviato, detta Campanella. A formulação é especialmente valiosa porque preserva um nome local de distinção de ramo, além do sobrenome formal.",
+          "A certidão brasileira de nascimento de seu neto José a chama de Angela Saviotti, enquanto a certidão de óbito de Giuseppe traz Angelina Pasqualini. O registro italiano é contemporâneo ao nascimento de Giuseppe e por isso prevalece para sua identidade. A cronologia 1826–1893 da exportação continua sendo pista de pesquisa, não fato verificado neste arquivo."
+        ]
+      },
+      "chapterKeys": [
+        "origins",
+        "generations"
+      ],
+      "sourceIds": [
+        "giuseppe-birth-1856",
+        "jose-filho-birth-1899",
+        "giuseppe-death-1937"
+      ],
+      "relationships": [
+        {
+          "personId": "domenico-panzonato",
+          "label": {
+            "en": "husband",
+            "pt-br": "marido"
+          },
+          "sourceIds": [
+            "giuseppe-birth-1856",
+            "giuseppe-fosca-marriage-1881"
+          ]
+        },
+        {
+          "personId": "giuseppe-giacomo-panzonato",
+          "label": {
+            "en": "son",
+            "pt-br": "filho"
+          },
+          "sourceIds": [
+            "giuseppe-birth-1856"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "andrea-moro",
+      "name": "Andrea Moro",
+      "aliases": [],
+      "publication": "preview",
+      "generation": "roots",
+      "summary": {
+        "en": "Andrea is documented as Fosca's father through the next generation's civil record and the 1881 marriage register.",
+        "pt-br": "Andrea é documentado como pai de Fosca pelo registro civil da geração seguinte e pelo registro matrimonial de 1881."
+      },
+      "biography": {
+        "en": [
+          "José Pansonatto Filho's 1899 birth certificate names Andrea Moro and Paschoa Toffano as his maternal grandparents. That establishes Andrea as Fosca's father in a family-specific civil record.",
+          "The photographed 1881 Italian marriage register also appears to name Andrea in the bride's parentage. Claims that he was born in Valrovina in 1837 and died there in 1908 come from the FamilySearch-derived tree rather than a direct record in the supplied archive, so they remain unpublished pending verification."
+        ],
+        "pt-br": [
+          "A certidão de nascimento de José Pansonatto Filho, de 1899, identifica Andrea Moro e Paschoa Toffano como seus avós maternos. Isso estabelece Andrea como pai de Fosca em um registro civil específico da família.",
+          "O registro matrimonial italiano fotografado de 1881 também parece nomear Andrea na filiação da noiva. As afirmações de que ele nasceu em Valrovina em 1837 e morreu ali em 1908 vêm da árvore derivada do FamilySearch, e não de um registro direto no arquivo fornecido, permanecendo inéditas até verificação."
+        ]
+      },
+      "chapterKeys": [
+        "origins",
+        "generations"
+      ],
+      "sourceIds": [
+        "giuseppe-fosca-marriage-1881",
+        "jose-filho-birth-1899"
+      ],
+      "relationships": [
+        {
+          "personId": "fosca-moro",
+          "label": {
+            "en": "daughter",
+            "pt-br": "filha"
+          },
+          "sourceIds": [
+            "giuseppe-fosca-marriage-1881",
+            "jose-filho-birth-1899"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jose-pansonatto-filho",
+      "name": "José Pansonatto Filho",
+      "aliases": [
+        "José Pansonato Filho",
+        "Vô Bepe"
+      ],
+      "publication": "preview",
+      "dates": "1899–1988",
+      "generation": "brazil",
+      "summary": {
+        "en": "Born in Capivari to the immigrant couple, José's records connect the Italian and Brazilian generations and trace a working life from agriculture to industry.",
+        "pt-br": "Nascido em Capivari, filho do casal imigrante, os registros de José ligam as gerações italiana e brasileira e acompanham uma vida de trabalho da lavoura à indústria."
+      },
+      "biography": {
+        "en": [
+          "José was born in Capivari on 18 November 1899 to José Pansonato and Fosca Moro. His birth certificate names all four grandparents and provides an important bridge back to Domenico and Angela, and to Andrea and Paschoa. The Brazilian spellings also show how the earlier Italian names changed in local registration.",
+          "On 4 June 1921 José married Assumpta Elvira Pozzatto in Capivari. The certificate describes him as an agricultural worker and identifies Assumpta's parents as Seraphim Pozzatto and Clotilde Munaro. A marginal note on José's birth record documents a second marriage in Jundiaí in 1957.",
+          "José died in Jundiaí on 17 December 1988, aged 89. His death certificate describes him as an industrial worker and pensioner. Read alongside the 1921 marriage record, it traces a working life that moved from agriculture in Capivari to industry in Jundiaí."
+        ],
+        "pt-br": [
+          "José nasceu em Capivari em 18 de novembro de 1899, filho de José Pansonato e Fosca Moro. Sua certidão de nascimento identifica os quatro avós e oferece uma ponte importante de volta a Domenico e Angela e a Andrea e Paschoa. As grafias brasileiras também mostram como os nomes italianos anteriores mudaram no registro local.",
+          "Em 4 de junho de 1921, José casou-se com Assumpta Elvira Pozzatto em Capivari. A certidão o descreve como lavrador e identifica os pais de Assumpta como Seraphim Pozzatto e Clotilde Munaro. Uma anotação marginal no nascimento de José documenta um segundo casamento em Jundiaí em 1957.",
+          "José faleceu em Jundiaí em 17 de dezembro de 1988, aos 89 anos. Sua certidão de óbito o descreve como industriário e aposentado. Lida ao lado do registro de casamento de 1921, ela acompanha uma vida de trabalho que passou da agricultura em Capivari à indústria em Jundiaí."
+        ]
+      },
+      "chapterKeys": [
+        "brazil",
+        "generations"
+      ],
+      "sourceIds": [
+        "jose-filho-birth-1899",
+        "jose-assumpta-marriage-1921",
+        "jose-filho-death-1988"
+      ],
+      "relationships": [
+        {
+          "personId": "giuseppe-giacomo-panzonato",
+          "label": {
+            "en": "father",
+            "pt-br": "pai"
+          },
+          "sourceIds": [
+            "jose-filho-birth-1899"
+          ]
+        },
+        {
+          "personId": "fosca-moro",
+          "label": {
+            "en": "mother",
+            "pt-br": "mãe"
+          },
+          "sourceIds": [
+            "jose-filho-birth-1899"
+          ]
+        },
+        {
+          "personId": "assumpta-elvira-pessato",
+          "label": {
+            "en": "wife",
+            "pt-br": "esposa"
+          },
+          "sourceIds": [
+            "jose-assumpta-marriage-1921"
+          ]
+        },
+        {
+          "personId": "arlindo-panssonatto",
+          "label": {
+            "en": "son",
+            "pt-br": "filho"
+          },
+          "sourceIds": [
+            "arlindo-birth-1929"
+          ]
+        },
+        {
+          "personId": "catharina-pansonato",
+          "label": {
+            "en": "sister",
+            "pt-br": "irmã"
+          },
+          "sourceIds": [
+            "jose-filho-birth-1899",
+            "catharina-luigi-marriage-1902"
+          ]
+        },
+        {
+          "personId": "luiz-pansonatto",
+          "label": {
+            "en": "brother",
+            "pt-br": "irmão"
+          },
+          "sourceIds": [
+            "jose-filho-birth-1899",
+            "luiz-death-1969"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "assumpta-elvira-pessato",
+      "name": "Assumpta Elvira Pessato",
+      "aliases": [
+        "Assumpta Elvira Pozzatto",
+        "Assumpta Elvira Possato",
+        "Assumpta Elvira Panssonatto",
+        "Assunta"
+      ],
+      "publication": "preview",
+      "dates": "1902–1956",
+      "generation": "brazil",
+      "summary": {
+        "en": "Born in Capivari to Italian parents, Assumpta married José in 1921. Her life connects the Pessato, Munaro, and Pansonatto families.",
+        "pt-br": "Nascida em Capivari, filha de italianos, Assumpta casou-se com José em 1921. Sua vida conecta as famílias Pessato, Munaro e Pansonatto."
+      },
+      "biography": {
+        "en": [
+          "Assumpta Elvira was born in Capivari on 28 September 1902 and registered the following day. Her parents were Serafino Pessato and Clotilde Monaro, also recorded as Munaro, both Italian. The birth record reaches back another generation by naming her four grandparents.",
+          "Her 1921 marriage certificate uses the surname Pozzatto and repeats her parents as Seraphim Pozzatto and Clotilde Munaro. Arlindo's 1929 birth certificate uses Possato. Together, the records show spelling variation rather than different women.",
+          "Her death certificate records the name Assumpta Elvira Panssonatto and says she died in Jundiaí on 24 January 1956. Annotations on the birth and marriage records instead give 25 January. The event certificate supplies the displayed date, with the one-day discrepancy retained in its evidence note."
+        ],
+        "pt-br": [
+          "Assumpta Elvira nasceu em Capivari em 28 de setembro de 1902 e foi registrada no dia seguinte. Seus pais eram Serafino Pessato e Clotilde Monaro, também registrada como Munaro, ambos italianos. A certidão alcança mais uma geração ao nomear seus quatro avós.",
+          "Sua certidão de casamento de 1921 usa o sobrenome Pozzatto e repete os pais como Seraphim Pozzatto e Clotilde Munaro. A certidão de nascimento de Arlindo, de 1929, usa Possato. Em conjunto, os documentos mostram variações de grafia, e não mulheres diferentes.",
+          "Sua certidão de óbito registra o nome Assumpta Elvira Panssonatto e informa que ela morreu em Jundiaí em 24 de janeiro de 1956. As anotações nos registros de nascimento e casamento dão 25 de janeiro. A certidão do evento fornece a data exibida, com a divergência de um dia mantida na nota de evidência."
+        ]
+      },
+      "chapterKeys": [
+        "brazil",
+        "generations"
+      ],
+      "sourceIds": [
+        "assumpta-birth-1902",
+        "jose-assumpta-marriage-1921",
+        "arlindo-birth-1929",
+        "assumpta-death-1956"
+      ],
+      "relationships": [
+        {
+          "personId": "jose-pansonatto-filho",
+          "label": {
+            "en": "husband",
+            "pt-br": "marido"
+          },
+          "sourceIds": [
+            "jose-assumpta-marriage-1921"
+          ]
+        },
+        {
+          "personId": "arlindo-panssonatto",
+          "label": {
+            "en": "son",
+            "pt-br": "filho"
+          },
+          "sourceIds": [
+            "arlindo-birth-1929"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "catharina-pansonato",
+      "name": "Catharina Pansonato",
+      "aliases": [
+        "Catarina Panzonato",
+        "Catharina Pansonatto"
+      ],
+      "publication": "preview",
+      "dates": "c. 1882–?",
+      "generation": "crossing",
+      "summary": {
+        "en": "A child in the 1891 migrant household, Catharina later carried the place-name Gambarare into a Brazilian parish marriage record.",
+        "pt-br": "Criança na família migrante de 1891, Catharina mais tarde levou o nome de Gambarare para um registro paroquial de casamento no Brasil."
+      },
+      "biography": {
+        "en": [
+          "The Hospedaria register lists Catarina, age nine, among Giuseppe and Fosca's six children on 15 December 1891. This places her in the documented family movement into São Paulo and implies a birth around 1882.",
+          "A Capivari parish register records the marriage of Luigi Sari and Catharina Pansonato on 8 February 1902. It identifies her as a native of Gambarare in Venice and as the daughter of Giuseppe Pansonato and Maria Fosca. That small entry preserved the village name linking the Brazilian family to the Italian record."
+        ],
+        "pt-br": [
+          "O registro da Hospedaria lista Catarina, de nove anos, entre os seis filhos de Giuseppe e Fosca em 15 de dezembro de 1891. Isso a situa no deslocamento documentado da família para São Paulo e sugere nascimento por volta de 1882.",
+          "Um registro paroquial de Capivari anota o casamento de Luigi Sari e Catharina Pansonato em 8 de fevereiro de 1902. Identifica-a como natural de Gambarare, em Veneza, e filha de Giuseppe Pansonato e Maria Fosca. Essa pequena anotação preservou o nome da aldeia que liga a família brasileira ao registro italiano."
+        ]
+      },
+      "chapterKeys": [
+        "crossing",
+        "brazil",
+        "generations"
+      ],
+      "sourceIds": [
+        "panzonato-hospedaria-1891",
+        "catharina-luigi-marriage-1902"
+      ],
+      "relationships": [
+        {
+          "personId": "giuseppe-giacomo-panzonato",
+          "label": {
+            "en": "father",
+            "pt-br": "pai"
+          },
+          "sourceIds": [
+            "panzonato-hospedaria-1891",
+            "catharina-luigi-marriage-1902"
+          ]
+        },
+        {
+          "personId": "fosca-moro",
+          "label": {
+            "en": "mother",
+            "pt-br": "mãe"
+          },
+          "sourceIds": [
+            "panzonato-hospedaria-1891",
+            "catharina-luigi-marriage-1902"
+          ]
+        },
+        {
+          "personId": "luiz-pansonatto",
+          "label": {
+            "en": "brother",
+            "pt-br": "irmão"
+          },
+          "sourceIds": [
+            "panzonato-hospedaria-1891"
+          ]
+        },
+        {
+          "personId": "jose-pansonatto-filho",
+          "label": {
+            "en": "brother",
+            "pt-br": "irmão"
+          },
+          "sourceIds": [
+            "jose-filho-birth-1899",
+            "catharina-luigi-marriage-1902"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "luiz-pansonatto",
+      "name": "Luiz Pansonatto",
+      "aliases": [
+        "Luigi Panzonato",
+        "Luiz Panzonatto"
+      ],
+      "publication": "preview",
+      "dates": "c. 1886/88–1969",
+      "generation": "crossing",
+      "summary": {
+        "en": "Recorded as five-year-old Luigi in the migrant household, Luiz later worked in agriculture and died in Jundiaí in 1969.",
+        "pt-br": "Registrado como Luigi, de cinco anos, na família imigrante, Luiz trabalhou na agricultura e faleceu em Jundiaí em 1969."
+      },
+      "biography": {
+        "en": [
+          "The 1891 Hospedaria record lists Luigi, age five, among Giuseppe and Fosca's children. That places him in the eight-person household entering the São Paulo hostel and implies a birth around 1886.",
+          "His death certificate says Luiz Pansonatto died in Jundiaí on 9 July 1969, age 81, and describes him as an agricultural worker, son of José Pensonatto and Fosca Morro. It gives Mantova as his birthplace, which conflicts with the family's documented Gambarare connection; its age also implies a later birth. The conflict is historically useful and is not silently corrected."
+        ],
+        "pt-br": [
+          "O registro da Hospedaria de 1891 lista Luigi, de cinco anos, entre os filhos de Giuseppe e Fosca. Isso o situa na família de oito pessoas que entrou na hospedaria paulista e sugere nascimento por volta de 1886.",
+          "Sua certidão de óbito informa que Luiz Pansonatto morreu em Jundiaí em 9 de julho de 1969, aos 81 anos, e o descreve como lavrador, filho de José Pensonatto e Fosca Morro. Dá Mantova como local de nascimento, em conflito com a ligação documentada da família a Gambarare; a idade também implica nascimento posterior. A divergência é historicamente útil e não é corrigida em silêncio."
+        ]
+      },
+      "chapterKeys": [
+        "crossing",
+        "brazil",
+        "generations"
+      ],
+      "sourceIds": [
+        "panzonato-hospedaria-1891",
+        "luiz-death-1969"
+      ],
+      "relationships": [
+        {
+          "personId": "giuseppe-giacomo-panzonato",
+          "label": {
+            "en": "father",
+            "pt-br": "pai"
+          },
+          "sourceIds": [
+            "panzonato-hospedaria-1891",
+            "luiz-death-1969"
+          ]
+        },
+        {
+          "personId": "fosca-moro",
+          "label": {
+            "en": "mother",
+            "pt-br": "mãe"
+          },
+          "sourceIds": [
+            "panzonato-hospedaria-1891",
+            "luiz-death-1969"
+          ]
+        },
+        {
+          "personId": "catharina-pansonato",
+          "label": {
+            "en": "sister",
+            "pt-br": "irmã"
+          },
+          "sourceIds": [
+            "panzonato-hospedaria-1891"
+          ]
+        },
+        {
+          "personId": "jose-pansonatto-filho",
+          "label": {
+            "en": "brother",
+            "pt-br": "irmão"
+          },
+          "sourceIds": [
+            "jose-filho-birth-1899",
+            "luiz-death-1969"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "arlindo-panssonatto",
+      "name": "Arlindo Panssonatto",
+      "aliases": [
+        "Vô Arlindo"
+      ],
+      "publication": "preview",
+      "dates": "1929–2016",
+      "generation": "brazil",
+      "summary": {
+        "en": "Arlindo's birth record anchors another Capivari generation, while the family archive credits him with preserving the descendant tree and citizenship dossier.",
+        "pt-br": "A certidão de nascimento de Arlindo ancora outra geração em Capivari, enquanto o arquivo familiar lhe atribui a preservação da árvore de descendentes e do dossiê de cidadania."
+      },
+      "biography": {
+        "en": [
+          "Arlindo was born in Capivari on 18 August 1929, son of José Panssonatto Filho and Assumpta Elvira Possato. His birth certificate names both pairs of grandparents and shows the double-s spelling that became part of his branch's surname. A marginal note records his 1951 marriage in Jundiaí.",
+          "The family catalog identifies Arlindo as the author of the handwritten descendant list and an organizer of the citizenship papers. That role explains why his story matters beyond a single civil event: the archive itself is part of the family's history. The supplied files do not contain his death certificate, so the 2016 death date remains labelled as tree/family information.",
+          "The handwritten list puts family names and relationships side by side. Along with the collected certificates, it shows how the work of remembering moved into the hands of descendants: preserving a page, asking about a name, and passing the knowledge on."
+        ],
+        "pt-br": [
+          "Arlindo nasceu em Capivari em 18 de agosto de 1929, filho de José Panssonatto Filho e Assumpta Elvira Possato. Sua certidão de nascimento identifica os dois pares de avós e mostra a grafia com ss duplo que passou a fazer parte do sobrenome de seu ramo. Uma anotação marginal registra seu casamento em Jundiaí em 1951.",
+          "O catálogo familiar identifica Arlindo como autor da lista manuscrita de descendentes e organizador dos papéis de cidadania. Esse papel explica por que sua história importa para além de um único evento civil: o próprio arquivo faz parte da história da família. Os arquivos fornecidos não contêm sua certidão de óbito, por isso a data de 2016 permanece rotulada como informação da árvore/família.",
+          "A lista manuscrita aproxima nomes e laços familiares. Junto às certidões reunidas, mostra como o trabalho de lembrar passou às mãos dos descendentes: guardar uma página, perguntar por um nome e transmitir o conhecimento."
+        ]
+      },
+      "chapterKeys": [
+        "generations",
+        "return"
+      ],
+      "sourceIds": [
+        "arlindo-birth-1929",
+        "arlindo-family-tree"
+      ],
+      "relationships": [
+        {
+          "personId": "jose-pansonatto-filho",
+          "label": {
+            "en": "father",
+            "pt-br": "pai"
+          },
+          "sourceIds": [
+            "arlindo-birth-1929"
+          ]
+        },
+        {
+          "personId": "assumpta-elvira-pessato",
+          "label": {
+            "en": "mother",
+            "pt-br": "mãe"
+          },
+          "sourceIds": [
+            "arlindo-birth-1929"
+          ]
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "gambarare-church",
+      "mediaId": "gambarare",
+      "publication": "preview",
+      "title": {
+        "en": "Gambarare church in winter fog",
+        "pt-br": "Igreja de Gambarare na neblina de inverno"
+      },
+      "description": {
+        "en": "San Giovanni Battista, Gambarare, photographed during the family research visit of 27 January 2024.",
+        "pt-br": "San Giovanni Battista, Gambarare, fotografada durante a visita de pesquisa familiar de 27 de janeiro de 2024."
+      },
+      "citation": {
+        "en": "Panzonato family research archive; photographer not identified in catalog.",
+        "pt-br": "Arquivo de pesquisa da família Panzonato; fotógrafo não identificado no catálogo."
+      },
+      "repository": {
+        "en": "Panzonato family research archive",
+        "pt-br": "Arquivo de pesquisa da família Panzonato"
+      },
+      "locator": "",
+      "kind": "field",
+      "category": {
+        "en": "building",
+        "pt-br": "edifício"
+      },
+      "date": "2024-01-27"
+    },
+    {
+      "id": "venice-1891-working-calle",
+      "mediaId": "venice-1891-working-calle",
+      "publication": "preview",
+      "title": {
+        "en": "A working-class calle in Venice, 1891",
+        "pt-br": "Uma calle popular em Veneza, 1891"
+      },
+      "description": {
+        "en": "A Venetian street in Ferdinando Ongania’s 1891 portfolio. Regional context from the year of the family’s migration.",
+        "pt-br": "Uma rua veneziana no álbum de Ferdinando Ongania, de 1891. Contexto regional do ano da migração familiar."
+      },
+      "citation": {
+        "en": "Ferdinando Ongania, Calli e Canali in Venezia (1891); source archived via Vintage Everyday.",
+        "pt-br": "Ferdinando Ongania, Calli e Canali in Venezia (1891); fonte arquivada via Vintage Everyday."
+      },
+      "repository": {
+        "en": "Local research archive; source capture from Vintage Everyday",
+        "pt-br": "Arquivo de pesquisa local; captura da fonte Vintage Everyday"
+      },
+      "locator": "https://www.vintag.es/2025/06/venice-1891.html",
+      "kind": "context",
+      "category": {
+        "en": "streetscape",
+        "pt-br": "cena urbana"
+      },
+      "date": "1891"
+    },
+    {
+      "id": "venice-1891-campo-santa-margherita",
+      "mediaId": "venice-1891-campo-santa-margherita",
+      "publication": "preview",
+      "title": {
+        "en": "Campo Santa Margherita, 1891",
+        "pt-br": "Campo Santa Margherita, 1891"
+      },
+      "description": {
+        "en": "A working urban scene from the Province of Venice in 1891; it provides period context only and does not depict Gambarare or named relatives.",
+        "pt-br": "Uma cena urbana de trabalho da Província de Veneza em 1891; oferece apenas contexto de época e não mostra Gambarare nem parentes identificados."
+      },
+      "citation": {
+        "en": "Ferdinando Ongania, Calli e Canali in Venezia (1891); source archived via Vintage Everyday.",
+        "pt-br": "Ferdinando Ongania, Calli e Canali in Venezia (1891); fonte arquivada via Vintage Everyday."
+      },
+      "repository": {
+        "en": "Local research archive; source capture from Vintage Everyday",
+        "pt-br": "Arquivo de pesquisa local; captura da fonte Vintage Everyday"
+      },
+      "locator": "https://www.vintag.es/2025/06/venice-1891.html",
+      "kind": "context",
+      "category": {
+        "en": "market-square",
+        "pt-br": "praça de mercado"
+      },
+      "date": "1891"
+    },
+    {
+      "id": "dolo-riviera-del-brenta-bell-tower",
+      "mediaId": "dolo-riviera-del-brenta-bell-tower",
+      "publication": "preview",
+      "title": {
+        "en": "Dolo on the Riviera del Brenta",
+        "pt-br": "Dolo na Riviera del Brenta"
+      },
+      "description": {
+        "en": "A contemporary field photograph in nearby Dolo, part of the Riviera del Brenta landscape around Mira.",
+        "pt-br": "Fotografia de campo contemporânea em Dolo, parte da paisagem da Riviera del Brenta ao redor de Mira."
+      },
+      "citation": {
+        "en": "Panzonato family research archive; photographer not identified in catalog.",
+        "pt-br": "Arquivo de pesquisa da família Panzonato; fotógrafo não identificado no catálogo."
+      },
+      "repository": {
+        "en": "Panzonato family research archive",
+        "pt-br": "Arquivo de pesquisa da família Panzonato"
+      },
+      "locator": "",
+      "kind": "field",
+      "category": {
+        "en": "landscape-building",
+        "pt-br": "paisagem e edifício"
+      }
+    },
+    {
+      "id": "giuseppe-birth-1856",
+      "mediaId": "giuseppe-birth-1856",
+      "publication": "preview",
+      "title": {
+        "en": "Birth extract for Giuseppe Giacomo Panzonato",
+        "pt-br": "Extrato de nascimento de Giuseppe Giacomo Panzonato"
+      },
+      "description": {
+        "en": "Parish-issued extract recording Giuseppe Giacomo's birth in Gambarare and naming Domenico Panzonato and Angela Salviato, detta Campanella, as his parents.",
+        "pt-br": "Extrato emitido pela paróquia que registra o nascimento de Giuseppe Giacomo em Gambarare e identifica Domenico Panzonato e Angela Salviato, detta Campanella, como seus pais."
+      },
+      "citation": {
+        "en": "Parish of Gambarare, birth register, book 24, page 223, no. 101; extract issued in 2021, page 1.",
+        "pt-br": "Paróquia de Gambarare, registro de nascimentos, livro 24, página 223, nº 101; extrato emitido em 2021, página 1."
+      },
+      "repository": {
+        "en": "Panzonato family archive; original register at the Parish of Gambarare",
+        "pt-br": "Arquivo da família Panzonato; registro original na Paróquia de Gambarare"
+      },
+      "locator": "",
+      "kind": "record",
+      "category": {
+        "en": "Birth record",
+        "pt-br": "Registro de nascimento"
+      },
+      "date": "1856-07-22",
+      "evidenceNote": {
+        "en": "This is a birth extract, not proof of the separately asserted baptism on 23 July.",
+        "pt-br": "Trata-se de um extrato de nascimento, não de prova do batismo alegado separadamente em 23 de julho."
+      },
+      "transcript": {
+        "en": "Record reading: Giuseppe Giacomo Panzonato, son of Domenico Panzonato and Angela Salviato called Campanella, born 22 July 1856 in Gambarare.",
+        "pt-br": "Leitura do registro: Giuseppe Giacomo Panzonato, filho de Domenico Panzonato e Angela Salviato chamada Campanella, nascido em 22 de julho de 1856 em Gambarare."
+      }
+    },
+    {
+      "id": "gambarare-side-chapel",
+      "mediaId": "gambarare-side-chapel",
+      "publication": "preview",
+      "title": {
+        "en": "A side chapel at San Giovanni Battista",
+        "pt-br": "Uma capela lateral em San Giovanni Battista"
+      },
+      "description": {
+        "en": "Field photograph of a side chapel in the Gambarare parish church, taken 27 January 2024.",
+        "pt-br": "Fotografia de campo de uma capela lateral na igreja paroquial de Gambarare, feita em 27 de janeiro de 2024."
+      },
+      "citation": {
+        "en": "Panzonato family research archive; photographer not identified in catalog.",
+        "pt-br": "Arquivo de pesquisa da família Panzonato; fotógrafo não identificado no catálogo."
+      },
+      "repository": {
+        "en": "Panzonato family research archive",
+        "pt-br": "Arquivo de pesquisa da família Panzonato"
+      },
+      "locator": "",
+      "kind": "field",
+      "category": {
+        "en": "interior-object",
+        "pt-br": "interior e objeto"
+      },
+      "date": "2024-01-27",
+      "evidenceNote": {
+        "en": "The supplied evidence does not identify the function or date of the wood-and-stone object; it is not labelled as a baptismal font.",
+        "pt-br": "A evidência fornecida não identifica a função nem a data do objeto de madeira e pedra; ele não é apresentado como pia batismal."
+      }
+    },
+    {
+      "id": "genoa-emigrant-embarkation-1898",
+      "mediaId": "genoa-emigrant-embarkation-1898",
+      "publication": "preview",
+      "title": {
+        "en": "Emigrants boarding at Genoa, 1898",
+        "pt-br": "Emigrantes embarcando em Gênova, 1898"
+      },
+      "description": {
+        "en": "Emigrants board a ship at Genoa, 1898. Museu da Imigração collection; a later view of the migration through this port.",
+        "pt-br": "Emigrantes embarcam em Gênova, em 1898. Acervo do Museu da Imigração; um registro posterior da migração por esse porto."
+      },
+      "citation": {
+        "en": "Acervo Museu da Imigração, MI_ICO_AMP_022_004_013_001; photograph ceded by Laudicéia Schutz.",
+        "pt-br": "Acervo Museu da Imigração, MI_ICO_AMP_022_004_013_001; fotografia cedida por Laudicéia Schutz."
+      },
+      "repository": {
+        "en": "Museu da Imigração do Estado de São Paulo",
+        "pt-br": "Museu da Imigração do Estado de São Paulo"
+      },
+      "locator": "",
+      "kind": "context",
+      "category": {
+        "en": "group-scene",
+        "pt-br": "cena coletiva"
+      },
+      "date": "1898",
+      "evidenceNote": {
+        "en": "The people are unidentified emigrants photographed seven years after the family crossing, not members of the Panzonato family.",
+        "pt-br": "As pessoas são emigrantes não identificados, fotografados sete anos depois da travessia familiar, não integrantes da família Panzonato."
+      }
+    },
+    {
+      "id": "genoa-harbour",
+      "mediaId": "genoa",
+      "publication": "preview",
+      "title": {
+        "en": "Port of Genoa, c. 1880–1890",
+        "pt-br": "Porto de Gênova, c. 1880–1890"
+      },
+      "description": {
+        "en": "Historical context: Genoa’s harbour, photographed by Alfred Noack, c. 1880–1890.",
+        "pt-br": "Contexto histórico: o porto de Gênova, fotografado por Alfred Noack, c. 1880–1890."
+      },
+      "citation": {
+        "en": "Alfred Noack, Genoa, catalog no. 3011; local research archive.",
+        "pt-br": "Alfred Noack, Gênova, catálogo n.º 3011; arquivo de pesquisa local."
+      },
+      "repository": {
+        "en": "Local Panzonato research archive",
+        "pt-br": "Arquivo de pesquisa local Panzonato"
+      },
+      "locator": "",
+      "kind": "context",
+      "category": {
+        "en": "port-landscape",
+        "pt-br": "paisagem portuária"
+      },
+      "date": "c. 1880–1890",
+      "evidenceNote": {
+        "en": "This is contextual evidence for a possible departure route; the audited family records do not establish Genoa as the port of embarkation.",
+        "pt-br": "Esta é evidência contextual de uma possível rota de partida; os registros familiares auditados não estabelecem Gênova como porto de embarque."
+      }
+    },
+    {
+      "id": "steerage-interior-1891",
+      "mediaId": "steerage-interior-1891",
+      "publication": "preview",
+      "title": {
+        "en": "In the steerage, 1891",
+        "pt-br": "Na terceira classe, 1891"
+      },
+      "description": {
+        "en": "“In the Steerage,” an illustration in a North Atlantic immigration account, 1891.",
+        "pt-br": "“In the Steerage”, ilustração de um relato sobre a imigração no Atlântico Norte, de 1891."
+      },
+      "citation": {
+        "en": "John H. Gould, Scribner’s Magazine (1891), preserved by GG Archives.",
+        "pt-br": "John H. Gould, Scribner’s Magazine (1891), preservado por GG Archives."
+      },
+      "repository": {
+        "en": "Local research archive; GG Archives source capture",
+        "pt-br": "Arquivo de pesquisa local; captura da fonte GG Archives"
+      },
+      "locator": "https://www.ggarchives.com/OT/ShipsVoyages/OceanPassengerTravel/1891/07-ProcessingImmigrantsOnboardSteamships.html",
+      "kind": "context",
+      "category": {
+        "en": "illustration",
+        "pt-br": "ilustração"
+      },
+      "date": "1891"
+    },
+    {
+      "id": "gangplank-before-sailing-1891",
+      "mediaId": "gangplank-before-sailing-1891",
+      "publication": "preview",
+      "title": {
+        "en": "The gangplank before sailing, 1891",
+        "pt-br": "A prancha antes da partida, 1891"
+      },
+      "description": {
+        "en": "An 1891 period illustration of embarkation; contextual only and not a depiction of the Colombo.",
+        "pt-br": "Ilustração de época, de 1891, sobre o embarque; apenas contexto e não uma representação do Colombo."
+      },
+      "citation": {
+        "en": "John H. Gould, Scribner’s Magazine (1891), preserved by GG Archives.",
+        "pt-br": "John H. Gould, Scribner’s Magazine (1891), preservado por GG Archives."
+      },
+      "repository": {
+        "en": "Local research archive; GG Archives source capture",
+        "pt-br": "Arquivo de pesquisa local; captura da fonte GG Archives"
+      },
+      "locator": "https://www.ggarchives.com/OT/ShipsVoyages/OceanPassengerTravel/1891/01-OverviewOfTransatlanticTravel.html",
+      "kind": "context",
+      "category": {
+        "en": "illustration",
+        "pt-br": "ilustração"
+      },
+      "date": "1891"
+    },
+    {
+      "id": "emigrant-family-on-deck-ferraguti",
+      "mediaId": "emigrant-family-on-deck-ferraguti",
+      "publication": "preview",
+      "title": {
+        "en": "Emigrant family on deck",
+        "pt-br": "Família emigrante no convés"
+      },
+      "description": {
+        "en": "Arnaldo Ferraguti’s illustration for Edmondo De Amicis’s Sull’Oceano (1889) evokes steerage travel; it is not a Panzonato family image.",
+        "pt-br": "A ilustração de Arnaldo Ferraguti para Sull’Oceano, de Edmondo De Amicis (1889), evoca a viagem em terceira classe; não é uma imagem da família Panzonato."
+      },
+      "citation": {
+        "en": "Arnaldo Ferraguti, illustration for Edmondo De Amicis, Sull’Oceano (1889); local research archive.",
+        "pt-br": "Arnaldo Ferraguti, ilustração para Edmondo De Amicis, Sull’Oceano (1889); arquivo de pesquisa local."
+      },
+      "repository": {
+        "en": "Local Panzonato research archive",
+        "pt-br": "Arquivo de pesquisa local Panzonato"
+      },
+      "locator": "",
+      "kind": "context",
+      "category": {
+        "en": "illustration",
+        "pt-br": "ilustração"
+      },
+      "date": "1889"
+    },
+    {
+      "id": "sacop-third-class-ticket-1910",
+      "mediaId": "sacop-third-class-ticket-1910",
+      "publication": "preview",
+      "title": {
+        "en": "Third-class passage ticket, 1910",
+        "pt-br": "Bilhete de passagem de terceira classe, 1910"
+      },
+      "description": {
+        "en": "A third-class ticket preserved in a 1910 SACOP fare-restitution file. Historical context from the APESP collection.",
+        "pt-br": "Bilhete de terceira classe preservado em um processo de restituição de passagem da SACOP, de 1910. Contexto histórico do acervo do APESP."
+      },
+      "citation": {
+        "en": "Arquivo Público do Estado de São Paulo / Museu da Imigração, BR_SP_APESP_SACOP_REQ_C07343_02896.",
+        "pt-br": "Arquivo Público do Estado de São Paulo / Museu da Imigração, BR_SP_APESP_SACOP_REQ_C07343_02896."
+      },
+      "repository": {
+        "en": "Arquivo Público do Estado de São Paulo / Museu da Imigração",
+        "pt-br": "Arquivo Público do Estado de São Paulo / Museu da Imigração"
+      },
+      "locator": "https://artsandculture.google.com/story/lQURhHhMGTxaOA",
+      "kind": "context",
+      "category": {
+        "en": "document",
+        "pt-br": "documento"
+      },
+      "date": "1910"
+    },
+    {
+      "id": "panzonato-hospedaria-1891",
+      "mediaId": "panzonato-hospedaria-1891",
+      "publication": "preview",
+      "title": {
+        "en": "Panzonato household in the São Paulo immigrant hostel register",
+        "pt-br": "Família Panzonato no registro da Hospedaria de Imigrantes de São Paulo"
+      },
+      "description": {
+        "en": "Register entry for Giuseppe, Fosca and six children, associated with the steamship Colombo, recorded from Rio de Janeiro with Tietê as their destination.",
+        "pt-br": "Registro de Giuseppe, Fosca e seis filhos, associado ao vapor Colombo, com procedência do Rio de Janeiro e destino a Tietê."
+      },
+      "citation": {
+        "en": "Hospedaria de Imigrantes de São Paulo, Livro 031, page 283, order 07264, entry dated 15 December 1891.",
+        "pt-br": "Hospedaria de Imigrantes de São Paulo, Livro 031, página 283, ordem 07264, registro de 15 de dezembro de 1891."
+      },
+      "repository": {
+        "en": "Museu da Imigração / Arquivo Público do Estado de São Paulo; family archive copy",
+        "pt-br": "Museu da Imigração / Arquivo Público do Estado de São Paulo; cópia no arquivo familiar"
+      },
+      "locator": "",
+      "kind": "record",
+      "category": {
+        "en": "Immigration register",
+        "pt-br": "Registro de imigração"
+      },
+      "date": "1891-12-15",
+      "evidenceNote": {
+        "en": "The image shows the certified extract issued by the Memorial do Imigrante in 2002, rather than the original 1891 ledger page. It documents the São Paulo hostel entry, with Rio de Janeiro as provenance and Tietê as destination. The underlying locator is Livro 031, page 283, order 07264.",
+        "pt-br": "A imagem mostra a certidão emitida pelo Memorial do Imigrante em 2002, e não a página original do livro de 1891. Documenta a entrada na hospedaria paulista, com procedência do Rio de Janeiro e destino Tietê. A referência do registro original é Livro 031, página 283, ordem 07264."
+      },
+      "transcript": {
+        "en": "Record reading: Giuseppe, 35; Fosca, 30; Luigia, 10; Catarina, 9; Candida, 7; Luigi, 5; Domenico, 3; Eugenio, 1. Provenance: Rio de Janeiro. Destination: Tietê.",
+        "pt-br": "Leitura do registro: Giuseppe, 35; Fosca, 30; Luigia, 10; Catarina, 9; Candida, 7; Luigi, 5; Domenico, 3; Eugenio, 1. Procedência: Rio de Janeiro. Destino: Tietê."
+      }
+    },
+    {
+      "id": "santos-immigrant-disembarkation-1907",
+      "mediaId": "santos-immigrant-disembarkation-1907",
+      "publication": "preview",
+      "title": {
+        "en": "Immigrants disembarking at Santos, 1907",
+        "pt-br": "Imigrantes desembarcando em Santos, 1907"
+      },
+      "description": {
+        "en": "A 1907 Santos disembarkation scene from the NIEM collection. It is later historical context and does not show the Panzonato family or the Colombo.",
+        "pt-br": "Cena de desembarque em Santos, de 1907, do acervo NIEM. É contexto histórico posterior e não mostra a família Panzonato nem o Colombo."
+      },
+      "citation": {
+        "en": "Acervo NIEM — Núcleo Interdisciplinar de Estudos Migratórios, as recorded in the stored source transcript.",
+        "pt-br": "Acervo NIEM — Núcleo Interdisciplinar de Estudos Migratórios, conforme o registro da fonte armazenada."
+      },
+      "repository": {
+        "en": "NIEM — Núcleo Interdisciplinar de Estudos Migratórios",
+        "pt-br": "NIEM — Núcleo Interdisciplinar de Estudos Migratórios"
+      },
+      "locator": "https://www.imigracaohistorica.info/acervo-fotograacutefico-imigrantes.html",
+      "kind": "context",
+      "category": {
+        "en": "port-group-scene",
+        "pt-br": "cena coletiva portuária"
+      },
+      "date": "1907",
+      "evidenceNote": {
+        "en": "The 1907 scene is later context and does not depict the family or the Colombo.",
+        "pt-br": "A cena de 1907 é contexto posterior e não mostra a família nem o Colombo."
+      }
+    },
+    {
+      "id": "santos-harbour",
+      "mediaId": "santos",
+      "publication": "preview",
+      "title": {
+        "en": "Port of Santos, c. 1890",
+        "pt-br": "Porto de Santos, c. 1890"
+      },
+      "description": {
+        "en": "Marc Ferrez’s view of the Santos wharves provides period context for the family’s Brazilian arrival; it does not show the Colombo or named relatives.",
+        "pt-br": "A vista de Marc Ferrez dos trapiches de Santos oferece contexto de época para a chegada da família ao Brasil; não mostra o Colombo nem parentes identificados."
+      },
+      "citation": {
+        "en": "Marc Ferrez Collection; attribution recorded in the local catalog and monograph.",
+        "pt-br": "Coleção Marc Ferrez; atribuição registrada no catálogo local e na monografia."
+      },
+      "repository": {
+        "en": "Marc Ferrez Collection; repository not established in supplied metadata",
+        "pt-br": "Coleção Marc Ferrez; repositório não estabelecido nos metadados fornecidos"
+      },
+      "locator": "",
+      "kind": "context",
+      "category": {
+        "en": "port-landscape",
+        "pt-br": "paisagem portuária"
+      },
+      "date": "c. 1890"
+    },
+    {
+      "id": "immigrant-train-at-bras-hostelry",
+      "mediaId": "immigrant-train-at-bras-hostelry",
+      "publication": "preview",
+      "title": {
+        "en": "Immigrant train at the Brás hostelry",
+        "pt-br": "Trem de imigrantes na Hospedaria do Brás"
+      },
+      "description": {
+        "en": "Archival railway scene associated in the local catalog with the Hospedaria dos Imigrantes; contextual, not an identified view of the Panzonato family.",
+        "pt-br": "Cena ferroviária de arquivo associada no catálogo local à Hospedaria dos Imigrantes; é contexto, não uma vista identificada da família Panzonato."
+      },
+      "citation": {
+        "en": "Museu da Imigração do Estado de São Paulo, as credited in the local monograph.",
+        "pt-br": "Museu da Imigração do Estado de São Paulo, conforme crédito na monografia local."
+      },
+      "repository": {
+        "en": "Museu da Imigração do Estado de São Paulo",
+        "pt-br": "Museu da Imigração do Estado de São Paulo"
+      },
+      "locator": "https://artsandculture.google.com/asset/landing-of-immigrants-in-the-hostelry-of-br%C3%A1s-station/4AFVEtMjxx0Ucw",
+      "kind": "context",
+      "category": {
+        "en": "railway-scene",
+        "pt-br": "cena ferroviária"
+      }
+    },
+    {
+      "id": "immigrants-at-bras-courtyard",
+      "mediaId": "immigrants-at-bras-courtyard",
+      "publication": "preview",
+      "title": {
+        "en": "Immigrants at the Brás hostelry",
+        "pt-br": "Imigrantes na Hospedaria do Brás"
+      },
+      "description": {
+        "en": "A contextual group scene credited locally to Guilherme Gaensly and the Hospedaria do Brás; none of the people is identified as Panzonato.",
+        "pt-br": "Cena coletiva de contexto atribuída localmente a Guilherme Gaensly e à Hospedaria do Brás; nenhuma pessoa está identificada como Panzonato."
+      },
+      "citation": {
+        "en": "Guilherme Gaensly, according to the local catalog and monograph.",
+        "pt-br": "Guilherme Gaensly, conforme o catálogo local e a monografia."
+      },
+      "repository": {
+        "en": "Local research archive; attributed to Guilherme Gaensly",
+        "pt-br": "Arquivo de pesquisa local; atribuído a Guilherme Gaensly"
+      },
+      "locator": "",
+      "kind": "context",
+      "category": {
+        "en": "group-scene-building",
+        "pt-br": "cena coletiva e edifício"
+      }
+    },
+    {
+      "id": "capivari-station-1981",
+      "mediaId": "capivari-station-1981",
+      "publication": "preview",
+      "title": {
+        "en": "Capivari station in 1981",
+        "pt-br": "Estação de Capivari em 1981"
+      },
+      "description": {
+        "en": "Later documentation of Capivari station, useful for tracing the destination landscape; it is not a view from 1891.",
+        "pt-br": "Documentação posterior da estação de Capivari, útil para acompanhar a paisagem de destino; não é uma vista de 1891."
+      },
+      "citation": {
+        "en": "Ralph Mennucci Giesbrecht archive / Estações Ferroviárias do Brasil.",
+        "pt-br": "Arquivo Ralph Mennucci Giesbrecht / Estações Ferroviárias do Brasil."
+      },
+      "repository": {
+        "en": "Ralph Mennucci Giesbrecht archive / Estações Ferroviárias do Brasil",
+        "pt-br": "Arquivo Ralph Mennucci Giesbrecht / Estações Ferroviárias do Brasil"
+      },
+      "locator": "https://www.estacoesferroviarias.com.br/c/capivari.htm",
+      "kind": "context",
+      "category": {
+        "en": "railway-building",
+        "pt-br": "edifício ferroviário"
+      },
+      "date": "1981"
+    },
+    {
+      "id": "apesp-colonos-harvesting-coffee-1908",
+      "mediaId": "apesp-colonos-harvesting-coffee-1908",
+      "publication": "preview",
+      "title": {
+        "en": "Colonos harvesting coffee, 1908",
+        "pt-br": "Colonos colhendo café, 1908"
+      },
+      "description": {
+        "en": "“Colonos colhendo café,” published in O Immigrante, January 1908. Historical context from the APESP collection.",
+        "pt-br": "“Colonos colhendo café”, publicado em O Immigrante, janeiro de 1908. Contexto histórico do acervo do APESP."
+      },
+      "citation": {
+        "en": "Arquivo Público do Estado de São Paulo; O Immigrante, Jan. 1908, year 1, no. 1, p. 6 (caption visible in scan).",
+        "pt-br": "Arquivo Público do Estado de São Paulo; O Immigrante, jan. 1908, ano 1, n.º 1, p. 6 (legenda visível na imagem)."
+      },
+      "repository": {
+        "en": "Arquivo Público do Estado de São Paulo",
+        "pt-br": "Arquivo Público do Estado de São Paulo"
+      },
+      "locator": "https://web.arquivoestado.sp.gov.br/exposicao_imigracao/images/img_slides/slide03/IM19080101_14.jpg",
+      "kind": "context",
+      "category": {
+        "en": "agricultural-scene",
+        "pt-br": "cena agrícola"
+      },
+      "date": "1908-01",
+      "evidenceNote": {
+        "en": "The visible printed caption identifies coffee harvesting; the local filename incorrectly describes a railway platform.",
+        "pt-br": "A legenda impressa visível identifica a colheita de café; o nome do arquivo local descreve incorretamente uma plataforma ferroviária."
+      }
+    },
+    {
+      "id": "apesp-coffee-drying-terrace",
+      "mediaId": "apesp-coffee-drying-terrace",
+      "publication": "preview",
+      "title": {
+        "en": "Coffee drying terrace at Fazenda Lupércio",
+        "pt-br": "Terreiro de café na Fazenda Lupércio"
+      },
+      "description": {
+        "en": "APESP plantation view of a coffee drying terrace; it documents the wider coffee economy, not a known Panzonato workplace.",
+        "pt-br": "Vista de fazenda do APESP mostrando um terreiro de secagem de café; documenta a economia cafeeira mais ampla, não um local de trabalho Panzonato conhecido."
+      },
+      "citation": {
+        "en": "Guilherme Gaensly / Arquivo Público do Estado de São Paulo, attribution visible in the scan.",
+        "pt-br": "Guilherme Gaensly / Arquivo Público do Estado de São Paulo, atribuição visível na imagem."
+      },
+      "repository": {
+        "en": "Arquivo Público do Estado de São Paulo",
+        "pt-br": "Arquivo Público do Estado de São Paulo"
+      },
+      "locator": "",
+      "kind": "context",
+      "category": {
+        "en": "agricultural-landscape",
+        "pt-br": "paisagem agrícola"
+      },
+      "evidenceNote": {
+        "en": "The visible scene is a coffee-drying terrace; the local filename incorrectly describes harvesting.",
+        "pt-br": "A cena visível é um terreiro de secagem de café; o nome do arquivo local descreve incorretamente uma colheita."
+      }
+    },
+    {
+      "id": "apesp-colono-house-campos-salles",
+      "mediaId": "apesp-colono-house-campos-salles",
+      "publication": "preview",
+      "title": {
+        "en": "A colono house at Núcleo Campos Salles, 1908",
+        "pt-br": "Casa de colono no Núcleo Campos Salles, 1908"
+      },
+      "description": {
+        "en": "APESP image captioned in the scan as a colono house at Núcleo Campos Salles, published in O Immigrante in January 1908; contextual and unrelated to the identified family.",
+        "pt-br": "Imagem do APESP legendada no próprio escaneamento como casa de colono no Núcleo Campos Salles, publicada em O Immigrante em janeiro de 1908; é contexto e não tem relação identificada com a família."
+      },
+      "citation": {
+        "en": "Arquivo Público do Estado de São Paulo; O Immigrante, Jan. 1908, year 1, no. 1, p. 11 (caption visible in scan).",
+        "pt-br": "Arquivo Público do Estado de São Paulo; O Immigrante, jan. 1908, ano 1, n.º 1, p. 11 (legenda visível na imagem)."
+      },
+      "repository": {
+        "en": "Arquivo Público do Estado de São Paulo",
+        "pt-br": "Arquivo Público do Estado de São Paulo"
+      },
+      "locator": "https://web.arquivoestado.sp.gov.br/exposicao_imigracao/images/img_slides/slide06/IM19080101_25.jpg",
+      "kind": "context",
+      "category": {
+        "en": "dwelling-group-scene",
+        "pt-br": "moradia e cena coletiva"
+      },
+      "date": "1908-01",
+      "evidenceNote": {
+        "en": "The visible printed caption identifies a colono house; the local filename incorrectly describes a coffee-drying terrace.",
+        "pt-br": "A legenda impressa visível identifica uma casa de colono; o nome do arquivo local descreve incorretamente um terreiro de café."
+      }
+    },
+    {
+      "id": "giuseppe-fosca-marriage-1881",
+      "mediaId": "giuseppe-fosca-marriage-1881",
+      "publication": "preview",
+      "title": {
+        "en": "Marriage of Giuseppe Panzonato and Fosca Moro",
+        "pt-br": "Casamento de Giuseppe Panzonato e Fosca Moro"
+      },
+      "description": {
+        "en": "Civil extract and photographed register entry for the marriage of Giuseppe Panzonato and Fosca Moro in Mira.",
+        "pt-br": "Extrato civil e imagem do assento de casamento de Giuseppe Panzonato e Fosca Moro em Mira."
+      },
+      "citation": {
+        "en": "Comune di Mira, marriage act 60, part I, year 1881; clean extract page 3 and photographed original entry.",
+        "pt-br": "Comune di Mira, ato de casamento 60, parte I, ano de 1881; extrato na página 3 e imagem do assento original."
+      },
+      "repository": {
+        "en": "Panzonato family archive; civil register of Mira",
+        "pt-br": "Arquivo da família Panzonato; registro civil de Mira"
+      },
+      "locator": "",
+      "kind": "record",
+      "category": {
+        "en": "Marriage record",
+        "pt-br": "Registro de casamento"
+      },
+      "date": "1881-11-20",
+      "transcript": {
+        "en": "Record reading: Giuseppe Panzonato and Fosca Moro married in Mira on 20 November 1881.",
+        "pt-br": "Leitura do registro: Giuseppe Panzonato e Fosca Moro casaram-se em Mira em 20 de novembro de 1881."
+      },
+      "evidenceNote": {
+        "en": "The clean extract establishes names, date, place and act number; parentage comes from the photographed original and corroborating Brazilian records.",
+        "pt-br": "O extrato estabelece nomes, data, local e número do ato; a filiação vem do original fotografado e de registros brasileiros que a corroboram."
+      }
+    },
+    {
+      "id": "catharina-luigi-marriage-1902",
+      "mediaId": "catharina-luigi-marriage-1902",
+      "publication": "preview",
+      "title": {
+        "en": "Parish marriage of Catharina Pansonato and Luigi Sari",
+        "pt-br": "Casamento paroquial de Catharina Pansonato e Luigi Sari"
+      },
+      "description": {
+        "en": "Capivari parish entry identifying Catharina as a native of Gambarare and daughter of Giuseppe Pansonato and Maria Fosca.",
+        "pt-br": "Assento paroquial de Capivari que identifica Catharina como natural de Gambarare e filha de Giuseppe Pansonato e Maria Fosca."
+      },
+      "citation": {
+        "en": "Capivari parish marriage register, entry for Luigi Sari and Catharina Pansonato, 8 February 1902.",
+        "pt-br": "Livro paroquial de casamentos de Capivari, assento de Luigi Sari e Catharina Pansonato, 8 de fevereiro de 1902."
+      },
+      "repository": {
+        "en": "Capivari parish archive; Panzonato family archive photograph",
+        "pt-br": "Arquivo paroquial de Capivari; fotografia no arquivo da família Panzonato"
+      },
+      "locator": "",
+      "kind": "record",
+      "category": {
+        "en": "Parish marriage record",
+        "pt-br": "Registro paroquial de casamento"
+      },
+      "date": "1902-02-08",
+      "evidenceNote": {
+        "en": "The record says 8 February 1902, not 4 October. A public image should crop the relevant entry because the page includes unrelated marriages.",
+        "pt-br": "O registro informa 8 de fevereiro de 1902, não 4 de outubro. A imagem pública deve recortar apenas o assento relevante, pois a página contém casamentos sem relação com a família."
+      },
+      "transcript": {
+        "en": "Record reading: Luigi Sari and Catharina Pansonato; bride born in Gambarare, Venice, daughter of Giuseppe Pansonato and Maria Fosca.",
+        "pt-br": "Leitura do registro: Luigi Sari e Catharina Pansonato; noiva natural de Gambarare, Veneza, filha de Giuseppe Pansonato e Maria Fosca."
+      }
+    },
+    {
+      "id": "aquila-emigrants-group-1917",
+      "mediaId": "aquila-emigrants-group-1917",
+      "publication": "preview",
+      "title": {
+        "en": "Italian emigrants before departure, 1917",
+        "pt-br": "Emigrantes italianos antes da partida, 1917"
+      },
+      "description": {
+        "en": "Museu da Imigração group portrait made in Áquila in 1917. It shows another emigrant community and must not be presented as the Panzonato family.",
+        "pt-br": "Retrato coletivo do Museu da Imigração feito em Áquila em 1917. Mostra outra comunidade emigrante e não deve ser apresentado como a família Panzonato."
+      },
+      "citation": {
+        "en": "Acervo Museu da Imigração, MI_ICO_AMP_019_001_117_001; gelatin silver print, 18×24 cm.",
+        "pt-br": "Acervo Museu da Imigração, MI_ICO_AMP_019_001_117_001; gelatina e prata, 18 × 24 cm."
+      },
+      "repository": {
+        "en": "Museu da Imigração do Estado de São Paulo",
+        "pt-br": "Museu da Imigração do Estado de São Paulo"
+      },
+      "locator": "",
+      "kind": "context",
+      "category": {
+        "en": "group-portrait",
+        "pt-br": "retrato coletivo"
+      },
+      "date": "1917",
+      "evidenceNote": {
+        "en": "This is a portrait of another emigrant community in a different Italian region, not the Panzonato family.",
+        "pt-br": "Este é um retrato de outra comunidade emigrante, em outra região italiana, não da família Panzonato."
+      }
+    },
+    {
+      "id": "jose-assumpta-marriage-1921",
+      "mediaId": "jose-assumpta-marriage-1921",
+      "publication": "preview",
+      "title": {
+        "en": "Marriage of José Pansonatto Filho and Assumpta Elvira Pozzatto",
+        "pt-br": "Casamento de José Pansonatto Filho e Assumpta Elvira Pozzatto"
+      },
+      "description": {
+        "en": "Capivari marriage certificate that records José as an agricultural worker and repeats Assumpta's correct parentage.",
+        "pt-br": "Certidão de casamento de Capivari que registra José como lavrador e repete a filiação correta de Assumpta."
+      },
+      "citation": {
+        "en": "Capivari civil registry, Livro 09, folios 107v–108, no. 71, 4 June 1921.",
+        "pt-br": "Registro Civil de Capivari, Livro 09, folhas 107v–108, nº 71, 4 de junho de 1921."
+      },
+      "repository": {
+        "en": "Capivari civil registry; Panzonato family archive copy",
+        "pt-br": "Registro Civil de Capivari; cópia no arquivo da família Panzonato"
+      },
+      "locator": "",
+      "kind": "record",
+      "category": {
+        "en": "Marriage record",
+        "pt-br": "Registro de casamento"
+      },
+      "date": "1921-06-04",
+      "evidenceNote": {
+        "en": "A later marginal note includes another civil event; any public facsimile should be reviewed or cropped accordingly.",
+        "pt-br": "Uma anotação marginal posterior inclui outro evento civil; qualquer fac-símile público deve ser revisto ou recortado de modo correspondente."
+      },
+      "transcript": {
+        "en": "Record reading: José Pansonatto Filho, agricultural worker, married Assumpta Elvira Pozzatto, daughter of Seraphim Pozzatto and Clotilde Munaro.",
+        "pt-br": "Leitura do registro: José Pansonatto Filho, lavrador, casou-se com Assumpta Elvira Pozzatto, filha de Seraphim Pozzatto e Clotilde Munaro."
+      }
+    },
+    {
+      "id": "gambarare-church-choir-loft",
+      "mediaId": "gambarare-church-choir-loft",
+      "publication": "preview",
+      "title": {
+        "en": "San Giovanni Battista from the choir loft",
+        "pt-br": "San Giovanni Battista vista do coro"
+      },
+      "description": {
+        "en": "Contemporary field photograph inside the parish church at Gambarare, made during the January 2024 return visit.",
+        "pt-br": "Fotografia de campo contemporânea do interior da igreja paroquial de Gambarare, feita durante a visita de retorno em janeiro de 2024."
+      },
+      "citation": {
+        "en": "Panzonato family research archive; photographer not identified in catalog.",
+        "pt-br": "Arquivo de pesquisa da família Panzonato; fotógrafo não identificado no catálogo."
+      },
+      "repository": {
+        "en": "Panzonato family research archive",
+        "pt-br": "Arquivo de pesquisa da família Panzonato"
+      },
+      "locator": "",
+      "kind": "field",
+      "category": {
+        "en": "building-interior",
+        "pt-br": "interior de edifício"
+      },
+      "date": "2024-01"
+    },
+    {
+      "id": "gambarare-cemetery-winter-fog",
+      "mediaId": "gambarare-cemetery-winter-fog",
+      "publication": "preview",
+      "title": {
+        "en": "Gambarare cemetery in winter fog",
+        "pt-br": "Cemitério de Gambarare na neblina de inverno"
+      },
+      "description": {
+        "en": "Field photograph of the cemetery at Gambarare during the January 2024 research visit. No grave in this frame is identified in the catalog as belonging to a direct ancestor.",
+        "pt-br": "Fotografia de campo do cemitério de Gambarare durante a visita de pesquisa de janeiro de 2024. Nenhum túmulo deste enquadramento é identificado no catálogo como pertencente a um antepassado direto."
+      },
+      "citation": {
+        "en": "Panzonato family research archive; photographer not identified in catalog.",
+        "pt-br": "Arquivo de pesquisa da família Panzonato; fotógrafo não identificado no catálogo."
+      },
+      "repository": {
+        "en": "Panzonato family research archive",
+        "pt-br": "Arquivo de pesquisa da família Panzonato"
+      },
+      "locator": "",
+      "kind": "field",
+      "category": {
+        "en": "cemetery-landscape",
+        "pt-br": "paisagem de cemitério"
+      },
+      "date": "2024-01"
+    },
+    {
+      "id": "gambarare-church-daylight-exterior",
+      "mediaId": "gambarare-church-daylight-exterior",
+      "publication": "preview",
+      "title": {
+        "en": "San Giovanni Battista in daylight",
+        "pt-br": "San Giovanni Battista à luz do dia"
+      },
+      "description": {
+        "en": "Daylight field photograph of the parish church at Gambarare, made during the 4 July 2023 research visit.",
+        "pt-br": "Fotografia de campo diurna da igreja paroquial de Gambarare, feita durante a visita de pesquisa de 4 de julho de 2023."
+      },
+      "citation": {
+        "en": "Panzonato family research archive; photographer not identified in catalog.",
+        "pt-br": "Arquivo de pesquisa da família Panzonato; fotógrafo não identificado no catálogo."
+      },
+      "repository": {
+        "en": "Panzonato family research archive",
+        "pt-br": "Arquivo de pesquisa da família Panzonato"
+      },
+      "locator": "",
+      "kind": "field",
+      "category": {
+        "en": "building",
+        "pt-br": "edifício"
+      },
+      "date": "2023-07-04"
+    },
+    {
+      "id": "jose-filho-birth-1899",
+      "mediaId": "jose-filho-birth-1899",
+      "publication": "preview",
+      "title": {
+        "en": "Birth record of José Pansonatto Filho",
+        "pt-br": "Registro de nascimento de José Pansonatto Filho"
+      },
+      "description": {
+        "en": "Capivari civil record naming José's parents and all four grandparents, linking the Italian and Brazilian generations.",
+        "pt-br": "Registro civil de Capivari que identifica os pais e os quatro avós de José, ligando as gerações italiana e brasileira."
+      },
+      "citation": {
+        "en": "Capivari civil registry, Livro A-42, folios 67v–68, no. 370; birth on 18 November 1899.",
+        "pt-br": "Registro Civil de Capivari, Livro A-42, folhas 67v–68, nº 370; nascimento em 18 de novembro de 1899."
+      },
+      "repository": {
+        "en": "Capivari civil registry; Panzonato family archive copy",
+        "pt-br": "Registro Civil de Capivari; cópia no arquivo da família Panzonato"
+      },
+      "locator": "",
+      "kind": "record",
+      "date": "1899-11-18",
+      "category": {
+        "en": "Birth record",
+        "pt-br": "Registro de nascimento"
+      },
+      "evidenceNote": {
+        "en": "The Brazilian spellings document name drift; they do not override the contemporary Italian birth extract for Giuseppe's parents.",
+        "pt-br": "As grafias brasileiras documentam a variação dos nomes; não substituem o extrato italiano contemporâneo para a identidade dos pais de Giuseppe."
+      },
+      "transcript": {
+        "en": "Record reading: José, son of José Pansonato and Fosca Moro; paternal grandparents Domingos Pansonato and Angela Saviotti; maternal grandparents Andrea Moro and Paschoa Toffano.",
+        "pt-br": "Leitura do registro: José, filho de José Pansonato e Fosca Moro; avós paternos Domingos Pansonato e Angela Saviotti; avós maternos Andrea Moro e Paschoa Toffano."
+      }
+    },
+    {
+      "id": "fosca-death-1927",
+      "mediaId": "fosca-death-1927",
+      "publication": "preview",
+      "title": {
+        "en": "Death record of Fosca Morro",
+        "pt-br": "Registro de óbito de Fosca Morro"
+      },
+      "description": {
+        "en": "Capivari death certificate recording Fosca's death, marriage to José Pansonatto and burial in Capivari.",
+        "pt-br": "Certidão de óbito de Capivari que registra a morte de Fosca, seu casamento com José Pansonatto e o sepultamento em Capivari."
+      },
+      "citation": {
+        "en": "Capivari civil registry, Livro C-27, page 135, term 237; death on 3 August 1927.",
+        "pt-br": "Registro Civil de Capivari, Livro C-27, página 135, termo 237; falecimento em 3 de agosto de 1927."
+      },
+      "repository": {
+        "en": "Capivari civil registry; Panzonato family archive copy",
+        "pt-br": "Registro Civil de Capivari; cópia no arquivo da família Panzonato"
+      },
+      "locator": "",
+      "kind": "record",
+      "date": "1927-08-03",
+      "category": {
+        "en": "Death record",
+        "pt-br": "Registro de óbito"
+      },
+      "evidenceNote": {
+        "en": "The certificate's age implies about 1857, while tree material points to 1860; no inspected birth record settles the date. Contrary to a catalog claim, this death record does not name her parents.",
+        "pt-br": "A idade na certidão sugere cerca de 1857, enquanto a árvore aponta 1860; nenhum registro de nascimento examinado resolve a data. Ao contrário do catálogo, este óbito não informa os pais."
+      },
+      "transcript": {
+        "en": "Record reading: Fosca Morro died in Capivari at 21:00 on 3 August 1927, recorded as age 70 and married to José Pansonatto; parents not recorded.",
+        "pt-br": "Leitura do registro: Fosca Morro faleceu em Capivari às 21 horas de 3 de agosto de 1927, registrada com 70 anos e casada com José Pansonatto; pais não informados."
+      }
+    },
+    {
+      "id": "giuseppe-death-1937",
+      "mediaId": "giuseppe-death-1937",
+      "publication": "preview",
+      "title": {
+        "en": "Death record of José Pansonatto (Giuseppe Panzonato)",
+        "pt-br": "Registro de óbito de José Pansonatto (Giuseppe Panzonato)"
+      },
+      "description": {
+        "en": "Capivari death record for Giuseppe under his Brazilian name, recording his occupation, widowhood and ten surviving adult children.",
+        "pt-br": "Registro de óbito de Capivari para Giuseppe sob seu nome brasileiro, com profissão, viuvez e dez filhos maiores sobreviventes."
+      },
+      "citation": {
+        "en": "Capivari civil registry, Livro C-06, folio 7v, term 2993; death on 5 December 1937.",
+        "pt-br": "Registro Civil de Capivari, Livro C-06, folha 7v, termo 2993; falecimento em 5 de dezembro de 1937."
+      },
+      "repository": {
+        "en": "Capivari civil registry; Panzonato family archive copy",
+        "pt-br": "Registro Civil de Capivari; cópia no arquivo da família Panzonato"
+      },
+      "locator": "",
+      "kind": "record",
+      "date": "1937-12-05",
+      "category": {
+        "en": "Death record",
+        "pt-br": "Registro de óbito"
+      },
+      "evidenceNote": {
+        "en": "The certificate says age 85 and names Domingos Pansonatto and Angelina Pasqualini; the stronger 1856 Italian record makes him 81 and names Domenico Panzonato and Angela Salviato. Declarant José Maestrello is not identified as a son, and the certificate does not name the ten children.",
+        "pt-br": "A certidão informa 85 anos e pais Domingos Pansonatto e Angelina Pasqualini; o registro italiano de 1856, mais próximo do evento, indica 81 anos e pais Domenico Panzonato e Angela Salviato. O declarante José Maestrello não é identificado como filho, e a certidão não nomeia os dez filhos."
+      },
+      "transcript": {
+        "en": "Record reading: José Pansonatto, Italian-born agricultural worker, widower of Fosca Morro, died 5 December 1937 and left ten adult children.",
+        "pt-br": "Leitura do registro: José Pansonatto, lavrador nascido na Itália, viúvo de Fosca Morro, faleceu em 5 de dezembro de 1937 e deixou dez filhos maiores."
+      }
+    },
+    {
+      "id": "panzonato-desembarque-certificate-2002",
+      "publication": "preview",
+      "title": {
+        "en": "Certified extract of the 1891 immigration entry",
+        "pt-br": "Certidão do registro de imigração de 1891"
+      },
+      "description": {
+        "en": "Archive certificate issued in 2002 that restates the Panzonato household's 1891 hostel entry and its Rio de Janeiro provenance and Tietê destination.",
+        "pt-br": "Certidão arquivística emitida em 2002 que reproduz o registro da família Panzonato em 1891, sua procedência do Rio de Janeiro e o destino Tietê."
+      },
+      "citation": {
+        "en": "Memorial do Imigrante, case 1.381/02, certificate 11262, issued 26 February 2002; underlying record Livro 031, page 283.",
+        "pt-br": "Memorial do Imigrante, autos 1.381/02, certidão 11262, emitida em 26 de fevereiro de 2002; registro-base Livro 031, página 283."
+      },
+      "repository": {
+        "en": "Museu da Imigração / Panzonato family archive",
+        "pt-br": "Museu da Imigração / arquivo da família Panzonato"
+      },
+      "locator": "",
+      "kind": "record",
+      "date": "2002-02-26",
+      "category": {
+        "en": "Archive certificate",
+        "pt-br": "Certidão arquivística"
+      },
+      "transcript": {
+        "en": "Record reading: certificate 11262 reproduces the family entry dated 15 December 1891, from Rio de Janeiro, destination Tietê.",
+        "pt-br": "Leitura do registro: a certidão 11262 reproduz a entrada da família em 15 de dezembro de 1891, procedente do Rio de Janeiro, com destino a Tietê."
+      },
+      "evidenceNote": {
+        "en": "The certificate was issued in 2002, not 2014; it is a later certification of the 1891 record, not a separate arrival event.",
+        "pt-br": "A certidão foi emitida em 2002, não em 2014; é uma certificação posterior do registro de 1891, não um desembarque distinto."
+      }
+    },
+    {
+      "id": "assumpta-birth-1902",
+      "publication": "preview",
+      "title": {
+        "en": "Birth record of Assumpta Elvira Pessato",
+        "pt-br": "Registro de nascimento de Assumpta Elvira Pessato"
+      },
+      "description": {
+        "en": "Capivari birth certificate naming Assumpta's parents as Serafino Pessato and Clotilde Monaro and recording all four grandparents.",
+        "pt-br": "Certidão de nascimento de Capivari que identifica Serafino Pessato e Clotilde Monaro como pais de Assumpta e registra os quatro avós."
+      },
+      "citation": {
+        "en": "Capivari civil registry, Livro A-15, page 90, no. 549; born 28 September 1902 and registered 29 September.",
+        "pt-br": "Registro Civil de Capivari, Livro A-15, página 90, nº 549; nascida em 28 de setembro de 1902 e registrada em 29 de setembro."
+      },
+      "repository": {
+        "en": "Capivari civil registry; Panzonato family archive copy",
+        "pt-br": "Registro Civil de Capivari; cópia no arquivo da família Panzonato"
+      },
+      "locator": "",
+      "kind": "record",
+      "date": "1902-09-28",
+      "category": {
+        "en": "Birth record",
+        "pt-br": "Registro de nascimento"
+      },
+      "transcript": {
+        "en": "Record reading: Assumpta Elvira, born at 10:00 on 28 September 1902, daughter of Serafino Pessato and Clotilde Monaro, both Italian.",
+        "pt-br": "Leitura do registro: Assumpta Elvira, nascida às 10 horas de 28 de setembro de 1902, filha de Serafino Pessato e Clotilde Monaro, ambos italianos."
+      },
+      "evidenceNote": {
+        "en": "This and three related records correct the generated profile's erroneous Angelo Pessato and Maria Meneghel parentage.",
+        "pt-br": "Este e três registros relacionados corrigem a filiação errônea a Angelo Pessato e Maria Meneghel no perfil gerado."
+      }
+    },
+    {
+      "id": "arlindo-birth-1929",
+      "publication": "preview",
+      "title": {
+        "en": "Birth record of Arlindo Panssonatto",
+        "pt-br": "Registro de nascimento de Arlindo Panssonatto"
+      },
+      "description": {
+        "en": "Capivari birth certificate naming Arlindo's parents and grandparents and preserving the double-s surname form.",
+        "pt-br": "Certidão de nascimento de Capivari que identifica os pais e avós de Arlindo e preserva a grafia do sobrenome com ss duplo."
+      },
+      "citation": {
+        "en": "Capivari civil registry, Livro A-02, folio 28v, no. 330; born 18 August 1929.",
+        "pt-br": "Registro Civil de Capivari, Livro A-02, folha 28v, nº 330; nascido em 18 de agosto de 1929."
+      },
+      "repository": {
+        "en": "Capivari civil registry; Panzonato family archive copy",
+        "pt-br": "Registro Civil de Capivari; cópia no arquivo da família Panzonato"
+      },
+      "locator": "",
+      "kind": "record",
+      "date": "1929-08-18",
+      "category": {
+        "en": "Birth record",
+        "pt-br": "Registro de nascimento"
+      },
+      "transcript": {
+        "en": "Record reading: Arlindo, son of José Panssonatto Filho and Assumpta Elvira Possato, born in Capivari on 18 August 1929.",
+        "pt-br": "Leitura do registro: Arlindo, filho de José Panssonatto Filho e Assumpta Elvira Possato, nascido em Capivari em 18 de agosto de 1929."
+      },
+      "evidenceNote": {
+        "en": "The certificate is a Capivari record; a profile claim that he was registered in Jundiaí is incorrect. A marginal note records his 1951 marriage in Jundiaí.",
+        "pt-br": "A certidão é de Capivari; a afirmação de que ele foi registrado em Jundiaí está incorreta. Uma anotação marginal registra seu casamento em Jundiaí em 1951."
+      }
+    },
+    {
+      "id": "assumpta-death-1956",
+      "publication": "preview",
+      "title": {
+        "en": "Death record of Assumpta Elvira Panssonatto",
+        "pt-br": "Registro de óbito de Assumpta Elvira Panssonatto"
+      },
+      "description": {
+        "en": "Jundiaí death certificate that records Assumpta's parents and Capivari origin under another documented surname form.",
+        "pt-br": "Certidão de óbito de Jundiaí que registra os pais e a origem capivariana de Assumpta sob outra grafia documentada do sobrenome."
+      },
+      "citation": {
+        "en": "Jundiaí civil registry, Livro C-64, folio 215v, term 14721; death on 24 January 1956.",
+        "pt-br": "Registro Civil de Jundiaí, Livro C-64, folha 215v, termo 14721; falecimento em 24 de janeiro de 1956."
+      },
+      "repository": {
+        "en": "Jundiaí civil registry; Panzonato family archive copy",
+        "pt-br": "Registro Civil de Jundiaí; cópia no arquivo da família Panzonato"
+      },
+      "locator": "",
+      "kind": "record",
+      "date": "1956-01-24",
+      "category": {
+        "en": "Death record",
+        "pt-br": "Registro de óbito"
+      },
+      "transcript": {
+        "en": "Record reading: Assumpta Elvira Panssonatto, born in Capivari, daughter of Serafim Pozzatto and Clotilde Munaro, died in Jundiaí on 24 January 1956.",
+        "pt-br": "Leitura do registro: Assumpta Elvira Panssonatto, natural de Capivari, filha de Serafim Pozzatto e Clotilde Munaro, faleceu em Jundiaí em 24 de janeiro de 1956."
+      },
+      "evidenceNote": {
+        "en": "Birth and marriage annotations say 25 January; the event certificate says 24 January and supplies the displayed date. Do not publish the full facsimile because it lists later descendants and ages.",
+        "pt-br": "As anotações de nascimento e casamento dizem 25 de janeiro; a certidão do evento diz 24 de janeiro e fornece a data exibida. Não publicar o fac-símile integral, pois lista descendentes posteriores e idades."
+      }
+    },
+    {
+      "id": "luiz-death-1969",
+      "publication": "preview",
+      "title": {
+        "en": "Death record of Luiz Pansonatto",
+        "pt-br": "Registro de óbito de Luiz Pansonatto"
+      },
+      "description": {
+        "en": "Jundiaí death record that preserves Luiz's parentage and agricultural occupation while conflicting with the 1891 entry on age and birthplace.",
+        "pt-br": "Registro de óbito de Jundiaí que preserva a filiação e a profissão agrícola de Luiz, mas diverge do registro de 1891 sobre idade e local de nascimento."
+      },
+      "citation": {
+        "en": "Jundiaí civil registry, Livro C-79, page 218, no. 31402; death on 9 July 1969.",
+        "pt-br": "Registro Civil de Jundiaí, Livro C-79, página 218, nº 31402; falecimento em 9 de julho de 1969."
+      },
+      "repository": {
+        "en": "Jundiaí civil registry; Panzonato family archive copy",
+        "pt-br": "Registro Civil de Jundiaí; cópia no arquivo da família Panzonato"
+      },
+      "locator": "",
+      "kind": "record",
+      "date": "1969-07-09",
+      "category": {
+        "en": "Death record",
+        "pt-br": "Registro de óbito"
+      },
+      "transcript": {
+        "en": "Record reading: Luiz Pansonatto, agricultural worker, son of José Pensonatto and Fosca Morro, died in Jundiaí on 9 July 1969; recorded age 81 and birthplace Mantova.",
+        "pt-br": "Leitura do registro: Luiz Pansonatto, lavrador, filho de José Pensonatto e Fosca Morro, faleceu em Jundiaí em 9 de julho de 1969; idade registrada de 81 anos e naturalidade Mantova."
+      },
+      "evidenceNote": {
+        "en": "The 1969 date corrects a 1957 dossier error. Age 81 and Mantova conflict with the 1891 age and the family's documented Gambarare connection and remain record claims, not harmonized facts.",
+        "pt-br": "A data de 1969 corrige o erro de 1957 no dossiê. A idade de 81 anos e Mantova divergem da idade em 1891 e da ligação documentada a Gambarare, permanecendo afirmações do registro, não fatos harmonizados."
+      }
+    },
+    {
+      "id": "jose-filho-death-1988",
+      "publication": "preview",
+      "title": {
+        "en": "Death record of José Pansonatto Filho",
+        "pt-br": "Registro de óbito de José Pansonatto Filho"
+      },
+      "description": {
+        "en": "Jundiaí death certificate documenting José's final occupation and pensioner status and connecting his Capivari and Jundiaí life.",
+        "pt-br": "Certidão de óbito de Jundiaí que documenta a profissão final e a condição de aposentado de José, ligando sua vida em Capivari e Jundiaí."
+      },
+      "citation": {
+        "en": "Jundiaí civil registry, Livro C-111, folio 190v, no. 26857; death on 17 December 1988.",
+        "pt-br": "Registro Civil de Jundiaí, Livro C-111, folha 190v, nº 26857; falecimento em 17 de dezembro de 1988."
+      },
+      "repository": {
+        "en": "Jundiaí civil registry; Panzonato family archive copy",
+        "pt-br": "Registro Civil de Jundiaí; cópia no arquivo da família Panzonato"
+      },
+      "locator": "",
+      "kind": "record",
+      "date": "1988-12-17",
+      "category": {
+        "en": "Death record",
+        "pt-br": "Registro de óbito"
+      },
+      "transcript": {
+        "en": "Record reading: José Pansonatto Filho died in Jundiaí on 17 December 1988, age 89; described as an industrial worker and pensioner.",
+        "pt-br": "Leitura do registro: José Pansonatto Filho faleceu em Jundiaí em 17 de dezembro de 1988, aos 89 anos; descrito como industrial e aposentado."
+      },
+      "evidenceNote": {
+        "en": "Use as a text citation only in the public preview: the full certificate identifies later descendants and other private civil particulars.",
+        "pt-br": "Usar apenas como citação textual na prévia pública: a certidão integral identifica descendentes posteriores e outros dados civis privados."
+      }
+    },
+    {
+      "id": "arlindo-family-tree",
+      "publication": "preview",
+      "title": {
+        "en": "Handwritten Panzonato descendant tree attributed to Arlindo",
+        "pt-br": "Árvore manuscrita de descendentes Panzonato atribuída a Arlindo"
+      },
+      "description": {
+        "en": "Family-authored descendant list credited in the archive to Arlindo Panssonatto and used as family testimony rather than a civil record.",
+        "pt-br": "Lista familiar de descendentes atribuída no arquivo a Arlindo Panssonatto e usada como testemunho familiar, não como registro civil."
+      },
+      "citation": {
+        "en": "Panzonato family archive, handwritten descendant list, undated; authorship attributed by the family catalog.",
+        "pt-br": "Arquivo da família Panzonato, lista manuscrita de descendentes, sem data; autoria atribuída pelo catálogo familiar."
+      },
+      "repository": {
+        "en": "Panzonato family archive",
+        "pt-br": "Arquivo da família Panzonato"
+      },
+      "locator": "",
+      "kind": "record",
+      "category": {
+        "en": "Family archive",
+        "pt-br": "Arquivo familiar"
+      },
+      "evidenceNote": {
+        "en": "The authorship and Arlindo's 2016 death date are family/tree attributions. The full sheet contains living or potentially living people and must not be published as a zoomable facsimile.",
+        "pt-br": "A autoria e a data de falecimento de Arlindo em 2016 são atribuições familiares/da árvore. A folha integral contém pessoas vivas ou potencialmente vivas e não deve ser publicada como fac-símile ampliável."
+      }
+    },
+    {
+      "id": "context-colombo-history",
+      "publication": "preview",
+      "title": {
+        "en": "History of the steamship Colombo",
+        "pt-br": "História do vapor Colombo"
+      },
+      "description": {
+        "en": "A vessel history identifying the ship's earlier name Brazil, its 1888 conversion and reported passenger accommodation. It is ship context, not a log of the family's voyage.",
+        "pt-br": "História do navio que identifica o nome anterior Brazil, a conversão de 1888 e a capacidade de passageiros informada. É contexto do navio, não diário da viagem da família."
+      },
+      "citation": {
+        "en": "Rossini/Montes, “Navio Colombo,” preserved in the research dossier with the original web citation.",
+        "pt-br": "Rossini/Montes, “Navio Colombo”, preservado no dossiê de pesquisa com a citação web original."
+      },
+      "repository": {
+        "en": "Imigrantes Italianos; local research capture",
+        "pt-br": "Imigrantes Italianos; captura local de pesquisa"
+      },
+      "locator": "http://www.imigrantesitalianos.com.br/Navio_Colombo.html",
+      "kind": "reference",
+      "category": {
+        "en": "Ship history",
+        "pt-br": "História marítima"
+      },
+      "evidenceNote": {
+        "en": "Supports the vessel biography and regular route context only. It does not prove the Panzonatos embarked at Genoa, landed at Santos or experienced a stated voyage length.",
+        "pt-br": "Sustenta apenas a biografia do navio e o contexto de sua rota regular. Não prova que os Panzonato embarcaram em Gênova, desembarcaram em Santos ou cumpriram uma duração específica de viagem."
+      }
+    },
+    {
+      "id": "context-apesp-immigration",
+      "publication": "preview",
+      "title": {
+        "en": "APESP virtual exhibition on immigration",
+        "pt-br": "Exposição virtual do APESP sobre imigração"
+      },
+      "description": {
+        "en": "Institutional history of immigration policy, the Brás hostel, subsidized passage, labor recruitment and coercive working conditions.",
+        "pt-br": "História institucional da política imigratória, da hospedaria do Brás, das passagens subsidiadas, da contratação de mão de obra e das condições coercitivas de trabalho."
+      },
+      "citation": {
+        "en": "Arquivo Público do Estado de São Paulo, virtual exhibition on immigration, locally preserved modules and slides.",
+        "pt-br": "Arquivo Público do Estado de São Paulo, exposição virtual sobre imigração, módulos e slides preservados localmente."
+      },
+      "repository": {
+        "en": "Arquivo Público do Estado de São Paulo",
+        "pt-br": "Arquivo Público do Estado de São Paulo"
+      },
+      "locator": "https://web.arquivoestado.sp.gov.br/exposicao_imigracao/index.php",
+      "kind": "reference",
+      "category": {
+        "en": "Institutional history",
+        "pt-br": "História institucional"
+      },
+      "evidenceNote": {
+        "en": "Provides wider institutional context, not proof of the family's room, meal, medical processing, contract or length of stay.",
+        "pt-br": "Fornece contexto institucional amplo, não prova do quarto, refeição, inspeção médica, contrato ou duração da estadia da família."
+      }
+    },
+    {
+      "id": "context-capivari-station",
+      "publication": "preview",
+      "title": {
+        "en": "History of Capivari railway station",
+        "pt-br": "História da estação ferroviária de Capivari"
+      },
+      "description": {
+        "en": "Local railway history documenting the station's 1875 opening on the Ituana branch and the 1918 date of the later station building.",
+        "pt-br": "História ferroviária local que documenta a abertura da estação em 1875 no ramal da Ituana e a data de 1918 do edifício posterior."
+      },
+      "citation": {
+        "en": "Estações Ferroviárias do Brasil, “Capivari,” locally preserved article and image notes.",
+        "pt-br": "Estações Ferroviárias do Brasil, “Capivari”, artigo e notas de imagens preservados localmente."
+      },
+      "repository": {
+        "en": "Estações Ferroviárias do Brasil",
+        "pt-br": "Estações Ferroviárias do Brasil"
+      },
+      "locator": "https://www.estacoesferroviarias.com.br/c/capivari.htm",
+      "kind": "reference",
+      "category": {
+        "en": "Railway history",
+        "pt-br": "História ferroviária"
+      },
+      "evidenceNote": {
+        "en": "Supports regional infrastructure context only. No family record proves arrival by this station in 1891; the photographed later building did not yet exist.",
+        "pt-br": "Sustenta apenas o contexto da infraestrutura regional. Nenhum registro familiar prova chegada por essa estação em 1891; o edifício posterior fotografado ainda não existia."
+      }
+    },
+    {
+      "id": "context-capivari-municipal",
+      "publication": "preview",
+      "title": {
+        "en": "Capivari history and heritage survey",
+        "pt-br": "História e patrimônio de Capivari"
+      },
+      "description": {
+        "en": "Municipal historical overview describing Capivari's development and mixed sugar-and-coffee agricultural economy.",
+        "pt-br": "Panorama histórico municipal que descreve o desenvolvimento de Capivari e sua economia agrícola combinando açúcar e café."
+      },
+      "citation": {
+        "en": "Capivari Social, “História e patrimônio,” municipal history page preserved in the research dossier.",
+        "pt-br": "Capivari Social, “História e patrimônio”, página de história municipal preservada no dossiê de pesquisa."
+      },
+      "repository": {
+        "en": "Capivari Social",
+        "pt-br": "Capivari Social"
+      },
+      "locator": "https://capivarisocial.com.br/capivari/a-cidade/historia-e-patrimonio/",
+      "kind": "reference",
+      "category": {
+        "en": "Municipal history",
+        "pt-br": "História municipal"
+      },
+      "evidenceNote": {
+        "en": "Explains the economy around the family records; it does not identify a Panzonato farm, contract or crop.",
+        "pt-br": "Explica a economia em torno dos registros familiares; não identifica fazenda, contrato ou cultivo dos Panzonato."
+      }
+    },
+    {
+      "id": "context-colonato-oral-history",
+      "publication": "preview",
+      "title": {
+        "en": "Oral history of colonato work",
+        "pt-br": "História oral do trabalho no colonato"
+      },
+      "description": {
+        "en": "Published oral-history interview describing tools, payment intervals, housing and sacrifice in a later São Paulo coffee-colonato setting.",
+        "pt-br": "Entrevista de história oral publicada que descreve ferramentas, intervalos de pagamento, moradia e sacrifício em um contexto posterior do colonato cafeeiro paulista."
+      },
+      "citation": {
+        "en": "Travessia, oral-history article and eight-page transcript preserved in the research dossier.",
+        "pt-br": "Travessia, artigo de história oral e transcrição de oito páginas preservados no dossiê de pesquisa."
+      },
+      "repository": {
+        "en": "Travessia — Revista do Migrante",
+        "pt-br": "Travessia — Revista do Migrante"
+      },
+      "locator": "https://travessia.emnuvens.com.br/travessia/article/view/1087/958",
+      "kind": "reference",
+      "category": {
+        "en": "Oral history",
+        "pt-br": "História oral"
+      },
+      "evidenceNote": {
+        "en": "This is not Panzonato testimony. It may illustrate the wider labor system but not a specific family contract, diet, house or health outcome.",
+        "pt-br": "Não se trata de testemunho Panzonato. Pode ilustrar o sistema de trabalho mais amplo, mas não contrato, dieta, casa ou resultado de saúde específicos da família."
+      }
+    },
+    {
+      "id": "context-ocean-passenger-1891",
+      "publication": "preview",
+      "title": {
+        "en": "Ocean passenger processing in 1891",
+        "pt-br": "Processamento de passageiros oceânicos em 1891"
+      },
+      "description": {
+        "en": "Contemporary illustrated article about passenger processing and statutory provisioning on British and North Atlantic traffic in 1891.",
+        "pt-br": "Artigo ilustrado contemporâneo sobre processamento de passageiros e provisões regulamentares no tráfego britânico e do Atlântico Norte em 1891."
+      },
+      "citation": {
+        "en": "Scribner's Magazine, “Processing Immigrants on Board Steamships,” 1891; digital edition at GG Archives.",
+        "pt-br": "Scribner's Magazine, “Processing Immigrants on Board Steamships”, 1891; edição digital no GG Archives."
+      },
+      "repository": {
+        "en": "GG Archives / Scribner's Magazine",
+        "pt-br": "GG Archives / Scribner's Magazine"
+      },
+      "locator": "https://www.ggarchives.com/OT/ShipsVoyages/OceanPassengerTravel/1891/07-ProcessingImmigrantsOnboardSteamships.html",
+      "kind": "reference",
+      "date": "1891",
+      "category": {
+        "en": "Contemporary travel context",
+        "pt-br": "Contexto contemporâneo de viagem"
+      },
+      "evidenceNote": {
+        "en": "A dated comparison, not evidence of meals, bedding, routines or conditions aboard the Colombo or on this family's route.",
+        "pt-br": "É uma comparação datada, não prova de refeições, camas, rotinas ou condições a bordo do Colombo ou na rota desta família."
+      }
+    },
+    {
+      "id": "context-italian-agrarian-inquiry",
+      "publication": "preview",
+      "title": {
+        "en": "Italian agrarian inquiry and rural emigration context",
+        "pt-br": "Inquérito agrário italiano e contexto da emigração rural"
+      },
+      "description": {
+        "en": "Historical overview of agricultural pressure, taxation and overseas competition in late-nineteenth-century Italy.",
+        "pt-br": "Panorama histórico da pressão agrícola, da tributação e da concorrência ultramarina na Itália do fim do século XIX."
+      },
+      "citation": {
+        "en": "Terza Classe, chronology of the Italian agrarian inquiry, locally preserved research extract.",
+        "pt-br": "Terza Classe, cronologia do inquérito agrário italiano, extrato de pesquisa preservado localmente."
+      },
+      "repository": {
+        "en": "Terza Classe",
+        "pt-br": "Terza Classe"
+      },
+      "locator": "https://www.terzaclasse.it/cronologia/inchiestagraria.htm",
+      "kind": "reference",
+      "category": {
+        "en": "Agrarian history",
+        "pt-br": "História agrária"
+      },
+      "evidenceNote": {
+        "en": "Supports regional pressures only. No supplied letter, contract or testimony states why Giuseppe and Fosca left.",
+        "pt-br": "Sustenta apenas pressões regionais. Nenhuma carta, contrato ou testemunho fornecido declara por que Giuseppe e Fosca partiram."
+      }
+    },
+    {
+      "id": "gambarare-field-documentation-2023-2024",
+      "publication": "preview",
+      "title": {
+        "en": "Family field documentation in Gambarare",
+        "pt-br": "Documentação familiar de campo em Gambarare"
+      },
+      "description": {
+        "en": "Modern family-archive photographs document Gambarare's parish exterior and interior, memorial, streetscape and cemetery during visits in 2023 and 2024.",
+        "pt-br": "Fotografias modernas do arquivo familiar documentam o exterior e o interior da paróquia de Gambarare, o memorial, a paisagem urbana e o cemitério em visitas de 2023 e 2024."
+      },
+      "citation": {
+        "en": "Panzonato family archive, Gambarare field-photography set, visits dated 4 July 2023 and 27 January 2024; catalog and image metadata audited in 2026.",
+        "pt-br": "Arquivo da família Panzonato, conjunto de fotografias de campo de Gambarare, visitas datadas de 4 de julho de 2023 e 27 de janeiro de 2024; catálogo e metadados de imagem auditados em 2026."
+      },
+      "repository": {
+        "en": "Panzonato family archive",
+        "pt-br": "Arquivo da família Panzonato"
+      },
+      "locator": "",
+      "kind": "reference",
+      "date": "2023–2024",
+      "category": {
+        "en": "Field documentation",
+        "pt-br": "Documentação de campo"
+      },
+      "evidenceNote": {
+        "en": "These are later views of the documented place, not images of the ancestors' lives. No photographed font, grave or building feature is attributed to a specific family member without separate evidence.",
+        "pt-br": "São vistas posteriores do lugar documentado, não imagens da vida dos antepassados. Nenhuma pia, sepultura ou parte de edifício fotografada é atribuída a familiar específico sem prova separada."
+      }
+    }
+  ],
+  "places": [
+    {
+      "id": "gambarare-mira",
+      "name": {
+        "en": "Gambarare, Mira",
+        "pt-br": "Gambarare, Mira"
+      },
+      "publication": "preview",
+      "sourceIds": [
+        "giuseppe-birth-1856",
+        "giuseppe-fosca-marriage-1881",
+        "catharina-luigi-marriage-1902"
+      ],
+      "description": {
+        "en": "Gambarare, now part of the municipality of Mira in Veneto, is the place named in Giuseppe's 1856 birth extract and Catharina's 1902 Brazilian marriage entry. The 1881 civil marriage was registered in Mira.",
+        "pt-br": "Gambarare, hoje parte do município de Mira, no Vêneto, é o lugar nomeado no extrato de nascimento de Giuseppe de 1856 e no casamento brasileiro de Catharina de 1902. O casamento civil de 1881 foi registrado em Mira."
+      }
+    },
+    {
+      "id": "genoa",
+      "name": {
+        "en": "Genoa",
+        "pt-br": "Gênova"
+      },
+      "publication": "preview",
+      "sourceIds": [
+        "context-colombo-history"
+      ],
+      "description": {
+        "en": "Genoa belongs to the Colombo's wider route and port history, but no supplied Panzonato family document establishes that the household embarked there. It must remain contextual rather than a confirmed family waypoint.",
+        "pt-br": "Gênova pertence ao contexto mais amplo da rota e da história portuária do Colombo, mas nenhum documento familiar Panzonato fornecido comprova embarque ali. Deve permanecer como contexto, não como etapa familiar confirmada."
+      }
+    },
+    {
+      "id": "rio-de-janeiro",
+      "name": {
+        "en": "Rio de Janeiro",
+        "pt-br": "Rio de Janeiro"
+      },
+      "publication": "preview",
+      "sourceIds": [
+        "panzonato-hospedaria-1891",
+        "panzonato-desembarque-certificate-2002"
+      ],
+      "description": {
+        "en": "Both São Paulo immigration extracts record the Panzonato household as proceeding from Rio de Janeiro. The documents establish this prior recorded waypoint without explaining the family's earlier European leg.",
+        "pt-br": "Os dois extratos de imigração paulistas registram a família Panzonato como procedente do Rio de Janeiro. Os documentos estabelecem essa etapa anterior registrada sem explicar o percurso europeu precedente."
+      }
+    },
+    {
+      "id": "santos",
+      "name": {
+        "en": "Santos",
+        "pt-br": "Santos"
+      },
+      "publication": "preview",
+      "sourceIds": [
+        "context-colombo-history",
+        "context-apesp-immigration"
+      ],
+      "description": {
+        "en": "Santos was a major immigration port and appears in the Colombo's route history, but the family-specific records reviewed here do not document a Panzonato landing at Santos. Port images therefore serve as period context only.",
+        "pt-br": "Santos foi um importante porto de imigração e aparece na história de rotas do Colombo, mas os registros específicos da família examinados aqui não documentam desembarque Panzonato em Santos. Imagens do porto servem apenas como contexto de época."
+      }
+    },
+    {
+      "id": "sao-paulo",
+      "name": {
+        "en": "São Paulo",
+        "pt-br": "São Paulo"
+      },
+      "publication": "preview",
+      "sourceIds": [
+        "panzonato-hospedaria-1891",
+        "panzonato-desembarque-certificate-2002",
+        "context-apesp-immigration"
+      ],
+      "description": {
+        "en": "The family-specific register places the eight-person household at São Paulo's immigrant hostel on 15 December 1891. APESP material explains the institution and state immigration system but does not establish the family's individual treatment inside it.",
+        "pt-br": "O registro específico da família situa o grupo de oito pessoas na Hospedaria de Imigrantes de São Paulo em 15 de dezembro de 1891. O material do APESP explica a instituição e o sistema imigratório estadual, mas não estabelece o tratamento individual da família em seu interior."
+      }
+    },
+    {
+      "id": "tiete",
+      "name": {
+        "en": "Tietê",
+        "pt-br": "Tietê"
+      },
+      "publication": "preview",
+      "sourceIds": [
+        "panzonato-hospedaria-1891",
+        "panzonato-desembarque-certificate-2002"
+      ],
+      "description": {
+        "en": "Tietê is the destination written in both versions of the family's 1891 São Paulo immigration entry. The record does not say how long they remained there or document an immediate onward move to Capivari.",
+        "pt-br": "Tietê é o destino escrito nas duas versões do registro paulista de imigração da família em 1891. O documento não informa quanto tempo permaneceram ali nem documenta mudança imediata para Capivari."
+      }
+    },
+    {
+      "id": "capivari",
+      "name": {
+        "en": "Capivari",
+        "pt-br": "Capivari"
+      },
+      "publication": "preview",
+      "sourceIds": [
+        "jose-filho-birth-1899",
+        "catharina-luigi-marriage-1902",
+        "jose-assumpta-marriage-1921",
+        "fosca-death-1927",
+        "arlindo-birth-1929",
+        "giuseppe-death-1937",
+        "context-capivari-station",
+        "context-capivari-municipal"
+      ],
+      "description": {
+        "en": "Capivari is securely documented from José Filho's 1899 birth through marriages, births and deaths in the next generation. Local histories provide agricultural and railway context, but no supplied record names a Panzonato fazenda, colonato contract or exact route from Tietê.",
+        "pt-br": "Capivari é documentada com segurança desde o nascimento de José Filho em 1899, seguido por casamentos, nascimentos e óbitos da geração seguinte. Histórias locais fornecem contexto agrícola e ferroviário, mas nenhum registro fornecido nomeia fazenda, contrato de colonato ou rota exata dos Panzonato desde Tietê."
+      }
+    },
+    {
+      "id": "jundiai",
+      "name": {
+        "en": "Jundiaí",
+        "pt-br": "Jundiaí"
+      },
+      "publication": "preview",
+      "sourceIds": [
+        "assumpta-death-1956",
+        "luiz-death-1969",
+        "jose-filho-death-1988",
+        "arlindo-birth-1929"
+      ],
+      "description": {
+        "en": "Later civil records place the branch in Jundiaí: Arlindo's birth record notes a 1951 marriage there, and the deaths of Assumpta, Luiz and José Filho were registered there. These records do not prove residence in a particular agricultural colony.",
+        "pt-br": "Registros civis posteriores situam o ramo em Jundiaí: o nascimento de Arlindo anota casamento ali em 1951, e os óbitos de Assumpta, Luiz e José Filho foram registrados na cidade. Esses registros não comprovam residência em colônia agrícola específica."
+      }
+    }
+  ],
+  "events": [
+    {
+      "id": "giuseppe-born-1856",
+      "year": "1856",
+      "title": {
+        "en": "Giuseppe is born in Gambarare",
+        "pt-br": "Giuseppe nasce em Gambarare"
+      },
+      "description": {
+        "en": "Giuseppe Giacomo Panzonato was born on 22 July in Gambarare, son of Domenico Panzonato and Angela Salviato, known as Campanella. His name begins the documented Italian thread of this story.",
+        "pt-br": "Giuseppe Giacomo Panzonato nasceu em 22 de julho em Gambarare, filho de Domenico Panzonato e Angela Salviato, conhecida como Campanella. Seu nome inicia o fio italiano documentado desta história."
+      },
+      "chapterKey": "origins",
+      "sourceIds": [
+        "giuseppe-birth-1856"
+      ]
+    },
+    {
+      "id": "giuseppe-fosca-married-1881",
+      "year": "1881",
+      "title": {
+        "en": "Giuseppe and Fosca marry in Mira",
+        "pt-br": "Giuseppe e Fosca casam-se em Mira"
+      },
+      "description": {
+        "en": "Civil act 60 records Giuseppe Panzonato and Fosca Moro marrying on 20 November. The record joins the Panzonato and Moro lines in a documented event.",
+        "pt-br": "O ato civil 60 registra o casamento de Giuseppe Panzonato e Fosca Moro em 20 de novembro. O documento reúne as linhagens Panzonato e Moro em um evento comprovado."
+      },
+      "chapterKey": "origins",
+      "sourceIds": [
+        "giuseppe-fosca-marriage-1881"
+      ]
+    },
+    {
+      "id": "family-hospedaria-1891",
+      "year": "1891",
+      "title": {
+        "en": "Eight family members enter the São Paulo hostel register",
+        "pt-br": "Oito familiares entram no registro da hospedaria paulista"
+      },
+      "description": {
+        "en": "On 15 December, Giuseppe, Fosca and six children were recorded from Rio de Janeiro, associated with the Colombo and destined for Tietê. The entry documents this waypoint but not a Genoa embarkation or Santos landing.",
+        "pt-br": "Em 15 de dezembro, Giuseppe, Fosca e seis filhos foram registrados como procedentes do Rio de Janeiro, associados ao Colombo e destinados a Tietê. O registro documenta essa etapa, mas não embarque em Gênova nem desembarque em Santos."
+      },
+      "chapterKey": "crossing",
+      "sourceIds": [
+        "panzonato-hospedaria-1891"
+      ]
+    },
+    {
+      "id": "jose-born-1899",
+      "year": "1899",
+      "title": {
+        "en": "José Filho is born in Capivari",
+        "pt-br": "José Filho nasce em Capivari"
+      },
+      "description": {
+        "en": "José was born on 18 November. His certificate names his parents and all four grandparents, giving the family its first secure Capivari milestone and a bridge back to Italy.",
+        "pt-br": "José nasceu em 18 de novembro. Sua certidão identifica os pais e os quatro avós, oferecendo o primeiro marco seguro da família em Capivari e uma ponte de volta à Itália."
+      },
+      "chapterKey": "brazil",
+      "sourceIds": [
+        "jose-filho-birth-1899"
+      ]
+    },
+    {
+      "id": "catharina-married-1902",
+      "year": "1902",
+      "title": {
+        "en": "Catharina's marriage preserves Gambarare",
+        "pt-br": "O casamento de Catharina preserva Gambarare"
+      },
+      "description": {
+        "en": "Catharina Pansonato married Luigi Sari in Capivari on 8 February. The parish entry calls her a native of Gambarare, preserving the village name in a Brazilian record.",
+        "pt-br": "Catharina Pansonato casou-se com Luigi Sari em Capivari em 8 de fevereiro. O assento paroquial a chama de natural de Gambarare, preservando o nome da aldeia em um registro brasileiro."
+      },
+      "chapterKey": "brazil",
+      "sourceIds": [
+        "catharina-luigi-marriage-1902"
+      ]
+    },
+    {
+      "id": "jose-assumpta-married-1921",
+      "year": "1921",
+      "title": {
+        "en": "José and Assumpta marry",
+        "pt-br": "José e Assumpta casam-se"
+      },
+      "description": {
+        "en": "The couple married in Capivari on 4 June. José was recorded as an agricultural worker, while Assumpta's surname appears as Pozzatto and her parentage matches her birth record.",
+        "pt-br": "O casal casou-se em Capivari em 4 de junho. José foi registrado como lavrador, enquanto o sobrenome de Assumpta aparece como Pozzatto e sua filiação coincide com o nascimento."
+      },
+      "chapterKey": "generations",
+      "sourceIds": [
+        "jose-assumpta-marriage-1921"
+      ]
+    },
+    {
+      "id": "fosca-died-1927",
+      "year": "1927",
+      "title": {
+        "en": "Fosca dies in Capivari",
+        "pt-br": "Fosca morre em Capivari"
+      },
+      "description": {
+        "en": "Fosca Morro died on 3 August and was buried in Capivari. Her recorded age conflicts with the unverified 1860 birth dates in later tree material, and the certificate leaves her parents blank.",
+        "pt-br": "Fosca Morro morreu em 3 de agosto e foi sepultada em Capivari. A idade registrada diverge das datas de 1860 não verificadas na árvore posterior, e a certidão não informa seus pais."
+      },
+      "chapterKey": "brazil",
+      "sourceIds": [
+        "fosca-death-1927"
+      ]
+    },
+    {
+      "id": "arlindo-born-1929",
+      "year": "1929",
+      "title": {
+        "en": "Arlindo is born in Capivari",
+        "pt-br": "Arlindo nasce em Capivari"
+      },
+      "description": {
+        "en": "Arlindo was born on 18 August to José Panssonatto Filho and Assumpta Elvira Possato. His record carries the double-s surname into another Brazilian generation.",
+        "pt-br": "Arlindo nasceu em 18 de agosto, filho de José Panssonatto Filho e Assumpta Elvira Possato. Seu registro leva a grafia com ss duplo para outra geração brasileira."
+      },
+      "chapterKey": "generations",
+      "sourceIds": [
+        "arlindo-birth-1929"
+      ]
+    },
+    {
+      "id": "giuseppe-died-1937",
+      "year": "1937",
+      "title": {
+        "en": "Giuseppe dies as José Pansonatto",
+        "pt-br": "Giuseppe morre como José Pansonatto"
+      },
+      "description": {
+        "en": "The Capivari record describes an Italian-born agricultural worker, widower of Fosca, who left ten adult children. Its age and parent names disagree with Giuseppe's earlier Italian birth evidence.",
+        "pt-br": "O registro de Capivari descreve um lavrador nascido na Itália, viúvo de Fosca, que deixou dez filhos maiores. A idade e os nomes dos pais divergem do nascimento italiano anterior de Giuseppe."
+      },
+      "chapterKey": "generations",
+      "sourceIds": [
+        "giuseppe-death-1937",
+        "giuseppe-birth-1856"
+      ]
+    },
+    {
+      "id": "jose-died-1988",
+      "year": "1988",
+      "title": {
+        "en": "José Filho dies in Jundiaí",
+        "pt-br": "José Filho morre em Jundiaí"
+      },
+      "description": {
+        "en": "José died on 17 December, age 89. The death record describes him as an industrial worker and pensioner, marking the branch's documented movement beyond its earlier agricultural setting.",
+        "pt-br": "José morreu em 17 de dezembro, aos 89 anos. O óbito o descreve como industrial e aposentado, marcando o deslocamento documentado do ramo para além do contexto agrícola anterior."
+      },
+      "chapterKey": "generations",
+      "sourceIds": [
+        "jose-filho-death-1988"
+      ]
+    },
+    {
+      "id": "arrival-certified-2002",
+      "year": "2002",
+      "title": {
+        "en": "The 1891 entry is certified for the family archive",
+        "pt-br": "O registro de 1891 é certificado para o arquivo familiar"
+      },
+      "description": {
+        "en": "The Memorial do Imigrante issued certificate 11262 on 26 February, preserving the household roster and its Rio de Janeiro–Tietê wording. The document shows how later archival work made an earlier migration record available to the family.",
+        "pt-br": "O Memorial do Imigrante emitiu a certidão 11262 em 26 de fevereiro, preservando a lista familiar e a formulação Rio de Janeiro–Tietê. O documento mostra como o trabalho arquivístico posterior devolveu à família um registro anterior de migração."
+      },
+      "chapterKey": "return",
+      "sourceIds": [
+        "panzonato-desembarque-certificate-2002"
+      ]
+    },
+    {
+      "id": "gambarare-documented-2023-2024",
+      "year": "2023–2024",
+      "title": {
+        "en": "The documented place is photographed again",
+        "pt-br": "O lugar documentado volta a ser fotografado"
+      },
+      "description": {
+        "en": "Family field visits created a varied visual record of Gambarare across 2023 and 2024. The images reconnect the place named in the 1856 and 1902 records with the present while remaining modern documentation, not ancestral scenes.",
+        "pt-br": "Visitas familiares produziram um registro visual variado de Gambarare entre 2023 e 2024. As imagens religam o lugar nomeado nos registros de 1856 e 1902 ao presente, permanecendo documentação moderna, não cenas ancestrais."
+      },
+      "chapterKey": "return",
+      "sourceIds": [
+        "gambarare-field-documentation-2023-2024",
+        "giuseppe-birth-1856",
+        "catharina-luigi-marriage-1902"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+---
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import Breadcrumbs from '../../../components/Breadcrumbs.astro';
+import SourceCard from '../../../components/SourceCard.astro';
+import EvidenceDialog from '../../../components/EvidenceDialog.astro';
+import MediaImage from '../../../components/MediaImage.astro';
+import { getChapters, getPeople, getSources, locales, otherLocale, route, type Locale, type MediaView } from '../../../lib/content';
+import { exhibitionPayload, safeJson, strings } from '../../../lib/ui';
+
+export async function getStaticPaths() {
+  return locales.flatMap((locale) => getPeople(locale).map((person) => ({ params: { locale, slug: person.id }, props: { locale, person } })));
+}
+const { locale, person } = Astro.props as { locale: Locale; person: ReturnType<typeof getPeople>[number] };
+const t = strings(locale);
+const chapters = (await getChapters(locale)).filter((chapter) => person.chapterKeys.includes(chapter.data.key));
+const sources = getSources(locale).filter((source) => person.sourceIds.includes(source.id));
+const media = sources.map(source => source.media).filter((m): m is MediaView => !!m);
+const people = getPeople(locale);
+const connections = person.relationships.map(relation => ({ ...relation, person: people.find(p => p.id === relation.personId) }));
+---
+
+<BaseLayout locale={locale} title={person.name} description={person.summary} alternateHref={route(otherLocale(locale), 'people', person.id)} current="people">
+  <article class="record-detail person-detail">
+    <header class="page-intro">
+      <Breadcrumbs label={t.breadcrumbLabel} items={[{ label: t.breadcrumbHome, href: route(locale) }, { label: t.allPeople, href: route(locale, 'people') }, { label: person.name }]} />
+      <span class="eyebrow">{t.profile}{person.dates ? ` · ${person.dates}` : ''}</span>
+      <h1>{person.name}</h1>
+      <p>{person.summary}</p>
+      {person.aliases.length > 0 && <p class="aliases"><span>{t.namesAlsoRecorded}</span> {person.aliases.join(', ')}</p>}
+    </header>
+    <div class="prose profile-biography">{person.biography.map((paragraph) => <p>{paragraph}</p>)}</div>
+    {connections.length > 0 && <section class="related-records family-connections"><span class="eyebrow">{t.familyConnections}</span><div class="connection-grid">{connections.map(connection => connection.person && <a href={connection.person.href}><span>{connection.label}</span><h2>{connection.person.name}</h2><p>{connection.person.dates}</p></a>)}</div></section>}
+    {chapters.length > 0 && <section class="related-records">
+      <span class="eyebrow">{t.connectedChapters}</span>
+      <div class="record-grid compact">{chapters.map((chapter) => <article class="record-card chapter-card"><a href={chapter.href}><MediaImage media={chapter.media} sizes="(min-width: 900px) 24vw, 90vw" /><div><h2>{chapter.data.title}</h2><p>{chapter.data.question}</p></div></a></article>)}</div>
+    </section>}
+    {sources.length > 0 && <section class="related-records">
+      <span class="eyebrow">{t.relatedEvidence}</span>
+      <div class="record-grid compact">{sources.map(source => <SourceCard source={source} locale={locale} />)}</div>
+    </section>}
+  </article>
+  {media[0] && <><EvidenceDialog locale={locale} initial={media[0]} /><script id="exhibition-data" type="application/json" is:inline set:html={safeJson(exhibitionPayload(locale, media))}></script></>}
+</BaseLayout>

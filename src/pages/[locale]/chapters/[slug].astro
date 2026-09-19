@@ -1,0 +1,76 @@
+---
+import { render } from 'astro:content';
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import Breadcrumbs from '../../../components/Breadcrumbs.astro';
+import EvidenceDialog from '../../../components/EvidenceDialog.astro';
+import MediaImage from '../../../components/MediaImage.astro';
+import { equivalentChapter, getChapters, getMedia, getPeople, getSources, locales, otherLocale, route, type Chapter, type Locale, type MediaView } from '../../../lib/content';
+import { exhibitionPayload, safeJson, strings } from '../../../lib/ui';
+
+export async function getStaticPaths() {
+  const paths = [];
+  for (const locale of locales) {
+    for (const chapter of await getChapters(locale)) paths.push({ params: { locale, slug: chapter.data.slug }, props: { locale, chapter } });
+  }
+  return paths;
+}
+
+const { locale, chapter } = Astro.props as { locale: Locale; chapter: Chapter };
+const t = strings(locale);
+const allChapters = await getChapters(locale);
+const chapterIndex = allChapters.findIndex((item) => item.data.key === chapter.data.key);
+const previous = chapterIndex > 0 ? allChapters[chapterIndex - 1] : undefined;
+const next = chapterIndex < allChapters.length - 1 ? allChapters[chapterIndex + 1] : undefined;
+const sources = getSources(locale).filter((source) => chapter.data.sourceIds.includes(source.id));
+const people = getPeople(locale).filter((person) => chapter.data.personIds.includes(person.id));
+const { Content, headings } = await render(chapter.entry);
+const outline = headings.filter((heading) => heading.depth === 2 || heading.depth === 3);
+const alternateHref = await equivalentChapter(chapter.data.key, otherLocale(locale));
+const dialogMedia = sources[0]?.media ?? chapter.media;
+const gallery = chapter.data.galleryIds.filter(id => id !== chapter.media.id).map(id => getMedia(id, locale));
+const payloadMedia = Array.from(new Map([chapter.media, ...gallery, ...sources.map((source) => source.media).filter((m): m is MediaView => !!m)].map((item) => [item.id, item])).values());
+---
+
+<BaseLayout locale={locale} title={chapter.data.title} description={chapter.data.summary} alternateHref={alternateHref} current="chapters">
+  <article class="chapter-detail">
+    <header class="chapter-hero">
+      <Breadcrumbs label={t.breadcrumbLabel} items={[{ label: t.breadcrumbHome, href: route(locale) }, { label: t.allChapters, href: route(locale, 'chapters') }, { label: chapter.data.title }]} />
+      <div class="chapter-hero-copy">
+        <span class="eyebrow">{t.chapter} {String(chapter.data.order).padStart(2, '0')}</span>
+        <h1>{chapter.data.title}</h1>
+        <p class="chapter-question">{chapter.data.question}</p>
+        <p>{chapter.data.summary}</p>
+      </div>
+      <figure>
+        <a class="image-open" href={chapter.media.href} data-evidence={chapter.media.id} data-inspect-label={t.inspect} aria-label={`${t.inspect}: ${chapter.media.title}`}>
+          <MediaImage media={chapter.media} sizes="(min-width: 900px) 54vw, 100vw" loading="eager" fetchpriority="high" />
+        </a>
+        <figcaption>{chapter.media.caption}</figcaption>
+      </figure>
+    </header>
+    <div class="chapter-reading-layout">
+      {outline.length > 0 && <nav class="chapter-toc" aria-label={t.onThisPage}>
+        <span class="eyebrow">{t.onThisPage}</span>
+        <ul>{outline.map((heading) => <li class:list={[`depth-${heading.depth}`]}><a href={`#${heading.slug}`}>{heading.text}</a></li>)}</ul>
+      </nav>}
+      <div class="chapter-body prose"><Content /></div>
+    </div>
+
+    {gallery.length > 0 && <section class="chapter-gallery" aria-label={t.galleryTitle}>
+      <div class="gallery-heading"><span class="eyebrow">{t.galleryTitle}</span><p>{chapter.data.title}</p></div>
+      <div class="gallery-strip">{gallery.map((media, index) => <figure><a class="image-open" href={media.href} data-evidence={media.id} data-inspect-label={t.inspect} aria-label={`${t.inspect}: ${media.title}`}><MediaImage media={media} sizes="(min-width: 900px) 38vw, 80vw" /></a><figcaption><span>{String(index + 1).padStart(2, '0')} / {media.title}</span>{media.caption}</figcaption></figure>)}</div>
+    </section>}
+
+    {(people.length > 0 || sources.length > 0) && <aside class="related-records">
+      {people.length > 0 && <section><span class="eyebrow">{t.relatedPeople}</span><div class="record-grid compact">{people.map((person) => <article class="record-card"><h2><a href={person.href}>{person.name}</a></h2><p>{person.summary}</p></article>)}</div></section>}
+      {sources.length > 0 && <section><span class="eyebrow">{t.relatedEvidence}</span><ol class="chapter-source-list">{sources.map(source => <li><a href={source.href}>{source.title}</a><span>{t.sourceKinds[source.kind]}</span></li>)}</ol></section>}
+    </aside>}
+
+    <nav class="chapter-navigation" aria-label={t.allChapters}>
+      {previous ? <a class="previous" href={previous.href}><span>{t.previousChapter}</span><strong>{previous.data.title}</strong></a> : <span></span>}
+      {next && <a class="next" href={next.href}><span>{t.nextChapter}</span><strong>{next.data.title}</strong></a>}
+    </nav>
+  </article>
+  <EvidenceDialog locale={locale} initial={dialogMedia} />
+  <script id="exhibition-data" type="application/json" is:inline set:html={safeJson(exhibitionPayload(locale, payloadMedia))}></script>
+</BaseLayout>

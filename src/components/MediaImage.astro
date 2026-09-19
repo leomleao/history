@@ -1,0 +1,25 @@
+---
+import type { MediaView } from '../lib/content';
+interface Props {
+  media: MediaView;
+  class?: string;
+  sizes?: string;
+  loading?: 'eager' | 'lazy';
+  fetchpriority?: 'high' | 'low' | 'auto';
+}
+const { media, class: className, sizes = '100vw', loading = 'lazy', fetchpriority } = Astro.props;
+---
+
+<img
+  class={className}
+  src={media.src}
+  srcset={media.srcset}
+  sizes={sizes}
+  width={media.width}
+  height={media.height}
+  alt={media.alt}
+  loading={loading}
+  fetchpriority={fetchpriority}
+  decoding="async"
+  style={`object-position:${media.focalPoint}`}
+/>

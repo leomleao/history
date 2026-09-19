@@ -1,0 +1,132 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import EvidenceDialog from '../../components/EvidenceDialog.astro';
+import MediaImage from '../../components/MediaImage.astro';
+import SourceCard from '../../components/SourceCard.astro';
+import Timeline from '../../components/Timeline.astro';
+import { getAllMedia, getChapters, getMedia, getPeople, getSources, locales, otherLocale, route, type Locale } from '../../lib/content';
+import { exhibitionPayload, safeJson, strings } from '../../lib/ui';
+
+export function getStaticPaths() {
+  return locales.map((locale) => ({ params: { locale }, props: { locale } }));
+}
+
+const { locale } = Astro.props as { locale: Locale };
+const t = strings(locale);
+const chapters = await getChapters(locale);
+const people = getPeople(locale);
+const media = getAllMedia(locale);
+const mediaById = Object.fromEntries(media.map(item => [item.id, item]));
+const hero = getMedia('genoa', locale);
+const initialChapter = chapters[0]!;
+const initialMedia = initialChapter.media;
+const crossing = chapters.find(chapter => chapter.data.key === 'crossing')!;
+const pt = locale === 'pt-br';
+const stageItems = [
+  { key: 'port', country: pt ? '01 / O mar' : '01 / The sea', name: pt ? 'Gênova' : 'Genoa', mediaId: 'genoa-emigrant-embarkation-1898', eyebrow: pt ? 'Um mundo em movimento' : 'A world in motion', title: pt ? 'O porto das partidas.' : 'The port of departures.', copy: pt ? 'Famílias, bagagens e uma prancha de embarque. Esta fotografia de 1898 mostra o movimento migratório em Gênova, um dos portos da rota do Colombo. É contexto da época; o registro familiar não informa onde os Panzonato embarcaram.' : 'Families, luggage, and a gangplank. This 1898 photograph opens onto migration through Genoa, one of the Colombo’s regular ports. It is a view of the wider story; the family record does not name their port of embarkation.' },
+  { key: 'hostelry', country: pt ? '02 / A chegada' : '02 / Arrival', name: 'São Paulo', mediaId: 'immigrants-at-bras-courtyard', eyebrow: '15.12.1891', title: pt ? 'Oito nomes no livro.' : 'Eight names in the ledger.', copy: pt ? 'Giuseppe, Fosca e seis crianças aparecem juntos no registro da Hospedaria de Imigrantes. O vapor é o Colombo. A procedência: Rio de Janeiro. O destino anotado: Tietê. São os pontos de partida para reconstruir a vida no Brasil.' : 'Giuseppe, Fosca, and six children appear together in the immigrant register. The ship: Colombo. Proceeding from: Rio de Janeiro. Destination: Tietê. These are the written clues from which their life in Brazil can be traced.' },
+  { key: 'capivari', country: pt ? '03 / Uma nova geração' : '03 / A new generation', name: 'Capivari', mediaId: 'capivari-station-1981', eyebrow: pt ? 'O interior paulista' : 'Inland São Paulo', title: pt ? 'Uma história que cria raízes.' : 'A story that takes root.', copy: pt ? 'Em 1899, o nascimento de José Pansonatto Filho situa a família em Capivari. Os registros de nascimento, casamento e óbito permitem seguir os laços entre gerações. A estação fotografada é posterior à chegada da família.' : 'By 1899, the birth of José Pansonatto Filho places the family in Capivari. Births, marriages, and deaths let us follow the connections between generations. The station building in this photograph postdates the family’s arrival.' },
+].filter(stage => mediaById[stage.mediaId]);
+const stages = Object.fromEntries(stageItems.map(stage => [stage.key, stage]));
+const firstStage = stageItems[0];
+const firstStageMedia = firstStage ? getMedia(firstStage.mediaId, locale) : hero;
+const initialIds = new Set([hero.id, ...chapters.map(c => c.media.id), ...stageItems.map(s => s.mediaId)]);
+const sources = getSources(locale);
+const desiredObjects = ['sacop-third-class-ticket-1910', 'giuseppe-birth-1856', 'apesp-colonos-harvesting-coffee-1908', 'steerage-interior-1891', 'gambarare-church-choir-loft', 'dolo-riviera-del-brenta-bell-tower'];
+const selectedSources = sources.filter(source => source.media && !initialIds.has(source.media.id)).sort((a, b) => {
+  const rank = (id: string) => { const n = desiredObjects.indexOf(id); return n < 0 ? 99 : n; };
+  return rank(a.media!.id) - rank(b.media!.id);
+}).slice(0, 6);
+const featuredPeople = people.filter(person => ['giuseppe-giacomo-panzonato', 'fosca-moro', 'jose-pansonatto-filho', 'assumpta-elvira-pessato'].includes(person.id));
+const payload = exhibitionPayload(locale, media, chapters.map((chapter, index) => ({
+  number: String(index + 1).padStart(2, '0'),
+  title: chapter.data.question,
+  copy: chapter.data.summary,
+  mediaId: chapter.data.mediaId,
+  href: chapter.href,
+})), stages);
+---
+
+<BaseLayout locale={locale} title={t.homeTitle} description={t.homeDescription} alternateHref={route(otherLocale(locale))}>
+  <section class="opening" id="opening" aria-labelledby="opening-title">
+    <div class="overline"><span>{t.openingOverline[0]}</span><span>{t.openingOverline[1]}</span></div>
+    <h1 id="opening-title">{t.openingTitle}<br /><em>{t.openingEmphasis}</em></h1>
+    <div class="opening-intro">
+      <p>{t.openingIntro}</p>
+      <a class="underlined-action" href="#chapters">{t.begin}<span aria-hidden="true"></span></a>
+    </div>
+    <figure class="hero-figure">
+      <a class="image-open opening-image-open" href={hero.href} data-evidence="genoa" data-inspect-label={t.inspect} aria-label={`${t.inspect}: ${hero.title}`}>
+        <MediaImage media={hero} sizes="(min-width: 1000px) 92vw, 100vw" loading="eager" fetchpriority="high" />
+      </a>
+      <figcaption><span>{hero.title}</span><span>{hero.caption}</span></figcaption>
+    </figure>
+  </section>
+
+  <section class="chapters" id="chapters" aria-labelledby="chapters-title">
+    <div class="section-heading">
+      <span class="eyebrow">{t.storyEyebrow}</span>
+      <h2 id="chapters-title">{t.storyTitle}<br /><em>{t.storyEmphasis}</em></h2>
+      <p>{t.storyIntro}</p>
+    </div>
+    <div class="chapter-layout">
+      <div class="chapter-list" aria-label={t.chapterGroup}>
+        {chapters.map((chapter, index) => (
+          <a href={chapter.href} data-chapter={String(index)} data-selected={index === 0 ? 'true' : 'false'}>
+            <span>{String(index + 1).padStart(2, '0')}</span><strong>{chapter.data.title}</strong><b aria-hidden="true"></b>
+          </a>
+        ))}
+      </div>
+      {initialChapter && <div class="chapter-preview" aria-live="polite">
+        <span class="eyebrow" id="chapter-number">{t.chapter} {String(initialChapter.data.order).padStart(2, '0')}</span>
+        <h3 id="chapter-title">{initialChapter.data.question}</h3>
+        <p id="chapter-copy">{initialChapter.data.summary}</p>
+        <figure class="chapter-preview-image">
+          <a class="image-open" id="chapter-preview-source" href={initialMedia.href} data-evidence={initialMedia.id} data-inspect-label={t.inspect} aria-label={`${t.inspect}: ${initialMedia.title}`}><img id="chapter-image" src={initialMedia.src} srcset={initialMedia.srcset} sizes="(min-width: 900px) 35vw, 90vw" width={initialMedia.width} height={initialMedia.height} alt={initialMedia.alt} loading="lazy" decoding="async" style={`object-position:${initialMedia.focalPoint}`} /></a>
+          <figcaption>{initialMedia.caption}</figcaption>
+        </figure>
+        <a class="text-link" id="chapter-link" href={initialChapter.href}>{t.readChapter}<span aria-hidden="true"></span></a>
+      </div>}
+    </div>
+    <article class="reading manifest-reading" aria-labelledby="reading-title">
+      <div class="reading-meta"><span>{pt ? 'Um documento, uma família' : 'One record, one family'}</span><span>15.12.1891</span></div>
+      <div class="reading-grid">
+        <h2 id="reading-title">{pt ? 'Oito nomes.' : 'Eight names.'}<br /><em>{pt ? 'Uma travessia.' : 'One crossing.'}</em></h2>
+        <div class="reading-body">
+          <p class="lead">{pt ? 'Giuseppe e Fosca chegaram ao Brasil com seis crianças. A mais velha tinha dez anos. O caçula, apenas um.' : 'Giuseppe and Fosca arrived in Brazil with six children. The eldest was ten. The youngest was just one.'}</p>
+          <dl class="passenger-roster">{[['Giuseppe', '35'], ['Fosca', '30'], ['Luigia', '10'], ['Catarina', '9'], ['Candida', '7'], ['Luigi', '5'], ['Domenico', '3'], ['Eugenio', '1']].map(([name, age]) => <div><dt>{name}</dt><dd>{age} <span>{pt ? (age === '1' ? 'ano' : 'anos') : (age === '1' ? 'year' : 'years')}</span></dd></div>)}</dl>
+          <p class="roster-note">{pt ? 'Nomes e idades conforme o registro de chegada do Colombo. Hospedaria de Imigrantes, livro 031, página 283.' : 'Names and ages as recorded in the Colombo arrival entry. Hospedaria de Imigrantes, book 031, page 283.'}</p>
+          <a class="text-link" href={crossing.href}>{t.readingLink}<span aria-hidden="true"></span></a>
+        </div>
+      </div>
+    </article>
+  </section>
+
+  {firstStage && <section class="journey" id="journey" aria-labelledby="journey-title">
+    <div class="journey-top"><span id="journey-title">{pt ? 'Explore os lugares' : 'Explore the places'}</span><span>{t.journeyHint}</span></div>
+    <div class="stage-selector" aria-label={t.stageGroup}>
+      {stageItems.map((stage, index) => <>{index > 0 && <i aria-hidden="true"></i>}<a href={getMedia(stage.mediaId, locale).href} data-stage={stage.key} data-selected={index === 0 ? 'true' : 'false'}><span>{stage.country}</span>{stage.name}</a></>)}
+    </div>
+    <div class="stage-view">
+      <figure><a class="image-open stage-image-open" href={firstStageMedia.href} data-evidence={firstStageMedia.id} data-inspect-label={t.inspect} aria-label={`${t.inspect}: ${firstStageMedia.title}`}><MediaImage media={firstStageMedia} class="stage-photo" sizes="(min-width: 900px) 62vw, 100vw" /></a><figcaption class="stage-caption">{firstStageMedia.caption}</figcaption></figure>
+      <div class="stage-copy" aria-live="polite"><span class="eyebrow">{firstStage.eyebrow}</span><h2>{firstStage.title}</h2><p>{firstStage.copy}</p><a class="look-closer" href={firstStageMedia.href} data-evidence={firstStageMedia.id}>{t.lookCloser}<span aria-hidden="true"></span></a></div>
+    </div>
+    <p class="interaction-status" role="status" aria-live="polite"></p>
+  </section>}
+
+  <Timeline locale={locale} />
+
+  <section class="home-people" id="people">
+    <div><span class="eyebrow">{t.nav.people}</span><h2>{t.peopleTitle}</h2><p>{t.peopleCopy}</p><a class="text-link" href={route(locale, 'people')}>{t.meetPeople}<span aria-hidden="true"></span></a></div>
+    <div class="home-people-list">{(featuredPeople.length >= 4 ? featuredPeople : people.slice(0, 4)).map(person => <a href={person.href}><span>{person.dates ?? t.profile}</span><h3>{person.name}</h3></a>)}</div>
+  </section>
+
+  <section class="collection-selection" id="archive">
+    <span class="eyebrow">{t.archiveSelected}</span><h2>{t.archiveSelectedTitle}</h2>
+    <div class="record-grid">{selectedSources.map(source => <SourceCard source={source} locale={locale} />)}</div>
+    <a class="text-link" href={route(locale, 'archive')}>{t.exploreArchive} · {sources.length}<span aria-hidden="true"></span></a>
+  </section>
+
+  <EvidenceDialog locale={locale} initial={hero} />
+  <script id="exhibition-data" type="application/json" is:inline set:html={safeJson(payload)}></script>
+</BaseLayout>

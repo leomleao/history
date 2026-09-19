@@ -1,0 +1,1449 @@
+[
+  {
+    "id": "gambarare",
+    "sourceId": "gambarare-church",
+    "publication": "preview",
+    "role": "field-photograph",
+    "alt": {
+      "en": "The pale church facade and bell tower of San Giovanni Battista emerge through dense winter fog.",
+      "pt-br": "A fachada clara e a torre sineira de San Giovanni Battista surgem em meio à densa neblina de inverno."
+    },
+    "caption": {
+      "en": "San Giovanni Battista, Gambarare, photographed during the family research visit of 27 January 2024.",
+      "pt-br": "San Giovanni Battista, Gambarare, fotografada durante a visita de pesquisa familiar de 27 de janeiro de 2024."
+    },
+    "credit": {
+      "en": "Panzonato family research archive; photographer not identified in catalog.",
+      "pt-br": "Arquivo de pesquisa da família Panzonato; fotógrafo não identificado no catálogo."
+    },
+    "rights": {
+      "en": "Family field photograph authorized for local preview. Photographer credit and publication rights remain under review.",
+      "pt-br": "Fotografia de campo familiar autorizada para prévia local. O crédito do fotógrafo e os direitos de publicação permanecem em revisão."
+    },
+    "focalPoint": "center 48%",
+    "variants": [
+      {
+        "path": "gambarare/gambarare-d8bb58da6158-480.webp",
+        "width": 480,
+        "height": 640,
+        "bytes": 17408,
+        "sha256": "d8bb58da6158ed3093a2f7ee2db1a8d463912934c79b9283de652ec3f6fb1655"
+      },
+      {
+        "path": "gambarare/gambarare-b653a118518e-960.webp",
+        "width": 960,
+        "height": 1280,
+        "bytes": 58528,
+        "sha256": "b653a118518e13204346060720621be3d3aa29bb842ebc96cd01b1aaa1bec563"
+      },
+      {
+        "path": "gambarare/gambarare-244d3f6bf10f-1600.webp",
+        "width": 1600,
+        "height": 2133,
+        "bytes": 157480,
+        "sha256": "244d3f6bf10fd44c452ce445414744effbacff6eef1003148ee4a1b5ecb1d741"
+      },
+      {
+        "path": "gambarare/gambarare-48738243d24c-1800.webp",
+        "width": 1800,
+        "height": 2400,
+        "bytes": 199632,
+        "sha256": "48738243d24cbd6501d2025fa2079d08d8976c2f960986660b5c1c051592480f"
+      }
+    ]
+  },
+  {
+    "id": "venice-1891-working-calle",
+    "sourceId": "venice-1891-working-calle",
+    "publication": "preview",
+    "role": "historical-context",
+    "alt": {
+      "en": "Residents, including women and children, gather along a narrow Venetian street in an 1891 photograph.",
+      "pt-br": "Moradores, entre eles mulheres e crianças, reúnem-se em uma rua estreita de Veneza numa fotografia de 1891."
+    },
+    "caption": {
+      "en": "A Venetian street in Ferdinando Ongania’s 1891 portfolio. Regional context from the year of the family’s migration.",
+      "pt-br": "Uma rua veneziana no álbum de Ferdinando Ongania, de 1891. Contexto regional do ano da migração familiar."
+    },
+    "credit": {
+      "en": "Ferdinando Ongania, Calli e Canali in Venezia (1891); source archived via Vintage Everyday.",
+      "pt-br": "Ferdinando Ongania, Calli e Canali in Venezia (1891); fonte arquivada via Vintage Everyday."
+    },
+    "rights": {
+      "en": "Historical-context image for local preview. Reproduction rights remain under review.",
+      "pt-br": "Imagem de contexto histórico para prévia local. Os direitos de reprodução permanecem em revisão."
+    },
+    "focalPoint": "center 68%",
+    "variants": [
+      {
+        "path": "venice-1891-working-calle/venice-1891-working-calle-633da0cf0317-480.webp",
+        "width": 480,
+        "height": 711,
+        "bytes": 62260,
+        "sha256": "633da0cf03172c5cdab4c8d7e052ce6935b506c942fd0ad72f3f8c0ba5d2f9d3"
+      },
+      {
+        "path": "venice-1891-working-calle/venice-1891-working-calle-6c090b3e7725-640.webp",
+        "width": 640,
+        "height": 948,
+        "bytes": 94854,
+        "sha256": "6c090b3e7725e7c247ea3be633b33a8d061b843cc24192708cf289039fce7fcc"
+      }
+    ]
+  },
+  {
+    "id": "venice-1891-campo-santa-margherita",
+    "sourceId": "venice-1891-campo-santa-margherita",
+    "publication": "preview",
+    "role": "historical-context",
+    "alt": {
+      "en": "Market stalls and pedestrians occupy Campo Santa Margherita in Venice in 1891.",
+      "pt-br": "Barracas de mercado e pedestres ocupam o Campo Santa Margherita, em Veneza, em 1891."
+    },
+    "caption": {
+      "en": "A working urban scene from the Province of Venice in 1891; it provides period context only and does not depict Gambarare or named relatives.",
+      "pt-br": "Uma cena urbana de trabalho da Província de Veneza em 1891; oferece apenas contexto de época e não mostra Gambarare nem parentes identificados."
+    },
+    "credit": {
+      "en": "Ferdinando Ongania, Calli e Canali in Venezia (1891); source archived via Vintage Everyday.",
+      "pt-br": "Ferdinando Ongania, Calli e Canali in Venezia (1891); fonte arquivada via Vintage Everyday."
+    },
+    "rights": {
+      "en": "Historical-context image for local preview. Reproduction rights remain under review.",
+      "pt-br": "Imagem de contexto histórico para prévia local. Os direitos de reprodução permanecem em revisão."
+    },
+    "focalPoint": "center 52%",
+    "variants": [
+      {
+        "path": "venice-1891-campo-santa-margherita/venice-1891-campo-santa-margherita-743e9e75797e-480.webp",
+        "width": 480,
+        "height": 336,
+        "bytes": 33076,
+        "sha256": "743e9e75797ebcee8f5a7ff9aadb65c57f4d5120d9d91ee987a43aa0ed68c91c"
+      },
+      {
+        "path": "venice-1891-campo-santa-margherita/venice-1891-campo-santa-margherita-10b52bf622a1-640.webp",
+        "width": 640,
+        "height": 448,
+        "bytes": 50740,
+        "sha256": "10b52bf622a1fe890e423181f07348ec7b07cd02fae5b91e69f1c735c64b73c9"
+      }
+    ]
+  },
+  {
+    "id": "dolo-riviera-del-brenta-bell-tower",
+    "sourceId": "dolo-riviera-del-brenta-bell-tower",
+    "publication": "preview",
+    "role": "field-photograph",
+    "alt": {
+      "en": "A bell tower rises above low buildings and trees beside the Brenta canal at dusk.",
+      "pt-br": "Uma torre sineira se eleva sobre construções baixas e árvores junto ao canal do Brenta ao entardecer."
+    },
+    "caption": {
+      "en": "A contemporary field photograph in nearby Dolo, part of the Riviera del Brenta landscape around Mira.",
+      "pt-br": "Fotografia de campo contemporânea em Dolo, parte da paisagem da Riviera del Brenta ao redor de Mira."
+    },
+    "credit": {
+      "en": "Panzonato family research archive; photographer not identified in catalog.",
+      "pt-br": "Arquivo de pesquisa da família Panzonato; fotógrafo não identificado no catálogo."
+    },
+    "rights": {
+      "en": "Family field photograph authorized for local preview. Photographer credit and publication rights remain under review.",
+      "pt-br": "Fotografia de campo familiar autorizada para prévia local. O crédito do fotógrafo e os direitos de publicação permanecem em revisão."
+    },
+    "focalPoint": "center 36%",
+    "variants": [
+      {
+        "path": "dolo-riviera-del-brenta-bell-tower/dolo-riviera-del-brenta-bell-tower-bb5e7048888f-480.webp",
+        "width": 480,
+        "height": 640,
+        "bytes": 25422,
+        "sha256": "bb5e7048888f85cddd3e870cbdd34771ca47646eddd5b869869e8152a0bc4eea"
+      },
+      {
+        "path": "dolo-riviera-del-brenta-bell-tower/dolo-riviera-del-brenta-bell-tower-8199cd2308f7-960.webp",
+        "width": 960,
+        "height": 1280,
+        "bytes": 82774,
+        "sha256": "8199cd2308f71fc3cc6ffb1ef015b1bf5e2c365e8220e6ff92ebc440ba0947d6"
+      },
+      {
+        "path": "dolo-riviera-del-brenta-bell-tower/dolo-riviera-del-brenta-bell-tower-afbd750a88d5-1600.webp",
+        "width": 1600,
+        "height": 2133,
+        "bytes": 191936,
+        "sha256": "afbd750a88d5f8de5f07fbbe87c3a1f45b52900c7b09eca1e6815898df561fbd"
+      },
+      {
+        "path": "dolo-riviera-del-brenta-bell-tower/dolo-riviera-del-brenta-bell-tower-a86a4d45dd3b-1800.webp",
+        "width": 1800,
+        "height": 2400,
+        "bytes": 238080,
+        "sha256": "a86a4d45dd3b38b7d9ce48adcc9ebfbd55ccace5ba90c0523b02f34c78a1e086"
+      }
+    ]
+  },
+  {
+    "id": "giuseppe-birth-1856",
+    "sourceId": "giuseppe-birth-1856",
+    "publication": "preview",
+    "role": "family-evidence",
+    "alt": {
+      "en": "Cropped record face of an Italian administrative birth certificate naming Giuseppe Giacomo Panzonato, his parents, and his 1856 birth in Gambarare.",
+      "pt-br": "Recorte do registro de uma certidão administrativa italiana que nomeia Giuseppe Giacomo Panzonato, seus pais e o nascimento em 1856 em Gambarare."
+    },
+    "caption": {
+      "en": "Sanitized excerpt from the certified birth record: Giuseppe Giacomo Panzonato, born 22 July 1856 in Gambarare. Modern legalizations and issue details are excluded.",
+      "pt-br": "Trecho sanitizado da certidão de nascimento: Giuseppe Giacomo Panzonato, nascido em 22 de julho de 1856 em Gambarare. Legalizações modernas e dados de emissão foram excluídos."
+    },
+    "credit": {
+      "en": "Parrocchia S. Giovanni Battista, Gambarare di Mira; Comune di Mira; family archive copy.",
+      "pt-br": "Parrocchia S. Giovanni Battista, Gambarare di Mira; Comune di Mira; cópia do arquivo familiar."
+    },
+    "rights": {
+      "en": "Sanitized historical-record facsimile for local preview. Repository reproduction rights remain under review.",
+      "pt-br": "Fac-símile sanitizado de registro histórico para prévia local. Os direitos de reprodução do repositório permanecem em revisão."
+    },
+    "focalPoint": "center center",
+    "variants": [
+      {
+        "path": "giuseppe-birth-1856/giuseppe-birth-1856-e39da1979c4b-480.webp",
+        "width": 480,
+        "height": 282,
+        "bytes": 16222,
+        "sha256": "e39da1979c4b128e185a51a20c714a04442fde04dbc07e5c7bc9d12eeccd5571"
+      },
+      {
+        "path": "giuseppe-birth-1856/giuseppe-birth-1856-7638871aa85d-960.webp",
+        "width": 960,
+        "height": 564,
+        "bytes": 42856,
+        "sha256": "7638871aa85d6d01c02355b5974f8b7df2e3c03e8f65bcbf920d5248c844d1cc"
+      },
+      {
+        "path": "giuseppe-birth-1856/giuseppe-birth-1856-cc00af9f01cc-1600.webp",
+        "width": 1600,
+        "height": 940,
+        "bytes": 79226,
+        "sha256": "cc00af9f01ccf9ca548122f271fc3e0aef5994082a21bd3ce2e1a31c1d13fbec"
+      },
+      {
+        "path": "giuseppe-birth-1856/giuseppe-birth-1856-b49308ae430e-1799.webp",
+        "width": 1799,
+        "height": 1057,
+        "bytes": 92574,
+        "sha256": "b49308ae430ea402dfb815189ffcd9707eebbe8b33db70c8adc7e9583e22a6e5"
+      }
+    ]
+  },
+  {
+    "id": "gambarare-side-chapel",
+    "sourceId": "gambarare-side-chapel",
+    "publication": "preview",
+    "role": "field-photograph",
+    "alt": {
+      "en": "A carved wooden structure and stone basin stand in a side chapel with a checkerboard marble floor.",
+      "pt-br": "Uma estrutura entalhada de madeira e uma bacia de pedra ocupam uma capela lateral com piso de mármore em xadrez."
+    },
+    "caption": {
+      "en": "Field photograph of a side chapel in the Gambarare parish church, taken 27 January 2024.",
+      "pt-br": "Fotografia de campo de uma capela lateral na igreja paroquial de Gambarare, feita em 27 de janeiro de 2024."
+    },
+    "credit": {
+      "en": "Panzonato family research archive; photographer not identified in catalog.",
+      "pt-br": "Arquivo de pesquisa da família Panzonato; fotógrafo não identificado no catálogo."
+    },
+    "rights": {
+      "en": "Family field photograph authorized for local preview. Photographer credit and publication rights remain under review.",
+      "pt-br": "Fotografia de campo familiar autorizada para prévia local. O crédito do fotógrafo e os direitos de publicação permanecem em revisão."
+    },
+    "focalPoint": "center 50%",
+    "variants": [
+      {
+        "path": "gambarare-side-chapel/gambarare-side-chapel-4de9abf44043-480.webp",
+        "width": 480,
+        "height": 640,
+        "bytes": 47204,
+        "sha256": "4de9abf4404395d24e633ee2e44c2818c7430be651ac4a5c7064d17f17fa0eae"
+      },
+      {
+        "path": "gambarare-side-chapel/gambarare-side-chapel-d40bce1532bb-960.webp",
+        "width": 960,
+        "height": 1280,
+        "bytes": 136100,
+        "sha256": "d40bce1532bb46ae40dd5faeed24515315f89b3ee9dada8d8b472300971d928e"
+      },
+      {
+        "path": "gambarare-side-chapel/gambarare-side-chapel-a34ec673a242-1600.webp",
+        "width": 1600,
+        "height": 2133,
+        "bytes": 300696,
+        "sha256": "a34ec673a24224d6abc38348770b47be977e75af76b8669f2a24f1777fce6c11"
+      },
+      {
+        "path": "gambarare-side-chapel/gambarare-side-chapel-593eceacf945-1800.webp",
+        "width": 1800,
+        "height": 2400,
+        "bytes": 368378,
+        "sha256": "593eceacf9457ab191b31b0e47e9d9011618bf86b5635073ac42dd318a76efc8"
+      }
+    ]
+  },
+  {
+    "id": "genoa-emigrant-embarkation-1898",
+    "sourceId": "genoa-emigrant-embarkation-1898",
+    "publication": "preview",
+    "role": "historical-context",
+    "alt": {
+      "en": "Crowds carrying boxes and bundles gather at a ship’s gangway in the Port of Genoa.",
+      "pt-br": "Multidões com caixas e trouxas se reúnem junto à escada de um navio no Porto de Gênova."
+    },
+    "caption": {
+      "en": "Emigrants board a ship at Genoa, 1898. Museu da Imigração collection; a later view of the migration through this port.",
+      "pt-br": "Emigrantes embarcam em Gênova, em 1898. Acervo do Museu da Imigração; um registro posterior da migração por esse porto."
+    },
+    "credit": {
+      "en": "Acervo Museu da Imigração, MI_ICO_AMP_022_004_013_001; photograph ceded by Laudicéia Schutz.",
+      "pt-br": "Acervo Museu da Imigração, MI_ICO_AMP_022_004_013_001; fotografia cedida por Laudicéia Schutz."
+    },
+    "rights": {
+      "en": "Historical-context image for local preview. Reproduction rights remain under review.",
+      "pt-br": "Imagem de contexto histórico para prévia local. Os direitos de reprodução permanecem em revisão."
+    },
+    "focalPoint": "center 57%",
+    "variants": [
+      {
+        "path": "genoa-emigrant-embarkation-1898/genoa-emigrant-embarkation-1898-cdeae9c6c44a-480.webp",
+        "width": 480,
+        "height": 334,
+        "bytes": 29884,
+        "sha256": "cdeae9c6c44a5fafce549a0d5f575632f57cd2e6a3b544d6d112a87861abbc51"
+      },
+      {
+        "path": "genoa-emigrant-embarkation-1898/genoa-emigrant-embarkation-1898-df13418514dd-960.webp",
+        "width": 960,
+        "height": 668,
+        "bytes": 85028,
+        "sha256": "df13418514ddea8bbb9fa893747154edd0f949996ef980756b6da2752dfc11c0"
+      },
+      {
+        "path": "genoa-emigrant-embarkation-1898/genoa-emigrant-embarkation-1898-4ca447a9608f-1169.webp",
+        "width": 1169,
+        "height": 813,
+        "bytes": 116050,
+        "sha256": "4ca447a9608fa18e1ab205644a81b4b98a3ffd30b364e97fa6952e649ffee0ad"
+      }
+    ]
+  },
+  {
+    "id": "genoa",
+    "sourceId": "genoa-harbour",
+    "publication": "preview",
+    "role": "historical-context",
+    "alt": {
+      "en": "A panoramic nineteenth-century photograph looks over Genoa’s crowded harbour and waterfront.",
+      "pt-br": "Uma fotografia panorâmica do século XIX mostra o porto movimentado e a orla de Gênova."
+    },
+    "caption": {
+      "en": "Historical context: Genoa’s harbour, photographed by Alfred Noack, c. 1880–1890.",
+      "pt-br": "Contexto histórico: o porto de Gênova, fotografado por Alfred Noack, c. 1880–1890."
+    },
+    "credit": {
+      "en": "Alfred Noack, Genoa, catalog no. 3011; local research archive.",
+      "pt-br": "Alfred Noack, Gênova, catálogo n.º 3011; arquivo de pesquisa local."
+    },
+    "rights": {
+      "en": "Historical-context image for local preview. Reproduction rights remain under review.",
+      "pt-br": "Imagem de contexto histórico para prévia local. Os direitos de reprodução permanecem em revisão."
+    },
+    "focalPoint": "center 70%",
+    "variants": [
+      {
+        "path": "genoa/genoa-231b44ca150b-480.webp",
+        "width": 480,
+        "height": 354,
+        "bytes": 37318,
+        "sha256": "231b44ca150bc88454c82788297e8edcc15037011d951422a2f31f6fa048c11e"
+      },
+      {
+        "path": "genoa/genoa-b49329b43ea8-800.webp",
+        "width": 800,
+        "height": 590,
+        "bytes": 115180,
+        "sha256": "b49329b43ea8e766a2bd9ad9349dba1347d0c429c3f5f72a07b9f5ce4f820618"
+      }
+    ]
+  },
+  {
+    "id": "steerage-interior-1891",
+    "sourceId": "steerage-interior-1891",
+    "publication": "preview",
+    "role": "historical-context",
+    "alt": {
+      "en": "An engraved illustration shows passengers and luggage inside a crowded steerage compartment.",
+      "pt-br": "Uma gravura mostra passageiros e bagagens dentro de um compartimento lotado da terceira classe."
+    },
+    "caption": {
+      "en": "“In the Steerage,” an illustration in a North Atlantic immigration account, 1891.",
+      "pt-br": "“In the Steerage”, ilustração de um relato sobre a imigração no Atlântico Norte, de 1891."
+    },
+    "credit": {
+      "en": "John H. Gould, Scribner’s Magazine (1891), preserved by GG Archives.",
+      "pt-br": "John H. Gould, Scribner’s Magazine (1891), preservado por GG Archives."
+    },
+    "rights": {
+      "en": "Historical-context image for local preview. Reproduction rights remain under review.",
+      "pt-br": "Imagem de contexto histórico para prévia local. Os direitos de reprodução permanecem em revisão."
+    },
+    "focalPoint": "center center",
+    "variants": [
+      {
+        "path": "steerage-interior-1891/steerage-interior-1891-55e1876c8f38-480.webp",
+        "width": 480,
+        "height": 310,
+        "bytes": 64558,
+        "sha256": "55e1876c8f38e3eb4ebdceaca464de20365551e7b273743de8d9693ae1e59eaa"
+      },
+      {
+        "path": "steerage-interior-1891/steerage-interior-1891-b728bbb9db12-500.webp",
+        "width": 500,
+        "height": 323,
+        "bytes": 72196,
+        "sha256": "b728bbb9db12643e22b6220e5239e59da622383cb2ee99b70d5d8fabfe30a7a9"
+      }
+    ]
+  },
+  {
+    "id": "gangplank-before-sailing-1891",
+    "sourceId": "gangplank-before-sailing-1891",
+    "publication": "preview",
+    "role": "historical-context",
+    "alt": {
+      "en": "An engraved illustration frames a crowd boarding a steamship through an open doorway.",
+      "pt-br": "Uma gravura enquadra uma multidão embarcando num navio a vapor por uma abertura."
+    },
+    "caption": {
+      "en": "An 1891 period illustration of embarkation; contextual only and not a depiction of the Colombo.",
+      "pt-br": "Ilustração de época, de 1891, sobre o embarque; apenas contexto e não uma representação do Colombo."
+    },
+    "credit": {
+      "en": "John H. Gould, Scribner’s Magazine (1891), preserved by GG Archives.",
+      "pt-br": "John H. Gould, Scribner’s Magazine (1891), preservado por GG Archives."
+    },
+    "rights": {
+      "en": "Historical-context image for local preview. Reproduction rights remain under review.",
+      "pt-br": "Imagem de contexto histórico para prévia local. Os direitos de reprodução permanecem em revisão."
+    },
+    "focalPoint": "center 48%",
+    "variants": [
+      {
+        "path": "gangplank-before-sailing-1891/gangplank-before-sailing-1891-6006b85d8b84-480.webp",
+        "width": 480,
+        "height": 605,
+        "bytes": 121740,
+        "sha256": "6006b85d8b8444752740a3906b90f6ba8df68cec6c1dad6556941d56064feb23"
+      },
+      {
+        "path": "gangplank-before-sailing-1891/gangplank-before-sailing-1891-57aab4aaf29f-500.webp",
+        "width": 500,
+        "height": 630,
+        "bytes": 136468,
+        "sha256": "57aab4aaf29f4bb4b9aeac0107284d5b75f4690b1342cf27af9bd0fe73830c0e"
+      }
+    ]
+  },
+  {
+    "id": "emigrant-family-on-deck-ferraguti",
+    "sourceId": "emigrant-family-on-deck-ferraguti",
+    "publication": "preview",
+    "role": "historical-context",
+    "alt": {
+      "en": "A woodcut depicts an emigrant family resting among bundles on an open steamship deck.",
+      "pt-br": "Uma xilogravura mostra uma família emigrante descansando entre trouxas no convés aberto de um navio."
+    },
+    "caption": {
+      "en": "Arnaldo Ferraguti’s illustration for Edmondo De Amicis’s Sull’Oceano (1889) evokes steerage travel; it is not a Panzonato family image.",
+      "pt-br": "A ilustração de Arnaldo Ferraguti para Sull’Oceano, de Edmondo De Amicis (1889), evoca a viagem em terceira classe; não é uma imagem da família Panzonato."
+    },
+    "credit": {
+      "en": "Arnaldo Ferraguti, illustration for Edmondo De Amicis, Sull’Oceano (1889); local research archive.",
+      "pt-br": "Arnaldo Ferraguti, ilustração para Edmondo De Amicis, Sull’Oceano (1889); arquivo de pesquisa local."
+    },
+    "rights": {
+      "en": "Historical-context image for local preview. Reproduction rights remain under review.",
+      "pt-br": "Imagem de contexto histórico para prévia local. Os direitos de reprodução permanecem em revisão."
+    },
+    "focalPoint": "center 52%",
+    "variants": [
+      {
+        "path": "emigrant-family-on-deck-ferraguti/emigrant-family-on-deck-ferraguti-cb49a6af6e15-480.webp",
+        "width": 480,
+        "height": 323,
+        "bytes": 54862,
+        "sha256": "cb49a6af6e1533bb2b65d778e647df7a76adde89e202c84dae8266e16815a5cb"
+      },
+      {
+        "path": "emigrant-family-on-deck-ferraguti/emigrant-family-on-deck-ferraguti-4e54bb7ad8f2-960.webp",
+        "width": 960,
+        "height": 645,
+        "bytes": 270784,
+        "sha256": "4e54bb7ad8f25d0199deaaf3c2172f491d7b812ab0e2cb2393e96a74694baf99"
+      },
+      {
+        "path": "emigrant-family-on-deck-ferraguti/emigrant-family-on-deck-ferraguti-4e293ae036a9-1280.webp",
+        "width": 1280,
+        "height": 860,
+        "bytes": 562130,
+        "sha256": "4e293ae036a9b9969f5cc86c3f4f6238c58507951d2b7bb110536ccfa78fcb46"
+      }
+    ]
+  },
+  {
+    "id": "sacop-third-class-ticket-1910",
+    "sourceId": "sacop-third-class-ticket-1910",
+    "publication": "preview",
+    "role": "historical-context",
+    "alt": {
+      "en": "A narrow Italian third-class steamship ticket bears printed rules, stamps, and handwritten annotations.",
+      "pt-br": "Um estreito bilhete italiano de navio em terceira classe traz regras impressas, carimbos e anotações manuscritas."
+    },
+    "caption": {
+      "en": "A third-class ticket preserved in a 1910 SACOP fare-restitution file. Historical context from the APESP collection.",
+      "pt-br": "Bilhete de terceira classe preservado em um processo de restituição de passagem da SACOP, de 1910. Contexto histórico do acervo do APESP."
+    },
+    "credit": {
+      "en": "Arquivo Público do Estado de São Paulo / Museu da Imigração, BR_SP_APESP_SACOP_REQ_C07343_02896.",
+      "pt-br": "Arquivo Público do Estado de São Paulo / Museu da Imigração, BR_SP_APESP_SACOP_REQ_C07343_02896."
+    },
+    "rights": {
+      "en": "Historical-context image for local preview. Reproduction rights remain under review.",
+      "pt-br": "Imagem de contexto histórico para prévia local. Os direitos de reprodução permanecem em revisão."
+    },
+    "focalPoint": "center center",
+    "variants": [
+      {
+        "path": "sacop-third-class-ticket-1910/sacop-third-class-ticket-1910-e8bbb23584ca-480.webp",
+        "width": 480,
+        "height": 911,
+        "bytes": 85434,
+        "sha256": "e8bbb23584cad11d0b0b2e8b6c8a43177d09a6081fe1a39ffbbbcfe4b7da730d"
+      },
+      {
+        "path": "sacop-third-class-ticket-1910/sacop-third-class-ticket-1910-1a0ec64f47dd-926.webp",
+        "width": 926,
+        "height": 1758,
+        "bytes": 218008,
+        "sha256": "1a0ec64f47dd3d4f1f3447484c54b08ee3f1da02411ecbba119f3b5773c470a4"
+      }
+    ]
+  },
+  {
+    "id": "panzonato-hospedaria-1891",
+    "sourceId": "panzonato-hospedaria-1891",
+    "publication": "preview",
+    "role": "family-evidence",
+    "alt": {
+      "en": "A certified passenger-list extract names Giuseppe, Fosca, and six children in a table.",
+      "pt-br": "Um extrato certificado de lista de passageiros nomeia Giuseppe, Fosca e seis filhos em uma tabela."
+    },
+    "caption": {
+      "en": "Certified extract issued in 2002 of the family’s 15 December 1891 entry: Giuseppe, Fosca, and six children, with Tietê recorded as their destination.",
+      "pt-br": "Certidão emitida em 2002 do registro familiar de 15 de dezembro de 1891: Giuseppe, Fosca e seis filhos, com Tietê indicado como destino."
+    },
+    "credit": {
+      "en": "Memorial do Imigrante; certified extract of Livro 031, p. 283, order 07264.",
+      "pt-br": "Memorial do Imigrante; certidão do Livro 031, p. 283, ordem 07264."
+    },
+    "rights": {
+      "en": "Sanitized historical-record facsimile for local preview. Repository reproduction rights remain under review.",
+      "pt-br": "Fac-símile sanitizado de registro histórico para prévia local. Os direitos de reprodução do repositório permanecem em revisão."
+    },
+    "focalPoint": "center center",
+    "variants": [
+      {
+        "path": "panzonato-hospedaria-1891/panzonato-hospedaria-1891-6a380d8c571b-480.webp",
+        "width": 480,
+        "height": 339,
+        "bytes": 17652,
+        "sha256": "6a380d8c571b04af3cc72a6129c8dd7a0bb8e6ce37e34a9de76f9164b70c88a8"
+      },
+      {
+        "path": "panzonato-hospedaria-1891/panzonato-hospedaria-1891-6d1fd11fac0f-960.webp",
+        "width": 960,
+        "height": 679,
+        "bytes": 55366,
+        "sha256": "6d1fd11fac0fecaa6db6a6fa837e0688628593899313b8479de421b2f0364b55"
+      },
+      {
+        "path": "panzonato-hospedaria-1891/panzonato-hospedaria-1891-7ee81c648944-1600.webp",
+        "width": 1600,
+        "height": 1131,
+        "bytes": 111624,
+        "sha256": "7ee81c6489443f9ee43da6aed4dcb4a22cd7ea0846dae0b8570f1ebfbc78a512"
+      },
+      {
+        "path": "panzonato-hospedaria-1891/panzonato-hospedaria-1891-ef39482c61a1-2000.webp",
+        "width": 2000,
+        "height": 1414,
+        "bytes": 147360,
+        "sha256": "ef39482c61a15bb1c5e450a8605b90cd52fc6624c0d17b908992eec9fad830f5"
+      }
+    ]
+  },
+  {
+    "id": "santos-immigrant-disembarkation-1907",
+    "sourceId": "santos-immigrant-disembarkation-1907",
+    "publication": "preview",
+    "role": "historical-context",
+    "alt": {
+      "en": "A dense crowd of immigrants stands on a Santos quay beside a moored steamship in 1907.",
+      "pt-br": "Uma multidão de imigrantes ocupa um cais de Santos ao lado de um navio a vapor atracado, em 1907."
+    },
+    "caption": {
+      "en": "A 1907 Santos disembarkation scene from the NIEM collection. It is later historical context and does not show the Panzonato family or the Colombo.",
+      "pt-br": "Cena de desembarque em Santos, de 1907, do acervo NIEM. É contexto histórico posterior e não mostra a família Panzonato nem o Colombo."
+    },
+    "credit": {
+      "en": "Acervo NIEM — Núcleo Interdisciplinar de Estudos Migratórios, as recorded in the stored source transcript.",
+      "pt-br": "Acervo NIEM — Núcleo Interdisciplinar de Estudos Migratórios, conforme o registro da fonte armazenada."
+    },
+    "rights": {
+      "en": "Historical-context image for local preview. Reproduction rights remain under review.",
+      "pt-br": "Imagem de contexto histórico para prévia local. Os direitos de reprodução permanecem em revisão."
+    },
+    "focalPoint": "center 58%",
+    "variants": [
+      {
+        "path": "santos-immigrant-disembarkation-1907/santos-immigrant-disembarkation-1907-b06048aa266e-480.webp",
+        "width": 480,
+        "height": 326,
+        "bytes": 52444,
+        "sha256": "b06048aa266e0c83cb9f89aa3311e627e3c7cf51e90230bcac2d8d88dd107ef4"
+      },
+      {
+        "path": "santos-immigrant-disembarkation-1907/santos-immigrant-disembarkation-1907-52b8fa06b2cf-960.webp",
+        "width": 960,
+        "height": 652,
+        "bytes": 177372,
+        "sha256": "52b8fa06b2cf569dcbc3211ef4169bb4f0fc72cfa3efe1cf8a5c1e4713543ca6"
+      },
+      {
+        "path": "santos-immigrant-disembarkation-1907/santos-immigrant-disembarkation-1907-9b34e66b1fea-1203.webp",
+        "width": 1203,
+        "height": 817,
+        "bytes": 248920,
+        "sha256": "9b34e66b1feaf937c3407dfc6733ffea759f37af93407ca345189ca52bc62a53"
+      }
+    ]
+  },
+  {
+    "id": "santos",
+    "sourceId": "santos-harbour",
+    "publication": "preview",
+    "role": "historical-context",
+    "alt": {
+      "en": "Sailing ships, carts, dock workers, and warehouses fill the nineteenth-century Santos waterfront.",
+      "pt-br": "Veleiros, carroças, trabalhadores portuários e armazéns ocupam a orla de Santos no século XIX."
+    },
+    "caption": {
+      "en": "Marc Ferrez’s view of the Santos wharves provides period context for the family’s Brazilian arrival; it does not show the Colombo or named relatives.",
+      "pt-br": "A vista de Marc Ferrez dos trapiches de Santos oferece contexto de época para a chegada da família ao Brasil; não mostra o Colombo nem parentes identificados."
+    },
+    "credit": {
+      "en": "Marc Ferrez Collection; attribution recorded in the local catalog and monograph.",
+      "pt-br": "Coleção Marc Ferrez; atribuição registrada no catálogo local e na monografia."
+    },
+    "rights": {
+      "en": "Historical-context image for local preview. Reproduction rights remain under review.",
+      "pt-br": "Imagem de contexto histórico para prévia local. Os direitos de reprodução permanecem em revisão."
+    },
+    "focalPoint": "center 60%",
+    "variants": [
+      {
+        "path": "santos/santos-503e5003b1ae-480.webp",
+        "width": 480,
+        "height": 245,
+        "bytes": 36678,
+        "sha256": "503e5003b1ae1bb674eabfd7ed7b44e187c3454e37fb9195215b1d4b1249dd47"
+      },
+      {
+        "path": "santos/santos-3f02bab57479-700.webp",
+        "width": 700,
+        "height": 358,
+        "bytes": 73518,
+        "sha256": "3f02bab57479b028c136fc27565311ac83c81c83648df73874753de013600416"
+      }
+    ]
+  },
+  {
+    "id": "immigrant-train-at-bras-hostelry",
+    "sourceId": "immigrant-train-at-bras-hostelry",
+    "publication": "preview",
+    "role": "historical-context",
+    "alt": {
+      "en": "A long passenger train stands beside a platform crowded with travellers.",
+      "pt-br": "Um longo trem de passageiros permanece junto a uma plataforma cheia de viajantes."
+    },
+    "caption": {
+      "en": "Archival railway scene associated in the local catalog with the Hospedaria dos Imigrantes; contextual, not an identified view of the Panzonato family.",
+      "pt-br": "Cena ferroviária de arquivo associada no catálogo local à Hospedaria dos Imigrantes; é contexto, não uma vista identificada da família Panzonato."
+    },
+    "credit": {
+      "en": "Museu da Imigração do Estado de São Paulo, as credited in the local monograph.",
+      "pt-br": "Museu da Imigração do Estado de São Paulo, conforme crédito na monografia local."
+    },
+    "rights": {
+      "en": "Historical-context image for local preview. Reproduction rights remain under review.",
+      "pt-br": "Imagem de contexto histórico para prévia local. Os direitos de reprodução permanecem em revisão."
+    },
+    "focalPoint": "center 50%",
+    "variants": [
+      {
+        "path": "immigrant-train-at-bras-hostelry/immigrant-train-at-bras-hostelry-0990a51e0f4b-480.webp",
+        "width": 480,
+        "height": 189,
+        "bytes": 16972,
+        "sha256": "0990a51e0f4b5b164d60a01b57532874c05d441f3cf1b9f5b17ed7ecb09c10cd"
+      },
+      {
+        "path": "immigrant-train-at-bras-hostelry/immigrant-train-at-bras-hostelry-d1503f1aaae4-960.webp",
+        "width": 960,
+        "height": 378,
+        "bytes": 51762,
+        "sha256": "d1503f1aaae46173485ee08abd9eaea2c44c83bd672bdc077ca0556f5615ad73"
+      },
+      {
+        "path": "immigrant-train-at-bras-hostelry/immigrant-train-at-bras-hostelry-f5e4ec0ecfc4-1600.webp",
+        "width": 1600,
+        "height": 630,
+        "bytes": 101532,
+        "sha256": "f5e4ec0ecfc46295c2c6908b78f8a26fd247b1e113aa526f571589b72981e18a"
+      },
+      {
+        "path": "immigrant-train-at-bras-hostelry/immigrant-train-at-bras-hostelry-09afb9153d20-1800.webp",
+        "width": 1800,
+        "height": 709,
+        "bytes": 118802,
+        "sha256": "09afb9153d20fd97466a7f3d4869b56cdffe13174801672fd3d9ceac79898342"
+      }
+    ]
+  },
+  {
+    "id": "immigrants-at-bras-courtyard",
+    "sourceId": "immigrants-at-bras-courtyard",
+    "publication": "preview",
+    "role": "historical-context",
+    "alt": {
+      "en": "Adults and children with luggage gather outside a long institutional building beneath trees.",
+      "pt-br": "Adultos e crianças com bagagens se reúnem diante de um longo edifício institucional sob árvores."
+    },
+    "caption": {
+      "en": "A contextual group scene credited locally to Guilherme Gaensly and the Hospedaria do Brás; none of the people is identified as Panzonato.",
+      "pt-br": "Cena coletiva de contexto atribuída localmente a Guilherme Gaensly e à Hospedaria do Brás; nenhuma pessoa está identificada como Panzonato."
+    },
+    "credit": {
+      "en": "Guilherme Gaensly, according to the local catalog and monograph.",
+      "pt-br": "Guilherme Gaensly, conforme o catálogo local e a monografia."
+    },
+    "rights": {
+      "en": "Historical-context image for local preview. Reproduction rights remain under review.",
+      "pt-br": "Imagem de contexto histórico para prévia local. Os direitos de reprodução permanecem em revisão."
+    },
+    "focalPoint": "center 58%",
+    "variants": [
+      {
+        "path": "immigrants-at-bras-courtyard/immigrants-at-bras-courtyard-7690cf7346bf-480.webp",
+        "width": 480,
+        "height": 337,
+        "bytes": 48456,
+        "sha256": "7690cf7346bf66bdff716b691a66c5bba7d0bf4ac39e7da035945f47616b690c"
+      },
+      {
+        "path": "immigrants-at-bras-courtyard/immigrants-at-bras-courtyard-1379c071ccb8-960.webp",
+        "width": 960,
+        "height": 675,
+        "bytes": 172844,
+        "sha256": "1379c071ccb87d41e95b42eda9e11c9e6ad6c094ed1dbdd5faa6c207fbd4af06"
+      },
+      {
+        "path": "immigrants-at-bras-courtyard/immigrants-at-bras-courtyard-6ff9c662d3dd-1600.webp",
+        "width": 1600,
+        "height": 1124,
+        "bytes": 360240,
+        "sha256": "6ff9c662d3ddf21390f973b9f4cf12f589577263446276b393e99002ab3c6d9f"
+      },
+      {
+        "path": "immigrants-at-bras-courtyard/immigrants-at-bras-courtyard-4b748565c44d-1800.webp",
+        "width": 1800,
+        "height": 1265,
+        "bytes": 418028,
+        "sha256": "4b748565c44d31517aa1d61ef4e71ea1a7cef69229ca530f6fa6924b89dc933c"
+      }
+    ]
+  },
+  {
+    "id": "capivari-station-1981",
+    "sourceId": "capivari-station-1981",
+    "publication": "preview",
+    "role": "historical-context",
+    "alt": {
+      "en": "A black-and-white 1981 photograph shows the brick facade of Capivari railway station.",
+      "pt-br": "Uma fotografia em preto e branco de 1981 mostra a fachada de tijolos da estação ferroviária de Capivari."
+    },
+    "caption": {
+      "en": "Later documentation of Capivari station, useful for tracing the destination landscape; it is not a view from 1891.",
+      "pt-br": "Documentação posterior da estação de Capivari, útil para acompanhar a paisagem de destino; não é uma vista de 1891."
+    },
+    "credit": {
+      "en": "Ralph Mennucci Giesbrecht archive / Estações Ferroviárias do Brasil.",
+      "pt-br": "Arquivo Ralph Mennucci Giesbrecht / Estações Ferroviárias do Brasil."
+    },
+    "rights": {
+      "en": "Historical-context image for local preview. Reproduction rights remain under review.",
+      "pt-br": "Imagem de contexto histórico para prévia local. Os direitos de reprodução permanecem em revisão."
+    },
+    "focalPoint": "center center",
+    "variants": [
+      {
+        "path": "capivari-station-1981/capivari-station-1981-e42a6848887f-480.webp",
+        "width": 480,
+        "height": 357,
+        "bytes": 27702,
+        "sha256": "e42a6848887fc400f7ef428f88c40cad3a28f65ff55c5179bb5f342ae086be95"
+      },
+      {
+        "path": "capivari-station-1981/capivari-station-1981-0dea3de9f719-500.webp",
+        "width": 500,
+        "height": 372,
+        "bytes": 31690,
+        "sha256": "0dea3de9f7192556c489ef88f113a916cc86cdadf1103689591d9bd508f807a2"
+      }
+    ]
+  },
+  {
+    "id": "apesp-colonos-harvesting-coffee-1908",
+    "sourceId": "apesp-colonos-harvesting-coffee-1908",
+    "publication": "preview",
+    "role": "historical-context",
+    "alt": {
+      "en": "Men, women, and children work among coffee trees in a 1908 printed photograph.",
+      "pt-br": "Homens, mulheres e crianças trabalham entre cafeeiros numa fotografia impressa de 1908."
+    },
+    "caption": {
+      "en": "“Colonos colhendo café,” published in O Immigrante, January 1908. Historical context from the APESP collection.",
+      "pt-br": "“Colonos colhendo café”, publicado em O Immigrante, janeiro de 1908. Contexto histórico do acervo do APESP."
+    },
+    "credit": {
+      "en": "Arquivo Público do Estado de São Paulo; O Immigrante, Jan. 1908, year 1, no. 1, p. 6 (caption visible in scan).",
+      "pt-br": "Arquivo Público do Estado de São Paulo; O Immigrante, jan. 1908, ano 1, n.º 1, p. 6 (legenda visível na imagem)."
+    },
+    "rights": {
+      "en": "Historical-context image for local preview. Reproduction rights remain under review.",
+      "pt-br": "Imagem de contexto histórico para prévia local. Os direitos de reprodução permanecem em revisão."
+    },
+    "focalPoint": "center 52%",
+    "variants": [
+      {
+        "path": "apesp-colonos-harvesting-coffee-1908/apesp-colonos-harvesting-coffee-1908-7f5fd37f8a34-480.webp",
+        "width": 480,
+        "height": 339,
+        "bytes": 33956,
+        "sha256": "7f5fd37f8a348e257ee850a5de3b0d8e453d3b05b685acd200f4bc6625d65df6"
+      },
+      {
+        "path": "apesp-colonos-harvesting-coffee-1908/apesp-colonos-harvesting-coffee-1908-5ed841489cb1-888.webp",
+        "width": 888,
+        "height": 628,
+        "bytes": 72770,
+        "sha256": "5ed841489cb11c9360f9cd8b6e7bcce623ac43267e8f34529e43b162f3843abd"
+      }
+    ]
+  },
+  {
+    "id": "apesp-coffee-drying-terrace",
+    "sourceId": "apesp-coffee-drying-terrace",
+    "publication": "preview",
+    "role": "historical-context",
+    "alt": {
+      "en": "Neat conical piles of coffee cover a large drying terrace on a São Paulo plantation.",
+      "pt-br": "Montes cônicos de café cobrem um grande terreiro de secagem numa fazenda paulista."
+    },
+    "caption": {
+      "en": "APESP plantation view of a coffee drying terrace; it documents the wider coffee economy, not a known Panzonato workplace.",
+      "pt-br": "Vista de fazenda do APESP mostrando um terreiro de secagem de café; documenta a economia cafeeira mais ampla, não um local de trabalho Panzonato conhecido."
+    },
+    "credit": {
+      "en": "Guilherme Gaensly / Arquivo Público do Estado de São Paulo, attribution visible in the scan.",
+      "pt-br": "Guilherme Gaensly / Arquivo Público do Estado de São Paulo, atribuição visível na imagem."
+    },
+    "rights": {
+      "en": "Historical-context image for local preview. Reproduction rights remain under review.",
+      "pt-br": "Imagem de contexto histórico para prévia local. Os direitos de reprodução permanecem em revisão."
+    },
+    "focalPoint": "center center",
+    "variants": [
+      {
+        "path": "apesp-coffee-drying-terrace/apesp-coffee-drying-terrace-6eca6e8cc70f-480.webp",
+        "width": 480,
+        "height": 380,
+        "bytes": 31590,
+        "sha256": "6eca6e8cc70ff2de081166e652068d32687894865580fabc97716aaaa28b95a9"
+      },
+      {
+        "path": "apesp-coffee-drying-terrace/apesp-coffee-drying-terrace-8885224de51b-861.webp",
+        "width": 861,
+        "height": 682,
+        "bytes": 85448,
+        "sha256": "8885224de51ba435b4e7160660ef92f788470a4738b1836340a51a0d017d3994"
+      }
+    ]
+  },
+  {
+    "id": "apesp-colono-house-campos-salles",
+    "sourceId": "apesp-colono-house-campos-salles",
+    "publication": "preview",
+    "role": "historical-context",
+    "alt": {
+      "en": "A family stands around a small rural house amid cleared ground and young plantings.",
+      "pt-br": "Uma família se posiciona ao redor de uma pequena casa rural entre terreno limpo e plantações jovens."
+    },
+    "caption": {
+      "en": "APESP image captioned in the scan as a colono house at Núcleo Campos Salles, published in O Immigrante in January 1908; contextual and unrelated to the identified family.",
+      "pt-br": "Imagem do APESP legendada no próprio escaneamento como casa de colono no Núcleo Campos Salles, publicada em O Immigrante em janeiro de 1908; é contexto e não tem relação identificada com a família."
+    },
+    "credit": {
+      "en": "Arquivo Público do Estado de São Paulo; O Immigrante, Jan. 1908, year 1, no. 1, p. 11 (caption visible in scan).",
+      "pt-br": "Arquivo Público do Estado de São Paulo; O Immigrante, jan. 1908, ano 1, n.º 1, p. 11 (legenda visível na imagem)."
+    },
+    "rights": {
+      "en": "Historical-context image for local preview. Reproduction rights remain under review.",
+      "pt-br": "Imagem de contexto histórico para prévia local. Os direitos de reprodução permanecem em revisão."
+    },
+    "focalPoint": "center 52%",
+    "variants": [
+      {
+        "path": "apesp-colono-house-campos-salles/apesp-colono-house-campos-salles-5c19c774a57b-480.webp",
+        "width": 480,
+        "height": 293,
+        "bytes": 36034,
+        "sha256": "5c19c774a57b79b5232c8c990d15ce10d7fe955de37cc8bcf9f1193db4d32180"
+      },
+      {
+        "path": "apesp-colono-house-campos-salles/apesp-colono-house-campos-salles-f885f3744f90-960.webp",
+        "width": 960,
+        "height": 587,
+        "bytes": 89512,
+        "sha256": "f885f3744f902e44958916d398ebe53ae6cba764af9bd0966222d1aae8ac6db2"
+      },
+      {
+        "path": "apesp-colono-house-campos-salles/apesp-colono-house-campos-salles-e5b6cbee4634-970.webp",
+        "width": 970,
+        "height": 593,
+        "bytes": 90170,
+        "sha256": "e5b6cbee463459164b176d98c906bc1295470a7f495e10fcd453a67158f39f34"
+      }
+    ]
+  },
+  {
+    "id": "giuseppe-fosca-marriage-1881",
+    "sourceId": "giuseppe-fosca-marriage-1881",
+    "publication": "preview",
+    "role": "family-evidence",
+    "alt": {
+      "en": "An open Italian civil register shows act 60 for Giuseppe Panzonato and Fosca Moro on the left page.",
+      "pt-br": "Um registro civil italiano aberto mostra, na página esquerda, o ato 60 de Giuseppe Panzonato e Fosca Moro."
+    },
+    "caption": {
+      "en": "Mira civil marriage register, act 60, recording the marriage of Giuseppe Panzonato and Fosca Moro on 20 November 1881. The facing page is retained as part of the archival spread.",
+      "pt-br": "Registro civil de casamento de Mira, ato 60, que registra o casamento de Giuseppe Panzonato e Fosca Moro em 20 de novembro de 1881. A página oposta foi mantida como parte do conjunto arquivístico."
+    },
+    "credit": {
+      "en": "Comune di Mira / family research archive; precise register citation not stated in the media catalog.",
+      "pt-br": "Comune di Mira / arquivo de pesquisa familiar; ato 60, parte I, 1881."
+    },
+    "rights": {
+      "en": "Sanitized historical-record facsimile for local preview. Repository reproduction rights remain under review.",
+      "pt-br": "Fac-símile sanitizado de registro histórico para prévia local. Os direitos de reprodução do repositório permanecem em revisão."
+    },
+    "focalPoint": "center 50%",
+    "variants": [
+      {
+        "path": "giuseppe-fosca-marriage-1881/giuseppe-fosca-marriage-1881-13870974e19b-480.webp",
+        "width": 480,
+        "height": 402,
+        "bytes": 16332,
+        "sha256": "13870974e19b628da94e7c3d11d7dd7bbdead7ab5c5b38f0d39238c307fcdf1a"
+      },
+      {
+        "path": "giuseppe-fosca-marriage-1881/giuseppe-fosca-marriage-1881-ddd10210d31f-960.webp",
+        "width": 960,
+        "height": 804,
+        "bytes": 66254,
+        "sha256": "ddd10210d31f6f4d4e5415020fcf017456889c1f5c894251a5a08139ccc73c0a"
+      },
+      {
+        "path": "giuseppe-fosca-marriage-1881/giuseppe-fosca-marriage-1881-8856a707a2d6-1600.webp",
+        "width": 1600,
+        "height": 1340,
+        "bytes": 193542,
+        "sha256": "8856a707a2d6870dfd888d8a987bd48d6dd8719468f9fce5f3d69b61f2087ab7"
+      }
+    ]
+  },
+  {
+    "id": "catharina-luigi-marriage-1902",
+    "sourceId": "catharina-luigi-marriage-1902",
+    "publication": "preview",
+    "role": "family-evidence",
+    "alt": {
+      "en": "Cropped handwritten parish entry recording the marriage of Luigi Sari and Catharina Pansonato in Capivari.",
+      "pt-br": "Recorte manuscrito do registro paroquial do casamento de Luigi Sari e Catharina Pansonato em Capivari."
+    },
+    "caption": {
+      "en": "The specific parish entry for Luigi Sari and Catharina Pansonato, married in Capivari on 8 February 1902; it identifies Catharina as a native of Gambarare in Venice. Unrelated entries have been cropped out.",
+      "pt-br": "O registro paroquial específico de Luigi Sari e Catharina Pansonato, casados em Capivari em 8 de fevereiro de 1902; ele identifica Catharina como natural de Gambarare, em Veneza. Registros sem relação foram removidos pelo recorte."
+    },
+    "credit": {
+      "en": "Capivari parish/civil archive; family research copy. Precise repository and folio need confirmation.",
+      "pt-br": "Arquivo paroquial de Capivari; cópia de pesquisa familiar. Livro e fólio ainda precisam de confirmação."
+    },
+    "rights": {
+      "en": "Sanitized historical-record facsimile for local preview. Repository reproduction rights remain under review.",
+      "pt-br": "Fac-símile sanitizado de registro histórico para prévia local. Os direitos de reprodução do repositório permanecem em revisão."
+    },
+    "focalPoint": "center center",
+    "variants": [
+      {
+        "path": "catharina-luigi-marriage-1902/catharina-luigi-marriage-1902-adb2ab729a97-480.webp",
+        "width": 480,
+        "height": 219,
+        "bytes": 31040,
+        "sha256": "adb2ab729a97089a492f4e3708bb7c4db7e460c976c1bd43ac81d953c2388762"
+      },
+      {
+        "path": "catharina-luigi-marriage-1902/catharina-luigi-marriage-1902-e45efcc026f7-700.webp",
+        "width": 700,
+        "height": 320,
+        "bytes": 61238,
+        "sha256": "e45efcc026f7bb5b782bd17a55dd0d469604c674211acca1774cc9a9ea4d6b1f"
+      }
+    ]
+  },
+  {
+    "id": "aquila-emigrants-group-1917",
+    "sourceId": "aquila-emigrants-group-1917",
+    "publication": "preview",
+    "role": "historical-context",
+    "alt": {
+      "en": "A large group of men, women, and children pose outdoors before emigration from Áquila, Italy.",
+      "pt-br": "Um grande grupo de homens, mulheres e crianças posa ao ar livre antes da emigração de Áquila, na Itália."
+    },
+    "caption": {
+      "en": "Museu da Imigração group portrait made in Áquila in 1917. It shows another emigrant community and must not be presented as the Panzonato family.",
+      "pt-br": "Retrato coletivo do Museu da Imigração feito em Áquila em 1917. Mostra outra comunidade emigrante e não deve ser apresentado como a família Panzonato."
+    },
+    "credit": {
+      "en": "Acervo Museu da Imigração, MI_ICO_AMP_019_001_117_001; gelatin silver print, 18×24 cm.",
+      "pt-br": "Acervo Museu da Imigração, MI_ICO_AMP_019_001_117_001; gelatina e prata, 18 × 24 cm."
+    },
+    "rights": {
+      "en": "Historical-context image for local preview. Reproduction rights remain under review.",
+      "pt-br": "Imagem de contexto histórico para prévia local. Os direitos de reprodução permanecem em revisão."
+    },
+    "focalPoint": "center 46%",
+    "variants": [
+      {
+        "path": "aquila-emigrants-group-1917/aquila-emigrants-group-1917-970ca8363b6f-480.webp",
+        "width": 480,
+        "height": 364,
+        "bytes": 25356,
+        "sha256": "970ca8363b6f1f0ffd3ce29f94b36c69a8bf0a5762ab43bfab235e7983da53f7"
+      },
+      {
+        "path": "aquila-emigrants-group-1917/aquila-emigrants-group-1917-88a870d872b7-960.webp",
+        "width": 960,
+        "height": 728,
+        "bytes": 109832,
+        "sha256": "88a870d872b7d63ae6d40e500c87cb8da60053f6aa8260c277f83c4174b285c9"
+      },
+      {
+        "path": "aquila-emigrants-group-1917/aquila-emigrants-group-1917-7ee04992eac7-1496.webp",
+        "width": 1496,
+        "height": 1134,
+        "bytes": 232460,
+        "sha256": "7ee04992eac7eaa65cc0a90feb2a609fb1e3320bd2dc226a568d2d90d114d7d8"
+      }
+    ]
+  },
+  {
+    "id": "jose-assumpta-marriage-1921",
+    "sourceId": "jose-assumpta-marriage-1921",
+    "publication": "preview",
+    "role": "family-evidence",
+    "alt": {
+      "en": "Cropped historical portion of a Brazilian marriage certificate naming José Pansonatto Filho and Assumpta Elvira Pozzatto.",
+      "pt-br": "Recorte da parte histórica de uma certidão brasileira de casamento que nomeia José Pansonatto Filho e Assumpta Elvira Pozzatto."
+    },
+    "caption": {
+      "en": "Sanitized historical excerpt recording the Capivari marriage of José Pansonatto Filho and Assumpta Elvira Pozzatto on 4 June 1921. The later marginal death annotation and modern certification area are excluded.",
+      "pt-br": "Trecho histórico sanitizado que registra o casamento de José Pansonatto Filho e Assumpta Elvira Pozzatto em Capivari, em 4 de junho de 1921. A anotação marginal posterior de óbito e a área de certificação moderna foram excluídas."
+    },
+    "credit": {
+      "en": "Civil Registry of Capivari; Panzonato family citizenship archive copy.",
+      "pt-br": "Registro Civil de Capivari; cópia do arquivo de cidadania da família Panzonato."
+    },
+    "rights": {
+      "en": "Sanitized historical-record facsimile for local preview. Repository reproduction rights remain under review.",
+      "pt-br": "Fac-símile sanitizado de registro histórico para prévia local. Os direitos de reprodução do repositório permanecem em revisão."
+    },
+    "focalPoint": "center center",
+    "variants": [
+      {
+        "path": "jose-assumpta-marriage-1921/jose-assumpta-marriage-1921-c2c020de72ed-480.webp",
+        "width": 480,
+        "height": 421,
+        "bytes": 45842,
+        "sha256": "c2c020de72ed8134ce446c0623a00cba71d35e81a7c2e4abeae60681df149b7a"
+      },
+      {
+        "path": "jose-assumpta-marriage-1921/jose-assumpta-marriage-1921-7d0b729e68c1-960.webp",
+        "width": 960,
+        "height": 842,
+        "bytes": 121006,
+        "sha256": "7d0b729e68c1c2f6cd54a87ff6fdfb5d5a3144ac70e719b7dba7b4111d6e593f"
+      },
+      {
+        "path": "jose-assumpta-marriage-1921/jose-assumpta-marriage-1921-96a9bd8884d4-1600.webp",
+        "width": 1600,
+        "height": 1404,
+        "bytes": 207748,
+        "sha256": "96a9bd8884d448c26203a46ca3255b208a0fc5bf6167b6de1c602ae1e89fe905"
+      },
+      {
+        "path": "jose-assumpta-marriage-1921/jose-assumpta-marriage-1921-bb0168343e39-1789.webp",
+        "width": 1789,
+        "height": 1570,
+        "bytes": 234078,
+        "sha256": "bb0168343e394b3d7335841ad2433486672d4fa12297aad4d1de0418ef9d2ab8"
+      }
+    ]
+  },
+  {
+    "id": "gambarare-church-choir-loft",
+    "sourceId": "gambarare-church-choir-loft",
+    "publication": "preview",
+    "role": "field-photograph",
+    "alt": {
+      "en": "A high view from the choir loft looks down the church nave toward the altar over a checkerboard floor.",
+      "pt-br": "Uma vista elevada do coro percorre a nave da igreja até o altar sobre um piso em xadrez."
+    },
+    "caption": {
+      "en": "Contemporary field photograph inside the parish church at Gambarare, made during the January 2024 return visit.",
+      "pt-br": "Fotografia de campo contemporânea do interior da igreja paroquial de Gambarare, feita durante a visita de retorno em janeiro de 2024."
+    },
+    "credit": {
+      "en": "Panzonato family research archive; photographer not identified in catalog.",
+      "pt-br": "Arquivo de pesquisa da família Panzonato; fotógrafo não identificado no catálogo."
+    },
+    "rights": {
+      "en": "Family field photograph authorized for local preview. Photographer credit and publication rights remain under review.",
+      "pt-br": "Fotografia de campo familiar autorizada para prévia local. O crédito do fotógrafo e os direitos de publicação permanecem em revisão."
+    },
+    "focalPoint": "center 56%",
+    "variants": [
+      {
+        "path": "gambarare-church-choir-loft/gambarare-church-choir-loft-e027b9d6adb8-480.webp",
+        "width": 480,
+        "height": 640,
+        "bytes": 50010,
+        "sha256": "e027b9d6adb8db8fe374a52a2ec84b80cf41dfd68a29a8223e97fd99b59d6a52"
+      },
+      {
+        "path": "gambarare-church-choir-loft/gambarare-church-choir-loft-9e41730b7e13-960.webp",
+        "width": 960,
+        "height": 1280,
+        "bytes": 133690,
+        "sha256": "9e41730b7e13214f3a63f6f64d3f1bd2c919ed2b01f788f5cf71df4151418181"
+      },
+      {
+        "path": "gambarare-church-choir-loft/gambarare-church-choir-loft-1344c59139a9-1600.webp",
+        "width": 1600,
+        "height": 2133,
+        "bytes": 264980,
+        "sha256": "1344c59139a97c8c034a81196fc56b37e96bb8bce502858e8d8a595d09a719f7"
+      },
+      {
+        "path": "gambarare-church-choir-loft/gambarare-church-choir-loft-f3250bd78f2b-1800.webp",
+        "width": 1800,
+        "height": 2400,
+        "bytes": 314360,
+        "sha256": "f3250bd78f2b4d754767d7107da071e59b509f34f5556a9932cf51abb9894138"
+      }
+    ]
+  },
+  {
+    "id": "gambarare-cemetery-winter-fog",
+    "sourceId": "gambarare-cemetery-winter-fog",
+    "publication": "preview",
+    "role": "field-photograph",
+    "alt": {
+      "en": "Rows of tombs and columbaria recede into dense fog at the Gambarare cemetery.",
+      "pt-br": "Fileiras de túmulos e columbários desaparecem na neblina densa do cemitério de Gambarare."
+    },
+    "caption": {
+      "en": "Field photograph of the cemetery at Gambarare during the January 2024 research visit. No grave in this frame is identified in the catalog as belonging to a direct ancestor.",
+      "pt-br": "Fotografia de campo do cemitério de Gambarare durante a visita de pesquisa de janeiro de 2024. Nenhum túmulo deste enquadramento é identificado no catálogo como pertencente a um antepassado direto."
+    },
+    "credit": {
+      "en": "Panzonato family research archive; photographer not identified in catalog.",
+      "pt-br": "Arquivo de pesquisa da família Panzonato; fotógrafo não identificado no catálogo."
+    },
+    "rights": {
+      "en": "Family field photograph authorized for local preview. Photographer credit and publication rights remain under review.",
+      "pt-br": "Fotografia de campo familiar autorizada para prévia local. O crédito do fotógrafo e os direitos de publicação permanecem em revisão."
+    },
+    "focalPoint": "center 52%",
+    "variants": [
+      {
+        "path": "gambarare-cemetery-winter-fog/gambarare-cemetery-winter-fog-f6b9847d420d-480.webp",
+        "width": 480,
+        "height": 640,
+        "bytes": 19810,
+        "sha256": "f6b9847d420d987797034be6850400de3ccde5a29a1c27d67e3d1f0e8a1eec96"
+      },
+      {
+        "path": "gambarare-cemetery-winter-fog/gambarare-cemetery-winter-fog-ab44b701da9c-960.webp",
+        "width": 960,
+        "height": 1280,
+        "bytes": 70156,
+        "sha256": "ab44b701da9c3859bbcdd81a134f78bae75a5f01e51663797af7382c85254639"
+      },
+      {
+        "path": "gambarare-cemetery-winter-fog/gambarare-cemetery-winter-fog-3282febf8b9c-1600.webp",
+        "width": 1600,
+        "height": 2133,
+        "bytes": 159312,
+        "sha256": "3282febf8b9cd21a1c9932af2336faa87cf4259b94c2b773d8adf879ef2b15d4"
+      },
+      {
+        "path": "gambarare-cemetery-winter-fog/gambarare-cemetery-winter-fog-bc2a6bf57bb3-1800.webp",
+        "width": 1800,
+        "height": 2400,
+        "bytes": 197790,
+        "sha256": "bc2a6bf57bb3d4f0f679f0bbc55ad20f30f4177dc67ae754bd47c384c1cba9eb"
+      }
+    ]
+  },
+  {
+    "id": "gambarare-church-daylight-exterior",
+    "sourceId": "gambarare-church-daylight-exterior",
+    "publication": "preview",
+    "role": "field-photograph",
+    "alt": {
+      "en": "The white church facade and brick bell tower stand beneath a clear blue sky in Gambarare.",
+      "pt-br": "A fachada branca da igreja e a torre sineira de tijolos aparecem sob um céu azul em Gambarare."
+    },
+    "caption": {
+      "en": "Daylight field photograph of the parish church at Gambarare, made during the 4 July 2023 research visit.",
+      "pt-br": "Fotografia de campo diurna da igreja paroquial de Gambarare, feita durante a visita de pesquisa de 4 de julho de 2023."
+    },
+    "credit": {
+      "en": "Panzonato family research archive; photographer not identified in catalog.",
+      "pt-br": "Arquivo de pesquisa da família Panzonato; fotógrafo não identificado no catálogo."
+    },
+    "rights": {
+      "en": "Family field photograph authorized for local preview. Photographer credit and publication rights remain under review.",
+      "pt-br": "Fotografia de campo familiar autorizada para prévia local. O crédito do fotógrafo e os direitos de publicação permanecem em revisão."
+    },
+    "focalPoint": "center 44%",
+    "variants": [
+      {
+        "path": "gambarare-church-daylight-exterior/gambarare-church-daylight-exterior-8a8f255205c9-480.webp",
+        "width": 480,
+        "height": 640,
+        "bytes": 43586,
+        "sha256": "8a8f255205c9a915bb72889bcded12f08321f46cb4966f06f11a8fa5c2133356"
+      },
+      {
+        "path": "gambarare-church-daylight-exterior/gambarare-church-daylight-exterior-01d2175e2976-960.webp",
+        "width": 960,
+        "height": 1280,
+        "bytes": 167312,
+        "sha256": "01d2175e2976f36d842c717ea9af748cffa27a825e031bb8d34fc9511fe61623"
+      },
+      {
+        "path": "gambarare-church-daylight-exterior/gambarare-church-daylight-exterior-541f22a530b5-1600.webp",
+        "width": 1600,
+        "height": 2133,
+        "bytes": 416956,
+        "sha256": "541f22a530b5513f9f975dc1e4a38d1a709f854e5fbe4345b64d56b52caec51d"
+      },
+      {
+        "path": "gambarare-church-daylight-exterior/gambarare-church-daylight-exterior-cc19161a452a-1800.webp",
+        "width": 1800,
+        "height": 2400,
+        "bytes": 520450,
+        "sha256": "cc19161a452a4a6c944f2c002ea532808435243a166e3660934e84f3285ad0c9"
+      }
+    ]
+  },
+  {
+    "id": "jose-filho-birth-1899",
+    "sourceId": "jose-filho-birth-1899",
+    "publication": "preview",
+    "role": "family-evidence",
+    "alt": {
+      "en": "Cropped historical portion of a Brazilian birth certificate naming José Pansonatto, born in Capivari on 18 November 1899, with his parents and grandparents.",
+      "pt-br": "Recorte da parte histórica de uma certidão brasileira de nascimento que nomeia José Pansonatto, nascido em Capivari em 18 de novembro de 1899, com seus pais e avós."
+    },
+    "caption": {
+      "en": "Sanitized excerpt of the later-registered birth record for José Pansonatto Filho, born in Capivari on 18 November 1899; Livro A-42, fols. 67v–68, no. 370. Modern annotations and certification details are excluded.",
+      "pt-br": "Trecho sanitizado do registro tardio de nascimento de José Pansonatto Filho, nascido em Capivari em 18 de novembro de 1899; Livro A-42, fls. 67v–68, n.º 370. Anotações modernas e dados de certificação foram excluídos."
+    },
+    "credit": {
+      "en": "Civil Registry of Capivari, Livro A-42, fols. 67v–68, no. 370; Panzonato family archive copy.",
+      "pt-br": "Registro Civil de Capivari, Livro A-42, fls. 67v–68, n.º 370; cópia do arquivo da família Panzonato."
+    },
+    "rights": {
+      "en": "Sanitized historical-record facsimile for local preview. Repository reproduction rights remain under review.",
+      "pt-br": "Fac-símile sanitizado de registro histórico para prévia local. Os direitos de reprodução do repositório permanecem em revisão."
+    },
+    "focalPoint": "center center",
+    "variants": [
+      {
+        "path": "jose-filho-birth-1899/jose-filho-birth-1899-4123a67deaeb-480.webp",
+        "width": 480,
+        "height": 352,
+        "bytes": 29014,
+        "sha256": "4123a67deaeb7bd15cbee19819b81f385f19e5026fdf0a9318ec92442743625c"
+      },
+      {
+        "path": "jose-filho-birth-1899/jose-filho-birth-1899-cbd46b017ecd-960.webp",
+        "width": 960,
+        "height": 704,
+        "bytes": 75162,
+        "sha256": "cbd46b017ecdac785c0456fac6a75fc3e77b105018b5d1b2d90c175a7caa6b72"
+      },
+      {
+        "path": "jose-filho-birth-1899/jose-filho-birth-1899-0098cf6bc9ca-1600.webp",
+        "width": 1600,
+        "height": 1173,
+        "bytes": 130310,
+        "sha256": "0098cf6bc9cae2bb99e39a1c5c2f11149ea8be3d7148d11234362e472df2ba17"
+      },
+      {
+        "path": "jose-filho-birth-1899/jose-filho-birth-1899-4dfb26454870-1800.webp",
+        "width": 1800,
+        "height": 1320,
+        "bytes": 148500,
+        "sha256": "4dfb26454870596ba6d052a9451f41448ce96507eb5965ce3a5b5992bec852bf"
+      }
+    ]
+  },
+  {
+    "id": "fosca-death-1927",
+    "sourceId": "fosca-death-1927",
+    "publication": "preview",
+    "role": "family-evidence",
+    "alt": {
+      "en": "Cropped historical portion of a Brazilian death certificate naming Fosca Morro and recording her death in Capivari in 1927.",
+      "pt-br": "Recorte da parte histórica de uma certidão brasileira de óbito que nomeia Fosca Morro e registra sua morte em Capivari em 1927."
+    },
+    "caption": {
+      "en": "Sanitized excerpt recording Fosca Moro’s death in Capivari on 3 August 1927; Livro C-27, p. 135, term 237. The record gives age 70 and does not name her parents.",
+      "pt-br": "Trecho sanitizado que registra o falecimento de Fosca Moro em Capivari em 3 de agosto de 1927; Livro C-27, p. 135, termo 237. O registro informa 70 anos e não nomeia seus pais."
+    },
+    "credit": {
+      "en": "Civil Registry of Capivari, Livro C-27, p. 135, term 237; Panzonato family archive copy.",
+      "pt-br": "Registro Civil de Capivari, Livro C-27, p. 135, termo 237; cópia do arquivo da família Panzonato."
+    },
+    "rights": {
+      "en": "Sanitized historical-record facsimile for local preview. Repository reproduction rights remain under review.",
+      "pt-br": "Fac-símile sanitizado de registro histórico para prévia local. Os direitos de reprodução do repositório permanecem em revisão."
+    },
+    "focalPoint": "center center",
+    "variants": [
+      {
+        "path": "fosca-death-1927/fosca-death-1927-09165576f58c-480.webp",
+        "width": 480,
+        "height": 296,
+        "bytes": 20452,
+        "sha256": "09165576f58c017004dfaacaf8b12e90973b8b542f5d3422d5fef68c97a5036c"
+      },
+      {
+        "path": "fosca-death-1927/fosca-death-1927-8ec274fe285e-960.webp",
+        "width": 960,
+        "height": 592,
+        "bytes": 53696,
+        "sha256": "8ec274fe285e08eaee3df9dc6f7addb2f1efcbd791d44f63b8c62b3ec8bad1d4"
+      },
+      {
+        "path": "fosca-death-1927/fosca-death-1927-6aebdbcbc9dd-1600.webp",
+        "width": 1600,
+        "height": 987,
+        "bytes": 97420,
+        "sha256": "6aebdbcbc9ddd54e6864ddd0306a93d084f5c0aa83e80ea33565b5d571898090"
+      },
+      {
+        "path": "fosca-death-1927/fosca-death-1927-65f548641749-1847.webp",
+        "width": 1847,
+        "height": 1139,
+        "bytes": 112816,
+        "sha256": "65f548641749e35c6763e4cffde9ae7fd74697c04e8578421fbeb886eea88435"
+      }
+    ]
+  },
+  {
+    "id": "giuseppe-death-1937",
+    "sourceId": "giuseppe-death-1937",
+    "publication": "preview",
+    "role": "family-evidence",
+    "alt": {
+      "en": "Cropped historical portion of a Brazilian death certificate for José Pansonatto, the name used for Giuseppe in Brazil, recording his 1937 death in Capivari.",
+      "pt-br": "Recorte da parte histórica de uma certidão brasileira de óbito de José Pansonatto, nome usado por Giuseppe no Brasil, que registra sua morte em Capivari em 1937."
+    },
+    "caption": {
+      "en": "Sanitized excerpt recording José Pansonatto’s death in Capivari on 5 December 1937; Livro C-06, fols. 7v, term 2993. Its stated age and parents conflict with the earlier Italian birth record.",
+      "pt-br": "Trecho sanitizado que registra o falecimento de José Pansonatto em Capivari em 5 de dezembro de 1937; Livro C-06, fls. 7v, termo 2993. A idade e os pais informados divergem do registro italiano anterior."
+    },
+    "credit": {
+      "en": "Civil Registry of Capivari, Livro C-06, fols. 7v, term 2993; Panzonato family archive copy.",
+      "pt-br": "Registro Civil de Capivari, Livro C-06, fls. 7v, termo 2993; cópia do arquivo da família Panzonato."
+    },
+    "rights": {
+      "en": "Sanitized historical-record facsimile for local preview. Repository reproduction rights remain under review.",
+      "pt-br": "Fac-símile sanitizado de registro histórico para prévia local. Os direitos de reprodução do repositório permanecem em revisão."
+    },
+    "focalPoint": "center center",
+    "variants": [
+      {
+        "path": "giuseppe-death-1937/giuseppe-death-1937-92eb4d66c441-480.webp",
+        "width": 480,
+        "height": 358,
+        "bytes": 43570,
+        "sha256": "92eb4d66c441d0d6b944b3d7c195e87eeed43c4531d24df3c4198a83b579ca54"
+      },
+      {
+        "path": "giuseppe-death-1937/giuseppe-death-1937-17233081c000-960.webp",
+        "width": 960,
+        "height": 715,
+        "bytes": 115074,
+        "sha256": "17233081c000461cc4ed4a193bdf527bf95a2b53506ef7e425e4928499b3abe2"
+      },
+      {
+        "path": "giuseppe-death-1937/giuseppe-death-1937-bb03a4e5ed9d-1600.webp",
+        "width": 1600,
+        "height": 1192,
+        "bytes": 200214,
+        "sha256": "bb03a4e5ed9dd950bcd6849db4c797c2b67e1ff9c8392186a05ca607f1fe6877"
+      },
+      {
+        "path": "giuseppe-death-1937/giuseppe-death-1937-91fd87d837df-1789.webp",
+        "width": 1789,
+        "height": 1333,
+        "bytes": 227994,
+        "sha256": "91fd87d837dfe2a4e18337a43d9560ba4aaa613d5a37183187829cbb72bae9ad"
+      }
+    ]
+  }
+]

@@ -1,0 +1,37 @@
+---
+import type { Locale, MediaView } from '../lib/content';
+import { strings } from '../lib/ui';
+import MediaImage from './MediaImage.astro';
+interface Props { locale: Locale; initial: MediaView }
+const { locale, initial } = Astro.props;
+const t = strings(locale);
+---
+
+<dialog class="evidence-dialog" aria-labelledby="evidence-title">
+  <div class="dialog-head">
+    <span class="eyebrow">{t.source}</span>
+    <button type="button" class="dialog-close" aria-label={t.close}>{t.close}<span aria-hidden="true">×</span></button>
+  </div>
+  <div class="dialog-content">
+    <div class="viewer">
+      <div class="viewer-toolbar" aria-label={t.zoomImage}>
+        <label for="zoom-range">{t.zoom} <output id="zoom-value">100%</output></label>
+        <input id="zoom-range" type="range" min="100" max="240" step="10" value="100" aria-label={t.zoomImage} />
+        <button type="button" class="zoom-button" data-zoom="out" aria-label={t.zoomOut}>−</button>
+        <button type="button" class="zoom-button" data-zoom="in" aria-label={t.zoomIn}>+</button>
+        <button type="button" class="zoom-button" data-zoom="reset">{t.reset}</button>
+      </div>
+      <div class="image-viewport" tabindex="0" aria-label={t.scrollImage}>
+        <MediaImage media={initial} class="dialog-photo" sizes="90vw" loading="lazy" />
+      </div>
+    </div>
+    <div class="dialog-record">
+      <h2 id="evidence-title">{initial.title}</h2>
+      <p class="dialog-caption">{initial.caption}</p>
+      <p class="dialog-description">{initial.description}</p>
+      <p class="dialog-credit">{initial.credit}</p>
+      <p class="dialog-rights">{initial.rights}</p>
+      <a class="dialog-source-link text-link" href={initial.href}>{t.sourceRecord}<span aria-hidden="true"></span></a>
+    </div>
+  </div>
+</dialog>

@@ -1,0 +1,19 @@
+---
+import MediaImage from './MediaImage.astro';
+import { type Locale, getSources } from '../lib/content';
+import { strings } from '../lib/ui';
+interface Props { source: ReturnType<typeof getSources>[number]; locale: Locale; index?: number; }
+const { source, locale, index } = Astro.props;
+const t = strings(locale);
+---
+<article class:list={['record-card', 'source-card', { 'text-source': !source.media }]} data-source-kind={source.kind} data-search={`${source.title} ${source.description} ${source.category ?? ''} ${source.date ?? ''}`}>
+  <a href={source.href}>
+    {source.media ? <MediaImage media={source.media} sizes="(min-width: 1000px) 28vw, (min-width: 700px) 45vw, 90vw" /> : <div class="source-paper" aria-hidden="true"><span>{source.date ?? 'Aa'}</span><i></i><i></i><i></i></div>}
+    <div>
+      <span class="eyebrow">{t.sourceKinds[source.kind]}{source.date ? ` · ${source.date}` : ''}</span>
+      <h2>{source.title}</h2>
+      <p>{source.description}</p>
+      {index !== undefined && <span class="source-index">{String(index + 1).padStart(2, '0')} / {source.category ?? source.repository}</span>}
+    </div>
+  </a>
+</article>

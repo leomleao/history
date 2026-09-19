@@ -1,0 +1,55 @@
+---
+import '@fontsource-variable/newsreader/wght.css';
+import '@fontsource-variable/newsreader/wght-italic.css';
+import '@fontsource-variable/dm-sans/wght.css';
+import '../styles/global.css';
+import type { Locale } from '../lib/content';
+import { isPreview } from '../lib/content';
+import { strings } from '../lib/ui';
+import SiteHeader from '../components/SiteHeader.astro';
+import SiteFooter from '../components/SiteFooter.astro';
+
+interface Props {
+  locale: Locale;
+  title: string;
+  description: string;
+  alternateHref: string;
+  canonicalPath?: string;
+  current?: 'chapters' | 'people' | 'archive' | 'about';
+}
+
+const { locale, title, description, alternateHref, canonicalPath, current } = Astro.props;
+const t = strings(locale);
+const canonical = new URL(canonicalPath ?? Astro.url.pathname, Astro.site);
+const alternate = new URL(alternateHref, Astro.site);
+const alternateLocale = locale === 'en' ? 'pt-BR' : 'en';
+const noindex = isPreview || canonicalPath === '/404.html' || Astro.url.pathname === '/404/';
+const documentTitle = title === 'Panzonato' ? title : `${title} · Panzonato`;
+---
+
+<!doctype html>
+<html lang={locale === 'pt-br' ? 'pt-BR' : 'en'}>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content={description} />
+    {noindex && <meta name="robots" content="noindex, nofollow" />}
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="canonical" href={canonical} />
+    <link rel="alternate" hreflang={locale === 'en' ? 'en' : 'pt-BR'} href={canonical} />
+    <link rel="alternate" hreflang={alternateLocale} href={alternate} />
+    <title>{documentTitle}</title>
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">{t.skip}</a>
+    <div class="reading-progress" aria-hidden="true"></div>
+    <div class="site-shell" id="top">
+      <SiteHeader locale={locale} alternateHref={alternateHref} current={current} />
+      <main id="main-content"><slot /></main>
+      <SiteFooter locale={locale} />
+    </div>
+    <script>
+      import '../scripts/exhibition';
+    </script>
+  </body>
+</html>

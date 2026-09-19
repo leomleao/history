@@ -1,0 +1,26 @@
+---
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import Breadcrumbs from '../../../components/Breadcrumbs.astro';
+import { getPeople, locales, otherLocale, route, type Locale } from '../../../lib/content';
+import { strings } from '../../../lib/ui';
+
+export function getStaticPaths() { return locales.map((locale) => ({ params: { locale }, props: { locale } })); }
+const { locale } = Astro.props as { locale: Locale };
+const t = strings(locale);
+const people = getPeople(locale);
+const groups = ['roots', 'crossing', 'brazil'] as const;
+---
+
+<BaseLayout locale={locale} title={t.peopleIndexTitle} description={t.peopleIndexIntro} alternateHref={route(otherLocale(locale), 'people')} current="people">
+  <div class="page-intro">
+    <Breadcrumbs label={t.breadcrumbLabel} items={[{ label: t.breadcrumbHome, href: route(locale) }, { label: t.peopleIndexTitle }]} />
+    <span class="eyebrow">{t.nav.people}</span>
+    <h1>{t.peopleIndexTitle}</h1>
+    <p>{t.peopleIndexIntro}</p>
+  </div>
+  <nav class="generation-nav" aria-label={t.familyConnections}>{groups.map(group => <a href={`#${group}`}>{t.generations[group]}</a>)}</nav>
+  {groups.map(group => <section class="generation-group" id={group}>
+    <div class="generation-heading"><span class="eyebrow">{String(groups.indexOf(group) + 1).padStart(2, '0')}</span><h2>{t.generations[group]}</h2></div>
+    <div class="record-grid people-grid">{people.filter(person => (person.generation ?? 'crossing') === group).map(person => <article class="record-card person-card"><a href={person.href}><span class="record-number">{person.dates ?? t.profile}</span><div><h2>{person.name}</h2><p>{person.summary}</p><span class="person-connection-count">{person.relationships.map(r => people.find(p => p.id === r.personId)?.name).filter(Boolean).slice(0, 3).join(' · ')}</span></div></a></article>)}</div>
+  </section>)}
+</BaseLayout>

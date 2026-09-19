@@ -1,0 +1,34 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import EvidenceDialog from '../../components/EvidenceDialog.astro';
+import { getMedia, locales, otherLocale, route, type Locale } from '../../lib/content';
+import { exhibitionPayload, safeJson, strings } from '../../lib/ui';
+
+export function getStaticPaths() { return locales.map((locale) => ({ params: { locale }, props: { locale } })); }
+const { locale } = Astro.props as { locale: Locale };
+const t = strings(locale);
+const contextMedia = getMedia('genoa', locale);
+---
+
+<BaseLayout locale={locale} title={t.aboutTitle} description={t.aboutIntro} alternateHref={route(otherLocale(locale), 'about')} current="about">
+  <article class="record-detail about-page">
+    <header class="page-intro">
+      <Breadcrumbs label={t.breadcrumbLabel} items={[{ label: t.breadcrumbHome, href: route(locale) }, { label: t.aboutTitle }]} />
+      <span class="eyebrow">{t.nav.about}</span>
+      <h1>{t.aboutTitle}</h1>
+      <p>{t.aboutIntro}</p>
+    </header>
+    <div class="prose about-copy">{t.aboutBody.map((paragraph) => <p>{paragraph}</p>)}</div>
+    <section class="prose about-copy font-credits" aria-labelledby="font-credits-title">
+      <h2 id="font-credits-title">{t.fontCreditsTitle}</h2>
+      <p>{t.fontCreditsIntro}</p>
+      <ul>
+        <li><a href="/licenses/newsreader-OFL.txt">Newsreader · {t.fontLicense}</a></li>
+        <li><a href="/licenses/dm-sans-OFL.txt">DM Sans · {t.fontLicense}</a></li>
+      </ul>
+    </section>
+  </article>
+  <EvidenceDialog locale={locale} initial={contextMedia} />
+  <script id="exhibition-data" type="application/json" is:inline set:html={safeJson(exhibitionPayload(locale, [contextMedia]))}></script>
+</BaseLayout>

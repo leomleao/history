@@ -1,0 +1,31 @@
+---
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import Breadcrumbs from '../../../components/Breadcrumbs.astro';
+import SourceCard from '../../../components/SourceCard.astro';
+import { getSources, locales, otherLocale, route, type Locale } from '../../../lib/content';
+import { strings } from '../../../lib/ui';
+
+export function getStaticPaths() { return locales.map((locale) => ({ params: { locale }, props: { locale } })); }
+const { locale } = Astro.props as { locale: Locale };
+const t = strings(locale);
+const sources = getSources(locale);
+---
+
+<BaseLayout locale={locale} title={t.archiveIndexTitle} description={t.archiveIndexIntro} alternateHref={route(otherLocale(locale), 'archive')} current="archive">
+  <div class="page-intro">
+    <Breadcrumbs label={t.breadcrumbLabel} items={[{ label: t.breadcrumbHome, href: route(locale) }, { label: t.archiveIndexTitle }]} />
+    <span class="eyebrow">{t.nav.archive}</span>
+    <h1>{t.archiveIndexTitle}</h1>
+    <p>{t.archiveIndexIntro}</p>
+  </div>
+  <div class="archive-tools" hidden>
+    <label class="archive-search"><span class="eyebrow">{t.searchLabel}</span><input type="search" id="archive-search" placeholder={t.archiveSearch} autocomplete="off" /></label>
+    <div class="archive-filters" role="group" aria-label={t.recordType}>
+      <button type="button" data-filter="all" aria-pressed="true">{t.allRecords} <span>{sources.length}</span></button>
+      {(['record', 'context', 'field', 'reference'] as const).filter(kind => sources.some(s => s.kind === kind)).map(kind => <button type="button" data-filter={kind} aria-pressed="false">{t.sourceKinds[kind]} <span>{sources.filter(s => s.kind === kind).length}</span></button>)}
+    </div>
+    <p class="archive-count" role="status" data-results-label={t.results}>{sources.length} {t.results}</p>
+  </div>
+  <div class="record-grid archive-grid" id="archive-results">{sources.map((source, index) => <SourceCard source={source} locale={locale} index={index} />)}</div>
+  <p class="archive-empty" hidden>{t.noResults}</p>
+</BaseLayout>

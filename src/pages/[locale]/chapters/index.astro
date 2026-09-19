@@ -1,0 +1,36 @@
+---
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import Breadcrumbs from '../../../components/Breadcrumbs.astro';
+import EditionNotice from '../../../components/EditionNotice.astro';
+import EvidenceDialog from '../../../components/EvidenceDialog.astro';
+import MediaImage from '../../../components/MediaImage.astro';
+import { getChapters, locales, otherLocale, route, type Locale } from '../../../lib/content';
+import { exhibitionPayload, safeJson, strings } from '../../../lib/ui';
+
+export function getStaticPaths() {
+  return locales.map((locale) => ({ params: { locale }, props: { locale } }));
+}
+const { locale } = Astro.props as { locale: Locale };
+const t = strings(locale);
+const chapters = await getChapters(locale);
+---
+
+<BaseLayout locale={locale} title={t.chaptersTitle} description={t.chaptersIntro} alternateHref={route(otherLocale(locale), 'chapters')} current="chapters">
+  <div class="page-intro">
+    <Breadcrumbs label={t.breadcrumbLabel} items={[{ label: t.breadcrumbHome, href: route(locale) }, { label: t.chaptersTitle }]} />
+    <span class="eyebrow">{t.storyEyebrow}</span>
+    <h1>{t.chaptersTitle}</h1>
+    <p>{t.chaptersIntro}</p>
+  </div>
+  <EditionNotice locale={locale} />
+  <div class="record-grid chapter-index">
+    {chapters.map((chapter, index) => <article class="record-card chapter-card">
+      <a href={chapter.href}>
+        <span class="record-number">{String(index + 1).padStart(2, '0')}</span>
+        <MediaImage media={chapter.media} sizes="(min-width: 900px) 30vw, 90vw" />
+        <div><span class="eyebrow">{t.chapter} {String(index + 1).padStart(2, '0')}</span><h2>{chapter.data.title}</h2><p>{chapter.data.question}</p></div>
+      </a>
+    </article>)}
+  </div>
+  {chapters[0] && <><EvidenceDialog locale={locale} initial={chapters[0].media} /><script id="exhibition-data" type="application/json" is:inline set:html={safeJson(exhibitionPayload(locale, chapters.map((chapter) => chapter.media)))}></script></>}
+</BaseLayout>

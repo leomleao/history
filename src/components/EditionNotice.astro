@@ -1,0 +1,9 @@
+---
+import type { Locale } from '../lib/content';
+import { route } from '../lib/content';
+import { strings } from '../lib/ui';
+const { locale } = Astro.props as { locale: Locale };
+const t = strings(locale);
+---
+
+<aside class="edition-notice"><p>{t.editionNotice} <a href={route(locale, 'about')}>{t.nav.about}</a></p></aside>

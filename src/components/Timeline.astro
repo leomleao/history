@@ -1,0 +1,16 @@
+---
+import { getChapters, getTimeline, route, type Locale } from '../lib/content';
+import { strings } from '../lib/ui';
+const { locale } = Astro.props as { locale: Locale };
+const t = strings(locale);
+const events = getTimeline(locale);
+const chapters = await getChapters(locale);
+---
+{events.length > 0 && <section class="timeline-section" id="timeline" aria-labelledby="timeline-title">
+  <span class="eyebrow">{t.timelineEyebrow}</span>
+  <div class="timeline-heading"><h2 id="timeline-title">{t.timelineTitle}<br /><em>{t.timelineEmphasis}</em></h2><p>{t.timelineIntro}</p></div>
+  <div class="timeline-list">{events.map((event, index) => <details class="timeline-event" open={index === 0}>
+    <summary><span>{event.year}</span><strong>{event.title}</strong><b aria-hidden="true"></b></summary>
+    <div class="timeline-detail"><p>{event.description}</p><div class="timeline-links"><a class="text-link" href={route(locale, 'archive', event.sourceIds[0])}>{t.timelineSource}</a><a class="text-link" href={chapters.find(c => c.data.key === event.chapterKey)?.href}>{t.readChapter}</a></div></div>
+  </details>)}</div>
+</section>}

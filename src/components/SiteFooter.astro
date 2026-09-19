@@ -1,0 +1,12 @@
+---
+import type { Locale } from '../lib/content';
+import { route } from '../lib/content';
+import { strings } from '../lib/ui';
+const { locale } = Astro.props as { locale: Locale };
+const t = strings(locale);
+---
+
+<footer class="site-footer">
+  <span>Panzonato · {t.footerLine}</span>
+  <a href={route(locale, 'about')}>{t.preview}</a>
+</footer>
