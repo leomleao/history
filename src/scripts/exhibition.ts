@@ -523,7 +523,7 @@ if ('IntersectionObserver' in window && !reduceMotion) {
     { threshold: 0.08 },
   );
   document
-    .querySelectorAll('.section-heading, .reading, .journey, .lower-grid, .page-intro, .record-card, .timeline-section, .collection-selection, .chapter-gallery')
+    .querySelectorAll('.section-heading, .reading, .journey, .lower-grid, .page-intro, .record-card, .timeline-section, .collection-selection, .chapter-gallery, .story-card, .collection-card, .archive-quote, .essay-grid figure')
     .forEach((element) => observer.observe(element));
 }
 
@@ -577,6 +577,30 @@ if (archiveTools && archiveSearch) {
     applyFilters();
   }));
   archiveTools.hidden = false;
+}
+
+// The complete chronology and native disclosures remain available without JavaScript.
+// Filters are revealed only after their enhancement is ready.
+const timelineTools = document.querySelector<HTMLElement>('.timeline-tools');
+if (timelineTools) {
+  const timelineItems = Array.from(document.querySelectorAll<HTMLElement>('#timeline-events [data-timeline-kind]'));
+  const timelineFilters = Array.from(timelineTools.querySelectorAll<HTMLButtonElement>('[data-timeline-filter]'));
+  const timelineCount = timelineTools.querySelector<HTMLElement>('.timeline-count');
+  const applyTimelineFilter = (kind: string) => {
+    let visible = 0;
+    timelineItems.forEach((item) => {
+      const matches = kind === 'all' || item.dataset.timelineKind === kind;
+      item.hidden = !matches;
+      if (matches) visible++;
+    });
+    timelineFilters.forEach((button) => button.setAttribute('aria-pressed', String(button.dataset.timelineFilter === kind)));
+    if (timelineCount) {
+      const label = visible === 1 ? timelineCount.dataset.eventSingular : timelineCount.dataset.eventPlural;
+      timelineCount.textContent = `${visible} ${label ?? ''}`.trim();
+    }
+  };
+  timelineFilters.forEach((button) => button.addEventListener('click', () => applyTimelineFilter(button.dataset.timelineFilter ?? 'all')));
+  timelineTools.hidden = false;
 }
 
 document.querySelectorAll<HTMLDetailsElement>('.timeline-event').forEach(event => {

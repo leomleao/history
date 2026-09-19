@@ -2178,6 +2178,1483 @@
         "en": "These are later views of the documented place, not images of the ancestors' lives. No photographed font, grave or building feature is attributed to a specific family member without separate evidence.",
         "pt-br": "São vistas posteriores do lugar documentado, não imagens da vida dos antepassados. Nenhuma pia, sepultura ou parte de edifício fotografada é atribuída a familiar específico sem prova separada."
       }
+    },
+    {
+      "id": "francesco-costantin-letter-1889",
+      "publication": "preview",
+      "title": {
+        "en": "Francesco Costantin’s 1889 letter from South America",
+        "pt-br": "Carta de Francesco Costantin enviada da América do Sul em 1889"
+      },
+      "description": {
+        "en": "A short extract from a letter sent home by Francesco Costantin of Biadene, Treviso, describing a storm-tossed Atlantic passage. The extract is reproduced in a 2003 essay by Gian Antonio Stella hosted by CESTIM.",
+        "pt-br": "Trecho de uma carta enviada para casa por Francesco Costantin, de Biadene, Treviso, descrevendo uma travessia atlântica sob tempestade. O excerto é reproduzido em ensaio de 2003 de Gian Antonio Stella hospedado pelo CESTIM."
+      },
+      "citation": {
+        "en": "Francesco Costantin, letter sent home from South America, 1889, quoted in Gian Antonio Stella, “Quando sulle carrette del mare c’eravamo noi,” Corriere della Sera, 26 Oct. 2003; reproduced by CESTIM.",
+        "pt-br": "Francesco Costantin, carta enviada para casa desde a América do Sul, 1889, citada em Gian Antonio Stella, “Quando sulle carrette del mare c’eravamo noi”, Corriere della Sera, 26 out. 2003; reproduzida pelo CESTIM."
+      },
+      "repository": {
+        "en": "CESTIM — Centro Studi Immigrazione / Corriere della Sera",
+        "pt-br": "CESTIM — Centro Studi Immigrazione / Corriere della Sera"
+      },
+      "locator": "https://www.cestim.it/argomenti/07emigrazione/07emigrazione_stella_carrette.htm",
+      "kind": "reference",
+      "category": {
+        "en": "Emigrant letter",
+        "pt-br": "Carta de emigrante"
+      },
+      "date": "1889",
+      "transcript": {
+        "en": "Verified excerpt: “Non trovo parole adeguate per descriverle per l'intiero lo sconvolgimento del Piroscafo”",
+        "pt-br": "Trecho verificado: “Non trovo parole adeguate per descriverle per l'intiero lo sconvolgimento del Piroscafo”"
+      },
+      "evidenceNote": {
+        "en": "The public source identifies Costantin and the letter’s year but presents the text through Stella’s later essay. This is not a Panzonato letter and must not be treated as evidence of conditions on the Colombo.",
+        "pt-br": "A fonte pública identifica Costantin e o ano da carta, mas apresenta o texto por meio do ensaio posterior de Stella. Não é uma carta Panzonato e não deve ser tratada como prova das condições no Colombo."
+      }
+    },
+    {
+      "id": "context-colombo-rossini-1994",
+      "publication": "preview",
+      "title": {
+        "en": "José Carlos Rossini’s history of the Brazil / Colombo",
+        "pt-br": "História do Brazil / Colombo por José Carlos Rossini"
+      },
+      "description": {
+        "en": "The full vessel history and specification table for the 1873 freighter Brazil, converted for emigrant service in 1888 and renamed Colombo at the start of 1890.",
+        "pt-br": "História completa e ficha técnica do cargueiro Brazil, de 1873, convertido para o transporte de emigrantes em 1888 e rebatizado Colombo no início de 1890."
+      },
+      "citation": {
+        "en": "José Carlos Rossini, “Navios: o Brazil,” A Tribuna de Santos, 17 Nov. 1994; reproduced by Novo Milênio, Rota de Ouro e Prata.",
+        "pt-br": "José Carlos Rossini, “Navios: o Brazil”, A Tribuna de Santos, 17 nov. 1994; reproduzido por Novo Milênio, Rota de Ouro e Prata."
+      },
+      "repository": {
+        "en": "Novo Milênio / A Tribuna de Santos",
+        "pt-br": "Novo Milênio / A Tribuna de Santos"
+      },
+      "locator": "https://www.novomilenio.inf.br/rossini/brazil.htm",
+      "kind": "reference",
+      "category": {
+        "en": "Ship history",
+        "pt-br": "História marítima"
+      },
+      "date": "1994-11-17",
+      "transcript": {
+        "en": "Rossini reports: built 1873 as Brazil by A. Leslie & Co. at “Helburn-on-Tyne,” Great Britain; 2,408 gross tons; 104 m long; 10 m beam; average speed 9 knots. Cresta bought and converted the freighter in 1888. After a December 1889 collision and repairs, it was renamed Colombo at the start of 1890. The regular service linked Genoa, Lisbon, Rio de Janeiro and Santos, with about 700 emigrants in common accommodation and 80–100 cabin passengers; fresh provisions were kept in refrigerated installations.",
+        "pt-br": "Rossini informa: construído em 1873 como Brazil por A. Leslie & Co. em “Helburn-on-Tyne”, Grã-Bretanha; 2.408 toneladas de arqueação; 104 m de comprimento; 10 m de boca; velocidade média de 9 nós. Cresta comprou e converteu o cargueiro em 1888. Depois de colisão em dezembro de 1889 e dos reparos, foi rebatizado Colombo no início de 1890. O serviço regular ligava Gênova, Lisboa, Rio de Janeiro e Santos, com cerca de 700 emigrantes em acomodações comuns e 80–100 passageiros de cabine; víveres frescos eram mantidos em instalações frigoríficas."
+      },
+      "evidenceNote": {
+        "en": "The builder/place wording above follows Rossini’s table exactly; public prose should prefer “built on the Tyne” rather than silently correcting it or repeating the unsupported Robert Napier/Govan claim. Rossini’s full article dates the renaming to early 1890, unlike the shorter portal summary that places it in 1888. His 18-day Genoa–Rio figure describes the service, not this family’s measured voyage. The February 1891 Santos–Genoa sailing with 1,027 returnees and 15 yellow-fever deaths was a different, northbound voyage earlier that year.",
+        "pt-br": "A grafia do construtor/local acima segue exatamente a tabela de Rossini; o texto público deve preferir “construído às margens do Tyne”, sem corrigi-la silenciosamente nem repetir a atribuição não sustentada a Robert Napier/Govan. O artigo completo de Rossini data a mudança de nome no início de 1890, ao contrário do resumo mais curto, que a situa em 1888. Os 18 dias Gênova–Rio descrevem o serviço, não a duração medida da viagem familiar. A travessia Santos–Gênova de fevereiro de 1891, com 1.027 retornados e 15 mortes por febre amarela, foi outra viagem, rumo norte, realizada antes naquele ano."
+      }
+    },
+    {
+      "id": "context-ongania-calli-canali",
+      "publication": "preview",
+      "title": {
+        "en": "Calli e canali in Venezia, 1891 holding record",
+        "pt-br": "Registro bibliográfico de Calli e canali in Venezia, 1891"
+      },
+      "description": {
+        "en": "James White Library describes the first edition associated with Venetian publisher and bookseller Ferdinando Ongania as a volume of 100 topographical photogravure plates showing palazzi, campi and calli.",
+        "pt-br": "A James White Library descreve a primeira edição associada ao editor e livreiro veneziano Ferdinando Ongania como um volume de cem pranchas topográficas em fotogravura mostrando palácios, campi e calli."
+      },
+      "citation": {
+        "en": "Ferdinando Ongania, Calli e canali in Venezia (Venice, 1891), Rare Books at James White Library, item 3.",
+        "pt-br": "Ferdinando Ongania, Calli e canali in Venezia (Veneza, 1891), Rare Books at James White Library, item 3."
+      },
+      "repository": {
+        "en": "James White Library, Andrews University",
+        "pt-br": "James White Library, Andrews University"
+      },
+      "locator": "https://digitalcommons.andrews.edu/library-books/3/",
+      "kind": "reference",
+      "category": {
+        "en": "Rare-book catalog",
+        "pt-br": "Catálogo de livro raro"
+      },
+      "date": "1891",
+      "evidenceNote": {
+        "en": "The holding record supports the date, 100-plate format and Ongania’s publisher/bookseller role. It does not identify Ongania as the photographer of every image; public text should describe the plates as published or assembled under his name.",
+        "pt-br": "O registro bibliográfico sustenta a data, o formato de cem pranchas e o papel de Ongania como editor/livreiro. Não o identifica como fotógrafo de todas as imagens; o texto público deve descrever as pranchas como publicadas ou reunidas sob seu nome."
+      }
+    },
+    {
+      "id": "venice-1891-grand-canal-gondola",
+      "mediaId": "venice-1891-grand-canal-gondola",
+      "publication": "preview",
+      "title": {
+        "en": "Gondola before a Venetian church complex",
+        "pt-br": "Gôndola diante de um conjunto religioso veneziano"
+      },
+      "description": {
+        "en": "A covered gondola, its gondolier and passenger occupy the foreground of a Venetian waterside view held in the archive’s circa-1891 series. It is regional context, not a documented Panzonato location.",
+        "pt-br": "Uma gôndola coberta, seu gondoleiro e passageiro ocupam o primeiro plano de uma vista veneziana preservada na série de cerca de 1891 do arquivo. É contexto regional, não um local documentado da família Panzonato."
+      },
+      "citation": {
+        "en": "Published by Ferdinando Ongania in Calli e canali in Venezia (1891); individual photographer unverified. James White Library Rare Books holding; source image archived via Vintage Everyday.",
+        "pt-br": "Publicada por Ferdinando Ongania em Calli e canali in Venezia (1891); fotógrafo individual não verificado. Exemplar da coleção Rare Books da James White Library; imagem-fonte arquivada via Vintage Everyday."
+      },
+      "repository": {
+        "en": "James White Library Rare Books / Panzonato research archive copy",
+        "pt-br": "Rare Books da James White Library / cópia do arquivo de pesquisa Panzonato"
+      },
+      "locator": "https://digitalcommons.andrews.edu/library-books/3/",
+      "kind": "context",
+      "category": {
+        "en": "waterfront life",
+        "pt-br": "vida à beira d’água"
+      },
+      "date": "c. 1891"
+    },
+    {
+      "id": "venice-1891-boatyard-canal",
+      "mediaId": "venice-1891-boatyard-canal",
+      "publication": "preview",
+      "title": {
+        "en": "Boats and workshops on a Venetian canal",
+        "pt-br": "Barcos e oficinas num canal veneziano"
+      },
+      "description": {
+        "en": "Low sheds, moored work boats and dense housing give this circa-1891 canal view the texture of everyday waterside labor. No person or building shown is identified with the family.",
+        "pt-br": "Galpões baixos, barcos de trabalho atracados e moradias densas dão a esta vista de canal, de cerca de 1891, a textura do trabalho cotidiano à beira d’água. Nenhuma pessoa ou edifício mostrado é identificado com a família."
+      },
+      "citation": {
+        "en": "Published by Ferdinando Ongania in Calli e canali in Venezia (1891); individual photographer unverified. James White Library Rare Books holding; source image archived via Vintage Everyday.",
+        "pt-br": "Publicada por Ferdinando Ongania em Calli e canali in Venezia (1891); fotógrafo individual não verificado. Exemplar da coleção Rare Books da James White Library; imagem-fonte arquivada via Vintage Everyday."
+      },
+      "repository": {
+        "en": "James White Library Rare Books / Panzonato research archive copy",
+        "pt-br": "Rare Books da James White Library / cópia do arquivo de pesquisa Panzonato"
+      },
+      "locator": "https://digitalcommons.andrews.edu/library-books/3/",
+      "kind": "context",
+      "category": {
+        "en": "canal and work boats",
+        "pt-br": "canal e barcos de trabalho"
+      },
+      "date": "c. 1891"
+    },
+    {
+      "id": "venice-1891-torcello-canal",
+      "mediaId": "venice-1891-torcello-canal",
+      "publication": "preview",
+      "title": {
+        "en": "Lagoon-side canal with residents and boats",
+        "pt-br": "Canal lagunar com moradores e barcos"
+      },
+      "description": {
+        "en": "Residents, small boats and an unpaved bank animate a lagoon-side canal in the archive’s circa-1891 Venice series. The view supplies regional rural context rather than a verified family setting.",
+        "pt-br": "Moradores, pequenos barcos e uma margem não pavimentada animam um canal lagunar na série veneziana de cerca de 1891 do arquivo. A vista oferece contexto rural regional, não um cenário familiar comprovado."
+      },
+      "citation": {
+        "en": "Published by Ferdinando Ongania in Calli e canali in Venezia (1891); individual photographer unverified. James White Library Rare Books holding; source image archived via Vintage Everyday.",
+        "pt-br": "Publicada por Ferdinando Ongania em Calli e canali in Venezia (1891); fotógrafo individual não verificado. Exemplar da coleção Rare Books da James White Library; imagem-fonte arquivada via Vintage Everyday."
+      },
+      "repository": {
+        "en": "James White Library Rare Books / Panzonato research archive copy",
+        "pt-br": "Rare Books da James White Library / cópia do arquivo de pesquisa Panzonato"
+      },
+      "locator": "https://digitalcommons.andrews.edu/library-books/3/",
+      "kind": "context",
+      "category": {
+        "en": "lagoon settlement",
+        "pt-br": "povoado lagunar"
+      },
+      "date": "c. 1891"
+    },
+    {
+      "id": "venice-1891-ornate-bridge",
+      "mediaId": "venice-1891-ornate-bridge",
+      "publication": "preview",
+      "title": {
+        "en": "Pedestrians on an ornate Venetian bridge",
+        "pt-br": "Pedestres numa ponte veneziana ornamentada"
+      },
+      "description": {
+        "en": "Pedestrians pause and cross an ornate bridge in this circa-1891 Venetian view. The visible scene does not support the stored catalog’s “Chioggia fishing port” label, so the caption follows the photograph itself.",
+        "pt-br": "Pedestres param e atravessam uma ponte ornamentada nesta vista veneziana de cerca de 1891. A cena visível não sustenta o rótulo “porto pesqueiro de Chioggia” do catálogo armazenado; por isso, a legenda segue a própria fotografia."
+      },
+      "citation": {
+        "en": "Published by Ferdinando Ongania in Calli e canali in Venezia (1891); individual photographer unverified. James White Library Rare Books holding; source image archived via Vintage Everyday.",
+        "pt-br": "Publicada por Ferdinando Ongania em Calli e canali in Venezia (1891); fotógrafo individual não verificado. Exemplar da coleção Rare Books da James White Library; imagem-fonte arquivada via Vintage Everyday."
+      },
+      "repository": {
+        "en": "James White Library Rare Books / Panzonato research archive copy",
+        "pt-br": "Rare Books da James White Library / cópia do arquivo de pesquisa Panzonato"
+      },
+      "locator": "https://digitalcommons.andrews.edu/library-books/3/",
+      "kind": "context",
+      "category": {
+        "en": "street and bridge life",
+        "pt-br": "vida urbana e ponte"
+      },
+      "date": "c. 1891"
+    },
+    {
+      "id": "venice-1891-narrow-canal-bridge",
+      "mediaId": "venice-1891-narrow-canal-bridge",
+      "publication": "preview",
+      "title": {
+        "en": "Boat beneath a narrow Venetian footbridge",
+        "pt-br": "Barco sob uma estreita ponte veneziana"
+      },
+      "description": {
+        "en": "A boatman works beneath a low brick footbridge while another person stands on the canal steps. The visible view does not match the stored “heavy freight barges” description.",
+        "pt-br": "Um barqueiro trabalha sob uma ponte baixa de tijolos enquanto outra pessoa está nos degraus do canal. A vista visível não corresponde à descrição armazenada de “barcaças pesadas de carga”."
+      },
+      "citation": {
+        "en": "Published by Ferdinando Ongania in Calli e canali in Venezia (1891); individual photographer unverified. James White Library Rare Books holding; source image archived via Vintage Everyday.",
+        "pt-br": "Publicada por Ferdinando Ongania em Calli e canali in Venezia (1891); fotógrafo individual não verificado. Exemplar da coleção Rare Books da James White Library; imagem-fonte arquivada via Vintage Everyday."
+      },
+      "repository": {
+        "en": "James White Library Rare Books / Panzonato research archive copy",
+        "pt-br": "Rare Books da James White Library / cópia do arquivo de pesquisa Panzonato"
+      },
+      "locator": "https://digitalcommons.andrews.edu/library-books/3/",
+      "kind": "context",
+      "category": {
+        "en": "canal labor",
+        "pt-br": "trabalho no canal"
+      },
+      "date": "c. 1891"
+    },
+    {
+      "id": "venice-1891-giudecca-working-waterfront",
+      "mediaId": "venice-1891-giudecca-working-waterfront",
+      "publication": "preview",
+      "title": {
+        "en": "Sailing barges at a wooden footbridge",
+        "pt-br": "Barcaças à vela junto a uma ponte de madeira"
+      },
+      "description": {
+        "en": "Loaded sailing barges, a wooden footbridge and pedestrians show a working Venetian waterfront in the archive’s circa-1891 series. This is regional context, not evidence of the family’s exact neighborhood.",
+        "pt-br": "Barcaças à vela carregadas, uma ponte de madeira e pedestres mostram uma frente d’água de trabalho na série veneziana de cerca de 1891 do arquivo. É contexto regional, não prova do bairro exato da família."
+      },
+      "citation": {
+        "en": "Published by Ferdinando Ongania in Calli e canali in Venezia (1891); individual photographer unverified. James White Library Rare Books holding; source image archived via Vintage Everyday.",
+        "pt-br": "Publicada por Ferdinando Ongania em Calli e canali in Venezia (1891); fotógrafo individual não verificado. Exemplar da coleção Rare Books da James White Library; imagem-fonte arquivada via Vintage Everyday."
+      },
+      "repository": {
+        "en": "James White Library Rare Books / Panzonato research archive copy",
+        "pt-br": "Rare Books da James White Library / cópia do arquivo de pesquisa Panzonato"
+      },
+      "locator": "https://digitalcommons.andrews.edu/library-books/3/",
+      "kind": "context",
+      "category": {
+        "en": "working waterfront",
+        "pt-br": "frente d’água de trabalho"
+      },
+      "date": "c. 1891"
+    },
+    {
+      "id": "end-of-voyage-1891",
+      "mediaId": "end-of-voyage-1891",
+      "publication": "preview",
+      "title": {
+        "en": "The end of the voyage",
+        "pt-br": "O fim da viagem"
+      },
+      "description": {
+        "en": "“The End of the Voyage,” published in the 1891 Ocean Passenger Travel series, pictures the congestion of people and baggage at journey’s end. It does not depict the Panzonato family or a verified Brazilian terminal.",
+        "pt-br": "“The End of the Voyage”, publicada na série Ocean Passenger Travel de 1891, retrata o congestionamento de pessoas e bagagens ao fim da jornada. Não mostra a família Panzonato nem um terminal brasileiro comprovado."
+      },
+      "citation": {
+        "en": "Period illustration preserved by GG Archives from the 1891 Ocean Passenger Travel series.",
+        "pt-br": "Ilustração de época preservada pelo GG Archives na série Ocean Passenger Travel de 1891."
+      },
+      "repository": {
+        "en": "GG Archives / Ocean Passenger Travel (1891)",
+        "pt-br": "GG Archives / Ocean Passenger Travel (1891)"
+      },
+      "locator": "",
+      "kind": "context",
+      "category": {
+        "en": "period illustration",
+        "pt-br": "ilustração de época"
+      },
+      "date": "1891"
+    },
+    {
+      "id": "grand-saloon-inman-steamer",
+      "mediaId": "grand-saloon-inman-steamer",
+      "publication": "preview",
+      "title": {
+        "en": "Grand saloon of an Inman steamer",
+        "pt-br": "Grande salão de um vapor da Inman"
+      },
+      "description": {
+        "en": "The grand saloon of an Inman steamer illustrates first-class space in the 1891 series. Its comfort provides a sharp period contrast with steerage, but it is not the family’s ship or accommodation.",
+        "pt-br": "O grande salão de um vapor da Inman ilustra um espaço de primeira classe na série de 1891. Seu conforto oferece um forte contraste de época com a terceira classe, mas não é o navio nem a acomodação da família."
+      },
+      "citation": {
+        "en": "Period illustration preserved by GG Archives from the 1891 Ocean Passenger Travel series.",
+        "pt-br": "Ilustração de época preservada pelo GG Archives na série Ocean Passenger Travel de 1891."
+      },
+      "repository": {
+        "en": "GG Archives / Ocean Passenger Travel (1891)",
+        "pt-br": "GG Archives / Ocean Passenger Travel (1891)"
+      },
+      "locator": "",
+      "kind": "context",
+      "category": {
+        "en": "ship interior illustration",
+        "pt-br": "ilustração de interior de navio"
+      },
+      "date": "1891"
+    },
+    {
+      "id": "pilot-boarding-steamer-1891",
+      "mediaId": "pilot-boarding-steamer-1891",
+      "publication": "preview",
+      "title": {
+        "en": "A pilot boards an ocean steamer",
+        "pt-br": "Um prático embarca num vapor oceânico"
+      },
+      "description": {
+        "en": "A period illustration shows the precarious transfer of a pilot from a small boat to a steamer’s high hull. It evokes maritime work, not a documented incident from the Panzonato crossing.",
+        "pt-br": "Uma ilustração de época mostra a transferência precária de um prático de um pequeno barco para o alto casco de um vapor. Evoca o trabalho marítimo, não um incidente documentado da travessia Panzonato."
+      },
+      "citation": {
+        "en": "Period illustration preserved by GG Archives from the 1891 Ocean Passenger Travel series.",
+        "pt-br": "Ilustração de época preservada pelo GG Archives na série Ocean Passenger Travel de 1891."
+      },
+      "repository": {
+        "en": "GG Archives / Ocean Passenger Travel (1891)",
+        "pt-br": "GG Archives / Ocean Passenger Travel (1891)"
+      },
+      "locator": "",
+      "kind": "context",
+      "category": {
+        "en": "maritime work illustration",
+        "pt-br": "ilustração de trabalho marítimo"
+      },
+      "date": "1891"
+    },
+    {
+      "id": "smoking-room-french-liner-1890",
+      "mediaId": "smoking-room-french-liner-1890",
+      "publication": "preview",
+      "title": {
+        "en": "Smoking room of a French ocean liner",
+        "pt-br": "Sala de fumantes de um transatlântico francês"
+      },
+      "description": {
+        "en": "This circa-1890 illustration records the richly furnished smoking room of a French liner. It represents premium shipboard space for comparison, not the family’s vessel or third-class experience.",
+        "pt-br": "Esta ilustração de cerca de 1890 registra a sala de fumantes ricamente mobiliada de um transatlântico francês. Representa um espaço premium a bordo para comparação, não o navio nem a experiência de terceira classe da família."
+      },
+      "citation": {
+        "en": "Period illustration preserved by GG Archives from the 1891 Ocean Passenger Travel series.",
+        "pt-br": "Ilustração de época preservada pelo GG Archives na série Ocean Passenger Travel de 1891."
+      },
+      "repository": {
+        "en": "GG Archives / Ocean Passenger Travel (1891)",
+        "pt-br": "GG Archives / Ocean Passenger Travel (1891)"
+      },
+      "locator": "",
+      "kind": "context",
+      "category": {
+        "en": "ship interior illustration",
+        "pt-br": "ilustração de interior de navio"
+      },
+      "date": "c. 1890"
+    },
+    {
+      "id": "steamers-barber-shop-1891",
+      "mediaId": "steamers-barber-shop-1891",
+      "publication": "preview",
+      "title": {
+        "en": "The steamer’s barber shop",
+        "pt-br": "A barbearia do vapor"
+      },
+      "description": {
+        "en": "A barber at work in a compact shipboard cabin appears in the 1891 Ocean Passenger Travel series. The scene documents an onboard service in another travel class, not a family memory.",
+        "pt-br": "Um barbeiro trabalhando numa cabine compacta a bordo aparece na série Ocean Passenger Travel de 1891. A cena documenta um serviço a bordo em outra classe de viagem, não uma memória familiar."
+      },
+      "citation": {
+        "en": "Period illustration preserved by GG Archives from the 1891 Ocean Passenger Travel series.",
+        "pt-br": "Ilustração de época preservada pelo GG Archives na série Ocean Passenger Travel de 1891."
+      },
+      "repository": {
+        "en": "GG Archives / Ocean Passenger Travel (1891)",
+        "pt-br": "GG Archives / Ocean Passenger Travel (1891)"
+      },
+      "locator": "",
+      "kind": "context",
+      "category": {
+        "en": "ship interior illustration",
+        "pt-br": "ilustração de interior de navio"
+      },
+      "date": "1891"
+    },
+    {
+      "id": "colombo-drydock-1901",
+      "mediaId": "colombo-drydock-1901",
+      "publication": "preview",
+      "title": {
+        "en": "The steamship Colombo in dry dock, 1901",
+        "pt-br": "O vapor Colombo em doca seca, 1901"
+      },
+      "description": {
+        "en": "The actual steamship Colombo (formerly Brazil) stands in the Orlando shipyard dry dock at Livorno after its 1901 refit. The photograph was made a decade after the family’s 1891 crossing, so it identifies the vessel but not its voyage-time appearance.",
+        "pt-br": "O próprio vapor Colombo (antigo Brazil) aparece na doca seca do estaleiro Orlando, em Livorno, após sua reforma de 1901. A fotografia foi feita uma década depois da travessia da família, portanto identifica a embarcação, mas não sua aparência na época da viagem."
+      },
+      "citation": {
+        "en": "José Carlos Rossini, “O Brazil,” A Tribuna de Santos, 17 November 1994; historical photograph reproduced by Novo Milênio; photographer unverified.",
+        "pt-br": "José Carlos Rossini, “O Brazil”, A Tribuna de Santos, 17 de novembro de 1994; fotografia histórica reproduzida pelo Novo Milênio; fotógrafo não verificado."
+      },
+      "repository": {
+        "en": "Novo Milênio archive of A Tribuna de Santos",
+        "pt-br": "Arquivo Novo Milênio de A Tribuna de Santos"
+      },
+      "locator": "https://www.novomilenio.inf.br/rossini/brazil.htm",
+      "kind": "context",
+      "category": {
+        "en": "identified steamship photograph",
+        "pt-br": "fotografia de vapor identificado"
+      },
+      "date": "1901"
+    },
+    {
+      "id": "sacop-third-class-ticket-1924",
+      "mediaId": "sacop-third-class-ticket-1924",
+      "publication": "preview",
+      "title": {
+        "en": "Third-class ticket from Genoa to Santos, 1924",
+        "pt-br": "Bilhete de terceira classe de Gênova a Santos, 1924"
+      },
+      "description": {
+        "en": "A third-class ticket issued to Francesco Colucci for the steamer Nazario Sauro records departure from Genoa on 16 July 1924 for Santos, with calls at Naples and Palermo. It concerns another migrant and a later voyage, not the Panzonato family.",
+        "pt-br": "Um bilhete de terceira classe emitido para Francesco Colucci no vapor Nazario Sauro registra a partida de Gênova em 16 de julho de 1924 rumo a Santos, com escalas em Nápoles e Palermo. Refere-se a outro migrante e a uma viagem posterior, não à família Panzonato."
+      },
+      "citation": {
+        "en": "Arquivo Público do Estado de São Paulo (APESP), digital exhibition image preserved in the research archive.",
+        "pt-br": "Arquivo Público do Estado de São Paulo (APESP), imagem de exposição digital preservada no arquivo de pesquisa."
+      },
+      "repository": {
+        "en": "Arquivo Público do Estado de São Paulo (APESP)",
+        "pt-br": "Arquivo Público do Estado de São Paulo (APESP)"
+      },
+      "locator": "",
+      "kind": "context",
+      "category": {
+        "en": "passage ticket",
+        "pt-br": "bilhete de passagem"
+      },
+      "date": "1924-07-16"
+    },
+    {
+      "id": "sao-paulo-colonies-map-1908",
+      "mediaId": "sao-paulo-colonies-map-1908",
+      "publication": "preview",
+      "title": {
+        "en": "Map of São Paulo’s colonial settlements, 1908",
+        "pt-br": "Mapa dos núcleos coloniais de São Paulo, 1908"
+      },
+      "description": {
+        "en": "Published in O Immigrante in January 1908, this map locates existing and planned colonial settlements and the railway network across São Paulo state. It describes the migration system broadly, not the family’s exact route.",
+        "pt-br": "Publicado em O Immigrante em janeiro de 1908, este mapa localiza núcleos coloniais existentes e planejados e a rede ferroviária no estado de São Paulo. Descreve amplamente o sistema migratório, não a rota exata da família."
+      },
+      "citation": {
+        "en": "Arquivo Público do Estado de São Paulo (APESP), digital exhibition image preserved in the research archive.",
+        "pt-br": "Arquivo Público do Estado de São Paulo (APESP), imagem de exposição digital preservada no arquivo de pesquisa."
+      },
+      "repository": {
+        "en": "Arquivo Público do Estado de São Paulo (APESP)",
+        "pt-br": "Arquivo Público do Estado de São Paulo (APESP)"
+      },
+      "locator": "",
+      "kind": "context",
+      "category": {
+        "en": "historical map",
+        "pt-br": "mapa histórico"
+      },
+      "date": "1908"
+    },
+    {
+      "id": "sacop-passage-restitution-petition-1910",
+      "mediaId": "sacop-passage-restitution-petition-1910",
+      "publication": "preview",
+      "title": {
+        "en": "Handwritten passage-restitution petition, 1910",
+        "pt-br": "Petição manuscrita de restituição de passagem, 1910"
+      },
+      "description": {
+        "en": "In October 1910, a handwritten petition requested restitution of third-class passages from Genoa to Santos for Rachella Vittorio and her family under São Paulo immigration policy. The dossier belongs to another migrant family and is shown as administrative context.",
+        "pt-br": "Em outubro de 1910, uma petição manuscrita solicitou a restituição de passagens de terceira classe de Gênova a Santos para Rachella Vittorio e sua família, conforme a política imigratória paulista. O dossiê pertence a outra família migrante e é mostrado como contexto administrativo."
+      },
+      "citation": {
+        "en": "Arquivo Público do Estado de São Paulo (APESP), digital exhibition image preserved in the research archive.",
+        "pt-br": "Arquivo Público do Estado de São Paulo (APESP), imagem de exposição digital preservada no arquivo de pesquisa."
+      },
+      "repository": {
+        "en": "Arquivo Público do Estado de São Paulo (APESP)",
+        "pt-br": "Arquivo Público do Estado de São Paulo (APESP)"
+      },
+      "locator": "",
+      "kind": "context",
+      "category": {
+        "en": "immigration petition",
+        "pt-br": "petição de imigração"
+      },
+      "date": "1910-10-15"
+    },
+    {
+      "id": "sacop-passage-restitution-cover-1910",
+      "mediaId": "sacop-passage-restitution-cover-1910",
+      "publication": "preview",
+      "title": {
+        "en": "Passage-restitution dossier cover, 1910",
+        "pt-br": "Capa de dossiê de restituição de passagem, 1910"
+      },
+      "description": {
+        "en": "Dated 12 October 1910, this São Paulo immigration-office cover records Rachella Vittorio’s request for restitution of passages from Genoa to Santos. It belongs to another migrant family and is shown as administrative context.",
+        "pt-br": "Datada de 12 de outubro de 1910, esta capa do serviço paulista de imigração registra o pedido de Rachella Vittorio para restituição de passagens de Gênova a Santos. Pertence a outra família migrante e é mostrada como contexto administrativo."
+      },
+      "citation": {
+        "en": "Arquivo Público do Estado de São Paulo (APESP), digital exhibition image preserved in the research archive.",
+        "pt-br": "Arquivo Público do Estado de São Paulo (APESP), imagem de exposição digital preservada no arquivo de pesquisa."
+      },
+      "repository": {
+        "en": "Arquivo Público do Estado de São Paulo (APESP)",
+        "pt-br": "Arquivo Público do Estado de São Paulo (APESP)"
+      },
+      "locator": "",
+      "kind": "context",
+      "category": {
+        "en": "immigration dossier cover",
+        "pt-br": "capa de dossiê de imigração"
+      },
+      "date": "1910-10-12"
+    },
+    {
+      "id": "sacop-emigration-law-ticket-reverse-1910",
+      "mediaId": "sacop-emigration-law-ticket-reverse-1910",
+      "publication": "preview",
+      "title": {
+        "en": "Emigration law and ration table on a ticket reverse, 1910",
+        "pt-br": "Lei de emigração e tabela de rações no verso de bilhete, 1910"
+      },
+      "description": {
+        "en": "The reverse of a 1910 third-class ticket combines Italian emigration law with age-based fares and a weekly food table listing bread, meat, rice, pasta, vegetables and wine. It documents contractual promises for another voyage, not the Panzonato family’s actual meals.",
+        "pt-br": "O verso de um bilhete de terceira classe de 1910 reúne a lei italiana de emigração, tarifas por idade e uma tabela semanal de alimentos com pão, carne, arroz, massas, legumes e vinho. Documenta promessas contratuais de outra viagem, não as refeições reais da família Panzonato."
+      },
+      "citation": {
+        "en": "Arquivo Público do Estado de São Paulo (APESP), digital exhibition image preserved in the research archive.",
+        "pt-br": "Arquivo Público do Estado de São Paulo (APESP), imagem de exposição digital preservada no arquivo de pesquisa."
+      },
+      "repository": {
+        "en": "Arquivo Público do Estado de São Paulo (APESP)",
+        "pt-br": "Arquivo Público do Estado de São Paulo (APESP)"
+      },
+      "locator": "",
+      "kind": "context",
+      "category": {
+        "en": "ticket reverse and ration table",
+        "pt-br": "verso de bilhete e tabela de rações"
+      },
+      "date": "1910"
+    },
+    {
+      "id": "immigrants-leaving-steamer-1908",
+      "mediaId": "immigrants-leaving-steamer-1908",
+      "publication": "preview",
+      "title": {
+        "en": "Immigrants leaving a steamer, 1908 publication",
+        "pt-br": "Imigrantes desembarcando de um vapor, publicação de 1908"
+      },
+      "description": {
+        "en": "The printed caption identifies “Entrada de um vapor com immigrantes,” published in O Immigrante in January 1908. The stored filename incorrectly calls it a Hospedaria façade; the people shown are not identified with the Panzonato family.",
+        "pt-br": "A legenda impressa identifica “Entrada de um vapor com immigrantes”, publicada em O Immigrante em janeiro de 1908. O nome de arquivo armazenado a chama incorretamente de fachada da Hospedaria; as pessoas mostradas não são identificadas com a família Panzonato."
+      },
+      "citation": {
+        "en": "Arquivo Público do Estado de São Paulo (APESP), digital exhibition image preserved in the research archive.",
+        "pt-br": "Arquivo Público do Estado de São Paulo (APESP), imagem de exposição digital preservada no arquivo de pesquisa."
+      },
+      "repository": {
+        "en": "Arquivo Público do Estado de São Paulo (APESP)",
+        "pt-br": "Arquivo Público do Estado de São Paulo (APESP)"
+      },
+      "locator": "",
+      "kind": "context",
+      "category": {
+        "en": "arrival scene",
+        "pt-br": "cena de chegada"
+      },
+      "date": "1908"
+    },
+    {
+      "id": "hospedaria-facade-1908",
+      "mediaId": "hospedaria-facade-1908",
+      "publication": "preview",
+      "title": {
+        "en": "Hospedaria de Imigrantes façade, 1908",
+        "pt-br": "Fachada da Hospedaria de Imigrantes, 1908"
+      },
+      "description": {
+        "en": "The printed scan caption identifies the Hospedaria de Imigrantes exterior in O Immigrante, January 1908. The local filename’s “refectory” label is wrong; this is an exterior view seven years after the family’s recorded stay.",
+        "pt-br": "A legenda impressa identifica o exterior da Hospedaria de Imigrantes em O Immigrante, janeiro de 1908. O rótulo “refeitório” no nome do arquivo local está errado; esta é uma vista externa sete anos após a estadia registrada da família."
+      },
+      "citation": {
+        "en": "Arquivo Público do Estado de São Paulo (APESP), digital exhibition image preserved in the research archive.",
+        "pt-br": "Arquivo Público do Estado de São Paulo (APESP), imagem de exposição digital preservada no arquivo de pesquisa."
+      },
+      "repository": {
+        "en": "Arquivo Público do Estado de São Paulo (APESP)",
+        "pt-br": "Arquivo Público do Estado de São Paulo (APESP)"
+      },
+      "locator": "",
+      "kind": "context",
+      "category": {
+        "en": "institutional exterior",
+        "pt-br": "exterior institucional"
+      },
+      "date": "1908"
+    },
+    {
+      "id": "hospedaria-kitchen-1908",
+      "mediaId": "hospedaria-kitchen-1908",
+      "publication": "preview",
+      "title": {
+        "en": "Hospedaria kitchen, 1908",
+        "pt-br": "Cozinha da Hospedaria, 1908"
+      },
+      "description": {
+        "en": "The printed caption identifies the Hospedaria kitchen in O Immigrante, January 1908. Large cooking vessels and workers contradict the local filename’s “disinfection” label.",
+        "pt-br": "A legenda impressa identifica a cozinha da Hospedaria em O Immigrante, janeiro de 1908. Grandes recipientes de cozinha e trabalhadores contradizem o rótulo “desinfecção” do nome do arquivo local."
+      },
+      "citation": {
+        "en": "Arquivo Público do Estado de São Paulo (APESP), digital exhibition image preserved in the research archive.",
+        "pt-br": "Arquivo Público do Estado de São Paulo (APESP), imagem de exposição digital preservada no arquivo de pesquisa."
+      },
+      "repository": {
+        "en": "Arquivo Público do Estado de São Paulo (APESP)",
+        "pt-br": "Arquivo Público do Estado de São Paulo (APESP)"
+      },
+      "locator": "",
+      "kind": "context",
+      "category": {
+        "en": "institutional interior",
+        "pt-br": "interior institucional"
+      },
+      "date": "1908"
+    },
+    {
+      "id": "hospedaria-dormitory",
+      "mediaId": "hospedaria-dormitory",
+      "publication": "preview",
+      "title": {
+        "en": "Communal dormitory at the Hospedaria",
+        "pt-br": "Dormitório coletivo da Hospedaria"
+      },
+      "description": {
+        "en": "An undated archival photograph shows the scale and regimented layout of a communal dormitory at the São Paulo Hospedaria. It documents the institution, not the family’s specific room or date of occupancy.",
+        "pt-br": "Uma fotografia de arquivo sem data mostra a escala e a disposição regimentada de um dormitório coletivo da Hospedaria de São Paulo. Documenta a instituição, não o quarto específico nem a data de estadia da família."
+      },
+      "citation": {
+        "en": "Museu da Imigração do Estado de São Paulo / Panzonato research archive copy.",
+        "pt-br": "Museu da Imigração do Estado de São Paulo / cópia do arquivo de pesquisa Panzonato."
+      },
+      "repository": {
+        "en": "Museu da Imigração do Estado de São Paulo",
+        "pt-br": "Museu da Imigração do Estado de São Paulo"
+      },
+      "locator": "",
+      "kind": "context",
+      "category": {
+        "en": "institutional interior",
+        "pt-br": "interior institucional"
+      }
+    },
+    {
+      "id": "new-coffee-planting-gaensly",
+      "mediaId": "new-coffee-planting-gaensly",
+      "publication": "preview",
+      "title": {
+        "en": "New coffee planting photographed by Gaensly",
+        "pt-br": "Cafezal novo fotografado por Gaensly"
+      },
+      "description": {
+        "en": "Guilherme Gaensly’s view labeled “Café Novo” shows the geometry and exposed ground of a young plantation. The lone worker is unidentified and the farm is not linked to the Panzonato family.",
+        "pt-br": "A vista de Guilherme Gaensly intitulada “Café Novo” mostra a geometria e o solo exposto de um cafezal jovem. O trabalhador solitário não é identificado e a fazenda não está ligada à família Panzonato."
+      },
+      "citation": {
+        "en": "Arquivo Público do Estado de São Paulo (APESP), digital exhibition image preserved in the research archive.",
+        "pt-br": "Arquivo Público do Estado de São Paulo (APESP), imagem de exposição digital preservada no arquivo de pesquisa."
+      },
+      "repository": {
+        "en": "Arquivo Público do Estado de São Paulo (APESP)",
+        "pt-br": "Arquivo Público do Estado de São Paulo (APESP)"
+      },
+      "locator": "",
+      "kind": "context",
+      "category": {
+        "en": "agricultural landscape",
+        "pt-br": "paisagem agrícola"
+      }
+    },
+    {
+      "id": "rua-do-commercio-1887",
+      "mediaId": "rua-do-commercio-1887",
+      "publication": "preview",
+      "title": {
+        "en": "Rua do Commercio, São Paulo, 1887",
+        "pt-br": "Rua do Commercio, São Paulo, 1887"
+      },
+      "description": {
+        "en": "Militão de Azevedo photographed Rua do Commercio in 1887, capturing carts, pedestrians and shopfronts. The local filename’s “colono family” label is false; this is an urban street, not a family portrait.",
+        "pt-br": "Militão de Azevedo fotografou a Rua do Commercio em 1887, registrando carroças, pedestres e fachadas comerciais. O rótulo “família colona” do nome do arquivo local é falso; trata-se de uma rua urbana, não de um retrato de família."
+      },
+      "citation": {
+        "en": "Arquivo Público do Estado de São Paulo (APESP), digital exhibition image preserved in the research archive.",
+        "pt-br": "Arquivo Público do Estado de São Paulo (APESP), imagem de exposição digital preservada no arquivo de pesquisa."
+      },
+      "repository": {
+        "en": "Arquivo Público do Estado de São Paulo (APESP)",
+        "pt-br": "Arquivo Público do Estado de São Paulo (APESP)"
+      },
+      "locator": "",
+      "kind": "context",
+      "category": {
+        "en": "urban everyday life",
+        "pt-br": "cotidiano urbano"
+      },
+      "date": "1887"
+    },
+    {
+      "id": "coffee-harvest-araraquara-gaensly",
+      "mediaId": "coffee-harvest-araraquara-gaensly",
+      "publication": "preview",
+      "title": {
+        "en": "Coffee harvest near Araraquara",
+        "pt-br": "Colheita de café em Araraquara"
+      },
+      "description": {
+        "en": "Guilherme Gaensly photographed women and men harvesting coffee near Araraquara, with oxen and baskets beside the rows. The workers are unidentified and the image is comparative labor context, not a Panzonato family scene.",
+        "pt-br": "Guilherme Gaensly fotografou mulheres e homens colhendo café em Araraquara, com bois e cestos ao lado das fileiras. Os trabalhadores não são identificados e a imagem é contexto comparativo de trabalho, não uma cena da família Panzonato."
+      },
+      "citation": {
+        "en": "Museu da Imigração do Estado de São Paulo / Panzonato research archive copy.",
+        "pt-br": "Museu da Imigração do Estado de São Paulo / cópia do arquivo de pesquisa Panzonato."
+      },
+      "repository": {
+        "en": "Museu da Imigração do Estado de São Paulo",
+        "pt-br": "Museu da Imigração do Estado de São Paulo"
+      },
+      "locator": "",
+      "kind": "context",
+      "category": {
+        "en": "agricultural labor",
+        "pt-br": "trabalho agrícola"
+      }
+    },
+    {
+      "id": "machinery-gallery-1907",
+      "mediaId": "machinery-gallery-1907",
+      "publication": "preview",
+      "title": {
+        "en": "Machinery demonstration gallery, 1907",
+        "pt-br": "Galeria de demonstração de máquinas, 1907"
+      },
+      "description": {
+        "en": "The printed caption reads “Uma ala da Galleria de Demonstração de Machinas,” published in a São Paulo industry bulletin in 1907. The image does not establish that the machines processed coffee, despite the stored filename.",
+        "pt-br": "A legenda impressa diz “Uma ala da Galleria de Demonstração de Machinas”, publicada num boletim industrial paulista em 1907. A imagem não comprova que as máquinas beneficiavam café, apesar do nome do arquivo armazenado."
+      },
+      "citation": {
+        "en": "Arquivo Público do Estado de São Paulo (APESP), digital exhibition image preserved in the research archive.",
+        "pt-br": "Arquivo Público do Estado de São Paulo (APESP), imagem de exposição digital preservada no arquivo de pesquisa."
+      },
+      "repository": {
+        "en": "Arquivo Público do Estado de São Paulo (APESP)",
+        "pt-br": "Arquivo Público do Estado de São Paulo (APESP)"
+      },
+      "locator": "",
+      "kind": "context",
+      "category": {
+        "en": "industrial work",
+        "pt-br": "trabalho industrial"
+      },
+      "date": "1907"
+    },
+    {
+      "id": "coffee-loading-santos-gaensly",
+      "mediaId": "coffee-loading-santos-gaensly",
+      "publication": "preview",
+      "title": {
+        "en": "Loading coffee at Santos",
+        "pt-br": "Embarque de café em Santos"
+      },
+      "description": {
+        "en": "Guilherme Gaensly’s photograph shows dockworkers carrying coffee sacks aboard a ship at Santos. The men are unidentified; the scene connects plantation labor to export without claiming a family connection.",
+        "pt-br": "A fotografia de Guilherme Gaensly mostra trabalhadores portuários levando sacas de café a bordo de um navio em Santos. Os homens não são identificados; a cena liga o trabalho nas fazendas à exportação sem alegar vínculo familiar."
+      },
+      "citation": {
+        "en": "Arquivo Público do Estado de São Paulo (APESP), digital exhibition image preserved in the research archive.",
+        "pt-br": "Arquivo Público do Estado de São Paulo (APESP), imagem de exposição digital preservada no arquivo de pesquisa."
+      },
+      "repository": {
+        "en": "Arquivo Público do Estado de São Paulo (APESP)",
+        "pt-br": "Arquivo Público do Estado de São Paulo (APESP)"
+      },
+      "locator": "",
+      "kind": "context",
+      "category": {
+        "en": "port labor",
+        "pt-br": "trabalho portuário"
+      }
+    },
+    {
+      "id": "capivari-solar-do-barao-historic",
+      "mediaId": "capivari-solar-do-barao-historic",
+      "publication": "preview",
+      "title": {
+        "en": "Historic view of the Solar do Barão",
+        "pt-br": "Vista histórica do Solar do Barão"
+      },
+      "description": {
+        "en": "A historic monochrome view records the Solar do Barão’s side façade and gated entrance in Capivari. The archive does not establish a direct Panzonato association with this building.",
+        "pt-br": "Uma vista histórica monocromática registra a fachada lateral e a entrada gradeada do Solar do Barão em Capivari. O arquivo não comprova uma associação direta da família Panzonato com este edifício."
+      },
+      "citation": {
+        "en": "Capivari historical image preserved in the Panzonato research archive; original photographer not identified in the stored source.",
+        "pt-br": "Imagem histórica de Capivari preservada no arquivo de pesquisa Panzonato; fotógrafo original não identificado na fonte armazenada."
+      },
+      "repository": {
+        "en": "Panzonato research archive / Capivari historical source set",
+        "pt-br": "Arquivo de pesquisa Panzonato / conjunto de fontes históricas de Capivari"
+      },
+      "locator": "",
+      "kind": "context",
+      "category": {
+        "en": "historic building",
+        "pt-br": "edifício histórico"
+      }
+    },
+    {
+      "id": "capivari-old-town-ox-carts",
+      "mediaId": "capivari-old-town-ox-carts",
+      "publication": "preview",
+      "title": {
+        "en": "Ox carts on an old Capivari street",
+        "pt-br": "Carros de boi numa antiga rua de Capivari"
+      },
+      "description": {
+        "en": "Ox teams and handlers move through an unpaved Capivari street in this undated historical photograph. The people are unidentified and are not presented as members of the Panzonato family.",
+        "pt-br": "Bois e condutores atravessam uma rua não pavimentada de Capivari nesta fotografia histórica sem data. As pessoas não são identificadas nem apresentadas como integrantes da família Panzonato."
+      },
+      "citation": {
+        "en": "Capivari historical image preserved in the Panzonato research archive; original photographer not identified in the stored source.",
+        "pt-br": "Imagem histórica de Capivari preservada no arquivo de pesquisa Panzonato; fotógrafo original não identificado na fonte armazenada."
+      },
+      "repository": {
+        "en": "Panzonato research archive / Capivari historical source set",
+        "pt-br": "Arquivo de pesquisa Panzonato / conjunto de fontes históricas de Capivari"
+      },
+      "locator": "",
+      "kind": "context",
+      "category": {
+        "en": "historic streetscape",
+        "pt-br": "paisagem urbana histórica"
+      }
+    },
+    {
+      "id": "capivari-old-matriz-church",
+      "mediaId": "capivari-old-matriz-church",
+      "publication": "preview",
+      "title": {
+        "en": "Old Matriz church of Capivari",
+        "pt-br": "Antiga Igreja Matriz de Capivari"
+      },
+      "description": {
+        "en": "An undated historic photograph records the old Matriz church in Capivari before later alterations. It establishes town context, not a documented family event inside the building.",
+        "pt-br": "Uma fotografia histórica sem data registra a antiga Igreja Matriz de Capivari antes de alterações posteriores. Estabelece o contexto da cidade, não um evento familiar documentado dentro do edifício."
+      },
+      "citation": {
+        "en": "Capivari historical image preserved in the Panzonato research archive; original photographer not identified in the stored source.",
+        "pt-br": "Imagem histórica de Capivari preservada no arquivo de pesquisa Panzonato; fotógrafo original não identificado na fonte armazenada."
+      },
+      "repository": {
+        "en": "Panzonato research archive / Capivari historical source set",
+        "pt-br": "Arquivo de pesquisa Panzonato / conjunto de fontes históricas de Capivari"
+      },
+      "locator": "",
+      "kind": "context",
+      "category": {
+        "en": "historic church",
+        "pt-br": "igreja histórica"
+      }
+    },
+    {
+      "id": "capivari-matriz-church-1935",
+      "mediaId": "capivari-matriz-church-1935",
+      "publication": "preview",
+      "title": {
+        "en": "Capivari Matriz church in 1935",
+        "pt-br": "Igreja Matriz de Capivari em 1935"
+      },
+      "description": {
+        "en": "A 1935 view shows the Matriz church and its surrounding streetscape in Capivari. Its modest resolution is retained without enlargement; the image is place context rather than proof of a family occasion.",
+        "pt-br": "Uma vista de 1935 mostra a Igreja Matriz e seu entorno urbano em Capivari. Sua resolução modesta é preservada sem ampliação; a imagem é contexto de lugar, não prova de uma ocasião familiar."
+      },
+      "citation": {
+        "en": "Capivari historical image preserved in the Panzonato research archive; original photographer not identified in the stored source.",
+        "pt-br": "Imagem histórica de Capivari preservada no arquivo de pesquisa Panzonato; fotógrafo original não identificado na fonte armazenada."
+      },
+      "repository": {
+        "en": "Panzonato research archive / Capivari historical source set",
+        "pt-br": "Arquivo de pesquisa Panzonato / conjunto de fontes históricas de Capivari"
+      },
+      "locator": "",
+      "kind": "context",
+      "category": {
+        "en": "historic church",
+        "pt-br": "igreja histórica"
+      },
+      "date": "1935"
+    },
+    {
+      "id": "capivari-first-council-house",
+      "mediaId": "capivari-first-council-house",
+      "publication": "preview",
+      "title": {
+        "en": "Capivari’s first council house",
+        "pt-br": "Primeira Câmara de Capivari"
+      },
+      "description": {
+        "en": "An undated street view identifies Capivari’s first council house, with pedestrians and neighboring buildings. No person in the scene is identified with the Panzonato family.",
+        "pt-br": "Uma vista urbana sem data identifica a primeira Câmara de Capivari, com pedestres e edifícios vizinhos. Nenhuma pessoa na cena é identificada com a família Panzonato."
+      },
+      "citation": {
+        "en": "Capivari historical image preserved in the Panzonato research archive; original photographer not identified in the stored source.",
+        "pt-br": "Imagem histórica de Capivari preservada no arquivo de pesquisa Panzonato; fotógrafo original não identificado na fonte armazenada."
+      },
+      "repository": {
+        "en": "Panzonato research archive / Capivari historical source set",
+        "pt-br": "Arquivo de pesquisa Panzonato / conjunto de fontes históricas de Capivari"
+      },
+      "locator": "",
+      "kind": "context",
+      "category": {
+        "en": "civic streetscape",
+        "pt-br": "paisagem urbana cívica"
+      }
+    },
+    {
+      "id": "capivari-rural-worker",
+      "mediaId": "capivari-rural-worker",
+      "publication": "preview",
+      "title": {
+        "en": "Unidentified rural worker in Capivari",
+        "pt-br": "Trabalhador rural não identificado em Capivari"
+      },
+      "description": {
+        "en": "The archive labels this historical portrait as a rural worker in Capivari. His name, date and workplace are not preserved, and he must not be presented as a Panzonato ancestor.",
+        "pt-br": "O arquivo identifica este retrato histórico como um trabalhador rural em Capivari. Seu nome, data e local de trabalho não foram preservados, e ele não deve ser apresentado como antepassado Panzonato."
+      },
+      "citation": {
+        "en": "Capivari historical image preserved in the Panzonato research archive; original photographer not identified in the stored source.",
+        "pt-br": "Imagem histórica de Capivari preservada no arquivo de pesquisa Panzonato; fotógrafo original não identificado na fonte armazenada."
+      },
+      "repository": {
+        "en": "Panzonato research archive / Capivari historical source set",
+        "pt-br": "Arquivo de pesquisa Panzonato / conjunto de fontes históricas de Capivari"
+      },
+      "locator": "",
+      "kind": "context",
+      "category": {
+        "en": "historical labor portrait",
+        "pt-br": "retrato histórico de trabalho"
+      }
+    },
+    {
+      "id": "capivari-aerial-historic",
+      "mediaId": "capivari-aerial-historic",
+      "publication": "preview",
+      "title": {
+        "en": "Historic aerial view of central Capivari",
+        "pt-br": "Vista aérea histórica do centro de Capivari"
+      },
+      "description": {
+        "en": "An undated halftone aerial view records Capivari’s central church, square and surrounding urban fabric. It provides town-scale context without locating a specific family home.",
+        "pt-br": "Uma vista aérea em retícula, sem data, registra a igreja central, a praça e o tecido urbano ao redor em Capivari. Oferece contexto na escala da cidade sem localizar uma residência familiar específica."
+      },
+      "citation": {
+        "en": "Capivari historical image preserved in the Panzonato research archive; original photographer not identified in the stored source.",
+        "pt-br": "Imagem histórica de Capivari preservada no arquivo de pesquisa Panzonato; fotógrafo original não identificado na fonte armazenada."
+      },
+      "repository": {
+        "en": "Panzonato research archive / Capivari historical source set",
+        "pt-br": "Arquivo de pesquisa Panzonato / conjunto de fontes históricas de Capivari"
+      },
+      "locator": "",
+      "kind": "context",
+      "category": {
+        "en": "historic aerial view",
+        "pt-br": "vista aérea histórica"
+      }
+    },
+    {
+      "id": "brazil-law-581-1850",
+      "publication": "preview",
+      "title": {
+        "en": "Law no. 581 of 4 September 1850",
+        "pt-br": "Lei nº 581, de 4 de setembro de 1850"
+      },
+      "description": {
+        "en": "The official text of the Eusébio de Queirós Law, which established measures to repress the illegal importation of enslaved Africans into the Brazilian Empire.",
+        "pt-br": "Texto oficial da Lei Eusébio de Queirós, que estabeleceu medidas para reprimir a importação ilegal de africanos escravizados no Império do Brasil."
+      },
+      "citation": {
+        "en": "Brazil, Law no. 581, 4 Sept. 1850, Collection of Laws of the Empire of Brazil, 1850, vol. 1, pt. I, p. 267; Câmara dos Deputados legislation portal.",
+        "pt-br": "Brasil, Lei nº 581, 4 set. 1850, Coleção de Leis do Império do Brasil, 1850, v. 1, pt. I, p. 267; portal de legislação da Câmara dos Deputados."
+      },
+      "repository": {
+        "en": "Chamber of Deputies",
+        "pt-br": "Câmara dos Deputados"
+      },
+      "locator": "https://www2.camara.leg.br/legin/fed/leimp/1824-1899/lei-581-4-setembro-1850-559820-publicacaooriginal-82230-pl.html",
+      "kind": "reference",
+      "category": {
+        "en": "Primary legislation",
+        "pt-br": "Legislação primária"
+      },
+      "date": "1850-09-04",
+      "evidenceNote": {
+        "en": "The law targeted the transatlantic trade; it did not abolish slavery inside Brazil, which continued until 1888.",
+        "pt-br": "A lei visava ao tráfico transatlântico; não aboliu a escravidão no Brasil, que continuou até 1888."
+      }
+    },
+    {
+      "id": "arquivo-nacional-abolition-legislation",
+      "publication": "preview",
+      "title": {
+        "en": "Abolitionist legislation in the Brazilian Empire",
+        "pt-br": "Legislação abolicionista no Império"
+      },
+      "description": {
+        "en": "An Arquivo Nacional account of the long abolition process, including resistance by enslaved people, organized abolitionism, the 1850 law against the trade and the 1888 abolition of slavery.",
+        "pt-br": "Síntese do Arquivo Nacional sobre o longo processo de abolição, incluindo a resistência das pessoas escravizadas, o abolicionismo organizado, a lei de 1850 contra o tráfico e a abolição de 1888."
+      },
+      "citation": {
+        "en": "Arquivo Nacional, “Legislação abolicionista no Império,” Brasil Oitocentista, accessed 19 Sept. 2026.",
+        "pt-br": "Arquivo Nacional, “Legislação abolicionista no Império”, Brasil Oitocentista, acesso em 19 set. 2026."
+      },
+      "repository": {
+        "en": "Arquivo Nacional",
+        "pt-br": "Arquivo Nacional"
+      },
+      "locator": "https://www.gov.br/arquivonacional/pt-br/sites_eventos/sites-tematicos-1/brasil-oitocentista/temas-oitocentistas/legislacao-abolicionista-no-imperio",
+      "kind": "reference",
+      "category": {
+        "en": "Institutional history",
+        "pt-br": "História institucional"
+      },
+      "evidenceNote": {
+        "en": "Supports a process-centered account of abolition; it does not make European recruitment a consequence of one law or erase the agency of enslaved and freed people.",
+        "pt-br": "Sustenta uma narrativa da abolição como processo; não faz do recrutamento europeu consequência de uma única lei nem apaga a ação de pessoas escravizadas e libertas."
+      }
+    },
+    {
+      "id": "sao-paulo-law-28-1884",
+      "publication": "preview",
+      "title": {
+        "en": "São Paulo Provincial Law no. 28 of 29 March 1884",
+        "pt-br": "Lei Provincial paulista nº 28, de 29 de março de 1884"
+      },
+      "description": {
+        "en": "The provincial law authorized graded passage reimbursements for qualifying European, Azorean and Canary Island immigrant families settling in São Paulo for agricultural work, together with short-term hostel accommodation.",
+        "pt-br": "A lei provincial autorizou indenizações graduadas de passagem para famílias imigrantes elegíveis da Europa, dos Açores e das Canárias que se estabelecessem em São Paulo na agricultura, além de hospedagem temporária."
+      },
+      "citation": {
+        "en": "Province of São Paulo, Law no. 28, 29 Mar. 1884, Collection of São Paulo Legislation; Legislative Assembly of the State of São Paulo.",
+        "pt-br": "Província de São Paulo, Lei nº 28, 29 mar. 1884, Coleção da Legislação Paulista; Assembleia Legislativa do Estado de São Paulo."
+      },
+      "repository": {
+        "en": "Legislative Assembly of the State of São Paulo",
+        "pt-br": "Assembleia Legislativa do Estado de São Paulo"
+      },
+      "locator": "https://www.al.sp.gov.br/repositorio/legislacao/lei/1884/lei-28-29.03.1884.html",
+      "kind": "reference",
+      "category": {
+        "en": "Primary legislation",
+        "pt-br": "Legislação primária"
+      },
+      "date": "1884-03-29",
+      "evidenceNote": {
+        "en": "The statute created an eligibility framework; it does not establish that the Panzonato family received a subsidy.",
+        "pt-br": "A lei criou critérios de elegibilidade; não comprova que a família Panzonato tenha recebido subsídio."
+      }
+    },
+    {
+      "id": "goncalves-sociedade-promotora-2014",
+      "publication": "preview",
+      "title": {
+        "en": "The Sociedade Promotora de Imigração and public financing, 1886–1895",
+        "pt-br": "A Sociedade Promotora de Imigração e o financiamento público, 1886–1895"
+      },
+      "description": {
+        "en": "Peer-reviewed history of the Promotora and São Paulo's expanding coffee economy.",
+        "pt-br": "História revisada por pares da Promotora e da economia cafeeira paulista em expansão."
+      },
+      "citation": {
+        "en": "Paulo Cesar Gonçalves, “Procuram-se braços para a lavoura: imigrantes e retirantes na economia cafeeira paulista no final do Oitocentos,” Revista Brasileira de História 34, no. 67 (2014), DOI 10.1590/S0102-01882014000100013.",
+        "pt-br": "Paulo Cesar Gonçalves, “Procuram-se braços para a lavoura: imigrantes e retirantes na economia cafeeira paulista no final do Oitocentos”, Revista Brasileira de História 34, nº 67 (2014), DOI 10.1590/S0102-01882014000100013."
+      },
+      "repository": {
+        "en": "SciELO / Revista Brasileira de História",
+        "pt-br": "SciELO / Revista Brasileira de História"
+      },
+      "locator": "https://www.scielo.br/j/rbh/a/hH6GwSKCCdyNQtqKrgkzrZw/",
+      "kind": "reference",
+      "category": {
+        "en": "Scholarly institutional record",
+        "pt-br": "Registro acadêmico institucional"
+      },
+      "date": "2014",
+      "evidenceNote": {
+        "en": "Supports the coffee expansion and the organization's structure and purpose, not contact between its agents and the Panzonato family.",
+        "pt-br": "Sustenta a expansão cafeeira e a estrutura e finalidade da organização, não contato entre seus agentes e a família Panzonato."
+      }
+    },
+    {
+      "id": "museu-hospedaria-first-arrivals-1887",
+      "publication": "preview",
+      "title": {
+        "en": "Hospedaria 130: the first arrivals at the Brás hostel",
+        "pt-br": "Hospedaria 130: as primeiras chegadas à hospedaria do Brás"
+      },
+      "description": {
+        "en": "The Museu da Imigração records that the unfinished Brás immigrant hostel received its first group on 5 June 1887 and later became a central reception and placement point.",
+        "pt-br": "O Museu da Imigração registra que a Hospedaria de Imigrantes do Brás, ainda inacabada, recebeu seu primeiro grupo em 5 de junho de 1887 e depois se tornou ponto central de recepção e colocação."
+      },
+      "citation": {
+        "en": "Museu da Imigração do Estado de São Paulo, “Hospedaria 130,” temporary exhibition page.",
+        "pt-br": "Museu da Imigração do Estado de São Paulo, “Hospedaria 130”, página de exposição temporária."
+      },
+      "repository": {
+        "en": "Museu da Imigração do Estado de São Paulo",
+        "pt-br": "Museu da Imigração do Estado de São Paulo"
+      },
+      "locator": "https://museudaimigracao.org.br/exposicoes/temporarias/hospedaria-130",
+      "kind": "reference",
+      "category": {
+        "en": "Institutional history",
+        "pt-br": "História institucional"
+      },
+      "date": "1887-06-05",
+      "evidenceNote": {
+        "en": "The date is the first group received, not the completion date of the building or the Panzonato family's arrival date.",
+        "pt-br": "A data é a do primeiro grupo recebido, não a da conclusão do edifício nem a da chegada da família Panzonato."
+      }
+    },
+    {
+      "id": "brazil-law-3353-1888",
+      "publication": "preview",
+      "title": {
+        "en": "Law no. 3,353 of 13 May 1888",
+        "pt-br": "Lei nº 3.353, de 13 de maio de 1888"
+      },
+      "description": {
+        "en": "The official record of the Lei Áurea, whose two articles declared slavery extinct in Brazil and revoked contrary provisions.",
+        "pt-br": "Registro oficial da Lei Áurea, cujos dois artigos declararam extinta a escravidão no Brasil e revogaram as disposições em contrário."
+      },
+      "citation": {
+        "en": "Brazil, Law no. 3,353, 13 May 1888, Diário Oficial da União, 14 May 1888, p. 1; Federal Senate legislation portal.",
+        "pt-br": "Brasil, Lei nº 3.353, 13 maio 1888, Diário Oficial da União, 14 maio 1888, p. 1; portal de legislação do Senado Federal."
+      },
+      "repository": {
+        "en": "Federal Senate",
+        "pt-br": "Senado Federal"
+      },
+      "locator": "https://legis.senado.leg.br/norma/545155",
+      "kind": "reference",
+      "category": {
+        "en": "Primary legislation",
+        "pt-br": "Legislação primária"
+      },
+      "date": "1888-05-13",
+      "evidenceNote": {
+        "en": "The law ended legal slavery but provided no land, education or labor inclusion program for freed people.",
+        "pt-br": "A lei encerrou a escravidão legal, mas não criou programa de terra, educação ou inclusão trabalhista para as pessoas libertas."
+      }
+    },
+    {
+      "id": "brazil-decree-528-1890",
+      "publication": "preview",
+      "title": {
+        "en": "Decree no. 528 of 28 June 1890",
+        "pt-br": "Decreto nº 528, de 28 de junho de 1890"
+      },
+      "description": {
+        "en": "The federal decree regulated immigrant introduction and settlement, authorized transport and placement assistance, and imposed racially discriminatory barriers on people described as natives of Asia or Africa.",
+        "pt-br": "O decreto federal regulamentou a introdução e localização de imigrantes, autorizou auxílios de transporte e colocação e impôs barreiras racialmente discriminatórias aos imigrantes descritos como indígenas da Ásia ou da África."
+      },
+      "citation": {
+        "en": "Brazil, Decree no. 528, 28 June 1890, Collection of Laws of Brazil, 1890, p. 1424, vol. 1, fasc. VI; Câmara dos Deputados legislation portal.",
+        "pt-br": "Brasil, Decreto nº 528, 28 jun. 1890, Coleção de Leis do Brasil, 1890, p. 1424, v. 1, fasc. VI; portal de legislação da Câmara dos Deputados."
+      },
+      "repository": {
+        "en": "Chamber of Deputies",
+        "pt-br": "Câmara dos Deputados"
+      },
+      "locator": "https://www2.camara.leg.br/legin/fed/decret/1824-1899/decreto-528-28-junho-1890-506935-publicacaooriginal-1-pe.html",
+      "kind": "reference",
+      "category": {
+        "en": "Primary legislation",
+        "pt-br": "Legislação primária"
+      },
+      "date": "1890-06-28",
+      "evidenceNote": {
+        "en": "The decree shows national policy and racial selection; it does not prove which provision, if any, governed the Panzonato family's journey.",
+        "pt-br": "O decreto mostra a política nacional e a seleção racial; não comprova qual dispositivo, se algum, regeu a viagem da família Panzonato."
+      }
+    },
+    {
+      "id": "italy-decree-3300-1866",
+      "publication": "preview",
+      "title": {
+        "en": "Royal Decree no. 3300 of 4 November 1866",
+        "pt-br": "Real Decreto nº 3300, de 4 de novembro de 1866"
+      },
+      "description": {
+        "en": "The official decree joining the Venetian provinces and Mantua to the Kingdom of Italy.",
+        "pt-br": "Decreto oficial que uniu as províncias venezianas e Mântua ao Reino da Itália."
+      },
+      "citation": {
+        "en": "Kingdom of Italy, Royal Decree no. 3300, 4 Nov. 1866, Gazzetta Ufficiale del Regno d'Italia, 5 Nov. 1866.",
+        "pt-br": "Reino da Itália, Real Decreto nº 3300, 4 nov. 1866, Gazzetta Ufficiale del Regno d'Italia, 5 nov. 1866."
+      },
+      "repository": {
+        "en": "Gazzetta Ufficiale della Repubblica Italiana",
+        "pt-br": "Gazzetta Ufficiale della Repubblica Italiana"
+      },
+      "locator": "https://www.gazzettaufficiale.it/eli/id/1866/11/05/066U3300/sg",
+      "kind": "reference",
+      "category": {
+        "en": "Primary legislation",
+        "pt-br": "Legislação primária"
+      },
+      "date": "1866-11-04",
+      "evidenceNote": {
+        "en": "Establishes the change of state; it does not establish a private reason for later migration.",
+        "pt-br": "Comprova a mudança de Estado; não estabelece motivo privado para a migração posterior."
+      }
+    },
+    {
+      "id": "unifi-milling-tax-history",
+      "publication": "preview",
+      "title": {
+        "en": "The tax on milled grain",
+        "pt-br": "O imposto sobre a moagem de cereais"
+      },
+      "description": {
+        "en": "A University of Florence Library exhibition traces the unpopular staple-grain milling tax from its 1868 law through collection and abolition.",
+        "pt-br": "Exposição da Biblioteca da Universidade de Florença acompanha o impopular imposto sobre a moagem de cereais básicos, da lei de 1868 à cobrança e abolição."
+      },
+      "citation": {
+        "en": "University of Florence Library System, “La tassa sul macinato,” online exhibition, L'Italia è fatta. La Biblioteca di Scienze Sociali e l'Unità d'Italia.",
+        "pt-br": "Sistema de Bibliotecas da Universidade de Florença, “La tassa sul macinato”, exposição virtual L'Italia è fatta. La Biblioteca di Scienze Sociali e l'Unità d'Italia."
+      },
+      "repository": {
+        "en": "University of Florence Library System",
+        "pt-br": "Sistema de Bibliotecas da Universidade de Florença"
+      },
+      "locator": "https://www.sba.unifi.it/p577.html",
+      "kind": "reference",
+      "category": {
+        "en": "Institutional history",
+        "pt-br": "História institucional"
+      },
+      "evidenceNote": {
+        "en": "Documents the tax and its dates, not a payment by this family or a tax still in force in 1891.",
+        "pt-br": "Documenta o imposto e suas datas, não um pagamento desta família nem um tributo ainda vigente em 1891."
+      }
+    },
+    {
+      "id": "franzina-triveneto-migrante-2023",
+      "publication": "preview",
+      "title": {
+        "en": "Triveneto migrante",
+        "pt-br": "Triveneto migrante"
+      },
+      "description": {
+        "en": "Historian Emilio Franzina connects cheaper overseas farm imports and improved transport with late-nineteenth-century pressure on the Triveneto's rural economy.",
+        "pt-br": "O historiador Emilio Franzina relaciona importações agrícolas ultramarinas mais baratas e transportes melhores à pressão sobre a economia rural do Trivêneto no fim do século XIX."
+      },
+      "citation": {
+        "en": "Emilio Franzina, “Triveneto migrante,” Archivio Storico dell'Emigrazione Italiana, 10 Oct. 2023.",
+        "pt-br": "Emilio Franzina, “Triveneto migrante”, Archivio Storico dell'Emigrazione Italiana, 10 out. 2023."
+      },
+      "repository": {
+        "en": "Archivio Storico dell'Emigrazione Italiana",
+        "pt-br": "Archivio Storico dell'Emigrazione Italiana"
+      },
+      "locator": "https://www.asei.eu/it/2023/10/triveneto-migrante/",
+      "kind": "reference",
+      "category": {
+        "en": "Scholarly history",
+        "pt-br": "História acadêmica"
+      },
+      "date": "2023-10-10",
+      "evidenceNote": {
+        "en": "Supports a regional economic process, not landownership, crop losses or a personal migration decision by the Panzonatos.",
+        "pt-br": "Sustenta um processo econômico regional, não propriedade de terra, perdas de safra ou decisão migratória pessoal dos Panzonato."
+      }
+    },
+    {
+      "id": "unifi-agrarian-crisis-jacini",
+      "publication": "preview",
+      "title": {
+        "en": "Agrarian crisis and the Jacini inquiry",
+        "pt-br": "Crise agrária e o inquérito Jacini"
+      },
+      "description": {
+        "en": "A University of Florence Library exhibition explains the 1880s grain crisis and the parliamentary inquiry into agriculture and peasant conditions.",
+        "pt-br": "Exposição da Biblioteca da Universidade de Florença explica a crise cerealífera dos anos 1880 e o inquérito parlamentar sobre agricultura e condições camponesas."
+      },
+      "citation": {
+        "en": "University of Florence Library System, “La crisi agraria e l'inchiesta Jacini,” online exhibition, L'Italia è fatta.",
+        "pt-br": "Sistema de Bibliotecas da Universidade de Florença, “La crisi agraria e l'inchiesta Jacini”, exposição virtual L'Italia è fatta."
+      },
+      "repository": {
+        "en": "University of Florence Library System",
+        "pt-br": "Sistema de Bibliotecas da Universidade de Florença"
+      },
+      "locator": "https://www.sba.unifi.it/p575.html",
+      "kind": "reference",
+      "category": {
+        "en": "Institutional history",
+        "pt-br": "História institucional"
+      },
+      "evidenceNote": {
+        "en": "The inquiry documents wider rural conditions; the inquiry itself was not a cause of migration.",
+        "pt-br": "O inquérito documenta condições rurais amplas; o inquérito em si não foi causa de migração."
+      }
+    },
+    {
+      "id": "italy-jacini-archive-inventory",
+      "publication": "preview",
+      "title": {
+        "en": "Archive of the Jacini agrarian inquiry, 1877–1885",
+        "pt-br": "Arquivo do inquérito agrário Jacini, 1877–1885"
+      },
+      "description": {
+        "en": "The Italian Ministry of Culture's archival inventory identifies the parliamentary inquiry and its 1877–1885 span.",
+        "pt-br": "O inventário arquivístico do Ministério da Cultura italiano identifica o inquérito parlamentar e seu período de 1877–1885."
+      },
+      "citation": {
+        "en": "Direzione generale Archivi, Ministero della Cultura, “Archivio della Giunta per l'inchiesta agraria e sulle condizioni della classe agricola (Inchiesta Jacini), 1877–1885.”",
+        "pt-br": "Direzione generale Archivi, Ministero della Cultura, “Archivio della Giunta per l'inchiesta agraria e sulle condizioni della classe agricola (Inchiesta Jacini), 1877–1885”."
+      },
+      "repository": {
+        "en": "Italian Ministry of Culture, Directorate-General for Archives",
+        "pt-br": "Ministério da Cultura da Itália, Direção-Geral de Arquivos"
+      },
+      "locator": "https://dgagaeta.cultura.gov.it/include/SelectNote.inc.php?idpubb=386",
+      "kind": "reference",
+      "category": {
+        "en": "Archival inventory",
+        "pt-br": "Inventário arquivístico"
+      },
+      "date": "1877–1885",
+      "evidenceNote": {
+        "en": "The dates describe the commission's archival span, not the publication date of every volume.",
+        "pt-br": "As datas descrevem o período arquivístico da comissão, não a publicação de cada volume."
+      }
+    },
+    {
+      "id": "brenta-bacchiglione-historical-floods",
+      "publication": "preview",
+      "title": {
+        "en": "Historical floods of the Brenta–Bacchiglione basin",
+        "pt-br": "Cheias históricas da bacia Brenta–Bacchiglione"
+      },
+      "description": {
+        "en": "The Eastern Alps river-basin authority records the 1882 embankment breaches and damage to bridges and river works along the Brenta system.",
+        "pt-br": "A autoridade da bacia hidrográfica dos Alpes Orientais registra as rupturas de diques de 1882 e danos a pontes e obras fluviais no sistema do Brenta."
+      },
+      "citation": {
+        "en": "Autorità di bacino distrettuale delle Alpi Orientali, “Bacino del Brenta-Bacchiglione,” historical overview.",
+        "pt-br": "Autorità di bacino distrettuale delle Alpi Orientali, “Bacino del Brenta-Bacchiglione”, síntese histórica."
+      },
+      "repository": {
+        "en": "Eastern Alps District Basin Authority",
+        "pt-br": "Autoridade Distrital da Bacia dos Alpes Orientais"
+      },
+      "locator": "https://comunico.distrettoalpiorientali.it/osservatorio/bacino-del-brenta-bacchiglione/",
+      "kind": "reference",
+      "category": {
+        "en": "Official environmental history",
+        "pt-br": "História ambiental oficial"
+      },
+      "evidenceNote": {
+        "en": "Documents basin-wide damage; it does not place floodwater at the Panzonato home.",
+        "pt-br": "Documenta danos na bacia; não situa água da cheia na casa dos Panzonato."
+      }
+    },
+    {
+      "id": "padova-hydraulic-assessment-1882-flood",
+      "publication": "preview",
+      "title": {
+        "en": "Padua territorial plan: 1882 hydraulic history",
+        "pt-br": "Plano territorial de Pádua: história hidráulica de 1882"
+      },
+      "description": {
+        "en": "The hydraulic assessment records the September 1882 breach at Limena, damage at Strà and flooding of farmland.",
+        "pt-br": "A avaliação hidráulica registra a ruptura de setembro de 1882 em Limena, danos em Strà e inundação de terras agrícolas."
+      },
+      "citation": {
+        "en": "Comune di Padova, Piano di Assetto del Territorio di Padova — Valutazione di compatibilità idraulica (2009), p. 22; PDF, approximately 99 MB.",
+        "pt-br": "Comune di Padova, Piano di Assetto del Territorio di Padova — Valutazione di compatibilità idraulica (2009), p. 22; PDF, aproximadamente 99 MB."
+      },
+      "repository": {
+        "en": "Municipality of Padua",
+        "pt-br": "Município de Pádua"
+      },
+      "locator": "https://www.comune.padova.it/urbanistica/PAT%20-%20ratifica/FALDONE%20N3/Relazione%20compatibilit%C3%A0%20idraulica.pdf",
+      "kind": "reference",
+      "category": {
+        "en": "Official hydraulic assessment",
+        "pt-br": "Avaliação hidráulica oficial"
+      },
+      "date": "2009",
+      "evidenceNote": {
+        "en": "Supports the month and regional agricultural damage; it does not document damage to the Panzonato household.",
+        "pt-br": "Sustenta o mês e os danos agrícolas regionais; não documenta danos à família Panzonato."
+      }
+    },
+    {
+      "id": "rand-mcnally-world-map-1903",
+      "mediaId": "rand-mcnally-world-map-1903",
+      "publication": "preview",
+      "kind": "context",
+      "date": "1903",
+      "title": {
+        "en": "Rand McNally’s world map, 1903",
+        "pt-br": "Mapa-múndi da Rand McNally, 1903"
+      },
+      "description": {
+        "en": "An Atlantic crop of the Rand-McNally Library Map Of The World, published twelve years after the family’s recorded arrival. Its coastlines, place names and printed shipping routes provide the historical setting for the interactive Colombo route.",
+        "pt-br": "Recorte do Atlântico no Rand-McNally Library Map Of The World, publicado doze anos após a chegada registrada da família. Suas costas, topônimos e rotas marítimas impressas dão o cenário histórico à rota interativa do Colombo."
+      },
+      "citation": {
+        "en": "Rand McNally and Company, Rand-McNally Library Map Of The World (Chicago and New York, 1903). David Rumsey Map Collection, List No. 4707.002; world map on the reverse of wall map 4707.000. Atlantic detail.",
+        "pt-br": "Rand McNally and Company, Rand-McNally Library Map Of The World (Chicago e Nova York, 1903). David Rumsey Map Collection, nº 4707.002; mapa-múndi no verso do mapa mural 4707.000. Detalhe do Atlântico."
+      },
+      "repository": {
+        "en": "David Rumsey Map Collection",
+        "pt-br": "David Rumsey Map Collection"
+      },
+      "locator": "https://www.davidrumsey.com/luna/servlet/view/search?q=4707.002",
+      "category": {
+        "en": "Historical maps",
+        "pt-br": "Mapas históricos"
+      },
+      "evidenceNote": {
+        "en": "The original map is dated 1903, not 1891. The animated line illustrates the Colombo’s regular Genoa–Lisbon–Rio de Janeiro–Santos service using a visually calibrated sea corridor; it is not a recorded track of the family’s voyage. The family record establishes Rio de Janeiro as provenance and registration at São Paulo’s Hospedaria on 15 December 1891, with Tietê as destination. Their exact European boarding port, Brazilian landing port and crossing duration remain unconfirmed.",
+        "pt-br": "O mapa original é de 1903, não de 1891. A linha animada ilustra o serviço regular Gênova–Lisboa–Rio de Janeiro–Santos do Colombo por um corredor marítimo calibrado visualmente; não é um trajeto registrado da viagem da família. O documento familiar estabelece procedência do Rio de Janeiro e registro na Hospedaria de São Paulo em 15 de dezembro de 1891, com destino a Tietê. O porto exato de embarque na Europa, o porto de desembarque no Brasil e a duração da travessia permanecem sem confirmação."
+      }
     }
   ],
   "places": [
@@ -2323,6 +3800,8 @@
     {
       "id": "giuseppe-born-1856",
       "year": "1856",
+      "kind": "family",
+      "sortDate": "1856-07-22",
       "title": {
         "en": "Giuseppe is born in Gambarare",
         "pt-br": "Giuseppe nasce em Gambarare"
@@ -2339,6 +3818,8 @@
     {
       "id": "giuseppe-fosca-married-1881",
       "year": "1881",
+      "kind": "family",
+      "sortDate": "1881-11-20",
       "title": {
         "en": "Giuseppe and Fosca marry in Mira",
         "pt-br": "Giuseppe e Fosca casam-se em Mira"
@@ -2355,6 +3836,8 @@
     {
       "id": "family-hospedaria-1891",
       "year": "1891",
+      "kind": "family",
+      "sortDate": "1891-12-15",
       "title": {
         "en": "Eight family members enter the São Paulo hostel register",
         "pt-br": "Oito familiares entram no registro da hospedaria paulista"
@@ -2371,6 +3854,8 @@
     {
       "id": "jose-born-1899",
       "year": "1899",
+      "kind": "family",
+      "sortDate": "1899-11-18",
       "title": {
         "en": "José Filho is born in Capivari",
         "pt-br": "José Filho nasce em Capivari"
@@ -2387,6 +3872,8 @@
     {
       "id": "catharina-married-1902",
       "year": "1902",
+      "kind": "family",
+      "sortDate": "1902-02-08",
       "title": {
         "en": "Catharina's marriage preserves Gambarare",
         "pt-br": "O casamento de Catharina preserva Gambarare"
@@ -2403,6 +3890,8 @@
     {
       "id": "jose-assumpta-married-1921",
       "year": "1921",
+      "kind": "family",
+      "sortDate": "1921-06-04",
       "title": {
         "en": "José and Assumpta marry",
         "pt-br": "José e Assumpta casam-se"
@@ -2419,6 +3908,8 @@
     {
       "id": "fosca-died-1927",
       "year": "1927",
+      "kind": "family",
+      "sortDate": "1927-08-03",
       "title": {
         "en": "Fosca dies in Capivari",
         "pt-br": "Fosca morre em Capivari"
@@ -2435,6 +3926,8 @@
     {
       "id": "arlindo-born-1929",
       "year": "1929",
+      "kind": "family",
+      "sortDate": "1929-08-18",
       "title": {
         "en": "Arlindo is born in Capivari",
         "pt-br": "Arlindo nasce em Capivari"
@@ -2451,6 +3944,8 @@
     {
       "id": "giuseppe-died-1937",
       "year": "1937",
+      "kind": "family",
+      "sortDate": "1937-12-05",
       "title": {
         "en": "Giuseppe dies as José Pansonatto",
         "pt-br": "Giuseppe morre como José Pansonatto"
@@ -2468,6 +3963,8 @@
     {
       "id": "jose-died-1988",
       "year": "1988",
+      "kind": "family",
+      "sortDate": "1988-12-17",
       "title": {
         "en": "José Filho dies in Jundiaí",
         "pt-br": "José Filho morre em Jundiaí"
@@ -2484,6 +3981,8 @@
     {
       "id": "arrival-certified-2002",
       "year": "2002",
+      "kind": "family",
+      "sortDate": "2002-02-26",
       "title": {
         "en": "The 1891 entry is certified for the family archive",
         "pt-br": "O registro de 1891 é certificado para o arquivo familiar"
@@ -2500,6 +3999,8 @@
     {
       "id": "gambarare-documented-2023-2024",
       "year": "2023–2024",
+      "kind": "family",
+      "sortDate": "2023",
       "title": {
         "en": "The documented place is photographed again",
         "pt-br": "O lugar documentado volta a ser fotografado"
@@ -2513,6 +4014,352 @@
         "gambarare-field-documentation-2023-2024",
         "giuseppe-birth-1856",
         "catharina-luigi-marriage-1902"
+      ]
+    },
+    {
+      "id": "brazil-suppresses-slave-trade-1850",
+      "year": "1850",
+      "kind": "context",
+      "sortDate": "1850-09-04",
+      "scope": {
+        "en": "Brazil and the Atlantic",
+        "pt-br": "Brasil e Atlântico"
+      },
+      "title": {
+        "en": "Brazil moves to suppress the transatlantic slave trade",
+        "pt-br": "Brasil reprime o tráfico transatlântico de escravizados"
+      },
+      "description": {
+        "en": "Law no. 581 of 4 September created enforcement measures against ships illegally importing enslaved Africans. It targeted the overseas trade, not slavery itself, which remained legal for another thirty-eight years.",
+        "pt-br": "A Lei nº 581, de 4 de setembro, criou medidas de repressão contra navios que importassem ilegalmente africanos escravizados. Visava ao tráfico ultramarino, não à escravidão, que permaneceu legal por mais 38 anos."
+      },
+      "impact": {
+        "en": "Enslaved people still faced bondage, sale and forced work inside Brazil. Over time, cutting off the Atlantic trade pushed landowners to consider other labor arrangements, while freedom remained the demand of enslaved people and abolitionists.",
+        "pt-br": "Pessoas escravizadas ainda enfrentavam cativeiro, venda e trabalho forçado no Brasil. Com o tempo, o fim do tráfico atlântico levou proprietários a buscar outros arranjos de trabalho, enquanto escravizados e abolicionistas continuavam lutando pela liberdade."
+      },
+      "chapterKey": "crossing",
+      "sourceIds": [
+        "brazil-law-581-1850",
+        "arquivo-nacional-abolition-legislation"
+      ]
+    },
+    {
+      "id": "sao-paulo-passage-aid-1884",
+      "year": "1884",
+      "kind": "context",
+      "sortDate": "1884-03-29",
+      "scope": {
+        "en": "São Paulo",
+        "pt-br": "São Paulo"
+      },
+      "title": {
+        "en": "São Paulo authorizes passage aid for immigrant families",
+        "pt-br": "São Paulo autoriza auxílio de passagem a famílias imigrantes"
+      },
+      "description": {
+        "en": "Provincial Law no. 28 offered age-graded passage reimbursements to qualifying families from Europe, the Azores and Canary Islands who settled in agricultural work, plus up to eight days in the capital's immigrant hostel.",
+        "pt-br": "A Lei Provincial nº 28 ofereceu indenizações de passagem por faixa etária a famílias elegíveis da Europa, dos Açores e das Canárias que se fixassem na agricultura, além de até oito dias na hospedaria da capital."
+      },
+      "impact": {
+        "en": "Tickets for parents and several children could cost more than a rural household could gather. Reimbursement made the ocean passage newly imaginable for qualifying families and tied migration policy directly to São Paulo agriculture.",
+        "pt-br": "Passagens para pais e vários filhos podiam custar mais do que uma família rural conseguiria reunir. A indenização tornou a travessia oceânica imaginável para famílias elegíveis e ligou diretamente a política migratória à agricultura paulista."
+      },
+      "chapterKey": "crossing",
+      "sourceIds": [
+        "sao-paulo-law-28-1884"
+      ]
+    },
+    {
+      "id": "sociedade-promotora-founded-1886",
+      "year": "1886",
+      "kind": "context",
+      "sortDate": "1886-07-02",
+      "scope": {
+        "en": "São Paulo and Europe",
+        "pt-br": "São Paulo e Europa"
+      },
+      "title": {
+        "en": "Coffee planters form the Sociedade Promotora de Imigração",
+        "pt-br": "Cafeicultores formam a Sociedade Promotora de Imigração"
+      },
+      "description": {
+        "en": "Founded on 2 July, the planter-led Promotora used public money to organize recruitment, transport and farm placement, especially in Italy.",
+        "pt-br": "Fundada em 2 de julho, a Promotora de fazendeiros usou dinheiro público para organizar recrutamento, transporte e colocação, sobretudo na Itália."
+      },
+      "impact": {
+        "en": "Agents and contracts joined European villages to São Paulo: information, subsidized tickets and arranged travel could make a distant country feel possible to families considering a move.",
+        "pt-br": "Agentes e contratos ligaram aldeias europeias a São Paulo: informações, passagens subsidiadas e viagens organizadas podiam tornar um país distante possível para famílias pensando em partir."
+      },
+      "chapterKey": "crossing",
+      "sourceIds": [
+        "goncalves-sociedade-promotora-2014"
+      ]
+    },
+    {
+      "id": "bras-hostel-first-arrivals-1887",
+      "year": "1887",
+      "kind": "context",
+      "sortDate": "1887-06-05",
+      "scope": {
+        "en": "São Paulo",
+        "pt-br": "São Paulo"
+      },
+      "title": {
+        "en": "The unfinished Brás hostel receives its first immigrants",
+        "pt-br": "A Hospedaria do Brás, ainda inacabada, recebe os primeiros imigrantes"
+      },
+      "description": {
+        "en": "On 5 June the new Hospedaria de Imigrantes do Brás received its first group before construction was complete. The institution combined short-term reception with the organized placement of arriving workers.",
+        "pt-br": "Em 5 de junho, a nova Hospedaria de Imigrantes do Brás recebeu seu primeiro grupo antes da conclusão das obras. A instituição reuniu acolhimento temporário e encaminhamento organizado dos trabalhadores recém-chegados."
+      },
+      "impact": {
+        "en": "For parents arriving with children, the hostel could provide temporary beds, food and help finding work before a train carried them inland. Four years later, its register recorded the eight-member Panzonato household.",
+        "pt-br": "Para pais chegando com filhos, a hospedaria podia oferecer cama temporária, comida e ajuda para encontrar trabalho antes do trem rumo ao interior. Quatro anos depois, seu registro anotou os oito Panzonato."
+      },
+      "chapterKey": "crossing",
+      "sourceIds": [
+        "museu-hospedaria-first-arrivals-1887",
+        "context-apesp-immigration"
+      ]
+    },
+    {
+      "id": "lei-aurea-1888",
+      "year": "1888",
+      "kind": "context",
+      "sortDate": "1888-05-13",
+      "scope": {
+        "en": "Brazil",
+        "pt-br": "Brasil"
+      },
+      "title": {
+        "en": "The Lei Áurea abolishes slavery in Brazil",
+        "pt-br": "A Lei Áurea abole a escravidão no Brasil"
+      },
+      "description": {
+        "en": "On 13 May, after sustained resistance by enslaved people and abolitionist pressure, Law no. 3,353 declared slavery extinct in Brazil. Its two articles offered no program for land, education or labor inclusion after freedom.",
+        "pt-br": "Em 13 de maio, após resistência continuada das pessoas escravizadas e pressão abolicionista, a Lei nº 3.353 declarou extinta a escravidão no Brasil. Seus dois artigos não criaram programa de terra, educação ou inclusão trabalhista após a liberdade."
+      },
+      "impact": {
+        "en": "Ending legal slavery forced planters to adapt, but São Paulo's European recruitment system was already operating before 1888. Freed people claimed freedom on their own terms while confronting unequal access to land, education and secure work.",
+        "pt-br": "O fim da escravidão legal obrigou fazendeiros a se adaptar, mas o recrutamento europeu paulista já funcionava antes de 1888. Os libertos afirmaram a liberdade em seus próprios termos enquanto enfrentavam acesso desigual à terra, educação e trabalho seguro."
+      },
+      "chapterKey": "crossing",
+      "sourceIds": [
+        "brazil-law-3353-1888",
+        "arquivo-nacional-abolition-legislation"
+      ]
+    },
+    {
+      "id": "brazil-converted-emigrant-ship-1888",
+      "year": "1888",
+      "kind": "context",
+      "sortDate": "1888-09",
+      "scope": {
+        "en": "Italy and the Atlantic",
+        "pt-br": "Itália e Atlântico"
+      },
+      "title": {
+        "en": "The Brazil enters emigrant service",
+        "pt-br": "O Brazil entra no serviço de emigrantes"
+      },
+      "description": {
+        "en": "The converted freighter Brazil began emigrant service in September 1888. After a December 1889 collision and repairs, it was renamed Colombo at the beginning of 1890 and served Genoa, Lisbon, Rio de Janeiro and Santos.",
+        "pt-br": "O cargueiro Brazil, já convertido, iniciou o serviço de emigrantes em setembro de 1888. Após colisão em dezembro de 1889 e reparos, foi rebatizado Colombo no início de 1890 e serviu Gênova, Lisboa, Rio de Janeiro e Santos."
+      },
+      "impact": {
+        "en": "Regular steamship service turned an ocean crossing into a scheduled journey with known ports. Shared accommodation carried hundreds at once, bringing the scale of organized migration within reach of working families.",
+        "pt-br": "O serviço regular de vapores transformou a travessia oceânica em viagem programada, com portos conhecidos. A acomodação coletiva levava centenas de uma vez, colocando a migração organizada ao alcance de famílias trabalhadoras."
+      },
+      "chapterKey": "crossing",
+      "sourceIds": [
+        "context-colombo-rossini-1994"
+      ]
+    },
+    {
+      "id": "brazil-immigration-decree-1890",
+      "year": "1890",
+      "kind": "context",
+      "sortDate": "1890-06-28",
+      "scope": {
+        "en": "Brazil",
+        "pt-br": "Brasil"
+      },
+      "title": {
+        "en": "Federal decree regulates immigrant entry and settlement",
+        "pt-br": "Decreto federal regulamenta entrada e fixação de imigrantes"
+      },
+      "description": {
+        "en": "Decree no. 528 organized federal assistance for immigrant transport and placement. Its first article also imposed racially discriminatory restrictions on people it described as natives of Asia or Africa, requiring congressional authorization for admission.",
+        "pt-br": "O Decreto nº 528 organizou o auxílio federal ao transporte e à colocação de imigrantes. Seu artigo 1º também impôs restrições racialmente discriminatórias a pessoas descritas como indígenas da Ásia ou da África, exigindo autorização do Congresso para admissão."
+      },
+      "impact": {
+        "en": "Federal aid could carry newcomers onward and help place them, while the same policy ranked who was welcome through explicit racial barriers. Opportunity for some families was built alongside exclusion of others.",
+        "pt-br": "O auxílio federal podia levar recém-chegados adiante e ajudá-los a encontrar colocação, enquanto a mesma política definia quem era bem-vindo por barreiras raciais explícitas. A oportunidade de algumas famílias foi construída junto à exclusão de outras."
+      },
+      "chapterKey": "crossing",
+      "sourceIds": [
+        "brazil-decree-528-1890"
+      ]
+    },
+    {
+      "id": "veneto-joins-italy-1866",
+      "year": "1866",
+      "kind": "context",
+      "sortDate": "1866-11-04",
+      "scope": {
+        "en": "Veneto, Italy",
+        "pt-br": "Vêneto, Itália"
+      },
+      "title": {
+        "en": "Giuseppe's homeland becomes part of Italy",
+        "pt-br": "A terra natal de Giuseppe passa a fazer parte da Itália"
+      },
+      "description": {
+        "en": "Royal Decree no. 3300 joined the Venetian provinces and Mantua to the Kingdom of Italy. Giuseppe, born in Gambarare in 1856, was ten years old when the state governing his birthplace changed.",
+        "pt-br": "O Real Decreto nº 3300 uniu as províncias venezianas e Mântua ao Reino da Itália. Giuseppe, nascido em Gambarare em 1856, tinha dez anos quando mudou o Estado que governava sua terra natal."
+      },
+      "impact": {
+        "en": "Giuseppe grew from childhood into adulthood under a newly unified state. New national laws, taxes and administration reached Veneto households during the years when he learned a livelihood, married and began raising a family.",
+        "pt-br": "Giuseppe passou da infância à vida adulta sob um Estado recém-unificado. Novas leis, impostos e formas de administração nacionais alcançaram as famílias vênetas enquanto ele aprendia um ofício, se casava e começava a criar filhos."
+      },
+      "chapterKey": "origins",
+      "sourceIds": [
+        "italy-decree-3300-1866",
+        "giuseppe-birth-1856"
+      ]
+    },
+    {
+      "id": "italy-milling-tax-1869-1884",
+      "year": "1869–1884",
+      "kind": "context",
+      "sortDate": "1869-01-01",
+      "scope": {
+        "en": "Italy",
+        "pt-br": "Itália"
+      },
+      "title": {
+        "en": "A tax reaches everyday food",
+        "pt-br": "Um imposto atinge a alimentação cotidiana"
+      },
+      "description": {
+        "en": "Created by law in July 1868, the tax was collected at mills from 1 January 1869 on staple cereals used for flour and polenta. Widely resented, it was abolished in 1884, before the family's 1891 migration.",
+        "pt-br": "Criado por lei em julho de 1868, o imposto foi cobrado nos moinhos desde 1º de janeiro de 1869 sobre cereais básicos usados em farinha e polenta. Muito contestado, foi abolido em 1884, antes da migração familiar de 1891."
+      },
+      "impact": {
+        "en": "Taxing grain at the mill raised the everyday cost of turning a harvest or purchase into flour and polenta. Rural households felt national finance most directly in the staples placed on their tables.",
+        "pt-br": "Tributar o cereal no moinho elevava o custo cotidiano de transformar colheita ou compra em farinha e polenta. Famílias rurais sentiam as finanças nacionais de modo mais direto nos alimentos postos à mesa."
+      },
+      "chapterKey": "origins",
+      "sourceIds": [
+        "unifi-milling-tax-history"
+      ]
+    },
+    {
+      "id": "atlantic-grain-competition-1870-1890",
+      "year": "1870–1890",
+      "kind": "context",
+      "sortDate": "1870",
+      "scope": {
+        "en": "Italy and the Atlantic",
+        "pt-br": "Itália e Atlântico"
+      },
+      "title": {
+        "en": "Cheap grain crosses the Atlantic",
+        "pt-br": "Cereais baratos atravessam o Atlântico"
+      },
+      "description": {
+        "en": "Across these decades, improved transport brought cheaper agricultural products, including American grain, into European markets. The competition weakened parts of the Triveneto's rural economy and contributed to Italy's 1880s agrarian crisis.",
+        "pt-br": "Ao longo dessas décadas, transportes melhores levaram produtos agrícolas mais baratos, inclusive cereais americanos, aos mercados europeus. A concorrência enfraqueceu partes da economia rural do Trivêneto e contribuiu para a crise agrária italiana dos anos 1880."
+      },
+      "impact": {
+        "en": "Cheaper imports could reduce what local grain earned and narrow seasonal work, pressing the incomes of growers and laborers alike. The expanding transport network also made distant labor markets easier to imagine and reach.",
+        "pt-br": "Importações mais baratas podiam reduzir o valor do cereal local e o trabalho sazonal, pressionando a renda de produtores e trabalhadores. A rede de transporte em expansão também tornava mercados de trabalho distantes mais imagináveis e acessíveis."
+      },
+      "chapterKey": "origins",
+      "sourceIds": [
+        "franzina-triveneto-migrante-2023",
+        "unifi-agrarian-crisis-jacini"
+      ]
+    },
+    {
+      "id": "jacini-inquiry-1877-1885",
+      "year": "1877–1885",
+      "kind": "context",
+      "sortDate": "1877-03-15",
+      "scope": {
+        "en": "Italy",
+        "pt-br": "Itália"
+      },
+      "title": {
+        "en": "Rural hardship enters the official record",
+        "pt-br": "A penúria rural entra no registro oficial"
+      },
+      "description": {
+        "en": "Commissioned by law in 1877, the Jacini inquiry examined landholding, farming methods and peasant living conditions through 1885. Its records described a rural economy short of capital and public investment.",
+        "pt-br": "Criado por lei em 1877, o inquérito Jacini examinou propriedade da terra, métodos agrícolas e condições de vida camponesa até 1885. Seus registros descreveram uma economia rural carente de capital e investimento público."
+      },
+      "impact": {
+        "en": "Testimony and reports made rural hardship visible beyond individual villages: thin investment, difficult farming and precarious living conditions were public questions. Families weighing their futures did so amid problems the state itself recorded.",
+        "pt-br": "Depoimentos e relatórios tornaram a penúria rural visível além de cada aldeia: pouco investimento, agricultura difícil e vida precária eram questões públicas. Famílias avaliavam o futuro em meio a problemas registrados pelo próprio Estado."
+      },
+      "chapterKey": "origins",
+      "sourceIds": [
+        "italy-jacini-archive-inventory",
+        "unifi-agrarian-crisis-jacini"
+      ]
+    },
+    {
+      "id": "veneto-flood-1882",
+      "year": "1882",
+      "kind": "context",
+      "sortDate": "1882-09",
+      "scope": {
+        "en": "Veneto, Italy",
+        "pt-br": "Vêneto, Itália"
+      },
+      "title": {
+        "en": "The Brenta breaks its banks",
+        "pt-br": "O Brenta rompe suas margens"
+      },
+      "description": {
+        "en": "Severe flooding in September breached embankments and damaged bridges, river works and farmland across the Brenta basin and other parts of Veneto. The disaster came less than a year after Giuseppe and Fosca married.",
+        "pt-br": "Graves cheias em setembro romperam diques e danificaram pontes, obras fluviais e terras agrícolas na bacia do Brenta e em outras partes do Vêneto. O desastre veio menos de um ano após o casamento de Giuseppe e Fosca."
+      },
+      "impact": {
+        "en": "Flooded fields and broken routes could erase a season's income and isolate rural communities already under pressure. Whether their own household suffered losses is unknown.",
+        "pt-br": "Campos inundados e vias rompidas podiam apagar a renda de uma estação e isolar comunidades rurais já pressionadas. Não se sabe se a própria família sofreu perdas."
+      },
+      "chapterKey": "origins",
+      "sourceIds": [
+        "brenta-bacchiglione-historical-floods",
+        "padova-hydraulic-assessment-1882-flood",
+        "giuseppe-fosca-marriage-1881"
+      ]
+    },
+    {
+      "id": "sao-paulo-coffee-expansion-1870-1890",
+      "year": "1870–1890",
+      "kind": "context",
+      "sortDate": "1870",
+      "scope": {
+        "en": "São Paulo",
+        "pt-br": "São Paulo"
+      },
+      "title": {
+        "en": "Coffee and railways draw the frontier west",
+        "pt-br": "Café e ferrovias levam a fronteira para oeste"
+      },
+      "description": {
+        "en": "From the 1870s, global coffee demand and new railways drove São Paulo plantations westward and increased demand for workers.",
+        "pt-br": "Desde a década de 1870, a demanda por café e as ferrovias levaram lavouras paulistas para oeste, ampliando a procura por trabalhadores."
+      },
+      "impact": {
+        "en": "For farming families abroad, paid recruitment and rail connections could turn a distant coffee region into a reachable place to seek work and try for steadier income.",
+        "pt-br": "Para famílias rurais no exterior, recrutamento pago e ferrovias podiam tornar uma região cafeeira distante alcançável para procurar trabalho e buscar renda mais estável ali."
+      },
+      "chapterKey": "crossing",
+      "sourceIds": [
+        "goncalves-sociedade-promotora-2014"
       ]
     }
   ]

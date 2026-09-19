@@ -1,0 +1,239 @@
+{
+  "id": "rand-mcnally-world-map-1903",
+  "originalWidth": 14948,
+  "originalHeight": 10379,
+  "crop": {
+    "x": 7900,
+    "y": 3150,
+    "width": 3150,
+    "height": 4000
+  },
+  "projection": "Mercator",
+  "projectionEvidence": "The supplied scan shows straight, orthogonal, evenly spaced meridians and horizontal parallels whose spacing increases toward high latitudes.",
+  "viewBox": "0 0 1000 1269.8413",
+  "variants": [
+    {
+      "path": "voyage-map/voyage-map-842c138a19c0-960.webp",
+      "width": 960,
+      "height": 1219,
+      "bytes": 364308,
+      "sha256": "842c138a19c0b2d97bd27920d66290b028a22a3540f954d5f50a3172affd9afb"
+    },
+    {
+      "path": "voyage-map/voyage-map-3fbb7a32f7ce-1600.webp",
+      "width": 1600,
+      "height": 2032,
+      "bytes": 954088,
+      "sha256": "3fbb7a32f7cee84fe4b57cc5dfb53be700da22d212a7fb6e7dd88d27873db0ec"
+    },
+    {
+      "path": "voyage-map/voyage-map-8b48a3488d77-2400.webp",
+      "width": 2400,
+      "height": 3048,
+      "bytes": 1965504,
+      "sha256": "8b48a3488d77aaae71bb5c1b49f1378ed0c8d3bb55bd5ca8b2a6f8503ca07dcf"
+    },
+    {
+      "path": "voyage-map/voyage-map-4493c818676a-3150.webp",
+      "width": 3150,
+      "height": 4000,
+      "bytes": 3310526,
+      "sha256": "4493c818676a495bff5bddcfa3ecd550fbeb8d653c3cd125043592e7b879664c"
+    }
+  ],
+  "alt": {
+    "en": "Detail of a 1903 Rand McNally world map centered on the Atlantic, with Europe and western Africa at right and South America at lower left.",
+    "pt-br": "Detalhe de um mapa-mundi da Rand McNally de 1903 centrado no Atlântico, com a Europa e a África Ocidental à direita e a América do Sul no canto inferior esquerdo."
+  },
+  "caption": {
+    "en": "The Colombo's regular route, illustrated on a 1903 contextual map. This interpretive line is not a verified record of the family's exact 1891 itinerary.",
+    "pt-br": "A rota regular do Colombo, ilustrada sobre um mapa contextual de 1903. Esta linha interpretativa não é um registro verificado do itinerário exato da família em 1891."
+  },
+  "credit": {
+    "en": "Rand McNally and Company; David Rumsey Map Collection, List No. 4707.002.",
+    "pt-br": "Rand McNally and Company; David Rumsey Map Collection, nº de catálogo 4707.002."
+  },
+  "source": {
+    "title": "Rand-McNally Library Map Of The World",
+    "date": 1903,
+    "author": "Rand McNally and Company",
+    "listNo": "4707.002",
+    "url": "https://www.davidrumsey.com/luna/servlet/view/search?q=4707.002",
+    "downloadUrl": "https://www.davidrumsey.com/rumsey/download.pl?image=/229/4707002.jp2"
+  },
+  "route": {
+    "path": "M 903.2 265.1 C 896 272 889 281 882.5 288.9 C 872 301 864 313 860.3 322.2 C 853 335 847 348 844.4 357.1 C 829 372 814 382 796.8 387.3 C 789 389 781 390 773 388.9 L 758.7 389.8 L 741.3 393.7 C 728 392 716 386 704.8 381 C 699 367 694 354 688.9 346 L 720.6 338.1 C 700 348 681 362 663.5 374.6 C 646 405 632 435 619 460.3 C 600 500 589 550 581 587.3 C 568 630 558 675 549.2 714.3 C 534 760 528 800 523.8 825.4 C 518 860 513 890 507.9 920.6 C 502 950 493 978 484.1 992.1 C 470 1010 448 1034 425.4 1047.6 C 410 1054 398 1054 387.3 1050.8 C 380 1042 376 1030 372.7 1023.8 C 369 1033 367 1042 365.1 1047.6 C 359 1053 352 1057 347.6 1057.1 C 344 1050 341 1040 339.7 1033.7",
+    "stops": [
+      "genoa",
+      "lisbon",
+      "rio-de-janeiro",
+      "santos"
+    ],
+    "points": [
+      {
+        "id": "genoa",
+        "kind": "port",
+        "label": {
+          "en": "Genoa",
+          "pt-br": "Gênova"
+        },
+        "x": 903.2,
+        "y": 265.1
+      },
+      {
+        "id": "ligurian-sea",
+        "kind": "ocean",
+        "x": 882.5,
+        "y": 288.9
+      },
+      {
+        "id": "west-of-corsica",
+        "kind": "ocean",
+        "x": 860.3,
+        "y": 322.2
+      },
+      {
+        "id": "west-of-sardinia",
+        "kind": "ocean",
+        "x": 844.4,
+        "y": 357.1
+      },
+      {
+        "id": "south-of-balearics",
+        "kind": "ocean",
+        "x": 796.8,
+        "y": 387.3
+      },
+      {
+        "id": "gibraltar-east-approach",
+        "kind": "ocean",
+        "x": 773,
+        "y": 388.9
+      },
+      {
+        "id": "gibraltar",
+        "kind": "passage",
+        "label": {
+          "en": "Strait of Gibraltar",
+          "pt-br": "Estreito de Gibraltar"
+        },
+        "x": 758.7,
+        "y": 389.8
+      },
+      {
+        "id": "gibraltar-west-exit",
+        "kind": "ocean",
+        "x": 741.3,
+        "y": 393.7
+      },
+      {
+        "id": "cape-st-vincent-offshore",
+        "kind": "ocean",
+        "x": 704.8,
+        "y": 381
+      },
+      {
+        "id": "lisbon-offshore",
+        "kind": "ocean",
+        "x": 688.9,
+        "y": 346
+      },
+      {
+        "id": "lisbon",
+        "kind": "port",
+        "label": {
+          "en": "Lisbon",
+          "pt-br": "Lisboa"
+        },
+        "x": 720.6,
+        "y": 338.1
+      },
+      {
+        "id": "portugal-departure",
+        "kind": "ocean",
+        "x": 663.5,
+        "y": 374.6
+      },
+      {
+        "id": "atlantic-1",
+        "kind": "ocean",
+        "x": 619,
+        "y": 460.3
+      },
+      {
+        "id": "atlantic-2",
+        "kind": "ocean",
+        "x": 581,
+        "y": 587.3
+      },
+      {
+        "id": "atlantic-3",
+        "kind": "ocean",
+        "x": 549.2,
+        "y": 714.3
+      },
+      {
+        "id": "atlantic-4",
+        "kind": "ocean",
+        "x": 523.8,
+        "y": 825.4
+      },
+      {
+        "id": "atlantic-5",
+        "kind": "ocean",
+        "x": 507.9,
+        "y": 920.6
+      },
+      {
+        "id": "atlantic-6",
+        "kind": "ocean",
+        "x": 484.1,
+        "y": 992.1
+      },
+      {
+        "id": "cabo-frio-offshore",
+        "kind": "ocean",
+        "x": 425.4,
+        "y": 1047.6
+      },
+      {
+        "id": "rio-offshore",
+        "kind": "ocean",
+        "x": 387.3,
+        "y": 1050.8
+      },
+      {
+        "id": "rio-de-janeiro",
+        "kind": "port",
+        "label": {
+          "en": "Rio de Janeiro",
+          "pt-br": "Rio de Janeiro"
+        },
+        "x": 372.7,
+        "y": 1023.8
+      },
+      {
+        "id": "south-of-rio",
+        "kind": "ocean",
+        "x": 365.1,
+        "y": 1047.6
+      },
+      {
+        "id": "santos-offshore",
+        "kind": "ocean",
+        "x": 347.6,
+        "y": 1057.1
+      },
+      {
+        "id": "santos",
+        "kind": "port",
+        "label": {
+          "en": "Santos",
+          "pt-br": "Santos"
+        },
+        "x": 339.7,
+        "y": 1033.7
+      }
+    ]
+  }
+}

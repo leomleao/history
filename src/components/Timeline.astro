@@ -1,16 +1,48 @@
 ---
-import { getChapters, getTimeline, route, type Locale } from '../lib/content';
+import { getChapters, getTimeline, type Locale } from '../lib/content';
 import { strings } from '../lib/ui';
 const { locale } = Astro.props as { locale: Locale };
 const t = strings(locale);
 const events = getTimeline(locale);
 const chapters = await getChapters(locale);
+const chapterHrefs = new Map(chapters.map(chapter => [chapter.data.key, chapter.href]));
+const counts = {
+  all: events.length,
+  family: events.filter(event => event.kind === 'family').length,
+  context: events.filter(event => event.kind === 'context').length,
+};
 ---
 {events.length > 0 && <section class="timeline-section" id="timeline" aria-labelledby="timeline-title">
   <span class="eyebrow">{t.timelineEyebrow}</span>
   <div class="timeline-heading"><h2 id="timeline-title">{t.timelineTitle}<br /><em>{t.timelineEmphasis}</em></h2><p>{t.timelineIntro}</p></div>
-  <div class="timeline-list">{events.map((event, index) => <details class="timeline-event" open={index === 0}>
-    <summary><span>{event.year}</span><strong>{event.title}</strong><b aria-hidden="true"></b></summary>
-    <div class="timeline-detail"><p>{event.description}</p><div class="timeline-links"><a class="text-link" href={route(locale, 'archive', event.sourceIds[0])}>{t.timelineSource}</a><a class="text-link" href={chapters.find(c => c.data.key === event.chapterKey)?.href}>{t.readChapter}</a></div></div>
-  </details>)}</div>
+  <div class="timeline-tools" role="group" aria-label={t.timelineFilterLabel} hidden>
+    <div class="timeline-filters">
+      {(['all', 'family', 'context'] as const).map((kind) => <button type="button" aria-pressed={kind === 'all' ? 'true' : 'false'} aria-controls="timeline-events" data-timeline-filter={kind}>
+        {kind === 'all' ? t.timelineAll : kind === 'family' ? t.timelineFamily : t.timelineContext} <span>{counts[kind]}</span>
+      </button>)}
+    </div>
+    <p class="timeline-count" aria-live="polite" aria-atomic="true" data-event-singular={t.timelineEventShown} data-event-plural={t.timelineEventsShown}>
+      {events.length} {events.length === 1 ? t.timelineEventShown : t.timelineEventsShown}
+    </p>
+  </div>
+  <ol class="timeline-list" id="timeline-events">{events.map((event, index) => <li class="timeline-item" data-timeline-kind={event.kind}>
+    <details class="timeline-event" open={index === 0}>
+      <summary>
+        <span class="timeline-date">{event.year}</span>
+        <span class="timeline-summary-copy">
+          <span class="timeline-meta"><span class="timeline-kind">{event.kind === 'family' ? t.timelineFamily : t.timelineContext}</span>{event.scope && <span class="timeline-scope">{event.scope}</span>}</span>
+          <strong>{event.title}</strong>
+        </span>
+        <b aria-hidden="true"></b>
+      </summary>
+      <div class="timeline-detail">
+        <p>{event.description}</p>
+        {event.impact && <div class="timeline-impact"><h3>{t.timelineImpact}</h3><p>{event.impact}</p></div>}
+        <div class="timeline-links">
+          {event.sources.map((source, sourceIndex) => <a class="text-link" href={source.href}>{t.timelineSource}{event.sources.length > 1 ? ` ${sourceIndex + 1}` : ''}: {source.title}</a>)}
+          {chapterHrefs.has(event.chapterKey) && <a class="text-link" href={chapterHrefs.get(event.chapterKey)}>{t.readChapter}</a>}
+        </div>
+      </div>
+    </details>
+  </li>)}</ol>
 </section>}

@@ -1,0 +1,25 @@
+---
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import Breadcrumbs from '../../../components/Breadcrumbs.astro';
+import MediaImage from '../../../components/MediaImage.astro';
+import { getHistoricalCollections, locales, otherLocale, route, type Locale } from '../../../lib/content';
+import { strings } from '../../../lib/ui';
+
+export function getStaticPaths() { return locales.map(locale => ({ params: { locale }, props: { locale } })); }
+const { locale } = Astro.props as { locale: Locale };
+const t = strings(locale);
+const collections = getHistoricalCollections(locale);
+---
+
+<BaseLayout locale={locale} title={t.collectionsTitle} description={t.collectionsIntro} alternateHref={route(otherLocale(locale), 'collections')} current="collections">
+  <header class="page-intro collection-index-intro">
+    <Breadcrumbs label={t.breadcrumbLabel} items={[{ label: t.breadcrumbHome, href: route(locale) }, { label: t.collectionsTitle }]} />
+    <span class="eyebrow">{t.collectionEssay}</span><h1>{t.collectionsTitle}</h1><p>{t.collectionsIntro}</p>
+  </header>
+  <div class="collection-grid">
+    {collections.map((collection, index) => <article class:list={['collection-card', `collection-card-${index + 1}`]}><a href={collection.href}>
+      <figure><MediaImage media={collection.cover} sizes="(min-width: 900px) 48vw, 94vw" /><figcaption>{collection.cover.caption}</figcaption></figure>
+      <div><span class="eyebrow">{collection.period} · {collection.media.length} {t.photographs}</span><h2>{collection.title}</h2><p>{collection.description}</p><span class="text-link">{t.exploreCollection}<span aria-hidden="true"></span></span></div>
+    </a></article>)}
+  </div>
+</BaseLayout>

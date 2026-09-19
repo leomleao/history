@@ -1,0 +1,36 @@
+---
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import Breadcrumbs from '../../../components/Breadcrumbs.astro';
+import MediaImage from '../../../components/MediaImage.astro';
+import { getFeatures, locales, otherLocale, route, type Locale } from '../../../lib/content';
+import { strings } from '../../../lib/ui';
+
+export function getStaticPaths() { return locales.map(locale => ({ params: { locale }, props: { locale } })); }
+const { locale } = Astro.props as { locale: Locale };
+const t = strings(locale);
+const stories = getFeatures(locale);
+---
+
+<BaseLayout locale={locale} title={t.storiesTitle} description={t.storiesIntro} alternateHref={route(otherLocale(locale), 'stories')} current="stories">
+  <header class="page-intro story-index-intro">
+    <Breadcrumbs label={t.breadcrumbLabel} items={[{ label: t.breadcrumbHome, href: route(locale) }, { label: t.storiesTitle }]} />
+    <span class="eyebrow">{t.wordsFromArchive}</span>
+    <h1>{t.storiesTitle}</h1>
+    <p>{t.storiesIntro}</p>
+  </header>
+  <div class="story-grid">
+    {stories.map((story, index) => <article class:list={['story-card', `story-card-${index + 1}`]}>
+      <a href={story.href}>
+        {story.media[0] && <figure><MediaImage media={story.media[0]} sizes="(min-width: 900px) 42vw, 94vw" /><figcaption>{story.media[0].caption}</figcaption></figure>}
+        <div class="story-card-copy">
+          <span class="eyebrow">{t.featureKinds[story.kind]} · {story.period}</span>
+          <h2>{story.title}</h2>
+          <p>{story.dek}</p>
+          {story.quote ? <blockquote lang={story.quote.originalLang}>{story.quote.original}</blockquote> : <p class="story-card-excerpt">{story.paragraphs[0]}</p>}
+          <p class="story-attribution">{story.attribution}</p>
+          <span class="text-link">{t.readStory}<span aria-hidden="true"></span></span>
+        </div>
+      </a>
+    </article>)}
+  </div>
+</BaseLayout>

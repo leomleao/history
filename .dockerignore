@@ -1,6 +1,7 @@
 # Keep research and media outside the image and the build context.
 /assets/
 /media/
+/Rand-McNally Library Map Of The World3185956163883745958/
 /research/
 /public/media/
 /public/documents/
@@ -10,6 +11,7 @@
 
 # Build from committed source and the lockfile, not local build state.
 /.git/
+/.mcp.json
 /.worktrees/
 /node_modules/
 /dist/

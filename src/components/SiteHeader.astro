@@ -6,7 +6,7 @@ import { strings } from '../lib/ui';
 interface Props {
   locale: Locale;
   alternateHref: string;
-  current?: 'chapters' | 'people' | 'archive' | 'about';
+  current?: 'chapters' | 'stories' | 'collections' | 'people' | 'archive' | 'about';
 }
 
 const { locale, alternateHref, current } = Astro.props;
@@ -19,9 +19,10 @@ const t = strings(locale);
   </a>
   <nav aria-label={t.navLabel}>
     <a href={route(locale, 'chapters')} aria-current={current === 'chapters' ? 'page' : undefined}>{t.nav.chapters}</a>
+    <a href={route(locale, 'stories')} aria-current={current === 'stories' ? 'page' : undefined}>{t.nav.stories}</a>
+    <a href={route(locale, 'collections')} aria-current={current === 'collections' ? 'page' : undefined}>{t.nav.collections}</a>
     <a href={route(locale, 'people')} aria-current={current === 'people' ? 'page' : undefined}>{t.nav.people}</a>
     <a href={route(locale, 'archive')} aria-current={current === 'archive' ? 'page' : undefined}>{t.nav.archive}</a>
-    <a href={route(locale, 'about')} aria-current={current === 'about' ? 'page' : undefined}>{t.nav.about}</a>
   </nav>
   <a class="language-switch" href={alternateHref} hreflang={locale === 'en' ? 'pt-BR' : 'en'} lang={locale === 'en' ? 'pt-BR' : 'en'} aria-label={t.languageLabel}>{t.language}</a>
 </header>

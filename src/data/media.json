@@ -1445,5 +1445,1387 @@
         "sha256": "91fd87d837dfe2a4e18337a43d9560ba4aaa613d5a37183187829cbb72bae9ad"
       }
     ]
+  },
+  {
+    "id": "venice-1891-grand-canal-gondola",
+    "sourceId": "venice-1891-grand-canal-gondola",
+    "publication": "preview",
+    "role": "historical-context",
+    "alt": {
+      "en": "A gondolier stands at the stern of a covered gondola, with a church dome and campanile across the water.",
+      "pt-br": "Um gondoleiro está na popa de uma gôndola coberta, com a cúpula e o campanário de uma igreja do outro lado da água."
+    },
+    "caption": {
+      "en": "A covered gondola, its gondolier and passenger occupy the foreground of a Venetian waterside view held in the archive’s circa-1891 series. It is regional context, not a documented Panzonato location.",
+      "pt-br": "Uma gôndola coberta, seu gondoleiro e passageiro ocupam o primeiro plano de uma vista veneziana preservada na série de cerca de 1891 do arquivo. É contexto regional, não um local documentado da família Panzonato."
+    },
+    "credit": {
+      "en": "Published by Ferdinando Ongania in Calli e canali in Venezia (1891); individual photographer unverified. James White Library Rare Books holding; source image archived via Vintage Everyday.",
+      "pt-br": "Publicada por Ferdinando Ongania em Calli e canali in Venezia (1891); fotógrafo individual não verificado. Exemplar da coleção Rare Books da James White Library; imagem-fonte arquivada via Vintage Everyday."
+    },
+    "rights": {
+      "en": "Historical-context reproduction for the authorized local preview. Repository reproduction rights remain under review.",
+      "pt-br": "Reprodução de contexto histórico para a prévia local autorizada. Os direitos de reprodução do repositório permanecem em análise."
+    },
+    "focalPoint": "center center",
+    "variants": [
+      {
+        "path": "venice-1891-grand-canal-gondola/venice-1891-grand-canal-gondola-a2c8c749fad1-480.webp",
+        "width": 480,
+        "height": 322,
+        "bytes": 25898,
+        "sha256": "a2c8c749fad1649643d8a0f92b5491004fbae4147df223f386f4522c0fe1af03"
+      },
+      {
+        "path": "venice-1891-grand-canal-gondola/venice-1891-grand-canal-gondola-8012980a8b94-640.webp",
+        "width": 640,
+        "height": 429,
+        "bytes": 41168,
+        "sha256": "8012980a8b94094013038bd05c758163e25df5c8849dffb82937690a02a4db55"
+      }
+    ]
+  },
+  {
+    "id": "venice-1891-boatyard-canal",
+    "sourceId": "venice-1891-boatyard-canal",
+    "publication": "preview",
+    "role": "historical-context",
+    "alt": {
+      "en": "Work boats line a quiet canal bordered by timber workshops, houses and a church.",
+      "pt-br": "Barcos de trabalho margeiam um canal tranquilo cercado por oficinas de madeira, casas e uma igreja."
+    },
+    "caption": {
+      "en": "Low sheds, moored work boats and dense housing give this circa-1891 canal view the texture of everyday waterside labor. No person or building shown is identified with the family.",
+      "pt-br": "Galpões baixos, barcos de trabalho atracados e moradias densas dão a esta vista de canal, de cerca de 1891, a textura do trabalho cotidiano à beira d’água. Nenhuma pessoa ou edifício mostrado é identificado com a família."
+    },
+    "credit": {
+      "en": "Published by Ferdinando Ongania in Calli e canali in Venezia (1891); individual photographer unverified. James White Library Rare Books holding; source image archived via Vintage Everyday.",
+      "pt-br": "Publicada por Ferdinando Ongania em Calli e canali in Venezia (1891); fotógrafo individual não verificado. Exemplar da coleção Rare Books da James White Library; imagem-fonte arquivada via Vintage Everyday."
+    },
+    "rights": {
+      "en": "Historical-context reproduction for the authorized local preview. Repository reproduction rights remain under review.",
+      "pt-br": "Reprodução de contexto histórico para a prévia local autorizada. Os direitos de reprodução do repositório permanecem em análise."
+    },
+    "focalPoint": "center 55%",
+    "variants": [
+      {
+        "path": "venice-1891-boatyard-canal/venice-1891-boatyard-canal-7e3d0792a9c6-480.webp",
+        "width": 480,
+        "height": 317,
+        "bytes": 23068,
+        "sha256": "7e3d0792a9c61fd06ccc00c1a461c0e8b175516af21901fac223d8aaa0779fd8"
+      },
+      {
+        "path": "venice-1891-boatyard-canal/venice-1891-boatyard-canal-5266c7f642c6-640.webp",
+        "width": 640,
+        "height": 423,
+        "bytes": 36710,
+        "sha256": "5266c7f642c6a47d4efd97106bdda649699fbb7aaea3f39446aff292148621fc"
+      }
+    ]
+  },
+  {
+    "id": "venice-1891-torcello-canal",
+    "sourceId": "venice-1891-torcello-canal",
+    "publication": "preview",
+    "role": "historical-context",
+    "alt": {
+      "en": "Residents stand along an unpaved canal bank beside small boats, trees, a basilica and a tall bell tower.",
+      "pt-br": "Moradores estão numa margem não pavimentada ao lado de pequenos barcos, árvores, uma basílica e um campanário alto."
+    },
+    "caption": {
+      "en": "Residents, small boats and an unpaved bank animate a lagoon-side canal in the archive’s circa-1891 Venice series. The view supplies regional rural context rather than a verified family setting.",
+      "pt-br": "Moradores, pequenos barcos e uma margem não pavimentada animam um canal lagunar na série veneziana de cerca de 1891 do arquivo. A vista oferece contexto rural regional, não um cenário familiar comprovado."
+    },
+    "credit": {
+      "en": "Published by Ferdinando Ongania in Calli e canali in Venezia (1891); individual photographer unverified. James White Library Rare Books holding; source image archived via Vintage Everyday.",
+      "pt-br": "Publicada por Ferdinando Ongania em Calli e canali in Venezia (1891); fotógrafo individual não verificado. Exemplar da coleção Rare Books da James White Library; imagem-fonte arquivada via Vintage Everyday."
+    },
+    "rights": {
+      "en": "Historical-context reproduction for the authorized local preview. Repository reproduction rights remain under review.",
+      "pt-br": "Reprodução de contexto histórico para a prévia local autorizada. Os direitos de reprodução do repositório permanecem em análise."
+    },
+    "focalPoint": "center center",
+    "variants": [
+      {
+        "path": "venice-1891-torcello-canal/venice-1891-torcello-canal-2bcfcd065087-480.webp",
+        "width": 480,
+        "height": 323,
+        "bytes": 27468,
+        "sha256": "2bcfcd065087cbb49494cb4562f20b3520f40f78c434ddf9bb5421a7e92d8096"
+      },
+      {
+        "path": "venice-1891-torcello-canal/venice-1891-torcello-canal-5e97dac676c7-640.webp",
+        "width": 640,
+        "height": 430,
+        "bytes": 43884,
+        "sha256": "5e97dac676c7e5d5ae53147fa6a1370969130c8af48af227e29818a6cfabb110"
+      }
+    ]
+  },
+  {
+    "id": "venice-1891-ornate-bridge",
+    "sourceId": "venice-1891-ornate-bridge",
+    "publication": "preview",
+    "role": "historical-context",
+    "alt": {
+      "en": "People cross an ornate stone bridge with a statue, lanterns and moored craft beyond.",
+      "pt-br": "Pessoas atravessam uma ponte de pedra ornamentada com uma estátua, lanternas e embarcações ao fundo."
+    },
+    "caption": {
+      "en": "Pedestrians pause and cross an ornate bridge in this circa-1891 Venetian view. The visible scene does not support the stored catalog’s “Chioggia fishing port” label, so the caption follows the photograph itself.",
+      "pt-br": "Pedestres param e atravessam uma ponte ornamentada nesta vista veneziana de cerca de 1891. A cena visível não sustenta o rótulo “porto pesqueiro de Chioggia” do catálogo armazenado; por isso, a legenda segue a própria fotografia."
+    },
+    "credit": {
+      "en": "Published by Ferdinando Ongania in Calli e canali in Venezia (1891); individual photographer unverified. James White Library Rare Books holding; source image archived via Vintage Everyday.",
+      "pt-br": "Publicada por Ferdinando Ongania em Calli e canali in Venezia (1891); fotógrafo individual não verificado. Exemplar da coleção Rare Books da James White Library; imagem-fonte arquivada via Vintage Everyday."
+    },
+    "rights": {
+      "en": "Historical-context reproduction for the authorized local preview. Repository reproduction rights remain under review.",
+      "pt-br": "Reprodução de contexto histórico para a prévia local autorizada. Os direitos de reprodução do repositório permanecem em análise."
+    },
+    "focalPoint": "center 45%",
+    "variants": [
+      {
+        "path": "venice-1891-ornate-bridge/venice-1891-ornate-bridge-50db441a719c-480.webp",
+        "width": 480,
+        "height": 649,
+        "bytes": 59876,
+        "sha256": "50db441a719c98cf19533323ad4f9efb157625aa4db7ceae7723c3b16653b4c1"
+      },
+      {
+        "path": "venice-1891-ornate-bridge/venice-1891-ornate-bridge-0e3a62537b2e-640.webp",
+        "width": 640,
+        "height": 865,
+        "bytes": 92922,
+        "sha256": "0e3a62537b2ed2b8d16967e5dd0b09f358cabc46edfb461e6c833ac08e8b7c9f"
+      }
+    ]
+  },
+  {
+    "id": "venice-1891-narrow-canal-bridge",
+    "sourceId": "venice-1891-narrow-canal-bridge",
+    "publication": "preview",
+    "role": "historical-context",
+    "alt": {
+      "en": "A small boat passes beneath a brick footbridge beside steps, houses and trees along a narrow canal.",
+      "pt-br": "Um pequeno barco passa sob uma ponte de tijolos ao lado de degraus, casas e árvores num canal estreito."
+    },
+    "caption": {
+      "en": "A boatman works beneath a low brick footbridge while another person stands on the canal steps. The visible view does not match the stored “heavy freight barges” description.",
+      "pt-br": "Um barqueiro trabalha sob uma ponte baixa de tijolos enquanto outra pessoa está nos degraus do canal. A vista visível não corresponde à descrição armazenada de “barcaças pesadas de carga”."
+    },
+    "credit": {
+      "en": "Published by Ferdinando Ongania in Calli e canali in Venezia (1891); individual photographer unverified. James White Library Rare Books holding; source image archived via Vintage Everyday.",
+      "pt-br": "Publicada por Ferdinando Ongania em Calli e canali in Venezia (1891); fotógrafo individual não verificado. Exemplar da coleção Rare Books da James White Library; imagem-fonte arquivada via Vintage Everyday."
+    },
+    "rights": {
+      "en": "Historical-context reproduction for the authorized local preview. Repository reproduction rights remain under review.",
+      "pt-br": "Reprodução de contexto histórico para a prévia local autorizada. Os direitos de reprodução do repositório permanecem em análise."
+    },
+    "focalPoint": "center 58%",
+    "variants": [
+      {
+        "path": "venice-1891-narrow-canal-bridge/venice-1891-narrow-canal-bridge-943d43d99672-480.webp",
+        "width": 480,
+        "height": 758,
+        "bytes": 84466,
+        "sha256": "943d43d996725066dc4f2d2809769f37bd3282db71ff0d1f48458590777d3428"
+      },
+      {
+        "path": "venice-1891-narrow-canal-bridge/venice-1891-narrow-canal-bridge-b03279045973-640.webp",
+        "width": 640,
+        "height": 1011,
+        "bytes": 130564,
+        "sha256": "b032790459734c13e80d42bd9f40fe31620ff772f5f73f1c364cd9232ed22583"
+      }
+    ]
+  },
+  {
+    "id": "venice-1891-giudecca-working-waterfront",
+    "sourceId": "venice-1891-giudecca-working-waterfront",
+    "publication": "preview",
+    "role": "historical-context",
+    "alt": {
+      "en": "Two loaded sailing barges lie beside a wooden footbridge and a busy waterfront passage.",
+      "pt-br": "Duas barcaças à vela carregadas ficam junto a uma ponte de madeira e uma movimentada passagem à beira d’água."
+    },
+    "caption": {
+      "en": "Loaded sailing barges, a wooden footbridge and pedestrians show a working Venetian waterfront in the archive’s circa-1891 series. This is regional context, not evidence of the family’s exact neighborhood.",
+      "pt-br": "Barcaças à vela carregadas, uma ponte de madeira e pedestres mostram uma frente d’água de trabalho na série veneziana de cerca de 1891 do arquivo. É contexto regional, não prova do bairro exato da família."
+    },
+    "credit": {
+      "en": "Published by Ferdinando Ongania in Calli e canali in Venezia (1891); individual photographer unverified. James White Library Rare Books holding; source image archived via Vintage Everyday.",
+      "pt-br": "Publicada por Ferdinando Ongania em Calli e canali in Venezia (1891); fotógrafo individual não verificado. Exemplar da coleção Rare Books da James White Library; imagem-fonte arquivada via Vintage Everyday."
+    },
+    "rights": {
+      "en": "Historical-context reproduction for the authorized local preview. Repository reproduction rights remain under review.",
+      "pt-br": "Reprodução de contexto histórico para a prévia local autorizada. Os direitos de reprodução do repositório permanecem em análise."
+    },
+    "focalPoint": "center center",
+    "variants": [
+      {
+        "path": "venice-1891-giudecca-working-waterfront/venice-1891-giudecca-working-waterfront-fa5a7f3b0b02-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 32784,
+        "sha256": "fa5a7f3b0b02e65e63bcf89eb302afbb28b4a188b707c96c5d7723d5aa92380d"
+      },
+      {
+        "path": "venice-1891-giudecca-working-waterfront/venice-1891-giudecca-working-waterfront-3eef3702c14b-640.webp",
+        "width": 640,
+        "height": 426,
+        "bytes": 52812,
+        "sha256": "3eef3702c14b204108dab8ab3e2ad7b86aa799ddb23ae9856a4fd731cc5a6460"
+      }
+    ]
+  },
+  {
+    "id": "end-of-voyage-1891",
+    "sourceId": "end-of-voyage-1891",
+    "publication": "preview",
+    "role": "historical-context",
+    "alt": {
+      "en": "A period illustration shows a crowded covered terminal where passengers gather with trunks and bundles.",
+      "pt-br": "Uma ilustração de época mostra um terminal coberto e lotado, onde passageiros se reúnem com baús e embrulhos."
+    },
+    "caption": {
+      "en": "“The End of the Voyage,” published in the 1891 Ocean Passenger Travel series, pictures the congestion of people and baggage at journey’s end. It does not depict the Panzonato family or a verified Brazilian terminal.",
+      "pt-br": "“The End of the Voyage”, publicada na série Ocean Passenger Travel de 1891, retrata o congestionamento de pessoas e bagagens ao fim da jornada. Não mostra a família Panzonato nem um terminal brasileiro comprovado."
+    },
+    "credit": {
+      "en": "Period illustration preserved by GG Archives from the 1891 Ocean Passenger Travel series.",
+      "pt-br": "Ilustração de época preservada pelo GG Archives na série Ocean Passenger Travel de 1891."
+    },
+    "rights": {
+      "en": "Historical-context reproduction for the authorized local preview. Repository reproduction rights remain under review.",
+      "pt-br": "Reprodução de contexto histórico para a prévia local autorizada. Os direitos de reprodução do repositório permanecem em análise."
+    },
+    "focalPoint": "center center",
+    "variants": [
+      {
+        "path": "end-of-voyage-1891/end-of-voyage-1891-88106d7f12ab-480.webp",
+        "width": 480,
+        "height": 316,
+        "bytes": 60478,
+        "sha256": "88106d7f12ab8121ae5b657e31fd5b5d977b0e09ba238a8ea732daccaa6a73f1"
+      },
+      {
+        "path": "end-of-voyage-1891/end-of-voyage-1891-8126013b9487-500.webp",
+        "width": 500,
+        "height": 329,
+        "bytes": 67846,
+        "sha256": "8126013b948728dc7295917b0d5f15406662f7b03a4958fc5fdf31d8468d8865"
+      }
+    ]
+  },
+  {
+    "id": "grand-saloon-inman-steamer",
+    "sourceId": "grand-saloon-inman-steamer",
+    "publication": "preview",
+    "role": "historical-context",
+    "alt": {
+      "en": "Passengers dine beneath a glazed arched ceiling in the richly furnished saloon of an ocean steamer.",
+      "pt-br": "Passageiros jantam sob um teto envidraçado em arco no salão ricamente mobiliado de um vapor oceânico."
+    },
+    "caption": {
+      "en": "The grand saloon of an Inman steamer illustrates first-class space in the 1891 series. Its comfort provides a sharp period contrast with steerage, but it is not the family’s ship or accommodation.",
+      "pt-br": "O grande salão de um vapor da Inman ilustra um espaço de primeira classe na série de 1891. Seu conforto oferece um forte contraste de época com a terceira classe, mas não é o navio nem a acomodação da família."
+    },
+    "credit": {
+      "en": "Period illustration preserved by GG Archives from the 1891 Ocean Passenger Travel series.",
+      "pt-br": "Ilustração de época preservada pelo GG Archives na série Ocean Passenger Travel de 1891."
+    },
+    "rights": {
+      "en": "Historical-context reproduction for the authorized local preview. Repository reproduction rights remain under review.",
+      "pt-br": "Reprodução de contexto histórico para a prévia local autorizada. Os direitos de reprodução do repositório permanecem em análise."
+    },
+    "focalPoint": "center center",
+    "variants": [
+      {
+        "path": "grand-saloon-inman-steamer/grand-saloon-inman-steamer-89f350063fa2-480.webp",
+        "width": 480,
+        "height": 314,
+        "bytes": 49250,
+        "sha256": "89f350063fa2a794c9dece3077736510e3d6e7ad0fad7b7e40226e70d52e6d1a"
+      },
+      {
+        "path": "grand-saloon-inman-steamer/grand-saloon-inman-steamer-8dedecb21cdd-500.webp",
+        "width": 500,
+        "height": 327,
+        "bytes": 51214,
+        "sha256": "8dedecb21cdd9a185f8f059c72b0ea743bf85ee1037a7d07debf6ec51e3d2e64"
+      }
+    ]
+  },
+  {
+    "id": "pilot-boarding-steamer-1891",
+    "sourceId": "pilot-boarding-steamer-1891",
+    "publication": "preview",
+    "role": "historical-context",
+    "alt": {
+      "en": "Men in a small boat reach toward the high black hull of a steamer in rough water.",
+      "pt-br": "Homens num pequeno barco se aproximam do alto casco negro de um vapor em mar agitado."
+    },
+    "caption": {
+      "en": "A period illustration shows the precarious transfer of a pilot from a small boat to a steamer’s high hull. It evokes maritime work, not a documented incident from the Panzonato crossing.",
+      "pt-br": "Uma ilustração de época mostra a transferência precária de um prático de um pequeno barco para o alto casco de um vapor. Evoca o trabalho marítimo, não um incidente documentado da travessia Panzonato."
+    },
+    "credit": {
+      "en": "Period illustration preserved by GG Archives from the 1891 Ocean Passenger Travel series.",
+      "pt-br": "Ilustração de época preservada pelo GG Archives na série Ocean Passenger Travel de 1891."
+    },
+    "rights": {
+      "en": "Historical-context reproduction for the authorized local preview. Repository reproduction rights remain under review.",
+      "pt-br": "Reprodução de contexto histórico para a prévia local autorizada. Os direitos de reprodução do repositório permanecem em análise."
+    },
+    "focalPoint": "center 55%",
+    "variants": [
+      {
+        "path": "pilot-boarding-steamer-1891/pilot-boarding-steamer-1891-1e1a69593627-480.webp",
+        "width": 480,
+        "height": 466,
+        "bytes": 86528,
+        "sha256": "1e1a69593627314208c84d2378a32cdebf84328e4794cd4eee4208b51bc3a96f"
+      },
+      {
+        "path": "pilot-boarding-steamer-1891/pilot-boarding-steamer-1891-f44c1edc050a-500.webp",
+        "width": 500,
+        "height": 485,
+        "bytes": 98226,
+        "sha256": "f44c1edc050a42eb481f4613325571da65c770f11c635c734f06211ab45de4a7"
+      }
+    ]
+  },
+  {
+    "id": "smoking-room-french-liner-1890",
+    "sourceId": "smoking-room-french-liner-1890",
+    "publication": "preview",
+    "role": "historical-context",
+    "alt": {
+      "en": "An empty ocean-liner lounge is furnished with carved chairs, upholstered benches and cloth-covered tables.",
+      "pt-br": "Um salão vazio de transatlântico é mobiliado com cadeiras entalhadas, bancos estofados e mesas cobertas por toalhas."
+    },
+    "caption": {
+      "en": "This circa-1890 illustration records the richly furnished smoking room of a French liner. It represents premium shipboard space for comparison, not the family’s vessel or third-class experience.",
+      "pt-br": "Esta ilustração de cerca de 1890 registra a sala de fumantes ricamente mobiliada de um transatlântico francês. Representa um espaço premium a bordo para comparação, não o navio nem a experiência de terceira classe da família."
+    },
+    "credit": {
+      "en": "Period illustration preserved by GG Archives from the 1891 Ocean Passenger Travel series.",
+      "pt-br": "Ilustração de época preservada pelo GG Archives na série Ocean Passenger Travel de 1891."
+    },
+    "rights": {
+      "en": "Historical-context reproduction for the authorized local preview. Repository reproduction rights remain under review.",
+      "pt-br": "Reprodução de contexto histórico para a prévia local autorizada. Os direitos de reprodução do repositório permanecem em análise."
+    },
+    "focalPoint": "center center",
+    "variants": [
+      {
+        "path": "smoking-room-french-liner-1890/smoking-room-french-liner-1890-188dce9e6619-480.webp",
+        "width": 480,
+        "height": 367,
+        "bytes": 78004,
+        "sha256": "188dce9e6619b1926a89a7b95f98a4d198fa70bc914f3a0ffd4fcefaff2ba489"
+      },
+      {
+        "path": "smoking-room-french-liner-1890/smoking-room-french-liner-1890-eed37af9500e-500.webp",
+        "width": 500,
+        "height": 382,
+        "bytes": 88488,
+        "sha256": "eed37af9500e2785aff28d1f09e2b9452a8b544cf1715cf4d65d8aad3d49cf33"
+      }
+    ]
+  },
+  {
+    "id": "steamers-barber-shop-1891",
+    "sourceId": "steamers-barber-shop-1891",
+    "publication": "preview",
+    "role": "historical-context",
+    "alt": {
+      "en": "A shipboard barber shaves a reclining passenger in a compact cabin fitted with a mirror and porthole.",
+      "pt-br": "Um barbeiro a bordo faz a barba de um passageiro reclinado numa cabine compacta com espelho e vigia."
+    },
+    "caption": {
+      "en": "A barber at work in a compact shipboard cabin appears in the 1891 Ocean Passenger Travel series. The scene documents an onboard service in another travel class, not a family memory.",
+      "pt-br": "Um barbeiro trabalhando numa cabine compacta a bordo aparece na série Ocean Passenger Travel de 1891. A cena documenta um serviço a bordo em outra classe de viagem, não uma memória familiar."
+    },
+    "credit": {
+      "en": "Period illustration preserved by GG Archives from the 1891 Ocean Passenger Travel series.",
+      "pt-br": "Ilustração de época preservada pelo GG Archives na série Ocean Passenger Travel de 1891."
+    },
+    "rights": {
+      "en": "Historical-context reproduction for the authorized local preview. Repository reproduction rights remain under review.",
+      "pt-br": "Reprodução de contexto histórico para a prévia local autorizada. Os direitos de reprodução do repositório permanecem em análise."
+    },
+    "focalPoint": "center 48%",
+    "variants": [
+      {
+        "path": "steamers-barber-shop-1891/steamers-barber-shop-1891-3838fa4e9653-480.webp",
+        "width": 480,
+        "height": 464,
+        "bytes": 70242,
+        "sha256": "3838fa4e9653681f2358bee03aba2d96501e0990c64ff94a0061c1af697f47ba"
+      },
+      {
+        "path": "steamers-barber-shop-1891/steamers-barber-shop-1891-a8bdc2e038ba-500.webp",
+        "width": 500,
+        "height": 483,
+        "bytes": 77642,
+        "sha256": "a8bdc2e038ba8be1f85c7445be79e6afc4900f80de1ef1da67fd07fcf3d9b9f9"
+      }
+    ]
+  },
+  {
+    "id": "colombo-drydock-1901",
+    "sourceId": "colombo-drydock-1901",
+    "publication": "preview",
+    "role": "historical-context",
+    "alt": {
+      "en": "The steamship Colombo faces the camera in a deep stone dry dock at the Orlando shipyard in Livorno after its 1901 refit.",
+      "pt-br": "O vapor Colombo está de frente para a câmera numa doca seca profunda de pedra no estaleiro Orlando, em Livorno, após sua reforma de 1901."
+    },
+    "caption": {
+      "en": "The actual steamship Colombo (formerly Brazil) stands in the Orlando shipyard dry dock at Livorno after its 1901 refit. The photograph was made a decade after the family’s 1891 crossing, so it identifies the vessel but not its voyage-time appearance.",
+      "pt-br": "O próprio vapor Colombo (antigo Brazil) aparece na doca seca do estaleiro Orlando, em Livorno, após sua reforma de 1901. A fotografia foi feita uma década depois da travessia da família, portanto identifica a embarcação, mas não sua aparência na época da viagem."
+    },
+    "credit": {
+      "en": "José Carlos Rossini, “O Brazil,” A Tribuna de Santos, 17 November 1994; historical photograph reproduced by Novo Milênio; photographer unverified.",
+      "pt-br": "José Carlos Rossini, “O Brazil”, A Tribuna de Santos, 17 de novembro de 1994; fotografia histórica reproduzida pelo Novo Milênio; fotógrafo não verificado."
+    },
+    "rights": {
+      "en": "Historical-context reproduction for the authorized local preview. Repository reproduction rights remain under review.",
+      "pt-br": "Reprodução de contexto histórico para a prévia local autorizada. Os direitos de reprodução do repositório permanecem em análise."
+    },
+    "focalPoint": "center center",
+    "variants": [
+      {
+        "path": "colombo-drydock-1901/colombo-drydock-1901-a4b9d77eb47c-480.webp",
+        "width": 480,
+        "height": 328,
+        "bytes": 19056,
+        "sha256": "a4b9d77eb47cd48265b21ae437e3d43fe70f20e4c6f470719bf93e9f0b1559e5"
+      },
+      {
+        "path": "colombo-drydock-1901/colombo-drydock-1901-e75f6faa4d83-550.webp",
+        "width": 550,
+        "height": 376,
+        "bytes": 23686,
+        "sha256": "e75f6faa4d83056a5c6eaeb39278dea136c315082b4f09255218ec0f700d7f0e"
+      }
+    ]
+  },
+  {
+    "id": "sacop-third-class-ticket-1924",
+    "sourceId": "sacop-third-class-ticket-1924",
+    "publication": "preview",
+    "role": "historical-context",
+    "alt": {
+      "en": "A stamped Italian third-class ticket for the steamer Nazario Sauro records a Genoa-to-Santos passage in July 1924.",
+      "pt-br": "Um bilhete italiano carimbado de terceira classe para o vapor Nazario Sauro registra uma passagem de Gênova a Santos em julho de 1924."
+    },
+    "caption": {
+      "en": "A third-class ticket issued to Francesco Colucci for the steamer Nazario Sauro records departure from Genoa on 16 July 1924 for Santos, with calls at Naples and Palermo. It concerns another migrant and a later voyage, not the Panzonato family.",
+      "pt-br": "Um bilhete de terceira classe emitido para Francesco Colucci no vapor Nazario Sauro registra a partida de Gênova em 16 de julho de 1924 rumo a Santos, com escalas em Nápoles e Palermo. Refere-se a outro migrante e a uma viagem posterior, não à família Panzonato."
+    },
+    "credit": {
+      "en": "Arquivo Público do Estado de São Paulo (APESP), digital exhibition image preserved in the research archive.",
+      "pt-br": "Arquivo Público do Estado de São Paulo (APESP), imagem de exposição digital preservada no arquivo de pesquisa."
+    },
+    "rights": {
+      "en": "Historical-context reproduction for the authorized local preview. Repository reproduction rights remain under review.",
+      "pt-br": "Reprodução de contexto histórico para a prévia local autorizada. Os direitos de reprodução do repositório permanecem em análise."
+    },
+    "focalPoint": "center 42%",
+    "variants": [
+      {
+        "path": "sacop-third-class-ticket-1924/sacop-third-class-ticket-1924-3fc7dec8c8eb-480.webp",
+        "width": 480,
+        "height": 968,
+        "bytes": 61586,
+        "sha256": "3fc7dec8c8ebf19baa17822708f442fdc838d00f97f54cd181ca2959be843911"
+      },
+      {
+        "path": "sacop-third-class-ticket-1924/sacop-third-class-ticket-1924-6282478d25a6-940.webp",
+        "width": 940,
+        "height": 1896,
+        "bytes": 160784,
+        "sha256": "6282478d25a629753770770199a284bef316579b411644d0b4e7a645843b6100"
+      }
+    ]
+  },
+  {
+    "id": "sao-paulo-colonies-map-1908",
+    "sourceId": "sao-paulo-colonies-map-1908",
+    "publication": "preview",
+    "role": "historical-context",
+    "alt": {
+      "en": "A 1908 map of São Paulo state marks railways, waterways and existing or planned colonial settlements in red.",
+      "pt-br": "Um mapa de 1908 do estado de São Paulo marca ferrovias, hidrovias e núcleos coloniais existentes ou planejados em vermelho."
+    },
+    "caption": {
+      "en": "Published in O Immigrante in January 1908, this map locates existing and planned colonial settlements and the railway network across São Paulo state. It describes the migration system broadly, not the family’s exact route.",
+      "pt-br": "Publicado em O Immigrante em janeiro de 1908, este mapa localiza núcleos coloniais existentes e planejados e a rede ferroviária no estado de São Paulo. Descreve amplamente o sistema migratório, não a rota exata da família."
+    },
+    "credit": {
+      "en": "Arquivo Público do Estado de São Paulo (APESP), digital exhibition image preserved in the research archive.",
+      "pt-br": "Arquivo Público do Estado de São Paulo (APESP), imagem de exposição digital preservada no arquivo de pesquisa."
+    },
+    "rights": {
+      "en": "Historical-context reproduction for the authorized local preview. Repository reproduction rights remain under review.",
+      "pt-br": "Reprodução de contexto histórico para a prévia local autorizada. Os direitos de reprodução do repositório permanecem em análise."
+    },
+    "focalPoint": "center center",
+    "variants": [
+      {
+        "path": "sao-paulo-colonies-map-1908/sao-paulo-colonies-map-1908-ac9be3027172-480.webp",
+        "width": 480,
+        "height": 345,
+        "bytes": 35322,
+        "sha256": "ac9be302717254bc855717ba9c9aa4b76e1126a09fe4433dcc6a21ea7d6f9b0a"
+      },
+      {
+        "path": "sao-paulo-colonies-map-1908/sao-paulo-colonies-map-1908-149b52a92ea3-960.webp",
+        "width": 960,
+        "height": 691,
+        "bytes": 119532,
+        "sha256": "149b52a92ea312fa04496f1cb6bc97806e35c6305da5c885aa673fe28c816aee"
+      },
+      {
+        "path": "sao-paulo-colonies-map-1908/sao-paulo-colonies-map-1908-28bf43c01e08-1600.webp",
+        "width": 1600,
+        "height": 1151,
+        "bytes": 230300,
+        "sha256": "28bf43c01e08de6f3bf99c8ecbf9487893345f1e4af4d2596c2b0a80be73aaf9"
+      },
+      {
+        "path": "sao-paulo-colonies-map-1908/sao-paulo-colonies-map-1908-5f046ea64567-1890.webp",
+        "width": 1890,
+        "height": 1360,
+        "bytes": 283694,
+        "sha256": "5f046ea64567caee7b71eab8098389b3ec8d2dbb078681a1681e338befe81662"
+      }
+    ]
+  },
+  {
+    "id": "sacop-passage-restitution-petition-1910",
+    "sourceId": "sacop-passage-restitution-petition-1910",
+    "publication": "preview",
+    "role": "historical-context",
+    "alt": {
+      "en": "A densely handwritten Portuguese petition with revenue stamp and official seals requests repayment of third-class family passages.",
+      "pt-br": "Uma petição em português densamente manuscrita, com selo fiscal e carimbos oficiais, solicita o reembolso de passagens familiares de terceira classe."
+    },
+    "caption": {
+      "en": "In October 1910, a handwritten petition requested restitution of third-class passages from Genoa to Santos for Rachella Vittorio and her family under São Paulo immigration policy. The dossier belongs to another migrant family and is shown as administrative context.",
+      "pt-br": "Em outubro de 1910, uma petição manuscrita solicitou a restituição de passagens de terceira classe de Gênova a Santos para Rachella Vittorio e sua família, conforme a política imigratória paulista. O dossiê pertence a outra família migrante e é mostrado como contexto administrativo."
+    },
+    "credit": {
+      "en": "Arquivo Público do Estado de São Paulo (APESP), digital exhibition image preserved in the research archive.",
+      "pt-br": "Arquivo Público do Estado de São Paulo (APESP), imagem de exposição digital preservada no arquivo de pesquisa."
+    },
+    "rights": {
+      "en": "Historical-context reproduction for the authorized local preview. Repository reproduction rights remain under review.",
+      "pt-br": "Reprodução de contexto histórico para a prévia local autorizada. Os direitos de reprodução do repositório permanecem em análise."
+    },
+    "focalPoint": "center center",
+    "variants": [
+      {
+        "path": "sacop-passage-restitution-petition-1910/sacop-passage-restitution-petition-1910-64d38608eed2-480.webp",
+        "width": 480,
+        "height": 707,
+        "bytes": 54612,
+        "sha256": "64d38608eed2ffef5bface273eed229f87b47f0f3d53deab9e759521d336f046"
+      },
+      {
+        "path": "sacop-passage-restitution-petition-1910/sacop-passage-restitution-petition-1910-ecc7317d8788-960.webp",
+        "width": 960,
+        "height": 1414,
+        "bytes": 160912,
+        "sha256": "ecc7317d8788ae609965f275c60a390f892c783300aa14f228fe608ef24665db"
+      },
+      {
+        "path": "sacop-passage-restitution-petition-1910/sacop-passage-restitution-petition-1910-ea32233399ff-1369.webp",
+        "width": 1369,
+        "height": 2017,
+        "bytes": 253372,
+        "sha256": "ea32233399ff06c4da3561ce69aa193c5673fea8269b847749efd792038b92bb"
+      }
+    ]
+  },
+  {
+    "id": "sacop-passage-restitution-cover-1910",
+    "sourceId": "sacop-passage-restitution-cover-1910",
+    "publication": "preview",
+    "role": "historical-context",
+    "alt": {
+      "en": "A printed São Paulo immigration-office cover sheet records Rachella Vittorio’s request for restitution of Genoa-to-Santos passages.",
+      "pt-br": "Uma capa impressa do serviço paulista de imigração registra o pedido de Rachella Vittorio para restituição de passagens de Gênova a Santos."
+    },
+    "caption": {
+      "en": "Dated 12 October 1910, this São Paulo immigration-office cover records Rachella Vittorio’s request for restitution of passages from Genoa to Santos. It belongs to another migrant family and is shown as administrative context.",
+      "pt-br": "Datada de 12 de outubro de 1910, esta capa do serviço paulista de imigração registra o pedido de Rachella Vittorio para restituição de passagens de Gênova a Santos. Pertence a outra família migrante e é mostrada como contexto administrativo."
+    },
+    "credit": {
+      "en": "Arquivo Público do Estado de São Paulo (APESP), digital exhibition image preserved in the research archive.",
+      "pt-br": "Arquivo Público do Estado de São Paulo (APESP), imagem de exposição digital preservada no arquivo de pesquisa."
+    },
+    "rights": {
+      "en": "Historical-context reproduction for the authorized local preview. Repository reproduction rights remain under review.",
+      "pt-br": "Reprodução de contexto histórico para a prévia local autorizada. Os direitos de reprodução do repositório permanecem em análise."
+    },
+    "focalPoint": "center center",
+    "variants": [
+      {
+        "path": "sacop-passage-restitution-cover-1910/sacop-passage-restitution-cover-1910-459cf3fc805d-480.webp",
+        "width": 480,
+        "height": 668,
+        "bytes": 27772,
+        "sha256": "459cf3fc805d352d02b521e68f54bcaf43019c461b8ecea357debeb0083757c5"
+      },
+      {
+        "path": "sacop-passage-restitution-cover-1910/sacop-passage-restitution-cover-1910-49e9250456fa-960.webp",
+        "width": 960,
+        "height": 1336,
+        "bytes": 88550,
+        "sha256": "49e9250456faceba5a4ac989fe15fc8e2eeb2b17f9f1b421f64e324444ff2193"
+      },
+      {
+        "path": "sacop-passage-restitution-cover-1910/sacop-passage-restitution-cover-1910-5014b3c46899-1524.webp",
+        "width": 1524,
+        "height": 2121,
+        "bytes": 173760,
+        "sha256": "5014b3c46899abdf788b4ab4a11c7227176e05a6783fa9fd09c3ee9ebbd7dc52"
+      }
+    ]
+  },
+  {
+    "id": "sacop-emigration-law-ticket-reverse-1910",
+    "sourceId": "sacop-emigration-law-ticket-reverse-1910",
+    "publication": "preview",
+    "role": "historical-context",
+    "alt": {
+      "en": "The reverse of a 1910 passage ticket prints Italian emigration law, age-based fares and a weekly shipboard ration table.",
+      "pt-br": "O verso de um bilhete de 1910 imprime a lei italiana de emigração, tarifas por idade e uma tabela semanal de rações a bordo."
+    },
+    "caption": {
+      "en": "The reverse of a 1910 third-class ticket combines Italian emigration law with age-based fares and a weekly food table listing bread, meat, rice, pasta, vegetables and wine. It documents contractual promises for another voyage, not the Panzonato family’s actual meals.",
+      "pt-br": "O verso de um bilhete de terceira classe de 1910 reúne a lei italiana de emigração, tarifas por idade e uma tabela semanal de alimentos com pão, carne, arroz, massas, legumes e vinho. Documenta promessas contratuais de outra viagem, não as refeições reais da família Panzonato."
+    },
+    "credit": {
+      "en": "Arquivo Público do Estado de São Paulo (APESP), digital exhibition image preserved in the research archive.",
+      "pt-br": "Arquivo Público do Estado de São Paulo (APESP), imagem de exposição digital preservada no arquivo de pesquisa."
+    },
+    "rights": {
+      "en": "Historical-context reproduction for the authorized local preview. Repository reproduction rights remain under review.",
+      "pt-br": "Reprodução de contexto histórico para a prévia local autorizada. Os direitos de reprodução do repositório permanecem em análise."
+    },
+    "focalPoint": "center center",
+    "variants": [
+      {
+        "path": "sacop-emigration-law-ticket-reverse-1910/sacop-emigration-law-ticket-reverse-1910-023839872a8c-480.webp",
+        "width": 480,
+        "height": 911,
+        "bytes": 117824,
+        "sha256": "023839872a8cf93357828a863208b34328be8a7d1d4d8da31ac77f0fe4bca0b3"
+      },
+      {
+        "path": "sacop-emigration-law-ticket-reverse-1910/sacop-emigration-law-ticket-reverse-1910-dd1039297a34-926.webp",
+        "width": 926,
+        "height": 1758,
+        "bytes": 308182,
+        "sha256": "dd1039297a3473a0202af8e8de1aac225f1181594ca8fc0bbd904e16321270c7"
+      }
+    ]
+  },
+  {
+    "id": "immigrants-leaving-steamer-1908",
+    "sourceId": "immigrants-leaving-steamer-1908",
+    "publication": "preview",
+    "role": "historical-context",
+    "alt": {
+      "en": "A dense crowd descends from a steamer while more passengers line its upper deck and sailors work nearby.",
+      "pt-br": "Uma multidão desembarca de um vapor enquanto mais passageiros ocupam o convés superior e marinheiros trabalham ao lado."
+    },
+    "caption": {
+      "en": "The printed caption identifies “Entrada de um vapor com immigrantes,” published in O Immigrante in January 1908. The stored filename incorrectly calls it a Hospedaria façade; the people shown are not identified with the Panzonato family.",
+      "pt-br": "A legenda impressa identifica “Entrada de um vapor com immigrantes”, publicada em O Immigrante em janeiro de 1908. O nome de arquivo armazenado a chama incorretamente de fachada da Hospedaria; as pessoas mostradas não são identificadas com a família Panzonato."
+    },
+    "credit": {
+      "en": "Arquivo Público do Estado de São Paulo (APESP), digital exhibition image preserved in the research archive.",
+      "pt-br": "Arquivo Público do Estado de São Paulo (APESP), imagem de exposição digital preservada no arquivo de pesquisa."
+    },
+    "rights": {
+      "en": "Historical-context reproduction for the authorized local preview. Repository reproduction rights remain under review.",
+      "pt-br": "Reprodução de contexto histórico para a prévia local autorizada. Os direitos de reprodução do repositório permanecem em análise."
+    },
+    "focalPoint": "center 48%",
+    "variants": [
+      {
+        "path": "immigrants-leaving-steamer-1908/immigrants-leaving-steamer-1908-e9eba552c2d1-480.webp",
+        "width": 480,
+        "height": 316,
+        "bytes": 52870,
+        "sha256": "e9eba552c2d1f4a800f45a1c20adec41d38a63c3d364f83626e5406efb7aecc7"
+      },
+      {
+        "path": "immigrants-leaving-steamer-1908/immigrants-leaving-steamer-1908-6a3679e916f4-960.webp",
+        "width": 960,
+        "height": 633,
+        "bytes": 161256,
+        "sha256": "6a3679e916f46dfa98dac6b7a63c37caeffba799dbf343d412e57776790bfa60"
+      },
+      {
+        "path": "immigrants-leaving-steamer-1908/immigrants-leaving-steamer-1908-aa190f245274-968.webp",
+        "width": 968,
+        "height": 638,
+        "bytes": 160174,
+        "sha256": "aa190f245274b6322b5f3dece206eb3d7b0a428a6569ab9514fd16515888af55"
+      }
+    ]
+  },
+  {
+    "id": "hospedaria-facade-1908",
+    "sourceId": "hospedaria-facade-1908",
+    "publication": "preview",
+    "role": "historical-context",
+    "alt": {
+      "en": "Immigrants gather with luggage outside the long brick façade and covered veranda of the São Paulo Hospedaria.",
+      "pt-br": "Imigrantes se reúnem com bagagens diante da longa fachada de tijolos e varanda coberta da Hospedaria de São Paulo."
+    },
+    "caption": {
+      "en": "The printed scan caption identifies the Hospedaria de Imigrantes exterior in O Immigrante, January 1908. The local filename’s “refectory” label is wrong; this is an exterior view seven years after the family’s recorded stay.",
+      "pt-br": "A legenda impressa identifica o exterior da Hospedaria de Imigrantes em O Immigrante, janeiro de 1908. O rótulo “refeitório” no nome do arquivo local está errado; esta é uma vista externa sete anos após a estadia registrada da família."
+    },
+    "credit": {
+      "en": "Arquivo Público do Estado de São Paulo (APESP), digital exhibition image preserved in the research archive.",
+      "pt-br": "Arquivo Público do Estado de São Paulo (APESP), imagem de exposição digital preservada no arquivo de pesquisa."
+    },
+    "rights": {
+      "en": "Historical-context reproduction for the authorized local preview. Repository reproduction rights remain under review.",
+      "pt-br": "Reprodução de contexto histórico para a prévia local autorizada. Os direitos de reprodução do repositório permanecem em análise."
+    },
+    "focalPoint": "center center",
+    "variants": [
+      {
+        "path": "hospedaria-facade-1908/hospedaria-facade-1908-ec53b2ee4e66-480.webp",
+        "width": 480,
+        "height": 279,
+        "bytes": 30094,
+        "sha256": "ec53b2ee4e6609bc1df63544259cbb93dc9a50d4cf2d0dc6e9ced04598245021"
+      },
+      {
+        "path": "hospedaria-facade-1908/hospedaria-facade-1908-f38fbb2c253d-960.webp",
+        "width": 960,
+        "height": 557,
+        "bytes": 75314,
+        "sha256": "f38fbb2c253db2f722057166cd31da6f890c80e8fb657a7c40f7270e0ca5bfac"
+      },
+      {
+        "path": "hospedaria-facade-1908/hospedaria-facade-1908-de32ad8f8627-977.webp",
+        "width": 977,
+        "height": 567,
+        "bytes": 76550,
+        "sha256": "de32ad8f86277e8094450513f581d7dfbce869830ad8f70a6d559cc1e1274ab4"
+      }
+    ]
+  },
+  {
+    "id": "hospedaria-kitchen-1908",
+    "sourceId": "hospedaria-kitchen-1908",
+    "publication": "preview",
+    "role": "historical-context",
+    "alt": {
+      "en": "Workers stand among large circular cooking vessels, pipes and tiled floors in the Hospedaria kitchen.",
+      "pt-br": "Trabalhadores estão entre grandes recipientes circulares de cozinha, tubulações e piso ladrilhado na cozinha da Hospedaria."
+    },
+    "caption": {
+      "en": "The printed caption identifies the Hospedaria kitchen in O Immigrante, January 1908. Large cooking vessels and workers contradict the local filename’s “disinfection” label.",
+      "pt-br": "A legenda impressa identifica a cozinha da Hospedaria em O Immigrante, janeiro de 1908. Grandes recipientes de cozinha e trabalhadores contradizem o rótulo “desinfecção” do nome do arquivo local."
+    },
+    "credit": {
+      "en": "Arquivo Público do Estado de São Paulo (APESP), digital exhibition image preserved in the research archive.",
+      "pt-br": "Arquivo Público do Estado de São Paulo (APESP), imagem de exposição digital preservada no arquivo de pesquisa."
+    },
+    "rights": {
+      "en": "Historical-context reproduction for the authorized local preview. Repository reproduction rights remain under review.",
+      "pt-br": "Reprodução de contexto histórico para a prévia local autorizada. Os direitos de reprodução do repositório permanecem em análise."
+    },
+    "focalPoint": "center center",
+    "variants": [
+      {
+        "path": "hospedaria-kitchen-1908/hospedaria-kitchen-1908-d94f1a969540-480.webp",
+        "width": 480,
+        "height": 308,
+        "bytes": 32052,
+        "sha256": "d94f1a969540f00a10a7a7fe6c424a55a71d5ce380fa754faecffb993ee3f921"
+      },
+      {
+        "path": "hospedaria-kitchen-1908/hospedaria-kitchen-1908-36deef43c197-960.webp",
+        "width": 960,
+        "height": 616,
+        "bytes": 80892,
+        "sha256": "36deef43c197b8a08e6064479352c830eaf1d322d7911121ab28f44a755fe9a5"
+      },
+      {
+        "path": "hospedaria-kitchen-1908/hospedaria-kitchen-1908-76a77dce6165-964.webp",
+        "width": 964,
+        "height": 619,
+        "bytes": 77932,
+        "sha256": "76a77dce6165ae3f9ad0cf88dbd4a868abd8677f8bcca095cd95cf9018ac3abf"
+      }
+    ]
+  },
+  {
+    "id": "hospedaria-dormitory",
+    "sourceId": "hospedaria-dormitory",
+    "publication": "preview",
+    "role": "historical-context",
+    "alt": {
+      "en": "Long orderly rows of narrow iron beds fill a high-ceilinged communal dormitory lit by tall windows.",
+      "pt-br": "Longas fileiras ordenadas de camas estreitas de ferro ocupam um dormitório coletivo de teto alto iluminado por janelas altas."
+    },
+    "caption": {
+      "en": "An undated archival photograph shows the scale and regimented layout of a communal dormitory at the São Paulo Hospedaria. It documents the institution, not the family’s specific room or date of occupancy.",
+      "pt-br": "Uma fotografia de arquivo sem data mostra a escala e a disposição regimentada de um dormitório coletivo da Hospedaria de São Paulo. Documenta a instituição, não o quarto específico nem a data de estadia da família."
+    },
+    "credit": {
+      "en": "Museu da Imigração do Estado de São Paulo / Panzonato research archive copy.",
+      "pt-br": "Museu da Imigração do Estado de São Paulo / cópia do arquivo de pesquisa Panzonato."
+    },
+    "rights": {
+      "en": "Historical-context reproduction for the authorized local preview. Repository reproduction rights remain under review.",
+      "pt-br": "Reprodução de contexto histórico para a prévia local autorizada. Os direitos de reprodução do repositório permanecem em análise."
+    },
+    "focalPoint": "center center",
+    "variants": [
+      {
+        "path": "hospedaria-dormitory/hospedaria-dormitory-d53de91a5676-480.webp",
+        "width": 480,
+        "height": 364,
+        "bytes": 34750,
+        "sha256": "d53de91a5676e4b59d7224a1ecd1481f6e7bc4902bdff859af5935091abc8d1b"
+      },
+      {
+        "path": "hospedaria-dormitory/hospedaria-dormitory-0d302e443c46-960.webp",
+        "width": 960,
+        "height": 727,
+        "bytes": 95028,
+        "sha256": "0d302e443c46f19e98d23aa862047349660886bcb331eb611a4da775190eaa2f"
+      },
+      {
+        "path": "hospedaria-dormitory/hospedaria-dormitory-8624a13742b5-1389.webp",
+        "width": 1389,
+        "height": 1052,
+        "bytes": 162700,
+        "sha256": "8624a13742b58c0391ddac5344f773dca799ea1d5887f7f6864ea6843e70c923"
+      }
+    ]
+  },
+  {
+    "id": "new-coffee-planting-gaensly",
+    "sourceId": "new-coffee-planting-gaensly",
+    "publication": "preview",
+    "role": "historical-context",
+    "alt": {
+      "en": "Orderly rows of young coffee plants extend over a bare hillside with a lone worker near the horizon.",
+      "pt-br": "Fileiras ordenadas de cafeeiros jovens se estendem por uma encosta nua, com um trabalhador solitário perto do horizonte."
+    },
+    "caption": {
+      "en": "Guilherme Gaensly’s view labeled “Café Novo” shows the geometry and exposed ground of a young plantation. The lone worker is unidentified and the farm is not linked to the Panzonato family.",
+      "pt-br": "A vista de Guilherme Gaensly intitulada “Café Novo” mostra a geometria e o solo exposto de um cafezal jovem. O trabalhador solitário não é identificado e a fazenda não está ligada à família Panzonato."
+    },
+    "credit": {
+      "en": "Arquivo Público do Estado de São Paulo (APESP), digital exhibition image preserved in the research archive.",
+      "pt-br": "Arquivo Público do Estado de São Paulo (APESP), imagem de exposição digital preservada no arquivo de pesquisa."
+    },
+    "rights": {
+      "en": "Historical-context reproduction for the authorized local preview. Repository reproduction rights remain under review.",
+      "pt-br": "Reprodução de contexto histórico para a prévia local autorizada. Os direitos de reprodução do repositório permanecem em análise."
+    },
+    "focalPoint": "center center",
+    "variants": [
+      {
+        "path": "new-coffee-planting-gaensly/new-coffee-planting-gaensly-fdfc537aa48b-480.webp",
+        "width": 480,
+        "height": 384,
+        "bytes": 33814,
+        "sha256": "fdfc537aa48b49f1d5dfb4c0fc4c036a1a19fb833f0eb8df7c02d5e922c6356f"
+      },
+      {
+        "path": "new-coffee-planting-gaensly/new-coffee-planting-gaensly-2bbd9563ff9c-854.webp",
+        "width": 854,
+        "height": 683,
+        "bytes": 87340,
+        "sha256": "2bbd9563ff9c70a29fa8df60765267d39d3d26f3b360738a7ffa1c40a2465e61"
+      }
+    ]
+  },
+  {
+    "id": "rua-do-commercio-1887",
+    "sourceId": "rua-do-commercio-1887",
+    "publication": "preview",
+    "role": "historical-context",
+    "alt": {
+      "en": "Horse-drawn vehicles, pedestrians and shopfronts line the narrow Rua do Commercio in an 1887 photograph.",
+      "pt-br": "Veículos de tração animal, pedestres e fachadas comerciais ocupam a estreita Rua do Commercio numa fotografia de 1887."
+    },
+    "caption": {
+      "en": "Militão de Azevedo photographed Rua do Commercio in 1887, capturing carts, pedestrians and shopfronts. The local filename’s “colono family” label is false; this is an urban street, not a family portrait.",
+      "pt-br": "Militão de Azevedo fotografou a Rua do Commercio em 1887, registrando carroças, pedestres e fachadas comerciais. O rótulo “família colona” do nome do arquivo local é falso; trata-se de uma rua urbana, não de um retrato de família."
+    },
+    "credit": {
+      "en": "Arquivo Público do Estado de São Paulo (APESP), digital exhibition image preserved in the research archive.",
+      "pt-br": "Arquivo Público do Estado de São Paulo (APESP), imagem de exposição digital preservada no arquivo de pesquisa."
+    },
+    "rights": {
+      "en": "Historical-context reproduction for the authorized local preview. Repository reproduction rights remain under review.",
+      "pt-br": "Reprodução de contexto histórico para a prévia local autorizada. Os direitos de reprodução do repositório permanecem em análise."
+    },
+    "focalPoint": "center center",
+    "variants": [
+      {
+        "path": "rua-do-commercio-1887/rua-do-commercio-1887-0d174d550b5d-480.webp",
+        "width": 480,
+        "height": 352,
+        "bytes": 38050,
+        "sha256": "0d174d550b5d2601a7b16df87a2b5ed293ed7b6a3790ff7c385a362deb2e8285"
+      },
+      {
+        "path": "rua-do-commercio-1887/rua-do-commercio-1887-94ede1ef2da9-796.webp",
+        "width": 796,
+        "height": 584,
+        "bytes": 97030,
+        "sha256": "94ede1ef2da9bc31b906809d8d08c6a9e40fcbe4a560dd72b730d996e23df4be"
+      }
+    ]
+  },
+  {
+    "id": "coffee-harvest-araraquara-gaensly",
+    "sourceId": "coffee-harvest-araraquara-gaensly",
+    "publication": "preview",
+    "role": "historical-context",
+    "alt": {
+      "en": "Women and men pick coffee among dense rows while oxen wait with baskets on a São Paulo plantation.",
+      "pt-br": "Mulheres e homens colhem café entre fileiras densas enquanto bois aguardam com cestos numa fazenda paulista."
+    },
+    "caption": {
+      "en": "Guilherme Gaensly photographed women and men harvesting coffee near Araraquara, with oxen and baskets beside the rows. The workers are unidentified and the image is comparative labor context, not a Panzonato family scene.",
+      "pt-br": "Guilherme Gaensly fotografou mulheres e homens colhendo café em Araraquara, com bois e cestos ao lado das fileiras. Os trabalhadores não são identificados e a imagem é contexto comparativo de trabalho, não uma cena da família Panzonato."
+    },
+    "credit": {
+      "en": "Museu da Imigração do Estado de São Paulo / Panzonato research archive copy.",
+      "pt-br": "Museu da Imigração do Estado de São Paulo / cópia do arquivo de pesquisa Panzonato."
+    },
+    "rights": {
+      "en": "Historical-context reproduction for the authorized local preview. Repository reproduction rights remain under review.",
+      "pt-br": "Reprodução de contexto histórico para a prévia local autorizada. Os direitos de reprodução do repositório permanecem em análise."
+    },
+    "focalPoint": "center center",
+    "variants": [
+      {
+        "path": "coffee-harvest-araraquara-gaensly/coffee-harvest-araraquara-gaensly-d917b945c2c4-480.webp",
+        "width": 480,
+        "height": 381,
+        "bytes": 49338,
+        "sha256": "d917b945c2c485ad00d357b22d3ddb785412bff122d9b1e23a16c6786258104f"
+      },
+      {
+        "path": "coffee-harvest-araraquara-gaensly/coffee-harvest-araraquara-gaensly-d1c77daa5c3a-960.webp",
+        "width": 960,
+        "height": 762,
+        "bytes": 190408,
+        "sha256": "d1c77daa5c3a5fe8398e73f688c99d7db0137a6d1fc030c8652cfa65288fc346"
+      },
+      {
+        "path": "coffee-harvest-araraquara-gaensly/coffee-harvest-araraquara-gaensly-3e1f6e6f5af9-1280.webp",
+        "width": 1280,
+        "height": 1016,
+        "bytes": 293608,
+        "sha256": "3e1f6e6f5af94bdea8c4417290cbf3756226ae6be8b2a1f2c3a8f1be24c6bca8"
+      }
+    ]
+  },
+  {
+    "id": "machinery-gallery-1907",
+    "sourceId": "machinery-gallery-1907",
+    "publication": "preview",
+    "role": "historical-context",
+    "alt": {
+      "en": "Belt-driven industrial machines stand in a tiled demonstration hall beneath exposed beams.",
+      "pt-br": "Máquinas industriais acionadas por correias ocupam um salão de demonstração ladrilhado sob vigas aparentes."
+    },
+    "caption": {
+      "en": "The printed caption reads “Uma ala da Galleria de Demonstração de Machinas,” published in a São Paulo industry bulletin in 1907. The image does not establish that the machines processed coffee, despite the stored filename.",
+      "pt-br": "A legenda impressa diz “Uma ala da Galleria de Demonstração de Machinas”, publicada num boletim industrial paulista em 1907. A imagem não comprova que as máquinas beneficiavam café, apesar do nome do arquivo armazenado."
+    },
+    "credit": {
+      "en": "Arquivo Público do Estado de São Paulo (APESP), digital exhibition image preserved in the research archive.",
+      "pt-br": "Arquivo Público do Estado de São Paulo (APESP), imagem de exposição digital preservada no arquivo de pesquisa."
+    },
+    "rights": {
+      "en": "Historical-context reproduction for the authorized local preview. Repository reproduction rights remain under review.",
+      "pt-br": "Reprodução de contexto histórico para a prévia local autorizada. Os direitos de reprodução do repositório permanecem em análise."
+    },
+    "focalPoint": "center center",
+    "variants": [
+      {
+        "path": "machinery-gallery-1907/machinery-gallery-1907-7d6a3d26b90f-480.webp",
+        "width": 480,
+        "height": 366,
+        "bytes": 31368,
+        "sha256": "7d6a3d26b90fcb5b26afc676dd945070d653bfbeb4c695400d1581bf5a153f43"
+      },
+      {
+        "path": "machinery-gallery-1907/machinery-gallery-1907-99c7b783ba63-816.webp",
+        "width": 816,
+        "height": 622,
+        "bytes": 65482,
+        "sha256": "99c7b783ba63e8f91c5b9bd7c54a69a8212752373eb98a53b189a946ce1e5460"
+      }
+    ]
+  },
+  {
+    "id": "coffee-loading-santos-gaensly",
+    "sourceId": "coffee-loading-santos-gaensly",
+    "publication": "preview",
+    "role": "historical-context",
+    "alt": {
+      "en": "Dockworkers carry large coffee sacks in single file up a gangway into a cargo ship at Santos.",
+      "pt-br": "Trabalhadores portuários carregam grandes sacas de café em fila por uma prancha até um navio cargueiro em Santos."
+    },
+    "caption": {
+      "en": "Guilherme Gaensly’s photograph shows dockworkers carrying coffee sacks aboard a ship at Santos. The men are unidentified; the scene connects plantation labor to export without claiming a family connection.",
+      "pt-br": "A fotografia de Guilherme Gaensly mostra trabalhadores portuários levando sacas de café a bordo de um navio em Santos. Os homens não são identificados; a cena liga o trabalho nas fazendas à exportação sem alegar vínculo familiar."
+    },
+    "credit": {
+      "en": "Arquivo Público do Estado de São Paulo (APESP), digital exhibition image preserved in the research archive.",
+      "pt-br": "Arquivo Público do Estado de São Paulo (APESP), imagem de exposição digital preservada no arquivo de pesquisa."
+    },
+    "rights": {
+      "en": "Historical-context reproduction for the authorized local preview. Repository reproduction rights remain under review.",
+      "pt-br": "Reprodução de contexto histórico para a prévia local autorizada. Os direitos de reprodução do repositório permanecem em análise."
+    },
+    "focalPoint": "center center",
+    "variants": [
+      {
+        "path": "coffee-loading-santos-gaensly/coffee-loading-santos-gaensly-9c35a0d4c7b1-480.webp",
+        "width": 480,
+        "height": 382,
+        "bytes": 36764,
+        "sha256": "9c35a0d4c7b103f4651d672650c59712bb199f84596d3f7f44197dd17fdd36eb"
+      },
+      {
+        "path": "coffee-loading-santos-gaensly/coffee-loading-santos-gaensly-50ec1f9ce923-791.webp",
+        "width": 791,
+        "height": 630,
+        "bytes": 84038,
+        "sha256": "50ec1f9ce92373219f62ea2faba7b7410f8ef32f972f499cbfd7a321a2181d43"
+      }
+    ]
+  },
+  {
+    "id": "capivari-solar-do-barao-historic",
+    "sourceId": "capivari-solar-do-barao-historic",
+    "publication": "preview",
+    "role": "historical-context",
+    "alt": {
+      "en": "A monochrome photograph shows the long side façade, shuttered windows and gated entrance of the Solar do Barão in Capivari.",
+      "pt-br": "Uma fotografia monocromática mostra a longa fachada lateral, janelas com venezianas e a entrada gradeada do Solar do Barão em Capivari."
+    },
+    "caption": {
+      "en": "A historic monochrome view records the Solar do Barão’s side façade and gated entrance in Capivari. The archive does not establish a direct Panzonato association with this building.",
+      "pt-br": "Uma vista histórica monocromática registra a fachada lateral e a entrada gradeada do Solar do Barão em Capivari. O arquivo não comprova uma associação direta da família Panzonato com este edifício."
+    },
+    "credit": {
+      "en": "Capivari historical image preserved in the Panzonato research archive; original photographer not identified in the stored source.",
+      "pt-br": "Imagem histórica de Capivari preservada no arquivo de pesquisa Panzonato; fotógrafo original não identificado na fonte armazenada."
+    },
+    "rights": {
+      "en": "Historical-context reproduction for the authorized local preview. Repository reproduction rights remain under review.",
+      "pt-br": "Reprodução de contexto histórico para a prévia local autorizada. Os direitos de reprodução do repositório permanecem em análise."
+    },
+    "focalPoint": "center center",
+    "variants": [
+      {
+        "path": "capivari-solar-do-barao-historic/capivari-solar-do-barao-historic-830e08ef54b3-438.webp",
+        "width": 438,
+        "height": 330,
+        "bytes": 23386,
+        "sha256": "830e08ef54b36137393e61646b1612fb5e5530ad61a9ee2eeb4a3dda06db1018"
+      }
+    ]
+  },
+  {
+    "id": "capivari-old-town-ox-carts",
+    "sourceId": "capivari-old-town-ox-carts",
+    "publication": "preview",
+    "role": "historical-context",
+    "alt": {
+      "en": "A team of oxen and handlers moves along an unpaved Capivari street lined with low tiled-roof buildings.",
+      "pt-br": "Uma tropa de bois e seus condutores passa por uma rua não pavimentada de Capivari, ladeada por edifícios baixos de telha."
+    },
+    "caption": {
+      "en": "Ox teams and handlers move through an unpaved Capivari street in this undated historical photograph. The people are unidentified and are not presented as members of the Panzonato family.",
+      "pt-br": "Bois e condutores atravessam uma rua não pavimentada de Capivari nesta fotografia histórica sem data. As pessoas não são identificadas nem apresentadas como integrantes da família Panzonato."
+    },
+    "credit": {
+      "en": "Capivari historical image preserved in the Panzonato research archive; original photographer not identified in the stored source.",
+      "pt-br": "Imagem histórica de Capivari preservada no arquivo de pesquisa Panzonato; fotógrafo original não identificado na fonte armazenada."
+    },
+    "rights": {
+      "en": "Historical-context reproduction for the authorized local preview. Repository reproduction rights remain under review.",
+      "pt-br": "Reprodução de contexto histórico para a prévia local autorizada. Os direitos de reprodução do repositório permanecem em análise."
+    },
+    "focalPoint": "center center",
+    "variants": [
+      {
+        "path": "capivari-old-town-ox-carts/capivari-old-town-ox-carts-61502c1ff747-480.webp",
+        "width": 480,
+        "height": 307,
+        "bytes": 22234,
+        "sha256": "61502c1ff74719f21ff47df8b83b3256f23678f35dc931a0db3b1345d640a7d7"
+      },
+      {
+        "path": "capivari-old-town-ox-carts/capivari-old-town-ox-carts-f9d211af3526-859.webp",
+        "width": 859,
+        "height": 549,
+        "bytes": 57480,
+        "sha256": "f9d211af35267d3d5825c20524a37f34cc77d27ed3b896ce6fd84ae22472b583"
+      }
+    ]
+  },
+  {
+    "id": "capivari-old-matriz-church",
+    "sourceId": "capivari-old-matriz-church",
+    "publication": "preview",
+    "role": "historical-context",
+    "alt": {
+      "en": "A monochrome portrait view shows Capivari’s old Matriz church with its tall central tower and pointed arches.",
+      "pt-br": "Uma vista vertical monocromática mostra a antiga Igreja Matriz de Capivari com sua torre central alta e arcos ogivais."
+    },
+    "caption": {
+      "en": "An undated historic photograph records the old Matriz church in Capivari before later alterations. It establishes town context, not a documented family event inside the building.",
+      "pt-br": "Uma fotografia histórica sem data registra a antiga Igreja Matriz de Capivari antes de alterações posteriores. Estabelece o contexto da cidade, não um evento familiar documentado dentro do edifício."
+    },
+    "credit": {
+      "en": "Capivari historical image preserved in the Panzonato research archive; original photographer not identified in the stored source.",
+      "pt-br": "Imagem histórica de Capivari preservada no arquivo de pesquisa Panzonato; fotógrafo original não identificado na fonte armazenada."
+    },
+    "rights": {
+      "en": "Historical-context reproduction for the authorized local preview. Repository reproduction rights remain under review.",
+      "pt-br": "Reprodução de contexto histórico para a prévia local autorizada. Os direitos de reprodução do repositório permanecem em análise."
+    },
+    "focalPoint": "center 42%",
+    "variants": [
+      {
+        "path": "capivari-old-matriz-church/capivari-old-matriz-church-e5451bc51ba2-320.webp",
+        "width": 320,
+        "height": 480,
+        "bytes": 27736,
+        "sha256": "e5451bc51ba254e3a79fda3c7dbafea5f0c6e664837f33fdc1a7bdea7a7a31f6"
+      }
+    ]
+  },
+  {
+    "id": "capivari-matriz-church-1935",
+    "sourceId": "capivari-matriz-church-1935",
+    "publication": "preview",
+    "role": "historical-context",
+    "alt": {
+      "en": "A small grainy 1935 photograph shows the side and tower of Capivari’s Matriz church above a low street wall.",
+      "pt-br": "Uma pequena fotografia granulada de 1935 mostra a lateral e a torre da Igreja Matriz de Capivari acima de um muro baixo."
+    },
+    "caption": {
+      "en": "A 1935 view shows the Matriz church and its surrounding streetscape in Capivari. Its modest resolution is retained without enlargement; the image is place context rather than proof of a family occasion.",
+      "pt-br": "Uma vista de 1935 mostra a Igreja Matriz e seu entorno urbano em Capivari. Sua resolução modesta é preservada sem ampliação; a imagem é contexto de lugar, não prova de uma ocasião familiar."
+    },
+    "credit": {
+      "en": "Capivari historical image preserved in the Panzonato research archive; original photographer not identified in the stored source.",
+      "pt-br": "Imagem histórica de Capivari preservada no arquivo de pesquisa Panzonato; fotógrafo original não identificado na fonte armazenada."
+    },
+    "rights": {
+      "en": "Historical-context reproduction for the authorized local preview. Repository reproduction rights remain under review.",
+      "pt-br": "Reprodução de contexto histórico para a prévia local autorizada. Os direitos de reprodução do repositório permanecem em análise."
+    },
+    "focalPoint": "center center",
+    "variants": [
+      {
+        "path": "capivari-matriz-church-1935/capivari-matriz-church-1935-12c506362f97-274.webp",
+        "width": 274,
+        "height": 185,
+        "bytes": 17418,
+        "sha256": "12c506362f979acda93eef97c1d4dbfbfe2392d14cb66f560b1ed23aebf50f22"
+      }
+    ]
+  },
+  {
+    "id": "capivari-first-council-house",
+    "sourceId": "capivari-first-council-house",
+    "publication": "preview",
+    "role": "historical-context",
+    "alt": {
+      "en": "Pedestrians stand outside a two-storey civic building on a quiet Capivari street crossed by overhead wires.",
+      "pt-br": "Pedestres estão diante de um edifício cívico de dois andares numa rua tranquila de Capivari atravessada por fios aéreos."
+    },
+    "caption": {
+      "en": "An undated street view identifies Capivari’s first council house, with pedestrians and neighboring buildings. No person in the scene is identified with the Panzonato family.",
+      "pt-br": "Uma vista urbana sem data identifica a primeira Câmara de Capivari, com pedestres e edifícios vizinhos. Nenhuma pessoa na cena é identificada com a família Panzonato."
+    },
+    "credit": {
+      "en": "Capivari historical image preserved in the Panzonato research archive; original photographer not identified in the stored source.",
+      "pt-br": "Imagem histórica de Capivari preservada no arquivo de pesquisa Panzonato; fotógrafo original não identificado na fonte armazenada."
+    },
+    "rights": {
+      "en": "Historical-context reproduction for the authorized local preview. Repository reproduction rights remain under review.",
+      "pt-br": "Reprodução de contexto histórico para a prévia local autorizada. Os direitos de reprodução do repositório permanecem em análise."
+    },
+    "focalPoint": "center center",
+    "variants": [
+      {
+        "path": "capivari-first-council-house/capivari-first-council-house-6a017c6b6721-480.webp",
+        "width": 480,
+        "height": 334,
+        "bytes": 25500,
+        "sha256": "6a017c6b67219ce7cf1dd68621f88557a7fb0018cf55f19546575be76456068f"
+      },
+      {
+        "path": "capivari-first-council-house/capivari-first-council-house-8b3fe44e5c89-827.webp",
+        "width": 827,
+        "height": 576,
+        "bytes": 71598,
+        "sha256": "8b3fe44e5c894650cfaad93e83519fdb83e7b7f14963d197345bbf0a89c9a592"
+      }
+    ]
+  },
+  {
+    "id": "capivari-rural-worker",
+    "sourceId": "capivari-rural-worker",
+    "publication": "preview",
+    "role": "historical-context",
+    "alt": {
+      "en": "An unidentified Black rural worker sits on a step, smiling toward the camera with work clothes and boots.",
+      "pt-br": "Um trabalhador rural negro não identificado está sentado num degrau, sorrindo para a câmera com roupa de trabalho e botas."
+    },
+    "caption": {
+      "en": "The archive labels this historical portrait as a rural worker in Capivari. His name, date and workplace are not preserved, and he must not be presented as a Panzonato ancestor.",
+      "pt-br": "O arquivo identifica este retrato histórico como um trabalhador rural em Capivari. Seu nome, data e local de trabalho não foram preservados, e ele não deve ser apresentado como antepassado Panzonato."
+    },
+    "credit": {
+      "en": "Capivari historical image preserved in the Panzonato research archive; original photographer not identified in the stored source.",
+      "pt-br": "Imagem histórica de Capivari preservada no arquivo de pesquisa Panzonato; fotógrafo original não identificado na fonte armazenada."
+    },
+    "rights": {
+      "en": "Historical-context reproduction for the authorized local preview. Repository reproduction rights remain under review.",
+      "pt-br": "Reprodução de contexto histórico para a prévia local autorizada. Os direitos de reprodução do repositório permanecem em análise."
+    },
+    "focalPoint": "center center",
+    "variants": [
+      {
+        "path": "capivari-rural-worker/capivari-rural-worker-604c3f3d8a1f-480.webp",
+        "width": 480,
+        "height": 640,
+        "bytes": 42878,
+        "sha256": "604c3f3d8a1febe692e221d10409621a4f490c6aa7c63aa78e7eeaffbd43c8fb"
+      },
+      {
+        "path": "capivari-rural-worker/capivari-rural-worker-e6c051f2e998-501.webp",
+        "width": 501,
+        "height": 668,
+        "bytes": 46460,
+        "sha256": "e6c051f2e99899aef459f10afc12c7d7ab1476d269fd315eb521e456225d704c"
+      }
+    ]
+  },
+  {
+    "id": "capivari-aerial-historic",
+    "sourceId": "capivari-aerial-historic",
+    "publication": "preview",
+    "role": "historical-context",
+    "alt": {
+      "en": "A halftone aerial view looks down on Capivari’s central church, square and dense grid of low buildings.",
+      "pt-br": "Uma vista aérea em retícula mostra a igreja central, a praça e a malha densa de edifícios baixos de Capivari."
+    },
+    "caption": {
+      "en": "An undated halftone aerial view records Capivari’s central church, square and surrounding urban fabric. It provides town-scale context without locating a specific family home.",
+      "pt-br": "Uma vista aérea em retícula, sem data, registra a igreja central, a praça e o tecido urbano ao redor em Capivari. Oferece contexto na escala da cidade sem localizar uma residência familiar específica."
+    },
+    "credit": {
+      "en": "Capivari historical image preserved in the Panzonato research archive; original photographer not identified in the stored source.",
+      "pt-br": "Imagem histórica de Capivari preservada no arquivo de pesquisa Panzonato; fotógrafo original não identificado na fonte armazenada."
+    },
+    "rights": {
+      "en": "Historical-context reproduction for the authorized local preview. Repository reproduction rights remain under review.",
+      "pt-br": "Reprodução de contexto histórico para a prévia local autorizada. Os direitos de reprodução do repositório permanecem em análise."
+    },
+    "focalPoint": "center center",
+    "variants": [
+      {
+        "path": "capivari-aerial-historic/capivari-aerial-historic-d09483833029-480.webp",
+        "width": 480,
+        "height": 348,
+        "bytes": 68188,
+        "sha256": "d094838330293f98e70e1ecd422ed67830eaa9e385f59c0e46c869b2b2f8b288"
+      },
+      {
+        "path": "capivari-aerial-historic/capivari-aerial-historic-ebbdf87d8a8d-663.webp",
+        "width": 663,
+        "height": 480,
+        "bytes": 178176,
+        "sha256": "ebbdf87d8a8dd3caea2ea934b5df5d42f0cc12043778c58447ab3db687e0501c"
+      }
+    ]
+  },
+  {
+    "id": "rand-mcnally-world-map-1903",
+    "sourceId": "rand-mcnally-world-map-1903",
+    "publication": "preview",
+    "role": "historical-map",
+    "alt": {
+      "en": "Detail of a 1903 Rand McNally world map centered on the Atlantic, with Europe and western Africa at right and South America at lower left.",
+      "pt-br": "Detalhe de um mapa-mundi da Rand McNally de 1903 centrado no Atlântico, com a Europa e a África Ocidental à direita e a América do Sul no canto inferior esquerdo."
+    },
+    "caption": {
+      "en": "An Atlantic detail from Rand McNally’s 1903 world map. Europe, western Africa and Brazil frame the sea journey; the red shipping routes are part of the original atlas.",
+      "pt-br": "Detalhe do Atlântico no mapa-múndi da Rand McNally de 1903. Europa, África Ocidental e Brasil enquadram a travessia; as rotas marítimas vermelhas fazem parte do atlas original."
+    },
+    "credit": {
+      "en": "Rand McNally and Company; David Rumsey Map Collection, List No. 4707.002.",
+      "pt-br": "Rand McNally and Company; David Rumsey Map Collection, nº de catálogo 4707.002."
+    },
+    "rights": {
+      "en": "Historical map from 1903; digital reproduction from the David Rumsey Map Collection, supplied for local preview. Digital reproduction terms remain under review before publication.",
+      "pt-br": "Mapa histórico de 1903; reprodução digital da David Rumsey Map Collection, fornecida para prévia local. Os termos da reprodução digital permanecem em revisão antes da publicação."
+    },
+    "focalPoint": "center",
+    "variants": [
+      {
+        "path": "voyage-map/voyage-map-842c138a19c0-960.webp",
+        "width": 960,
+        "height": 1219,
+        "bytes": 364308,
+        "sha256": "842c138a19c0b2d97bd27920d66290b028a22a3540f954d5f50a3172affd9afb"
+      },
+      {
+        "path": "voyage-map/voyage-map-3fbb7a32f7ce-1600.webp",
+        "width": 1600,
+        "height": 2032,
+        "bytes": 954088,
+        "sha256": "3fbb7a32f7cee84fe4b57cc5dfb53be700da22d212a7fb6e7dd88d27873db0ec"
+      },
+      {
+        "path": "voyage-map/voyage-map-8b48a3488d77-2400.webp",
+        "width": 2400,
+        "height": 3048,
+        "bytes": 1965504,
+        "sha256": "8b48a3488d77aaae71bb5c1b49f1378ed0c8d3bb55bd5ca8b2a6f8503ca07dcf"
+      },
+      {
+        "path": "voyage-map/voyage-map-4493c818676a-3150.webp",
+        "width": 3150,
+        "height": 4000,
+        "bytes": 3310526,
+        "sha256": "4493c818676a495bff5bddcfa3ecd550fbeb8d653c3cd125043592e7b879664c"
+      }
+    ]
   }
 ]

@@ -77,10 +77,11 @@ The original comparison study remains in `work/design-review/design-directions.h
 
 1. **Recognizable identity:** Panzonato, a short description, and language choice.
 2. **Immediate invitation:** one strong headline, an authentic contextual image, and a brief premise. Primary action: **Begin the story**. Secondary action: **Choose a chapter**.
-3. **A readable chapter index:** five distinct chapter entrances with titles and one sentence of context. Visitors can start anywhere.
-4. **A human connection:** introduce a small number of people relevant to the narrative, with names and relationships explained in ordinary language.
-5. **A glimpse of the evidence:** one compelling item with a useful caption and an invitation to inspect it.
-6. **About the project:** concise authorship, research method, credits, and a corrections contact if the user later supplies one.
+3. **Fosca and the six children:** a prominent story about the practical demands of care during an ocean crossing, grounded in the recorded household and clearly identified historical reconstruction. An attributed interview excerpt opens a second way into the wider immigrant experience.
+4. **A readable chapter index:** five distinct chapter entrances with titles and one sentence of context. Visitors can start anywhere; the arrival roster gives each family member a name and age.
+5. **Historical collections:** image essays about Venice, life at sea, passage papers, arrival, work, and Capivari. Covers and image sequences are distinct; full images and evidence remain one interaction away.
+6. **A human connection:** introduce a small number of people relevant to the narrative, with names and relationships explained in ordinary language.
+7. **About the project:** concise authorship, research method, credits, and a corrections contact if the user later supplies one.
 
 Do not lead with record counts, a surname search box, project status badges, or the complete family tree.
 
@@ -106,7 +107,7 @@ Use a separate, directly addressable page for each chapter. The overview provide
 
 ### Navigation
 
-Top-level navigation: **The story / The people / The archive**. Places and chronology are available from relevant chapters and the journey component, with individual place pages where there is enough material to justify them. About, methodology, and the future gallery link belong in secondary navigation.
+Top-level navigation: **The story / Voices / Collections / People / Archive**. Voices opens shorter stories: Fosca, the Colombo, emigrant testimony, a letter, and objects. Collections are ordered visual essays. Both have equivalent EN/PT-BR URLs, chapter connections, and onward navigation. Places and chronology remain available from relevant chapters and the journey component. About, methodology, and the future gallery link belong in secondary navigation.
 
 The people section begins with approachable portraits and a compact generational outline. A full pan-and-zoom graph is deferred; it is not the first thing a reader must understand.
 
@@ -150,6 +151,10 @@ Distinguish these forms in both data and presentation:
 Avoid invented dialogue, thoughts, motives, quotations, and heroic absolutes. The old line about carrying only children and courage should not migrate as fact. A contextual image must not be captioned as depicting the family. Do not fabricate photoreal historical scenes as archival evidence.
 
 The relationship between migration, labour, land, and the wider society deserves specific, sourced treatment. Do not turn difficult history into decorative atmosphere. Research agents supply the facts; the design provides room for nuance.
+
+The user-selected historical monograph supplies the narrative arc for the expanded origins, crossing, and Brazil chapters. Its individual claims are checked against family records and attributed historical sources. Fosca's caregiving is an explicitly conditional reconstruction; the letter and interviews identify other immigrant families. The Colombo's later photograph is dated 1901. Source-method detail stays in context notes and source pages so the main reading can remain close to people and ordinary life.
+
+Stories use `src/data/features.json`, historical image sequences use `src/data/collections.json`, and both resolve existing catalog/media IDs. Native disclosure elements reveal translations without depending on JavaScript. No new framework or media service is required.
 
 ## 8. Architecture
 
@@ -315,8 +320,23 @@ The user accepted the planning direction, reviewed the throwaway HTML test, requ
 
 The approved design now runs at http://localhost:18775/en/ and http://localhost:18775/pt-br/. The reference preview remains separate on port 18774. See [REVIEW.md](REVIEW.md) for the verified browser flows, build checks, Docker/media boundaries, and measured loading profile.
 
-The expanded edition now draws on 193 distinct archival items identified by the repository audit. It presents five substantive chapters in each language, 31 selected media items, 46 sources, ten historic people, and twelve timeline moments across 134 static pages. The homepage uses nine distinct images, and each chapter has its own lead and supporting gallery. Archive search and four source-type filters are implemented; the collection now warrants them. Family connections use sourced links among profiles, with generation groups providing orientation.
+The expanded edition now draws on 193 distinct archival items identified by the repository audit. It presents five substantive chapters in each language, 65 selected media items, 97 sources, ten historic people, nine stories, six historical collections, and 25 timeline moments across 270 static pages. Homepage image roles remain distinct, and each chapter has its own lead and supporting gallery. Archive search and four source-type filters are implemented; the collection now warrants them. Family connections use sourced links among profiles, with generation groups providing orientation.
 
 The source model supports both illustrated records and text-only references, localized excerpts and evidence notes, dates, and categories. Media remains external and uncommitted. The later certified extract of the 1891 family entry is labeled as a 2002 reproduction; contextual scenes remain separate from personal evidence. See [ARCHIVE_AUDIT.md](ARCHIVE_AUDIT.md) for corrected catalog captions and documentary findings.
 
 This is still a local preview: final translation and publication-rights review precede public release. No public deployment or push has occurred.
+
+
+## Historical forces in the timeline — 19 September 2026
+
+The timeline now places the family milestones within the changes that made emigration more urgent or more reachable. Thirteen contextual events cover the Atlantic slave-trade suppression, Veneto joining Italy, the milling tax, grain competition, coffee demand and rail expansion, the Jacini inquiry, the September 1882 Brenta flood, passage assistance, organized recruitment, the Brás hostel, Lei Áurea, the Brazil/Colombo service and the 1890 immigration decree.
+
+All 12 family milestones remain. Historical entries explain a consequence and link to every supporting source. Both editions share a chronological sequence with optional Family / Wider world filters; native disclosures remain readable without JavaScript. Red and blue markers distinguish the strands without changing the approved typography and palette. Periods remain periods, and partial dates retain only their supported precision.
+
+Regional conditions establish pressures and opportunities, not Giuseppe and Fosca's private motives. The flood is not presented as proven damage to their home; the milling tax ends before their departure; immigration recruitment precedes the 1888 abolition law. No new media or original-research edits are needed for this expansion. Final checks are recorded in REVIEW.md.
+
+## Animated atlas crossing — 19 September 2026
+
+The user supplied a high-resolution Rand McNally world map and requested a moving boat from Genoa to Santos inside “Eight names. One crossing.” The implementation uses an Atlantic crop of that actual 1903 scan, with a calibrated SVG route through Gibraltar and Lisbon to Rio and Santos. It preserves the eight recorded family names and ages beside the map. Playback, pause, replay, progress scrubbing, port stops and flat/tilted views are progressive enhancements; the map and route remain readable without JavaScript.
+
+The display illustrates the Colombo’s regular service. Its date and source links keep it separate from the family’s exact itinerary, which the arrival entry does not establish. The original and responsive WebP derivatives remain ignored and outside the app image, served through the separate read-only Docker media mount. Final review evidence is recorded in REVIEW.md.

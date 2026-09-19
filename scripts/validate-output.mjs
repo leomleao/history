@@ -8,9 +8,16 @@ const htmlFiles = files.filter(f => f.endsWith('.html'));
 if (htmlFiles.length < 30) throw new Error(`Incomplete exhibition: only ${htmlFiles.length} HTML files`);
 const site = new URL(process.env.SITE_URL || 'http://localhost:18775');
 const media = JSON.parse(await readFile('src/data/media.json','utf8'));
+const features = JSON.parse(await readFile('src/data/features.json','utf8'));
+const collections = JSON.parse(await readFile('src/data/collections.json','utf8'));
 const knownMedia = new Set(media.flatMap(m => m.variants.map(v => `/media/${v.path}`)));
 const htmlByPath = new Map();
 for (const file of htmlFiles) htmlByPath.set(file, await readFile(file,'utf8'));
+for (const locale of ['en','pt-br']) {
+  for (const path of [`/${locale}/stories/index.html`, `/${locale}/collections/index.html`, ...features.map(feature => `/${locale}/stories/${feature.id}/index.html`), ...collections.map(collection => `/${locale}/collections/${collection.id}/index.html`)]) {
+    if (![...htmlByPath.keys()].some(file => file === resolve(root, `.${path}`))) throw new Error(`Missing living archive route: ${path}`);
+  }
+}
 function attr(tag,name) { return tag.match(new RegExp(`\\b${name}=["']([^"']*)["']`,'i'))?.[1]; }
 function localFile(url) {
   const path = decodeURIComponent(url.pathname);

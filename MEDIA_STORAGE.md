@@ -39,3 +39,11 @@ During `npm run dev`, Astro proxies `/media/` to the running Docker container. T
 Nginx serves content-versioned media and application assets with immutable cache headers, HTML with revalidation, and missing files as 404. Directory listing is disabled. HTTP range requests are supported by Nginx's static file handling.
 
 `MEDIA_URL_PREFIX` can point to a different HTTPS media origin at build time. The initial deployment uses `/media/` on the same host; the site itself is currently served at the hostname root with `/en/` and `/pt-br/` editions.
+
+## The Atlantic voyage map
+
+The supplied Rand McNally world map remains unchanged in the ignored `Rand-McNally Library Map Of The World3185956163883745958/` folder, excluded from the Docker build context. Its original JPEG is 14,948 × 10,379 pixels. Only the Atlantic crop is served, as four content-hashed WebP files under `media/published/exhibition/voyage-map/`: 960, 1600, 2400 and 3150 pixels wide. The largest is the crop’s native width; nothing is enlarged.
+
+`src/data/voyage-map.json` records the crop rectangle and manually calibrated route geometry. `src/data/media.json` is the source of public image URLs and checksums; the source catalog records the map’s 1903 date and David Rumsey credit. Route and ship graphics are separate SVG overlays, so the historical map pixels remain unchanged.
+
+This crop was prepared separately with Sharp (WebP quality 82, effort 6, smart subsampling). The generic `media:prepare` command replaces its output manifest with its ingest selection: when reprocessing other media, write to a temporary manifest and merge by ID so the separately prepared map and historical additions remain registered. Transfer `voyage-map/` with the rest of the published media folder when moving the Docker preview to another server.

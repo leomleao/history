@@ -1,0 +1,466 @@
+[
+  {
+    "id": "fosca-six-children-at-sea",
+    "publication": "preview",
+    "kind": "essay",
+    "title": {
+      "en": "Fosca and six children at sea",
+      "pt-br": "Fosca e seis filhos no mar"
+    },
+    "dek": {
+      "en": "The passenger record gives eight names; their ages reveal the daily scale of one mother’s crossing.",
+      "pt-br": "O registro de passageiros traz oito nomes; as idades revelam a escala cotidiana da travessia de uma mãe."
+    },
+    "period": {
+      "en": "The 1891 crossing",
+      "pt-br": "A travessia de 1891"
+    },
+    "attribution": {
+      "en": "A grounded reconstruction from the family register and period ship history",
+      "pt-br": "Reconstrução fundamentada no registro familiar e na história marítima da época"
+    },
+    "context": {
+      "en": "The family roster is documented; the caring work is a conditional reconstruction, not a diary of Fosca’s voyage.",
+      "pt-br": "A composição da família é documentada; o trabalho de cuidado é uma reconstrução condicional, não um diário da viagem de Fosca."
+    },
+    "chapterKey": "crossing",
+    "mediaIds": [
+      "emigrant-family-on-deck-ferraguti",
+      "panzonato-hospedaria-1891"
+    ],
+    "sourceIds": [
+      "panzonato-hospedaria-1891",
+      "context-colombo-rossini-1994",
+      "context-ocean-passenger-1891",
+      "emigrant-family-on-deck-ferraguti"
+    ],
+    "paragraphs": {
+      "en": [
+        "Begin with their ages. Fosca was recorded as thirty. Beside her were Luigia, ten; Catarina, nine; Candida, seven; Luigi, five; Domenico, three; and Eugenio, one. Giuseppe, thirty-five, completed a household of eight. The São Paulo hostel register preserves them in a neat sequence, but life aboard a moving ship would never have arranged itself so calmly. The children’s needs would have arrived together: hunger, thirst, sleep, fear, boredom, a hand to hold, a place to sit, a cup that must not spill.",
+        "The Colombo was a former cargo vessel adapted to carry people. Rossini’s history describes roughly seven hundred emigrants in precarious common accommodation, with another eighty to one hundred cabin passengers. The family’s exact accommodation is not recorded. Yet wherever their places were, two parents travelling with six children would have needed to turn a crowded, unfamiliar space into a working household. Food and water had to reach seven other people as well as Fosca. A resting child still had to be watched; a one-year-old kept close while a three-year-old moved; older daughters were still children even if their hands could help. When the deck or floor shifted underfoot, every ordinary task would have required balance.",
+        "This is not a hidden diary of heroism, and it does not require one. Care is visible in the arithmetic. Six children meant six bodies to count after every movement through a common space, six rhythms of fatigue, six sets of immediate needs that could not be postponed until the ocean was quiet. Giuseppe shared that burden, but the documentary row makes Fosca newly legible: not simply the wife named after the head of household, but the mother at the centre of an immense practical undertaking. On 15 December 1891, all eight names entered the São Paulo record together. The page cannot tell us her thoughts. It does show the family still gathered around her."
+      ],
+      "pt-br": [
+        "Comece pelas idades. Fosca foi registrada com trinta anos. Ao lado dela estavam Luigia, dez; Catarina, nove; Candida, sete; Luigi, cinco; Domenico, três; e Eugenio, um. Giuseppe, de trinta e cinco, completava uma família de oito pessoas. O livro da Hospedaria de São Paulo os preserva em sequência ordenada, mas a vida a bordo de um navio em movimento jamais se organizaria com tanta calma. As necessidades das crianças teriam chegado juntas: fome, sede, sono, medo, tédio, uma mão para segurar, um lugar para sentar, um copo que não podia derramar.",
+        "O Colombo era um antigo cargueiro adaptado para transportar pessoas. A história escrita por Rossini descreve cerca de setecentos emigrantes em acomodações comuns precárias, além de oitenta a cem passageiros em cabines. Não se conhece a acomodação exata da família. Onde quer que estivessem, porém, dois pais viajando com seis filhos precisariam transformar um espaço cheio e desconhecido em uma casa possível. Comida e água tinham de chegar a outras sete pessoas além de Fosca. Uma criança adormecida continuava exigindo atenção; o bebê de um ano precisava ficar perto enquanto o menino de três se movia; as filhas mais velhas ainda eram crianças, mesmo que suas mãos pudessem ajudar. Quando o convés ou o piso oscilava sob os pés, cada tarefa comum exigia equilíbrio.",
+        "Isto não é um diário oculto de heroísmo, nem precisa ser. O cuidado aparece na aritmética. Seis filhos significavam seis corpos para contar depois de cada deslocamento por um espaço coletivo, seis ritmos de cansaço, seis conjuntos de necessidades imediatas que não podiam esperar o oceano sossegar. Giuseppe dividia esse encargo, mas a linha documental torna Fosca novamente visível: não apenas a esposa nomeada depois do chefe da família, e sim a mãe no centro de uma tarefa prática imensa. Em 15 de dezembro de 1891, os oito nomes entraram juntos no registro de São Paulo. A página não revela seus pensamentos. Mostra, sim, a família ainda reunida ao redor dela."
+      ]
+    }
+  },
+  {
+    "id": "colombo-the-ship",
+    "publication": "preview",
+    "kind": "object",
+    "title": {
+      "en": "Colombo: the ship beneath the name",
+      "pt-br": "Colombo: o navio por trás do nome"
+    },
+    "dek": {
+      "en": "A 104-metre former freighter carried cargo, cabins, common accommodation, and hundreds of emigrants toward South America.",
+      "pt-br": "Um antigo cargueiro de 104 metros levou carga, cabines, acomodações comuns e centenas de emigrantes rumo à América do Sul."
+    },
+    "period": {
+      "en": "Built 1873; renamed 1890; photographed after the 1901 refit",
+      "pt-br": "Construído em 1873; rebatizado em 1890; fotografado após a reforma de 1901"
+    },
+    "attribution": {
+      "en": "José Carlos Rossini, A Tribuna de Santos, 17 November 1994",
+      "pt-br": "José Carlos Rossini, A Tribuna de Santos, 17 de novembro de 1994"
+    },
+    "context": {
+      "en": "The photograph shows the Colombo in drydock in 1901, ten years after the family’s journey.",
+      "pt-br": "A fotografia mostra o Colombo na doca seca em 1901, dez anos depois da viagem familiar."
+    },
+    "chapterKey": "crossing",
+    "mediaIds": [
+      "colombo-drydock-1901"
+    ],
+    "sourceIds": [
+      "context-colombo-rossini-1994",
+      "colombo-drydock-1901"
+    ],
+    "paragraphs": {
+      "en": [
+        "In the drydock photograph, the Colombo rests high enough for its full hull to be seen. The image dates from Livorno after a 1901 refit, a decade after the Panzonato crossing, but it gives mass to the ship named in the family record. Built on the Tyne in 1873 as the Brazil, it measured 104 metres from end to end and about ten across the beam. Its gross tonnage was 2,408 tons and its reported average speed nine knots.",
+        "Giacomo Cresta bought the retired freighter in 1888 and had it converted into a mixed cargo-and-passenger vessel. After a collision and repairs, it became the Colombo at the start of 1890. Rossini describes a regular Genoa–Lisbon–Rio de Janeiro–Santos service: around seven hundred emigrants travelled in rough common accommodation while eighty to one hundred cabin passengers occupied individual quarters. Refrigerated installations stored fresh provisions, yet the accommodation for mass migration remained precarious. Those dimensions and machinery thus met hundreds of private departures inside one hull.",
+        "The article describes eighteen days from Genoa to Rio as a service schedule, not the measured duration or proven itinerary of this family’s voyage. What the São Paulo entry establishes is simpler: the Colombo is the ship associated with Giuseppe, Fosca, and their six children. The later photograph lets us stand beside that documentary name and finally see the vessel’s scale."
+      ],
+      "pt-br": [
+        "Na fotografia da doca seca, o Colombo repousa alto o bastante para revelar todo o casco. A imagem foi feita em Livorno depois da reforma de 1901, dez anos após a travessia dos Panzonato, mas dá volume ao navio nomeado no registro familiar. Construído às margens do rio Tyne em 1873 como Brazil, media 104 metros de comprimento e cerca de dez de boca. Tinha 2.408 toneladas de arqueação bruta e velocidade média informada de nove nós.",
+        "Giacomo Cresta comprou o cargueiro desativado em 1888 e mandou convertê-lo em navio misto, de carga e passageiros. Depois de uma colisão e dos reparos, tornou-se Colombo no início de 1890. Rossini descreve um serviço regular Gênova–Lisboa–Rio de Janeiro–Santos: cerca de setecentos emigrantes viajavam em acomodações comuns precárias, enquanto oitenta a cem passageiros de cabine ocupavam alojamentos individuais. Instalações frigoríficas guardavam provisões frescas, mas o espaço destinado à migração em massa continuava rude. Aquelas dimensões e maquinaria encontravam, assim, centenas de partidas particulares dentro do mesmo casco.",
+        "O artigo apresenta dezoito dias de Gênova ao Rio como duração do serviço, não como tempo medido nem itinerário comprovado da viagem desta família. O registro de São Paulo estabelece algo mais simples: Colombo é o navio associado a Giuseppe, Fosca e seus seis filhos. A fotografia posterior permite ficar ao lado desse nome documental e, enfim, perceber a escala da embarcação."
+      ]
+    }
+  },
+  {
+    "id": "lm-between-languages",
+    "publication": "preview",
+    "kind": "interview",
+    "title": {
+      "en": "Between his father’s words and his own",
+      "pt-br": "Entre as palavras do pai e as suas"
+    },
+    "dek": {
+      "en": "LM could understand the language his father carried from Italy, but he could not make it his own.",
+      "pt-br": "LM entendia a língua que o pai trouxera da Itália, mas não conseguia torná-la sua."
+    },
+    "period": {
+      "en": "Interview recorded in 2005; published in 2022",
+      "pt-br": "Entrevista realizada em 2005; publicada em 2022"
+    },
+    "attribution": {
+      "en": "LM, interviewed by Rosane Siqueira Teixeira",
+      "pt-br": "LM, entrevistado por Rosane Siqueira Teixeira"
+    },
+    "context": {
+      "en": "An oral history from a different Italian immigrant family in the Araraquara coffee region; it is not Panzonato testimony.",
+      "pt-br": "História oral de outra família de imigrantes italianos na região cafeeira de Araraquara; não é um testemunho Panzonato."
+    },
+    "chapterKey": "brazil",
+    "mediaIds": [
+      "apesp-colono-house-campos-salles"
+    ],
+    "sourceIds": [
+      "context-colonato-oral-history",
+      "apesp-colono-house-campos-salles"
+    ],
+    "paragraphs": {
+      "en": [
+        "When Rosane Siqueira Teixeira met LM at his home in Américo Brasiliense in August 2005, he was eighty. She protected his identity with two initials. Born in 1925 on Fazenda Monte Alto, he had grown up among coffee farms in the Araraquara region. His recollections let us hear how migration could continue inside a household long after the Atlantic crossing was over.",
+        "LM remembered language as an uneven inheritance. His Calabrian mother, who had arrived in Brazil at twelve, learned Portuguese quickly. His father, from Camerino, reached the age of eighty-four without speaking it. For more than twenty years, the father subscribed to the Italian-language newspaper Fanfulla; according to LM, news from Italy mattered to him more than news from Brazil. The son occupied the space between those worlds: he understood his father but could not answer in the same language. In one generation, the family voice had become something heard more readily than spoken."
+      ],
+      "pt-br": [
+        "Quando Rosane Siqueira Teixeira encontrou LM em sua casa, em Américo Brasiliense, em agosto de 2005, ele tinha oitenta anos. A pesquisadora preservou sua identidade com duas iniciais. Nascido em 1925 na Fazenda Monte Alto, LM crescera entre fazendas de café da região de Araraquara. Suas lembranças permitem ouvir como a migração podia continuar dentro de uma casa muito depois do fim da travessia atlântica.",
+        "LM recordava a língua como uma herança desigual. Sua mãe calabresa, chegada ao Brasil aos doze anos, aprendeu português rapidamente. O pai, natural de Camerino, viveu até os oitenta e quatro anos sem falar o idioma. Por mais de vinte anos, assinou o jornal em italiano Fanfulla; segundo LM, queria notícias da Itália, não do Brasil. O filho ocupava o espaço entre esses mundos: compreendia o pai, mas não conseguia responder na mesma língua. Em uma geração, a voz familiar se tornara algo mais ouvido do que falado."
+      ]
+    },
+    "quote": {
+      "original": "Eu entendia o que ele falava, mas não era capaz de falar a língua dele.",
+      "originalLang": "pt-br",
+      "translation": {
+        "en": "I understood what he said, but I was not able to speak his language.",
+        "pt-br": "Eu entendia o que ele falava, mas não era capaz de falar a língua dele."
+      },
+      "speaker": {
+        "en": "LM, recalling his father",
+        "pt-br": "LM, recordando o pai"
+      },
+      "citation": {
+        "en": "Rosane Siqueira Teixeira, interview with LM, recorded Aug. 2005, published in Travessia no. 94 (2022), p. 140.",
+        "pt-br": "Rosane Siqueira Teixeira, entrevista com LM, realizada em ago. 2005, publicada em Travessia n.º 94 (2022), p. 140."
+      }
+    }
+  },
+  {
+    "id": "lm-day-measured-by-horn",
+    "publication": "preview",
+    "kind": "interview",
+    "title": {
+      "en": "A day measured by the horn",
+      "pt-br": "Um dia medido pela corneta"
+    },
+    "dek": {
+      "en": "In LM’s memory, time on the coffee farm belonged to a sound that reached the field before sunrise routines were complete.",
+      "pt-br": "Na memória de LM, o tempo na fazenda de café pertencia a um som que alcançava o eito antes de terminar a rotina do amanhecer."
+    },
+    "period": {
+      "en": "Childhood memories of the 1930s; interview recorded in 2005",
+      "pt-br": "Lembranças de infância dos anos 1930; entrevista realizada em 2005"
+    },
+    "attribution": {
+      "en": "LM, interviewed by Rosane Siqueira Teixeira",
+      "pt-br": "LM, entrevistado por Rosane Siqueira Teixeira"
+    },
+    "context": {
+      "en": "LM described the labor system his own family knew in the Araraquara region, decades after the Panzonatos’ arrival.",
+      "pt-br": "LM descreveu o sistema de trabalho conhecido por sua própria família na região de Araraquara, décadas depois da chegada dos Panzonato."
+    },
+    "chapterKey": "brazil",
+    "mediaIds": [
+      "apesp-colonos-harvesting-coffee-1908",
+      "apesp-coffee-drying-terrace"
+    ],
+    "sourceIds": [
+      "context-colonato-oral-history",
+      "apesp-colonos-harvesting-coffee-1908",
+      "apesp-coffee-drying-terrace"
+    ],
+    "paragraphs": {
+      "en": [
+        "LM did not describe farm labor as a blur. He gave it a clock. At six in the morning, a horn sounded; by then the worker was expected to be at the eito, the exact stretch of coffee rows where the hoe had been left the afternoon before. Another call marked lunch at nine, coffee at noon, and departure at six in the evening. In June and July, he said, darkness could arrive before permission to leave. The day belonged to the farm’s signal, not to the light.",
+        "The contract sat in a work booklet, and LM remembered its clauses as favoring the landowner. Families cared for two thousand coffee trees and were paid at intervals, with a broader reckoning after the harvest. Even the tools crossed the line between livelihood and expense: colonos bought their own mattock, hoe, rake, and sieve, then carried an empty canvas sack out for picking. LM recalled his family using a cornstalk to pull berries in wet weather without harming them; striking the trees could bring immediate expulsion. These are the precise textures of one family’s memory in the Araraquara region."
+      ],
+      "pt-br": [
+        "LM não descreveu o trabalho na fazenda como algo indistinto. Deu-lhe um relógio. Às seis da manhã, a corneta tocava; nesse momento, o trabalhador já deveria estar no eito, no trecho exato dos cafezais onde deixara a enxada na tarde anterior. Outro toque marcava o almoço às nove, o café ao meio-dia e a saída às seis da tarde. Em junho e julho, contou ele, a escuridão podia chegar antes da permissão para ir embora. O dia pertencia ao sinal da fazenda, não à luz.",
+        "O contrato ficava registrado em uma caderneta de trabalho, e LM lembrava suas cláusulas como favoráveis ao fazendeiro. As famílias cuidavam dos cafeeiros que lhes eram atribuídos e recebiam em intervalos, com um acerto mais amplo depois da colheita. Até as ferramentas atravessavam a fronteira entre sustento e despesa: os colonos compravam enxadão, enxada, rastelo e peneira, depois carregavam para a colheita um saco vazio de lona. LM recordou que sua família usava uma cana de milho para puxar os grãos em dias chuvosos sem feri-los; bater nos pés podia causar expulsão imediata. São texturas precisas da memória de uma família da região de Araraquara."
+      ]
+    },
+    "quote": {
+      "original": "Não era fácil!",
+      "originalLang": "pt-br",
+      "translation": {
+        "en": "It was not easy!",
+        "pt-br": "Não era fácil!"
+      },
+      "speaker": {
+        "en": "LM, after describing the horn-governed workday",
+        "pt-br": "LM, depois de descrever o dia de trabalho regido pela corneta"
+      },
+      "citation": {
+        "en": "Rosane Siqueira Teixeira, interview with LM, recorded Aug. 2005, published in Travessia no. 94 (2022), p. 141.",
+        "pt-br": "Rosane Siqueira Teixeira, entrevista com LM, realizada em ago. 2005, publicada em Travessia n.º 94 (2022), p. 141."
+      }
+    }
+  },
+  {
+    "id": "lm-return-that-never-came",
+    "publication": "preview",
+    "kind": "interview",
+    "title": {
+      "en": "The return that never came",
+      "pt-br": "A volta que nunca veio"
+    },
+    "dek": {
+      "en": "LM remembered an intention to return to Italy surviving long after the money to do so had vanished.",
+      "pt-br": "LM recordava uma intenção de voltar à Itália que sobreviveu muito depois de desaparecer o dinheiro para realizá-la."
+    },
+    "period": {
+      "en": "A family memory recorded in 2005",
+      "pt-br": "Uma memória familiar registrada em 2005"
+    },
+    "attribution": {
+      "en": "LM, interviewed by Rosane Siqueira Teixeira",
+      "pt-br": "LM, entrevistado por Rosane Siqueira Teixeira"
+    },
+    "context": {
+      "en": "LM spoke about his own father and grandfather; his broad claim about migrants’ intentions is preserved as his viewpoint, not stated as a universal fact.",
+      "pt-br": "LM falou sobre seu próprio pai e avô; sua afirmação ampla sobre as intenções dos migrantes é preservada como ponto de vista, não como fato universal."
+    },
+    "chapterKey": "return",
+    "mediaIds": [
+      "coffee-harvest-araraquara-gaensly"
+    ],
+    "sourceIds": [
+      "context-colonato-oral-history",
+      "coffee-harvest-araraquara-gaensly"
+    ],
+    "paragraphs": {
+      "en": [
+        "At the end of the published interview, LM turned from schedules and tools to an impossible journey. In his telling, Italian emigrants came intending to return, but farm earnings did not leave enough even after the store account was paid. The outward journey had happened; no one, he observed, paid the fare back. What began as a plan could harden into a sentence: home remained across the ocean while the household’s arithmetic kept the family in Brazil.",
+        "LM placed that longing inside a remembered family episode. His paternal grandfather spent his life saying he wanted to go back to Italy. One day the older man disappeared. The family eventually found him far from Araraquara, near the Jacaré-Guaçu River. He told them he was going to Italy. The interview gives no further scene and no private thoughts, only the stark direction of his walk. It is enough. A destination thousands of kilometers away had become, in memory, a road taken on foot. Beside documented departures and arrivals, the episode preserves another kind of historical truth: migration could remain unfinished in the imagination even when a life had taken root elsewhere."
+      ],
+      "pt-br": [
+        "No fim da entrevista publicada, LM passou dos horários e das ferramentas para uma viagem impossível. Em seu relato, os italianos emigravam com a intenção de voltar, mas o ganho na fazenda não deixava sobra sequer depois da conta no armazém. A viagem de ida acontecera; a de volta, observou ele, ninguém pagava. O que começara como plano podia endurecer como sentença: a terra natal permanecia do outro lado do oceano, enquanto a aritmética da casa mantinha a família no Brasil.",
+        "LM situou esse desejo em um episódio guardado pela família. Seu avô paterno passou a vida dizendo que queria regressar à Itália. Um dia, o idoso desapareceu. Os parentes acabaram por encontrá-lo longe de Araraquara, perto do rio Jacaré-Guaçu. Ele lhes disse que estava indo para a Itália. A entrevista não oferece outra cena nem pensamentos íntimos, apenas a direção abrupta daquela caminhada. Basta. Um destino a milhares de quilômetros transformara-se, na memória, em uma estrada percorrida a pé. Ao lado de partidas e chegadas documentadas, o episódio preserva outra forma de verdade histórica: a migração podia continuar inacabada na imaginação mesmo quando a vida já criara raízes em outro lugar."
+      ]
+    },
+    "quote": {
+      "original": "queria voltar à Itália",
+      "originalLang": "pt-br",
+      "translation": {
+        "en": "wanted to return to Italy",
+        "pt-br": "queria voltar à Itália"
+      },
+      "speaker": {
+        "en": "LM, narrating his grandfather’s repeated wish",
+        "pt-br": "LM, narrando o desejo repetido de seu avô"
+      },
+      "citation": {
+        "en": "Rosane Siqueira Teixeira, interview with LM, recorded Aug. 2005, published in Travessia no. 94 (2022), p. 144.",
+        "pt-br": "Rosane Siqueira Teixeira, entrevista com LM, realizada em ago. 2005, publicada em Travessia n.º 94 (2022), p. 144."
+      }
+    }
+  },
+  {
+    "id": "letter-from-atlantic-1889",
+    "publication": "preview",
+    "kind": "letter",
+    "title": {
+      "en": "An ocean remembered in a letter",
+      "pt-br": "Um oceano lembrado em uma carta"
+    },
+    "dek": {
+      "en": "In 1889, Francesco Costantin tried to send the physical terror of an Atlantic storm back home in words.",
+      "pt-br": "Em 1889, Francesco Costantin tentou enviar para casa, em palavras, o terror físico de uma tempestade no Atlântico."
+    },
+    "period": {
+      "en": "1889 letter; quoted in 2003",
+      "pt-br": "Carta de 1889; citada em 2003"
+    },
+    "attribution": {
+      "en": "Francesco Costantin, of Biadene, Treviso",
+      "pt-br": "Francesco Costantin, de Biadene, Treviso"
+    },
+    "context": {
+      "en": "A historic emigrant letter reproduced by Gian Antonio Stella; it is contemporary context, not a Panzonato letter or a description of the Colombo.",
+      "pt-br": "Carta histórica de emigrante reproduzida por Gian Antonio Stella; é contexto contemporâneo, não uma carta Panzonato nem uma descrição do Colombo."
+    },
+    "chapterKey": "crossing",
+    "mediaIds": [
+      "steerage-interior-1891",
+      "gangplank-before-sailing-1891"
+    ],
+    "sourceIds": [
+      "francesco-costantin-letter-1889",
+      "steerage-interior-1891",
+      "gangplank-before-sailing-1891"
+    ],
+    "paragraphs": {
+      "en": [
+        "Francesco Costantin wrote home from South America in 1889. He came from Biadene in the province of Treviso, another part of Veneto. The surviving excerpt reaches us through a later newspaper essay by Gian Antonio Stella, hosted by CESTIM, which identifies the writer, place, and year. Costantin begins by saying that words are inadequate. Then his prose pitches with the vessel: waves rise toward the sky, fall into deep valleys, and strike the steamer from stern to bow and along its sides.",
+        "The letter does not turn the crossing into a noble adventure. Its human sounds are crying, rosaries, and curses. Its bodies are seasick and contorted. Costantin also reports deaths and fears the outbreak of contagious disease. His account belongs to his own voyage, but beside the Panzonato register it carries the emotional force of a voice from the same era and region. The steep waves he describes make a moving ship physical again: balance fails, ordinary gestures become difficult, and the destination lies beyond a horizon no passenger can shorten. Together, letter and period pictures keep the ocean from shrinking to a line between two dates."
+      ],
+      "pt-br": [
+        "Francesco Costantin escreveu para casa desde a América do Sul em 1889. Era de Biadene, na província de Treviso, outra parte do Vêneto. O trecho preservado chega até nós por meio de um ensaio jornalístico posterior de Gian Antonio Stella, hospedado pelo CESTIM, que identifica autor, lugar e ano. Costantin começa dizendo que as palavras são inadequadas. Depois, sua prosa oscila com a embarcação: as ondas sobem em direção ao céu, descem em vales profundos e atingem o vapor da popa à proa e pelos flancos.",
+        "A carta não transforma a travessia em aventura nobre. Seus sons humanos são choros, rosários e blasfêmias. Seus corpos sofrem enjoos e contorções. Costantin também relata mortes e teme o surgimento de doença contagiosa. Seu relato pertence à própria viagem, mas, ao lado do registro Panzonato, carrega a força emotiva de uma voz da mesma época e região. As ondas abruptas que descreve devolvem matéria ao navio em movimento: o equilíbrio falha, gestos comuns ficam difíceis e o destino permanece além de um horizonte que passageiro algum pode encurtar. Juntas, a carta e as imagens de época impedem que o oceano se reduza a uma linha entre duas datas."
+      ]
+    },
+    "quote": {
+      "original": "Non trovo parole adeguate per descriverle per l'intiero lo sconvolgimento del Piroscafo",
+      "originalLang": "it",
+      "translation": {
+        "en": "I cannot find adequate words to describe fully the upheaval of the steamship.",
+        "pt-br": "Não encontro palavras adequadas para descrever por inteiro o abalo do navio a vapor."
+      },
+      "speaker": {
+        "en": "Francesco Costantin, writing home from South America",
+        "pt-br": "Francesco Costantin, escrevendo para casa desde a América do Sul"
+      },
+      "citation": {
+        "en": "Francesco Costantin letter, 1889, quoted by Gian Antonio Stella in Corriere della Sera, 26 Oct. 2003, reproduced by CESTIM.",
+        "pt-br": "Carta de Francesco Costantin, 1889, citada por Gian Antonio Stella no Corriere della Sera, 26 out. 2003, reproduzida pelo CESTIM."
+      }
+    }
+  },
+  {
+    "id": "ticket-kept-close-1910",
+    "publication": "preview",
+    "kind": "object",
+    "title": {
+      "en": "The ticket that had to survive the voyage",
+      "pt-br": "O bilhete que precisava sobreviver à viagem"
+    },
+    "dek": {
+      "en": "A third-class ticket was passage, instruction sheet, proof of payment, and sometimes the first page of a new official file.",
+      "pt-br": "Um bilhete de terceira classe era passagem, folha de instruções, comprovante de pagamento e, às vezes, a primeira página de um novo processo oficial."
+    },
+    "period": {
+      "en": "1910",
+      "pt-br": "1910"
+    },
+    "attribution": {
+      "en": "Arquivo Público do Estado de São Paulo / Museu da Imigração",
+      "pt-br": "Arquivo Público do Estado de São Paulo / Museu da Imigração"
+    },
+    "context": {
+      "en": "A ticket preserved in a 1910 fare-restitution file; it is not the Panzonato family’s ticket and postdates their arrival by nineteen years.",
+      "pt-br": "Bilhete preservado em um processo de restituição de passagem de 1910; não pertence à família Panzonato e é dezenove anos posterior à chegada dela."
+    },
+    "chapterKey": "crossing",
+    "mediaIds": [
+      "sacop-third-class-ticket-1910"
+    ],
+    "sourceIds": [
+      "sacop-third-class-ticket-1910"
+    ],
+    "paragraphs": {
+      "en": [
+        "The ticket is tall and narrow, crowded with printed rules, stamps, and handwriting. Its creases and marks make migration look less like an arrow on a map than a sequence of moments when a piece of paper had to be produced, examined, and kept. The Immigration Museum’s digital exhibition explains that tickets were needed not only to board and cross the Atlantic, but also for procedures after arrival. Some explicitly instructed passengers to retain them and show them to ship officers whenever asked.",
+        "This example survived because it entered a 1910 request for reimbursement of passage costs handled by São Paulo’s Secretariat of Agriculture, Commerce and Public Works. Such requests could gather tickets, passports, and receipts into small dossiers assembled by migrants, employers, or contracting families. Their preservation reveals the administrative life of an object meant first for a journey. Color, size, language, routes, prices, passenger names, menus, and regulations varied by company and period; the document could carry both intimate particulars and the machinery of migration. Nineteen years after the Panzonato arrival, this later object shows why one fragile slip might remain close at hand from the port to the hostelry and beyond."
+      ],
+      "pt-br": [
+        "O bilhete é alto e estreito, tomado por regras impressas, carimbos e escrita à mão. Suas dobras e marcas fazem a migração parecer menos uma seta no mapa do que uma sequência de momentos em que um pedaço de papel precisava ser apresentado, examinado e guardado. A exposição digital do Museu da Imigração explica que os bilhetes eram necessários não apenas para embarcar e cruzar o Atlântico, mas também para cumprir procedimentos depois da chegada. Alguns mandavam explicitamente que o passageiro os conservasse e mostrasse aos oficiais do navio sempre que solicitado.",
+        "Este exemplar sobreviveu porque entrou em um pedido de restituição do valor da passagem tratado, em 1910, pela Secretaria de Agricultura, Comércio e Obras Públicas de São Paulo. Esses requerimentos podiam reunir bilhetes, passaportes e recibos em pequenos dossiês preparados por migrantes, patrões ou famílias contratantes. Sua preservação revela a vida administrativa de um objeto feito, primeiro, para uma viagem. Cor, tamanho, idioma, rotas, preços, nomes de passageiros, cardápios e regulamentos variavam conforme a companhia e a época; o documento podia carregar detalhes íntimos e a engrenagem da migração. Dezenove anos depois da chegada dos Panzonato, este objeto posterior mostra por que uma folha frágil podia permanecer à mão desde o porto até a hospedaria e além."
+      ]
+    }
+  },
+  {
+    "id": "venice-street-1891",
+    "publication": "preview",
+    "kind": "essay",
+    "title": {
+      "en": "A street holds still in 1891",
+      "pt-br": "Uma rua para no tempo em 1891"
+    },
+    "dek": {
+      "en": "Ferdinando Ongania’s portfolio turns away from monuments long enough for residents of Venice to look back at the camera.",
+      "pt-br": "O álbum de Ferdinando Ongania se afasta dos monumentos por tempo suficiente para que moradores de Veneza encarem a câmera."
+    },
+    "period": {
+      "en": "Venice, 1891",
+      "pt-br": "Veneza, 1891"
+    },
+    "attribution": {
+      "en": "Ferdinando Ongania, Calli e Canali in Venezia",
+      "pt-br": "Ferdinando Ongania, Calli e Canali in Venezia"
+    },
+    "context": {
+      "en": "A period Venetian streetscape from the year of the family’s migration; it does not show Gambarare or identified relatives.",
+      "pt-br": "Cena de rua veneziana do ano da migração familiar; não mostra Gambarare nem parentes identificados."
+    },
+    "chapterKey": "origins",
+    "mediaIds": [
+      "venice-1891-working-calle",
+      "venice-1891-campo-santa-margherita"
+    ],
+    "sourceIds": [
+      "context-ongania-calli-canali",
+      "venice-1891-working-calle",
+      "venice-1891-campo-santa-margherita"
+    ],
+    "paragraphs": {
+      "en": [
+        "A narrow Venetian calle rises vertically through the frame. Stone walls press close, laundry or cloth hangs above, and the pale strip of sky seems distant. Along the street, women, men, and children have stopped. Some stand in doorways; others cluster on the paving and look toward the camera. The image belongs to Ferdinando Ongania’s Calli e Canali in Venezia, a two-volume portfolio of one hundred photogravures devoted to the city’s canals, streets, buildings, and inhabitants.",
+        "Its date, 1891, gives the photograph a powerful nearness to the Panzonato migration. It shows a regional world made at street level: worn walls, shared thresholds, work, watchfulness, children among adults. A second view, Campo Santa Margherita, opens the space into a busy square and reminds us that the portfolio moved between intimate lanes and civic life. The plates return faces, surfaces, and human scale to the province named in the records, in the same year that Fosca, Giuseppe, and their children crossed the Atlantic."
+      ],
+      "pt-br": [
+        "Uma calle estreita de Veneza sobe verticalmente pelo enquadramento. As paredes de pedra se aproximam, roupas ou tecidos pendem no alto, e a faixa clara do céu parece distante. Ao longo da rua, mulheres, homens e crianças pararam. Alguns estão nas portas; outros se agrupam sobre o calçamento e olham para a câmera. A imagem pertence a Calli e Canali in Venezia, de Ferdinando Ongania, álbum em dois volumes com cem fotogravuras dedicadas aos canais, ruas, edifícios e habitantes da cidade.",
+        "Sua data, 1891, confere à fotografia uma proximidade poderosa com a migração dos Panzonato. Ela mostra um mundo regional construído ao nível da rua: paredes gastas, soleiras compartilhadas, trabalho, atenção, crianças entre adultos. Uma segunda vista, do Campo Santa Margherita, abre o espaço em uma praça movimentada e lembra que o álbum transitava entre vielas íntimas e vida cívica. As pranchas devolvem rostos, superfícies e escala humana à província nomeada nos documentos, no mesmo ano em que Fosca, Giuseppe e seus filhos cruzaram o Atlântico."
+      ]
+    }
+  },
+  {
+    "id": "eight-names-one-ledger",
+    "publication": "preview",
+    "kind": "object",
+    "title": {
+      "en": "Eight names in one ledger",
+      "pt-br": "Oito nomes em um livro"
+    },
+    "dek": {
+      "en": "A certified extract fixes one family to a date, a ship, a point of origin, and a destination—without filling the silences between them.",
+      "pt-br": "Uma certidão fixa uma família a uma data, um navio, uma procedência e um destino — sem preencher os silêncios entre esses pontos."
+    },
+    "period": {
+      "en": "15 December 1891",
+      "pt-br": "15 de dezembro de 1891"
+    },
+    "attribution": {
+      "en": "Hospedaria de Imigrantes de São Paulo, Livro 031, p. 283",
+      "pt-br": "Hospedaria de Imigrantes de São Paulo, Livro 031, p. 283"
+    },
+    "context": {
+      "en": "The displayed image is a certified extract issued in 2002 from the family’s 1891 hostel entry, not the original ledger page.",
+      "pt-br": "A imagem exibida é uma certidão emitida em 2002 a partir do registro familiar de 1891 na hospedaria, não a página original do livro."
+    },
+    "chapterKey": "brazil",
+    "mediaIds": [
+      "panzonato-hospedaria-1891",
+      "immigrants-at-bras-courtyard"
+    ],
+    "sourceIds": [
+      "panzonato-hospedaria-1891",
+      "immigrants-at-bras-courtyard"
+    ],
+    "paragraphs": {
+      "en": [
+        "The entry is compact: Giuseppe, thirty-five; Fosca, thirty; Luigia, ten; Catarina, nine; Candida, seven; Luigi, five; Domenico, three; Eugenio, one. Eight people appear together in the São Paulo immigrant hostel record dated 15 December 1891. The associated steamship is Colombo. The line gives Rio de Janeiro as provenance and Tietê as destination. In a few ruled cells, a household becomes visible at a precise administrative threshold.",
+        "The image preserved by the family is not the nineteenth-century ledger itself. It is a certified extract issued by the Memorial do Imigrante in 2002, pointing back to Livro 031, page 283, order 07264. The certificate gives the old entry a new documentary life. It carries forward names, reported ages, a date, and a direction of travel: Rio de Janeiro behind them, Tietê written ahead. The courtyard photograph shown alongside it depicts the Brás hostelry at another moment, opening the ruled line into the scale of an institution built to receive families in great numbers."
+      ],
+      "pt-br": [
+        "O registro é compacto: Giuseppe, trinta e cinco; Fosca, trinta; Luigia, dez; Catarina, nove; Candida, sete; Luigi, cinco; Domenico, três; Eugenio, um. Oito pessoas aparecem juntas no livro da Hospedaria de Imigrantes de São Paulo, com data de 15 de dezembro de 1891. O vapor associado é o Colombo. A linha traz Rio de Janeiro como procedência e Tietê como destino. Em poucas células pautadas, uma família se torna visível em um limiar administrativo preciso.",
+        "A imagem preservada pela família não é o livro do século XIX. É uma certidão emitida pelo Memorial do Imigrante em 2002, que remete ao Livro 031, página 283, ordem 07264. A certidão oferece nova vida documental ao assento antigo. Leva adiante nomes, idades declaradas, uma data e uma direção de viagem: Rio de Janeiro atrás deles, Tietê escrito adiante. A fotografia do pátio apresentada ao lado mostra a Hospedaria do Brás em outro momento e abre a linha pautada para a escala de uma instituição construída para receber famílias em grande número."
+      ]
+    }
+  }
+]

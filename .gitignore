@@ -7,6 +7,7 @@
 # Local archive and media storage; commit metadata and code, not these files.
 /assets/
 /media/
+/Rand-McNally Library Map Of The World3185956163883745958/
 /research/
 
 # Prevent the former bundled-media layout from entering Git.
@@ -21,6 +22,7 @@
 /work/panzonato-prototype/
 
 # Local tooling, generated builds, and server configuration.
+/.mcp.json
 /node_modules/
 /dist/
 /.astro/

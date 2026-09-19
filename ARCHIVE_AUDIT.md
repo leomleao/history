@@ -45,3 +45,30 @@ The archive supplies material for an exhibition, not a repeated illustration beh
 Originals, derivative images, video, raw catalogs, and detailed audit/contact-sheet artifacts remain local and ignored. Only selected public metadata, narrative, and code belong in Git. Full modern descendant records and the handwritten tree containing living relatives are not published as facsimiles.
 
 Detailed worker reports and inventories are retained locally under `work/implementation/research-audit/`. Verification of the integrated exhibition is recorded in `REVIEW.md`.
+
+## Stories and historical collections expansion
+
+The subsequent pass added 33 distinct historical images and documents to the 31-item baseline. Thirty-two come from distinct items in the existing inventory; one is the actual Colombo photograph reproduced with [José Carlos Rossini's ship history](https://www.novomilenio.inf.br/rossini/brazil.htm). It shows the ship after its 1901 Livorno refit, ten years after the family's crossing. The six collections contain 47 unique placements across Venice, life at sea, old passage papers, arrival, work, and Capivari. The passage-paper collection uses old dossier sheets and tickets; modern certified extracts remain in the family archive.
+
+Direct inspection corrected more misleading filenames: a supposed hostel façade shows immigrants leaving a steamer; a supposed refectory shows the hostel exterior; a supposed disinfection chamber shows its kitchen; and a supposed colono-family portrait shows Rua do Commercio. The Venice additions credit Ongania as publisher, following the [holding library's 1891 volume record](https://digitalcommons.andrews.edu/library-books/3/), without inventing individual photographer credits.
+
+The monograph's narrative arc informs nine stories and deeper origins, crossing, and Brazil chapters. The full Rossini article changes several details in the earlier summary: the builder is given as A. Leslie & Co. on the Tyne, the name Colombo dates to early 1890, and the pictured refit to 1901. Its February 1891 yellow-fever episode concerns a separate northbound voyage. None of those events is presented as an eyewitness account of the family's crossing. Their European boarding port, precise passage duration, assigned accommodation, health at sea, and intervening rail transfers remain unestablished.
+
+Three attributed excerpts from LM's 2005 interview and an 1889 letter by Francesco Costantin bring other immigrants' voices into the exhibition. They are identified as contextual testimony. The Fosca story uses the documented ages and family composition to describe plausible demands of care, explicitly as reconstruction. No recording or family diary has been invented.
+
+The 31 original media records and all 46 original source records were preserved exactly during integration. Current media preparation validates 168 separate WebP files (18,057,278 bytes). Further inspection notes and worker evidence remain ignored under `work/implementation/living-archive/`.
+
+
+## Historical timeline evidence
+
+The chronology now includes 13 historical entries alongside the 12 family milestones. Fourteen additional text references bring the source catalog to 96; the existing 82 source records and all media remain intact. Legal texts, official institutional histories and scholarly work support the flood, grain crisis, taxation, coffee expansion, recruitment, passage assistance and abolition sequence. The Jacini inquiry documents rural conditions; it is not described as a cause of emigration.
+
+The [Eastern Alps basin authority](https://comunico.distrettoalpiorientali.it/osservatorio/bacino-del-brenta-bacchiglione/) records the 1882 Brenta breaches and infrastructure damage. These establish regional exposure, not losses by this particular household. The tax chronology follows the [University of Florence library](https://www.sba.unifi.it/p577.html), distinguishing the 1868 law, 1869 collection and 1884 abolition. The [1884 provincial law](https://www.al.sp.gov.br/repositorio/legislacao/lei/1884/lei-28-29.03.1884.html) establishes passage-assistance eligibility; it does not prove a family payment. The [Arquivo Nacional's abolition history](https://www.gov.br/arquivonacional/pt-br/sites_eventos/sites-tematicos-1/brasil-oitocentista/temas-oitocentistas/legislacao-abolicionista-no-imperio) preserves the role of enslaved people's resistance and distinguishes the end of legal slavery from the unequal conditions after emancipation.
+
+Source notes retain uncertainties; the timeline's consequence paragraphs explain what these forces could mean for a household. Detailed research and review artifacts are in ignored `work/implementation/historical-timeline/`.
+
+## Supplied historical world map
+
+The later user-supplied Rand McNally world map is an addition to the original holdings audit. Its sidecar identifies *Rand-McNally Library Map Of The World* (1903), David Rumsey List No. 4707.002. The exhibition uses a visually checked Atlantic crop, with separately drawn route graphics; its original printed shipping lanes remain intact. This brings the selected exhibition to 65 media records and 97 sources, with 172 validated WebP derivatives totaling 24,651,704 bytes.
+
+The animation follows the Colombo’s regular Genoa–Lisbon–Rio–Santos service, using a sea corridor checked against the map’s actual coastlines. It is not evidence for the family’s precise route, and the 1903 atlas is clearly dated. Map preparation and route calibration evidence remain in ignored `work/implementation/animated-voyage/MEDIA_REPORT.md`.

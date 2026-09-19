@@ -5,46 +5,54 @@ slug: "a-travessia"
 order: 2
 title: "Oito nomes e o Colombo"
 question: "O que um registro familiar pode revelar sobre uma travessia oceânica?"
-summary: "Acompanhe oito nomes Panzonato no livro de 1891 e entre no mundo mais amplo do vapor Colombo."
-mediaId: "emigrant-family-on-deck-ferraguti"
-galleryIds: ["steerage-interior-1891", "gangplank-before-sailing-1891", "sacop-third-class-ticket-1910"]
-sourceIds: ["panzonato-hospedaria-1891", "panzonato-desembarque-certificate-2002", "context-colombo-history", "steerage-interior-1891", "sacop-third-class-ticket-1910", "emigrant-family-on-deck-ferraguti"]
+summary: "Acompanhe Fosca, Giuseppe e seis filhos no mundo físico do Colombo e através do limiar documental de 15 de dezembro de 1891."
+mediaId: "colombo-drydock-1901"
+galleryIds: ["emigrant-family-on-deck-ferraguti", "steerage-interior-1891", "gangplank-before-sailing-1891", "panzonato-hospedaria-1891"]
+sourceIds: ["panzonato-hospedaria-1891", "panzonato-desembarque-certificate-2002", "context-colombo-rossini-1994", "colombo-drydock-1901", "context-ocean-passenger-1891", "francesco-costantin-letter-1889", "steerage-interior-1891", "gangplank-before-sailing-1891", "emigrant-family-on-deck-ferraguti"]
 personIds: ["giuseppe-giacomo-panzonato", "fosca-moro", "catharina-pansonato", "luiz-pansonatto"]
 placeIds: ["rio-de-janeiro", "sao-paulo", "tiete"]
 publication: "preview"
 translation: "provisional"
 ---
 
-## Oito pessoas numa só linha
+## Uma família, não uma contagem de passageiros
 
-Em 15 de dezembro de 1891, um funcionário inscreveu uma família inteira numa tabela pautada: Giuseppe, 35 anos; Fosca, 30; Luigia, 10; Catarina, 9; Candida, 7; Luigi, 5; Domenico, 3; e Eugenio, 1. O sobrenome é Panzonato, e o vapor, *Colombo*.
+A travessia começa com oito pessoas. Giuseppe foi registrado com trinta e cinco anos; Fosca, com trinta. Com eles viajavam Luigia, dez; Catarina, nove; Candida, sete; Luigi, cinco; Domenico, três; e Eugenio, um. Escritos em ordem no [livro da Hospedaria de Imigrantes de São Paulo](/pt-br/archive/panzonato-hospedaria-1891/), os nomes parecem contidos. Lidos em voz alta, tornam-se uma família espalhada por várias infâncias: três filhas, três filhos, uma criança perto da adolescência e outra pouco além de bebê.
 
-O [registro da Hospedaria](/pt-br/archive/panzonato-hospedaria-1891/) dá escala humana à travessia. Seis crianças aparecem em ordem de idade abaixo dos pais; a menor tem um ano. Essa única linha é a visão mais nítida de quem viajou junto.
+Essa diferença de idades importa. Luigi tinha cinco anos, enquanto Domenico, de três, e Eugenio, de um, eram os dois menores. Cada deslocamento por porto ou navio envolvia adultos capazes de compreender instruções, filhos mais velhos que podiam ficar por perto e duas crianças muito pequenas com outro ritmo e equilíbrio. A família não atravessou como oito lugares intercambiáveis numa lista. Atravessou como uma rede de dependência concentrada em dois pais.
 
-## O Rio atrás, Tietê adiante
+## O Colombo ganha forma
 
-Dois campos transformam a anotação em mapa. A família é registrada como *procedente de Rio de Janeiro*, com destino a *Tietê*. Uma [certidão posterior](/pt-br/archive/panzonato-desembarque-certificate-2002/) repete os dados e identifica a localização arquivística: livro 031, página 283, ordem 07264.
+O navio nomeado no registro já tivera outra vida. Construído às margens do Tyne em 1873 como *Brazil*, começou como cargueiro. Giacomo Cresta o comprou em 1888 e mandou transformá-lo em embarcação mista, de carga e passageiros. Depois de uma colisão em dezembro de 1889 e dos reparos em Gênova, recebeu o nome *Colombo* no início de 1890. A [história completa do navio](/pt-br/archive/context-colombo-rossini-1994/) por José Carlos Rossini fornece suas dimensões: 104 metros de comprimento, cerca de dez de boca, 2.408 toneladas de arqueação e velocidade média de nove nós.
 
-O Rio de Janeiro é, assim, a última procedência registrada; São Paulo, o lugar da inscrição; e Tietê, o destino escrito pelo funcionário. A partir desses pontos começa a geografia brasileira da família.
+Uma [fotografia posterior à reforma de 1901](/pt-br/archive/colombo-drydock-1901/) mostra o Colombo na doca seca do estaleiro Orlando, em Livorno. É uma imagem dez anos posterior, mas o casco alto e exposto transforma um nome do livro em ferro, escala e volume. O vapor era comprido o bastante para reunir mundos distintos: carga, máquinas, cabines individuais e acomodações comuns para a migração em massa.
 
-## O navio antes de ser Colombo
+## Centenas dentro de um casco
 
-O vapor já atravessara uma mudança de identidade. Construído em 1873 como *Brazil*, foi adquirido, convertido e rebatizado *Colombo* em 1888. Uma [história do navio](/pt-br/archive/context-colombo-history/) descreve o serviço regular que ligava Gênova, Lisboa, Rio de Janeiro e Santos.
+Rossini descreve o serviço regular Gênova–Lisboa–Rio de Janeiro–Santos transportando cerca de setecentos emigrantes em acomodações comuns precárias, além de oitenta a cem passageiros em cabines. Instalações frigoríficas armazenavam víveres frescos. Esses fatos precisam permanecer juntos. Era possível levar alimento fresco num navio cujos espaços coletivos de dormir e viver continuavam rudes, cheios e marcados pela conversão de um cargueiro.
 
-Sua escala era considerável: cerca de 700 passageiros em acomodações comuns e outros 80 a 100 em cabines. Depósitos refrigerados permitiam transportar provisões frescas, enquanto o mesmo relato descreve como precaríssimas as condições do transporte de imigrantes. Esses detalhes dão ao *Colombo* uma biografia própria ao lado dos nomes da família.
+Os dezoito dias entre Gênova e Rio apresentados no artigo descrevem o serviço da linha, não um relógio para esta família. O registro também não informa seu porto europeu de embarque ou classe exata. Por isso, a [ilustração da terceira classe de 1891](/pt-br/archive/steerage-interior-1891/) funciona como comparação, não como retrato do compartimento deles: beliches, mesas, pacotes e pessoas ocupam quase toda a superfície. Uma imagem contemporânea da [prancha de embarque](/pt-br/archive/gangplank-before-sailing-1891/) mostra como a passagem começava fisicamente, com corpos e trouxas atravessando uma inclinação estreita entre terra e navio.
 
-## Uma imagem de época da terceira classe
+## A casa móvel de Fosca
 
-A ilustração de Arnaldo Ferraguti, de 1889, mostra uma família emigrante descansando entre trouxas num convés aberto. Criada para *Sull’Oceano*, de Edmondo De Amicis, ela evoca o mundo das partidas em massa perto da data da viagem dos Panzonato. A [imagem de terceira classe de 1891](/pt-br/archive/steerage-interior-1891/) oferece outra visão contemporânea: passageiros e bagagens reunidos num compartimento cheio.
+Para Fosca e Giuseppe, a travessia seria medida não apenas em distância, mas em atos repetidos de cuidado. Uma família com essa composição precisava de água e comida para oito pessoas, lugares para dormir, roupas e pequenas posses mantidas juntas, além de contar as crianças sempre que as pessoas mudavam de espaço coletivo ou subiam ao convés. O documento não entrega essas tarefas a uma só pessoa. Ainda assim, a posição de Fosca como mãe de seis torna impossível ignorar seu acúmulo.
 
-As duas imagens mostram outros viajantes e rotas. Aqui, funcionam como contexto de época para os espaços, multidões e objetos materiais da migração oceânica.
+É possível imaginar apenas o que as evidências permitem. Num navio em movimento, manter Eugenio, de um ano, por perto enquanto se observava Domenico, de três, ocuparia mãos e atenção. Luigi, com cinco, podia andar sozinho, mas continuava pequeno. Luigia, Catarina e Candida eram mais velhas, porém ainda precisavam de descanso, comida e amparo, mesmo que também ajudassem. Um copo, uma refeição ou uma criança adormecendo se torna problema de equilíbrio quando a superfície embaixo não permanece imóvel. O cuidado tinha de transformar uma parte desconhecida de um navio cheio em lugar onde oito pessoas continuassem juntas.
 
-## Um bilhete como objeto administrativo
+## Um oceano nas palavras de outro emigrante
 
-O [bilhete de terceira classe de 1910](/pt-br/archive/sacop-third-class-ticket-1910/) pertence a um viajante posterior. Suas regras impressas, carimbos, formato estreito e anotações manuscritas revelam como uma viagem podia ser transformada num objeto oficial. O bilhete aponta também para a expansão dos sistemas de passagem subvencionada que ligavam companhias, migrantes e o governo paulista.
+Francesco Costantin, de Biadene, em Treviso, atravessou na mesma época. Escrevendo para casa desde a América do Sul em 1889, começou: “Non trovo parole adeguate per descriverle per l'intiero lo sconvolgimento del Piroscafo” — não encontrava palavras adequadas para o abalo do navio a vapor. No [trecho reproduzido por Gian Antonio Stella](/pt-br/archive/francesco-costantin-letter-1889/), as ondas sobem e caem em vales profundos; os sons humanos são choros, rosários e blasfêmias; os corpos respondem ao movimento com espasmos e vômito.
 
-Ao lado do registro Panzonato, ele mostra duas faces da documentação migratória: o papel levado na viagem e o livro produzido na chegada.
+A carta de Costantin pertence à viagem dele, não à dos Panzonato. Seu valor é sensorial e contemporâneo. Conta o que o movimento violento podia fazer com passageiros sem hábito do mar e por que até o cuidado comum se tornava exaustivo. A imagem de Ferraguti na galeria acrescenta um registro mais quieto: uma família permanece próxima entre trouxas num convés aberto, com seu mundo provisório reduzido a corpos, roupas e aquilo que podiam carregar.
 
-## Uma nova vida documental
+## Um risco já inscrito na história do navio
 
-O registro captura a família depois do oceano e no início de uma nova sequência de documentos. Mais tarde, Catarina será identificada em Capivari como natural de Gambarare. Luigi se tornará Luiz nas páginas brasileiras. Giuseppe passará a José. A travessia aparece como movimento entre continentes e como o momento em que oito nomes italianos começam a mudar nos registros do Brasil.
+O próprio Colombo carregava um aviso grave de meses antes. Rossini registra que, em fevereiro de 1891, em outra viagem rumo norte, de Santos a Gênova, o vapor transportava 1.027 emigrantes de retorno. Houve casos de febre amarela e quinze pessoas morreram antes da chegada; a embarcação foi posta em quarentena. A direção, os passageiros e as circunstâncias eram diferentes da viagem posterior dos Panzonato, mas o episódio torna específicos os riscos da época. A doença não fazia parte apenas da retórica marítima: havia entrado na história documentada daquele casco.
+
+O registro familiar não relata enfermidade, tempo no mar ou morte a bordo. As exigências documentadas já eram grandes: seis filhos, um cargueiro convertido, centenas de companheiros de viagem e um oceano que outro emigrante vêneto mal conseguia descrever.
+
+## Oito nomes chegam à página seguinte
+
+Em 15 de dezembro de 1891, os oito aparecem em São Paulo. A [certidão posterior](/pt-br/archive/panzonato-desembarque-certificate-2002/) remete ao livro 031, página 283, ordem 07264. Dois campos transformam a família em rota brasileira: procedência, Rio de Janeiro; destino, Tietê. O documento os associa ao *Colombo*, sem preencher o trajeto entre esses pontos.
+
+O que preserva basta para uma chegada poderosa. Fosca continua ao lado de Giuseppe. Luigia, Catarina, Candida, Luigi, Domenico e Eugenio permanecem escritos abaixo deles. O oceano não reduziu a família a uma contagem; a página devolve cada nome. Adiante estão Tietê, uma lacuna documental e depois Capivari. Atrás deles fica o último registro compartilhado de uma família italiana começando a se tornar brasileira.

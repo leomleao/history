@@ -1,0 +1,218 @@
+---
+import voyageMap from '../data/voyage-map.json';
+import '../styles/voyage-map.css';
+import { getMedia, type Locale } from '../lib/content';
+
+interface Props {
+  locale: Locale;
+}
+
+type Localized = Record<Locale, string>;
+type RoutePoint = {
+  id: string;
+  kind: 'port' | 'passage' | 'ocean';
+  label?: Localized;
+  x: number;
+  y: number;
+};
+type VoyageMapData = {
+  id: string;
+  originalWidth: number;
+  originalHeight: number;
+  crop: { x: number; y: number; width: number; height: number };
+  viewBox: string;
+  variants: { path: string; width: number; height: number; bytes: number; sha256: string }[];
+  alt: Localized;
+  caption: Localized;
+  credit: Localized;
+  source: { title: string; date: number; url: string };
+  route: { path: string; stops: string[]; points: RoutePoint[] };
+};
+
+const { locale } = Astro.props;
+const data = voyageMap as VoyageMapData;
+const pt = locale === 'pt-br';
+const media = getMedia(data.id, locale);
+const ports = data.route.stops.map((id) => data.route.points.find((point) => point.id === id)).filter((point): point is RoutePoint => Boolean(point));
+const finalPort = ports.at(-1)!;
+const mapArchiveHref = media.href;
+const rossiniHref = `/${locale}/archive/context-colombo-rossini-1994/`;
+const arrivalHref = `/${locale}/archive/panzonato-hospedaria-1891/`;
+const labelPlacement: Record<string, { dx: number; dy: number; anchor: 'start' | 'end' }> = {
+  genoa: { dx: -18, dy: -20, anchor: 'end' },
+  lisbon: { dx: 18, dy: -20, anchor: 'start' },
+  'rio-de-janeiro': { dx: -20, dy: -30, anchor: 'end' },
+  santos: { dx: 18, dy: 42, anchor: 'start' },
+};
+const copy = pt ? {
+  kicker: 'Uma rota em quatro portos',
+  title: 'A rota do Colombo',
+  sequence: 'Gênova · Lisboa · Rio de Janeiro · Santos',
+  play: 'Reproduzir',
+  pause: 'Pausar',
+  replay: 'Repetir',
+  flat: 'Vista plana',
+  tilted: 'Vista inclinada',
+  progress: 'Progresso da rota',
+  routeDescription: 'A linha sai de Gênova, contorna o Mediterrâneo ocidental pelo Estreito de Gibraltar, passa por Lisboa e cruza o Atlântico até o Rio de Janeiro e Santos.',
+  inspect: 'Examinar o mapa',
+  mapFallback: 'O mapa histórico não pôde ser exibido. A rota, os portos e as fontes continuam disponíveis.',
+  playingStatus: 'O Colombo está percorrendo a rota.',
+  pausedStatus: 'A viagem está pausada.',
+  replayingStatus: 'A viagem recomeçou em Gênova.',
+  completeStatus: 'O navio chegou a Santos.',
+  progressStatus: 'Progresso da rota: {value}%.',
+  imageError: 'O mapa histórico não pôde ser carregado; a rota e as fontes continuam disponíveis.',
+  noteBefore: 'A ',
+  noteRoute: 'rota regular Gênova–Lisboa–Rio–Santos do Colombo',
+  noteMiddle: ` é ilustrada aqui sobre um atlas de ${data.source.date}. O `,
+  noteRecord: 'registro da família',
+  noteAfter: ' informa procedência do Rio de Janeiro e a Hospedaria de São Paulo em 15 de dezembro de 1891; os portos exatos de embarque e desembarque não estão confirmados. ',
+  mapSource: 'Fonte do mapa',
+  portContext: {
+    genoa: 'No extremo mediterrâneo da linha: Gênova, porto italiano de partida do Colombo.',
+    lisbon: 'A última escala europeia programada antes da travessia atlântica rumo ao sul.',
+    'rio-de-janeiro': 'O local de procedência mencionado no próprio registro da família.',
+    santos: 'Depois do Rio, o serviço regular seguia até Santos, no litoral paulista.',
+  },
+} : {
+  kicker: 'One route, four ports',
+  title: 'The Colombo route',
+  sequence: 'Genoa · Lisbon · Rio de Janeiro · Santos',
+  play: 'Play',
+  pause: 'Pause',
+  replay: 'Replay',
+  flat: 'Flat view',
+  tilted: 'Tilted view',
+  progress: 'Route progress',
+  routeDescription: 'The line leaves Genoa, rounds the western Mediterranean through the Strait of Gibraltar, calls at Lisbon, and crosses the Atlantic to Rio de Janeiro and Santos.',
+  inspect: 'Inspect the map',
+  mapFallback: 'The historical map could not be displayed. The route, ports, and sources remain available.',
+  playingStatus: 'The Colombo is following the route.',
+  pausedStatus: 'The voyage is paused.',
+  replayingStatus: 'The voyage has started again in Genoa.',
+  completeStatus: 'The ship has reached Santos.',
+  progressStatus: 'Route progress: {value}%.',
+  imageError: 'The historical map could not be loaded; the route and sources remain available.',
+  noteBefore: 'The ',
+  noteRoute: `Colombo's regular Genoa–Lisbon–Rio–Santos service`,
+  noteMiddle: ` is illustrated here on a ${data.source.date} atlas. The `,
+  noteRecord: `family record`,
+  noteAfter: ' gives Rio de Janeiro as provenance and the São Paulo Hospedaria on 15 December 1891; exact boarding and landing ports are unconfirmed. ',
+  mapSource: 'Map source',
+  portContext: {
+    genoa: `At the Mediterranean end of the line: Genoa, the Colombo's Italian departure port.`,
+    lisbon: 'The last scheduled European call before the southbound Atlantic crossing.',
+    'rio-de-janeiro': `The place of provenance named in the family's own record.`,
+    santos: 'Beyond Rio, the regular service continued to the São Paulo coast at Santos.',
+  },
+};
+---
+
+<div class="voyage-map-shell">
+<section
+  class="voyage-map"
+  aria-labelledby="voyage-map-title"
+  aria-describedby="voyage-route-description voyage-historical-note"
+  data-voyage-map
+  data-duration="30000"
+  data-play-label={copy.play}
+  data-pause-label={copy.pause}
+  data-replay-label={copy.replay}
+  data-flat-label={copy.flat}
+  data-tilted-label={copy.tilted}
+  data-playing-status={copy.playingStatus}
+  data-paused-status={copy.pausedStatus}
+  data-replaying-status={copy.replayingStatus}
+  data-complete-status={copy.completeStatus}
+  data-progress-status={copy.progressStatus}
+  data-image-error={copy.imageError}
+>
+  <header class="voyage-map__header">
+    <div>
+      <span class="voyage-map__kicker">{copy.kicker}</span>
+      <h3 id="voyage-map-title">{copy.title}</h3>
+    </div>
+    <p class="voyage-map__sequence">{copy.sequence}</p>
+  </header>
+
+  <figure>
+    <div class="voyage-map__stage">
+      <div class="voyage-map__plate" style={`aspect-ratio:${data.crop.width}/${data.crop.height}`}>
+        <p class="voyage-map__fallback" aria-hidden="true">{copy.mapFallback}</p>
+        <img
+          data-voyage-image
+          src={media.src}
+          srcset={media.srcset}
+          sizes="(min-width: 1200px) 68vw, (min-width: 768px) 70vw, 100vw"
+          width={media.width}
+          height={media.height}
+          alt={media.alt}
+          loading="lazy"
+          decoding="async"
+        />
+        <svg class="voyage-map__overlay" viewBox={data.viewBox} aria-hidden="true">
+          <path class="voyage-map__route-underlay" d={data.route.path}></path>
+          <path class="voyage-map__route-track" data-voyage-track d={data.route.path}></path>
+          <path class="voyage-map__route-progress" data-voyage-progress d={data.route.path} pathLength="1"></path>
+          {ports.map((port) => {
+            const placement = labelPlacement[port.id] ?? { dx: 14, dy: -14, anchor: 'start' as const };
+            return <g>
+              <circle class="voyage-map__port-dot" cx={port.x} cy={port.y} r="9"></circle>
+              <text class="voyage-map__port-label" x={port.x + placement.dx} y={port.y + placement.dy} text-anchor={placement.anchor}>{port.label?.[locale]}</text>
+            </g>;
+          })}
+          <g class="voyage-map__ship" data-voyage-ship transform={`translate(${finalPort.x} ${finalPort.y})`}>
+            <g class="voyage-map__ship-shape">
+              <path class="wake" d="M-27 -8 C-37 -11 -43 -13 -51 -16 M-30 0 C-40 0 -48 0 -57 0 M-27 8 C-37 11 -43 13 -51 16"></path>
+              <path class="hull" d="M28 0 C20 -10 5 -14 -14 -12 L-27 -6 L-31 0 L-27 6 L-14 12 C5 14 20 10 28 0 Z"></path>
+              <path class="deck" d="M18 0 C11 -6 0 -8 -14 -7 L-22 -3 L-22 3 L-14 7 C0 8 11 6 18 0 Z"></path>
+              <rect class="cabin" x="-8" y="-6" width="16" height="12" rx="2"></rect>
+              <circle class="stack" cx="-12" cy="0" r="4.5"></circle>
+              <circle class="stack-top" cx="-12" cy="0" r="2.25"></circle>
+              <circle class="stack" cx="2" cy="0" r="4.5"></circle>
+              <circle class="stack-top" cx="2" cy="0" r="2.25"></circle>
+              <path class="bow-line" d="M17 -5 L23 0 L17 5"></path>
+            </g>
+          </g>
+        </svg>
+      </div>
+    </div>
+    <figcaption class="voyage-map__caption">
+      <span>{media.caption}</span>
+      <span>{media.credit} · <a href={mapArchiveHref}>{copy.inspect}</a></span>
+    </figcaption>
+  </figure>
+
+  <div class="voyage-map__controls" data-voyage-enhancement>
+    <button type="button" data-voyage-play aria-pressed="false"><span data-voyage-play-text>{copy.play}</span></button>
+    <button type="button" data-voyage-replay>{copy.replay}</button>
+    <label class="voyage-map__scrubber">
+      <span>{copy.progress}</span>
+      <input data-voyage-range type="range" min="0" max="1000" step="1" value="1000" aria-label={copy.progress} />
+      <output data-voyage-output>100%</output>
+    </label>
+    <button type="button" data-voyage-view aria-pressed="false">{copy.flat}</button>
+  </div>
+  <div class="voyage-map__ports" data-voyage-enhancement aria-label={copy.sequence}>
+    {ports.map((port) => <button
+      type="button"
+      data-voyage-port={port.id}
+      data-voyage-x={port.x}
+      data-voyage-y={port.y}
+      data-voyage-context={copy.portContext[port.id as keyof typeof copy.portContext]}
+      aria-pressed="false"
+    >{port.label?.[locale]}</button>)}
+  </div>
+  <p class="voyage-map__status" data-voyage-status role="status" aria-live="polite"></p>
+</section>
+
+<p class="voyage-map__route-description" id="voyage-route-description">{copy.routeDescription}</p>
+<p class="voyage-map__historical-note" id="voyage-historical-note">
+  {copy.noteBefore}<a href={rossiniHref}>{copy.noteRoute}</a>{copy.noteMiddle}<a href={arrivalHref}>{copy.noteRecord}</a>{copy.noteAfter}<a href={data.source.url} rel="external">{copy.mapSource}: {data.source.title} ({data.source.date})</a>.
+</p>
+</div>
+
+<script>
+  import '../scripts/voyage-map';
+</script>

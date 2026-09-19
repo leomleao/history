@@ -1,0 +1,163 @@
+[
+  {
+    "id": "venice",
+    "title": {
+      "en": "Venice in everyday view",
+      "pt-br": "Veneza no cotidiano"
+    },
+    "description": {
+      "en": "Streets, canals, boats and working waterfronts from the archive’s circa-1891 Venice series—regional context for the world the family left, never a claim about their exact neighborhood.",
+      "pt-br": "Ruas, canais, barcos e frentes d’água de trabalho na série veneziana de cerca de 1891 do arquivo — contexto regional do mundo deixado pela família, nunca uma afirmação sobre seu bairro exato."
+    },
+    "period": {
+      "en": "circa 1891",
+      "pt-br": "cerca de 1891"
+    },
+    "coverMediaId": "venice-1891-grand-canal-gondola",
+    "mediaIds": [
+      "venice-1891-grand-canal-gondola",
+      "venice-1891-campo-santa-margherita",
+      "venice-1891-boatyard-canal",
+      "venice-1891-torcello-canal",
+      "venice-1891-working-calle",
+      "venice-1891-ornate-bridge",
+      "venice-1891-narrow-canal-bridge",
+      "venice-1891-giudecca-working-waterfront"
+    ],
+    "chapterKey": "origins"
+  },
+  {
+    "id": "at-sea",
+    "title": {
+      "en": "At sea",
+      "pt-br": "No mar"
+    },
+    "description": {
+      "en": "Period illustrations move from gangway and steerage to maritime labor and first-class interiors, making the inequalities of ocean travel visible without pretending to depict the family’s own ship.",
+      "pt-br": "Ilustrações de época passam da prancha e da terceira classe ao trabalho marítimo e aos interiores de primeira classe, tornando visíveis as desigualdades da viagem oceânica sem fingir retratar o navio da própria família."
+    },
+    "period": {
+      "en": "circa 1890–1891",
+      "pt-br": "cerca de 1890–1891"
+    },
+    "coverMediaId": "colombo-drydock-1901",
+    "mediaIds": [
+      "colombo-drydock-1901",
+      "gangplank-before-sailing-1891",
+      "steerage-interior-1891",
+      "emigrant-family-on-deck-ferraguti",
+      "pilot-boarding-steamer-1891",
+      "end-of-voyage-1891",
+      "grand-saloon-inman-steamer",
+      "steamers-barber-shop-1891",
+      "smoking-room-french-liner-1890"
+    ],
+    "chapterKey": "crossing"
+  },
+  {
+    "id": "passage-papers",
+    "title": {
+      "en": "Passage papers",
+      "pt-br": "Papéis da travessia"
+    },
+    "description": {
+      "en": "Original dossier covers, a handwritten subsidy petition, ticket faces and reverses, and a railway-and-colony map show how migration was sold, provisioned and administered.",
+      "pt-br": "Capas originais de dossiês, uma petição manuscrita de subsídio, frente e verso de bilhetes e um mapa ferroviário e colonial mostram como a migração era vendida, provisionada e administrada."
+    },
+    "period": {
+      "en": "1908–1924",
+      "pt-br": "1908–1924"
+    },
+    "coverMediaId": "sacop-third-class-ticket-1924",
+    "mediaIds": [
+      "sao-paulo-colonies-map-1908",
+      "sacop-passage-restitution-cover-1910",
+      "sacop-passage-restitution-petition-1910",
+      "sacop-third-class-ticket-1910",
+      "sacop-emigration-law-ticket-reverse-1910",
+      "sacop-third-class-ticket-1924"
+    ],
+    "chapterKey": "crossing"
+  },
+  {
+    "id": "arrival",
+    "title": {
+      "en": "Arrival and onward by rail",
+      "pt-br": "Chegada e continuação por trem"
+    },
+    "description": {
+      "en": "Ports, trains and the Hospedaria’s façade, kitchen, courtyard and dormitory trace the institutional stages of arrival while keeping later comparison images separate from the family’s 1891 record.",
+      "pt-br": "Portos, trens e a fachada, cozinha, pátio e dormitório da Hospedaria percorrem as etapas institucionais da chegada, mantendo imagens comparativas posteriores separadas do registro familiar de 1891."
+    },
+    "period": {
+      "en": "1890s–1908",
+      "pt-br": "décadas de 1890–1908"
+    },
+    "coverMediaId": "hospedaria-dormitory",
+    "mediaIds": [
+      "santos",
+      "santos-immigrant-disembarkation-1907",
+      "immigrants-leaving-steamer-1908",
+      "immigrant-train-at-bras-hostelry",
+      "hospedaria-facade-1908",
+      "immigrants-at-bras-courtyard",
+      "hospedaria-kitchen-1908",
+      "hospedaria-dormitory"
+    ],
+    "chapterKey": "brazil"
+  },
+  {
+    "id": "work",
+    "title": {
+      "en": "Work and everyday life",
+      "pt-br": "Trabalho e vida cotidiana"
+    },
+    "description": {
+      "en": "Coffee fields, colono housing, machinery, city commerce and dock labor widen the story beyond a single occupation while clearly identifying every scene as historical context.",
+      "pt-br": "Cafezais, moradia de colonos, máquinas, comércio urbano e trabalho portuário ampliam a história além de uma única ocupação, identificando claramente cada cena como contexto histórico."
+    },
+    "period": {
+      "en": "1887–1908",
+      "pt-br": "1887–1908"
+    },
+    "coverMediaId": "coffee-harvest-araraquara-gaensly",
+    "mediaIds": [
+      "rua-do-commercio-1887",
+      "new-coffee-planting-gaensly",
+      "coffee-harvest-araraquara-gaensly",
+      "apesp-colonos-harvesting-coffee-1908",
+      "apesp-coffee-drying-terrace",
+      "apesp-colono-house-campos-salles",
+      "machinery-gallery-1907",
+      "coffee-loading-santos-gaensly"
+    ],
+    "chapterKey": "brazil"
+  },
+  {
+    "id": "capivari",
+    "title": {
+      "en": "Old Capivari",
+      "pt-br": "Capivari antiga"
+    },
+    "description": {
+      "en": "Historic streets, civic and religious buildings, an unidentified rural worker and an aerial town view build a careful portrait of Capivari without inventing a family house or face.",
+      "pt-br": "Ruas históricas, edifícios cívicos e religiosos, um trabalhador rural não identificado e uma vista aérea compõem um retrato cuidadoso de Capivari sem inventar uma casa ou um rosto da família."
+    },
+    "period": {
+      "en": "late 19th to mid-20th century",
+      "pt-br": "fim do século XIX a meados do século XX"
+    },
+    "coverMediaId": "capivari-old-town-ox-carts",
+    "mediaIds": [
+      "capivari-old-town-ox-carts",
+      "capivari-solar-do-barao-historic",
+      "capivari-old-matriz-church",
+      "capivari-matriz-church-1935",
+      "capivari-first-council-house",
+      "capivari-rural-worker",
+      "capivari-aerial-historic",
+      "capivari-station-1981"
+    ],
+    "chapterKey": "brazil"
+  }
+]

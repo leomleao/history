@@ -26,6 +26,7 @@ const sources = getSources(locale);
     </div>
     <p class="archive-count" role="status" data-results-label={t.results}>{sources.length} {t.results}</p>
   </div>
+  <aside class="archive-collections-link"><div><span class="eyebrow">{t.collectionEssay}</span><h2>{t.collectionsTitle}</h2></div><p>{t.collectionsIntro}</p><a class="text-link" href={route(locale, 'collections')}>{t.allCollections}<span aria-hidden="true"></span></a></aside>
   <div class="record-grid archive-grid" id="archive-results">{sources.map((source, index) => <SourceCard source={source} locale={locale} index={index} />)}</div>
   <p class="archive-empty" hidden>{t.noResults}</p>
 </BaseLayout>

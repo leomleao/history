@@ -1,10 +1,10 @@
 # Panzonato
 
-A bilingual family-history exhibition: five chapters, people, and a selected archive. Astro renders complete English and Brazilian Portuguese editions. Progressive interactions add animated chapter previews, a place explorer, an expandable timeline, searchable archive filters, and full-image inspection. Family profiles link generations through cited relationships.
+A bilingual family-history exhibition: five chapters, personal stories, historical image collections, people, and a selected archive. Astro renders complete English and Brazilian Portuguese editions. Progressive interactions add animated chapter previews, an Atlantic steamship voyage on a historical map, a place explorer, a timeline interweaving family milestones and wider history, original/translated interview excerpts, searchable archive filters, and full-image inspection. Family profiles link generations through cited relationships.
 
 This is the approved design implemented as a **local preview**. The exhibition draws on a full local archive audit, with primary family records separated from historical context and contemporary return photographs. Translations and publication rights still need final editorial review. Preview builds are marked `noindex`; `PUBLICATION_MODE=published` rejects unreviewed records. Cardross is a separate project.
 
-The expanded edition presents 31 distinct media items, 46 sources, ten historic profiles, and twelve timeline moments. The [archive audit](ARCHIVE_AUDIT.md) documents 193 distinct items in the broader holdings and the corrections made during selection.
+The expanded edition presents 65 distinct media items, 97 sources, nine stories, six historical collections, ten historic profiles, and 25 timeline moments (12 family milestones and 13 historical events). Fosca and her six children lead the narrative; ship history, an emigrant letter, and oral histories bring the wider world into view. The [archive audit](ARCHIVE_AUDIT.md) documents 193 distinct items in the broader holdings and the corrections made during selection.
 
 ## Run the local Docker edition
 
@@ -41,8 +41,11 @@ npm run media:validate
 ## Edit the exhibition
 
 - `src/content/chapters/{en,pt-br}/*.md`: chapter prose and validated frontmatter. Keep the same stable `key` in both editions; their URL slugs may differ. Each chapter needs a distinct lead image and a non-repeating `galleryIds` selection.
-- `src/data/catalog.json`: selected people, places, and sources. Relationships and timeline events require source references. Sources may be illustrated records or text-only references; uncertain dates belong in evidence notes, not invented precision.
+- `src/data/catalog.json`: selected people, places, and sources. Relationships and timeline events require source references. Timeline entries use `kind` (`family` or `context`) and an evidence-precision `sortDate`; historical entries also need bilingual `scope` and `impact` text. The interface sorts the combined chronology and offers All / Family / Wider world filters. Sources may be illustrated records or text-only references; uncertain dates belong in evidence notes, not invented precision.
+- `src/data/voyage-map.json`: the original map dimensions, Atlantic crop, calibrated SVG sea corridor and port anchors. `VoyageMap.astro`, `voyage-map.ts` and `voyage-map.css` present the animated map inside the eight-person family section. The 1903 atlas illustrates the Colombo’s regular service; it is not evidence for the exact 1891 family itinerary.
 - `src/data/media.json`: public metadata and checksums for separate content-versioned media variants. Never add original filesystem paths here.
+- `src/data/features.json`: bilingual essays, interview excerpts, letters, and object stories, with named attribution and source references. Historical reconstruction is identified in the context field.
+- `src/data/collections.json`: ordered historical image essays with distinct covers and no repeated items across collections. Each collection connects to a chapter.
 - `src/lib/ui.ts`: localized interface copy.
 - `src/styles/global.css`: the approved paper/ink/red/blue visual system and responsive layouts.
 - `src/scripts/exhibition.ts`: optional interactions. All reading and record routes remain usable without JavaScript.

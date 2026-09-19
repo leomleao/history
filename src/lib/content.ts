@@ -1,6 +1,8 @@
 import { getCollection, type CollectionEntry } from 'astro:content';
 import catalog from '../data/catalog.json';
 import manifest from '../data/media.json';
+import features from '../data/features.json';
+import collections from '../data/collections.json';
 export const locales = ['en', 'pt-br'] as const;
 export type Locale = typeof locales[number];
 export type Localized<T = string> = Record<Locale, T>;
@@ -8,7 +10,8 @@ export type Publication = 'preview' | 'published' | 'draft';
 export const publicationMode = process.env.PUBLICATION_MODE === 'published' ? 'published' : 'preview';
 export const isPreview = publicationMode === 'preview';
 export function otherLocale(locale: Locale): Locale { return locale === 'en' ? 'pt-br' : 'en'; }
-export function route(locale: Locale, kind: 'home' | 'chapters' | 'people' | 'archive' | 'about' = 'home', slug = '') {
+export type RouteKind = 'home' | 'chapters' | 'stories' | 'collections' | 'people' | 'archive' | 'about';
+export function route(locale: Locale, kind: RouteKind = 'home', slug = '') {
   return `/${locale}/${kind === 'home' ? '' : `${kind}/${slug ? `${slug}/` : ''}`}`;
 }
 export interface Variant { path: string; width: number; height: number; bytes: number; sha256: string }
@@ -31,11 +34,24 @@ export interface PersonRecord {
 }
 export interface TimelineRecord {
   id: string; year: string; title: Localized; description: Localized;
+  kind: 'family' | 'context'; sortDate: string;
   chapterKey: string; sourceIds: string[];
+  scope?: Localized; impact?: Localized;
 }
 export interface PlaceRecord {
   id: string; name: Localized; publication: Publication; sourceIds: string[];
   description: Localized;
+}
+export interface FeatureRecord {
+  id: string; publication: Publication; kind: 'interview' | 'letter' | 'object' | 'essay';
+  title: Localized; dek: Localized; period: Localized; attribution: Localized; context: Localized;
+  chapterKey: string; mediaIds: string[]; sourceIds: string[]; paragraphs: Localized<string[]>;
+  quote?: { original: string; originalLang: string; translation: Localized; speaker: Localized; citation: Localized };
+}
+export interface HistoricalCollectionRecord {
+  id: string;
+  title: Localized; description: Localized; period: Localized; coverMediaId: string;
+  mediaIds: string[]; chapterKey: string;
 }
 const mediaRecords = manifest as MediaRecord[];
 const sourceRecords = catalog.sources as SourceRecord[];
@@ -65,9 +81,20 @@ export function getAllMedia(locale: Locale) {
   return mediaRecords.filter(m => m.publication !== 'draft').map(m => getMedia(m.id, locale));
 }
 export function getTimeline(locale: Locale) {
-  return ((catalog as unknown as { events?: TimelineRecord[] }).events ?? []).map(event => ({
-    ...event, title: event.title[locale], description: event.description[locale],
-  }));
+  return ((catalog as unknown as { events?: TimelineRecord[] }).events ?? [])
+    .map((event, index) => ({ event, index }))
+    .sort((a, b) => a.event.sortDate < b.event.sortDate ? -1 : a.event.sortDate > b.event.sortDate ? 1 : a.index - b.index)
+    .map(({ event }) => ({
+      ...event,
+      title: event.title[locale],
+      description: event.description[locale],
+      scope: event.scope?.[locale],
+      impact: event.impact?.[locale],
+      sources: event.sourceIds.map(id => {
+        const source = requireVisible(sourceRecords.find(record => record.id === id), id);
+        return { id, title: source.title[locale], href: route(locale, 'archive', id) };
+      }),
+    }));
 }
 export function getSources(locale: Locale) {
   return sourceRecords.filter(s => s.publication !== 'draft').map(source => {
@@ -90,6 +117,32 @@ export function getPlaces(locale: Locale) {
   return placeRecords.filter(p => p.publication !== 'draft').map(place => {
     requireVisible(place, place.id);
     return { ...place, name: place.name[locale], description: place.description[locale] };
+  });
+}
+export function getFeatures(locale: Locale) {
+  const localizedSources = getSources(locale);
+  return (features as FeatureRecord[]).filter(feature => feature.publication !== 'draft').map(feature => {
+    requireVisible(feature, feature.id);
+    const media = feature.mediaIds.map(id => getMedia(id, locale));
+    const sources = feature.sourceIds.map(id => requireVisible(localizedSources.find(source => source.id === id), id));
+    return {
+      ...feature,
+      title: feature.title[locale], dek: feature.dek[locale], period: feature.period[locale],
+      attribution: feature.attribution[locale], context: feature.context[locale], paragraphs: feature.paragraphs[locale],
+      quote: feature.quote ? { ...feature.quote, translation: feature.quote.translation[locale], speaker: feature.quote.speaker[locale], citation: feature.quote.citation[locale] } : undefined,
+      media, sources, href: route(locale, 'stories', feature.id),
+    };
+  });
+}
+export function getHistoricalCollections(locale: Locale) {
+  return (collections as HistoricalCollectionRecord[]).map(collection => {
+    const media = collection.mediaIds.map(id => getMedia(id, locale));
+    const cover = getMedia(collection.coverMediaId, locale);
+    return {
+      ...collection,
+      title: collection.title[locale], description: collection.description[locale], period: collection.period[locale],
+      media, cover, href: route(locale, 'collections', collection.id),
+    };
   });
 }
 export type Chapter = { entry: CollectionEntry<'chapters'>; data: CollectionEntry<'chapters'>['data']; href: string; media: MediaView };
