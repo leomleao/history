@@ -14,6 +14,8 @@ type VoyageElements = {
   status: HTMLElement;
   ports: HTMLButtonElement[];
   portMarks: SVGGElement[];
+  stories: HTMLElement[];
+  storyDots: HTMLElement[];
 };
 
 type Puff = {
@@ -75,6 +77,8 @@ function findElements(root: HTMLElement): VoyageElements | null {
     status,
     ports: Array.from(root.querySelectorAll<HTMLButtonElement>('[data-voyage-port]')),
     portMarks: Array.from(root.querySelectorAll<SVGGElement>('[data-voyage-port-mark]')),
+    stories: Array.from(root.querySelectorAll<HTMLElement>('[data-voyage-story]')),
+    storyDots: Array.from(root.querySelectorAll<HTMLElement>('[data-voyage-story-dot]')),
   };
 }
 
@@ -101,6 +105,8 @@ function enhanceVoyageMap(root: HTMLElement): void {
     status,
     ports,
     portMarks,
+    stories,
+    storyDots,
   } = elements;
   const totalLength = track.getTotalLength();
   if (!Number.isFinite(totalLength) || totalLength <= 0) return;
@@ -144,7 +150,21 @@ function enhanceVoyageMap(root: HTMLElement): void {
   let queuedAnnouncement = '';
   let lastFrame = 0;
   let frame = 0;
+  let activeStory = -1;
   const stage = root.querySelector<HTMLElement>('.voyage-map__stage') ?? root;
+
+  const storyPositions = stories.map((story) => Number(story.dataset.voyageAt));
+
+  function updateStory(nextValue: number): void {
+    let nextStory = 0;
+    storyPositions.forEach((position, index) => {
+      if (Number.isFinite(position) && nextValue >= position) nextStory = index;
+    });
+    if (nextStory === activeStory) return;
+    activeStory = nextStory;
+    stories.forEach((story, index) => story.setAttribute('aria-hidden', String(index !== activeStory)));
+    storyDots.forEach((dot, index) => dot.dataset.active = String(index === activeStory));
+  }
 
   function locatePointOnRoute(x: number, y: number): number {
     let best = 0;
@@ -310,6 +330,7 @@ function enhanceVoyageMap(root: HTMLElement): void {
     range.value = String(Math.round(value * 1000));
     range.setAttribute('aria-valuetext', `${Math.round(value * 100)}%`);
     output.value = `${Math.round(value * 100)}%`;
+    updateStory(value);
 
     const point = track.getPointAtLength(totalLength * position);
     const target = tangentAt(position);

@@ -1788,6 +1788,81 @@ figcaption span:first-child {
 .generation-group .people-grid { padding-top: 1.75rem; }
 .person-connection-count { display: block; margin-top: 1.75rem; font-size: .7rem; color: var(--accent); }
 .profile-biography { margin: 3rem auto 4rem; padding-inline: var(--page-gutter); }
+.profile-story {
+  margin-top: clamp(2.5rem, 6vw, 5rem);
+}
+.profile-story-note {
+  max-width: 64rem;
+  margin: 0 var(--page-gutter) clamp(3rem, 6vw, 5rem);
+  padding: 1rem 1.2rem;
+  border-left: .1875rem solid var(--accent);
+  background: color-mix(in srgb, var(--paper-deep) 72%, transparent);
+  color: var(--muted);
+  font-size: .76rem;
+  line-height: 1.65;
+}
+.profile-story-section {
+  display: grid;
+  grid-template-columns: minmax(0, 1.12fr) minmax(20rem, .88fr);
+  gap: clamp(2rem, 6vw, 6rem);
+  align-items: center;
+  padding: clamp(3rem, 7vw, 7rem) var(--page-gutter);
+  border-top: .0625rem solid var(--rule);
+}
+.profile-story-section:nth-child(odd) figure { order: 2; }
+.profile-story-section figure { min-width: 0; }
+.profile-story-section .image-open {
+  display: block;
+  height: clamp(24rem, 48vw, 43rem);
+  overflow: hidden;
+  background: var(--paper-deep);
+}
+.profile-story-section figure img {
+  width: 100%;
+  height: 100%;
+  max-height: none;
+  object-fit: cover;
+}
+.profile-story-section[data-evidence-tone='documented'] .image-open {
+  height: auto;
+  aspect-ratio: var(--media-aspect);
+}
+.profile-story-section[data-evidence-tone='documented'] figure img {
+  object-fit: contain;
+  padding: .65rem;
+}
+.profile-story-section figcaption {
+  margin-top: .8rem;
+  color: var(--muted);
+  font-size: .67rem;
+  line-height: 1.55;
+}
+.profile-story-section > div { max-width: 38rem; }
+.profile-story-section h2 {
+  margin-top: 1rem;
+  font-size: clamp(2.3rem, 5vw, 4.7rem);
+  line-height: .97;
+  letter-spacing: -.035em;
+}
+.profile-story-section p {
+  margin-top: 1.15rem;
+  color: var(--muted);
+  font-size: clamp(.94rem, 1.25vw, 1.08rem);
+  line-height: 1.72;
+}
+.profile-story-section[data-evidence-tone='documented'] .eyebrow { color: #27644f; }
+.profile-story-section[data-evidence-tone='context'] .eyebrow { color: #31566e; }
+.profile-story-section[data-evidence-tone='reconstruction'] .eyebrow { color: var(--accent); }
+@media (max-width: 48rem) {
+  .profile-story-section {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 1.5rem;
+  }
+  .profile-story-section:nth-child(odd) figure { order: initial; }
+  .profile-story-section .image-open { min-height: 0; aspect-ratio: 4 / 3; }
+  .profile-story-section .image-open { height: auto; }
+  .profile-story-section[data-evidence-tone='documented'] .image-open { aspect-ratio: var(--media-aspect); }
+}
 .connection-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 14rem), 1fr)); gap: 1rem; }
 .connection-grid a { color: var(--ink); text-decoration: none; border-left: 1px solid var(--accent); padding: .5rem 1.25rem; }
 .connection-grid a > span { font-size: .7rem; color: var(--accent); text-transform: uppercase; letter-spacing: .07em; }

@@ -4,7 +4,8 @@ import Breadcrumbs from '../../../../components/Breadcrumbs.astro';
 import SourceCard from '../../../../components/SourceCard.astro';
 import EvidenceDialog from '../../../../components/EvidenceDialog.astro';
 import MediaImage from '../../../../components/MediaImage.astro';
-import { getChapters, getPeople, getSources, locales, otherLocale, route, type Locale, type MediaView } from '../../../../lib/content';
+import { getChapters, getMedia, getPeople, getSources, locales, otherLocale, route, type Locale, type MediaView } from '../../../../lib/content';
+import { getPersonStory } from '../../../../data/person-stories';
 import { exhibitionPayload, safeJson, strings } from '../../../../lib/ui';
 
 export async function getStaticPaths() {
@@ -15,6 +16,9 @@ const t = strings(locale);
 const chapters = (await getChapters(locale)).filter((chapter) => person.chapterKeys.includes(chapter.data.key));
 const sources = getSources(locale).filter((source) => person.sourceIds.includes(source.id));
 const media = sources.map(source => source.media).filter((m): m is MediaView => !!m);
+const story = getPersonStory(person.id, locale);
+const storySections = story?.sections.map(section => ({ ...section, media: getMedia(section.mediaId, locale) })) ?? [];
+const pageMedia = [...new Map([...media, ...storySections.map(section => section.media)].map(item => [item.id, item])).values()];
 const people = getPeople(locale);
 const connections = person.relationships.map(relation => ({ ...relation, person: people.find(p => p.id === relation.personId) }));
 ---
@@ -28,7 +32,22 @@ const connections = person.relationships.map(relation => ({ ...relation, person:
       <p>{person.summary}</p>
       {person.aliases.length > 0 && <p class="aliases"><span>{t.namesAlsoRecorded}</span> {person.aliases.join(', ')}</p>}
     </header>
-    <div class="prose profile-biography">{person.biography.map((paragraph) => <p>{paragraph}</p>)}</div>
+    {story ? <div class="profile-story">
+      <p class="profile-story-note">{story.note}</p>
+      {storySections.map((section, index) => <section class="profile-story-section" data-evidence-tone={section.evidence}>
+        <figure>
+          <a class="image-open" href={section.media.href} data-evidence={section.media.id} data-inspect-label={t.inspect} aria-label={`${t.inspect}: ${section.media.title}`} style={`--media-aspect: ${section.media.width} / ${section.media.height}`}>
+            <MediaImage media={section.media} sizes="(min-width: 1000px) 47vw, 94vw" />
+          </a>
+          <figcaption>{section.media.caption}</figcaption>
+        </figure>
+        <div>
+          <span class="eyebrow">{String(index + 1).padStart(2, '0')} · {section.eyebrow}</span>
+          <h2>{section.title}</h2>
+          {section.paragraphs.map(paragraph => <p>{paragraph}</p>)}
+        </div>
+      </section>)}
+    </div> : <div class="prose profile-biography">{person.biography.map((paragraph) => <p>{paragraph}</p>)}</div>}
     {connections.length > 0 && <section class="related-records family-connections"><span class="eyebrow">{t.familyConnections}</span><div class="connection-grid">{connections.map(connection => connection.person && <a href={connection.person.href}><span>{connection.label}</span><h2>{connection.person.name}</h2><p>{connection.person.dates}</p></a>)}</div></section>}
     {chapters.length > 0 && <section class="related-records">
       <span class="eyebrow">{t.connectedChapters}</span>
@@ -39,5 +58,5 @@ const connections = person.relationships.map(relation => ({ ...relation, person:
       <div class="record-grid compact">{sources.map(source => <SourceCard source={source} locale={locale} />)}</div>
     </section>}
   </article>
-  {media[0] && <><EvidenceDialog locale={locale} initial={media[0]} /><script id="exhibition-data" type="application/json" is:inline set:html={safeJson(exhibitionPayload(locale, media))}></script></>}
+  {pageMedia[0] && <><EvidenceDialog locale={locale} initial={pageMedia[0]} /><script id="exhibition-data" type="application/json" is:inline set:html={safeJson(exhibitionPayload(locale, pageMedia))}></script></>}
 </BaseLayout>

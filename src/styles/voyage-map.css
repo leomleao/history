@@ -46,6 +46,21 @@
   font-size: clamp(1.2rem, 1.7vw, 1.45rem);
 }
 
+.voyage-roster .passenger-roster dt a {
+  display: inline-flex;
+  align-items: baseline;
+  gap: 0.38rem;
+  text-decoration-color: color-mix(in srgb, var(--accent), transparent 45%);
+  text-decoration-line: underline;
+  text-decoration-thickness: 0.0625rem;
+  text-underline-offset: 0.22rem;
+}
+
+.voyage-roster .passenger-roster dt a span {
+  color: var(--accent);
+  font: 500 0.62rem/1 var(--sans);
+}
+
 .voyage-roster .roster-note {
   margin-top: 1.2rem;
   color: var(--muted);
@@ -92,6 +107,14 @@
   letter-spacing: -0.02em;
 }
 
+.voyage-map__evidence-legend {
+  max-width: 48rem;
+  padding: 0.7rem 0.2rem 0.35rem;
+  color: #d8d9cd;
+  font-size: 0.64rem;
+  line-height: 1.5;
+}
+
 .voyage-map__sequence {
   color: #d8d9cd;
   font-size: 0.67rem;
@@ -111,6 +134,122 @@
     radial-gradient(ellipse at 50% 46%, rgb(240 224 190 / 12%), transparent 45%),
     repeating-linear-gradient(118deg, transparent 0 4.8rem, rgb(233 224 199 / 3%) 4.85rem 4.92rem);
   perspective: 62rem;
+}
+
+.voyage-map__story {
+  position: absolute;
+  z-index: 5;
+  top: 1.15rem;
+  left: 1rem;
+  width: min(18rem, 34%);
+  border: 0.0625rem solid rgb(60 49 36 / 38%);
+  background: rgb(245 239 224 / 96%);
+  color: #202923;
+  box-shadow: 0 0.8rem 2rem rgb(4 18 23 / 28%);
+  backdrop-filter: blur(0.2rem);
+}
+
+.voyage-map__story-label {
+  display: block;
+  padding: 0.45rem 0.65rem;
+  border-bottom: 0.0625rem solid rgb(60 49 36 / 22%);
+  color: #695f50;
+  font-size: 0.52rem;
+  font-weight: 600;
+  letter-spacing: 0.09rem;
+  text-transform: uppercase;
+}
+
+.voyage-map__story-slide[aria-hidden='true'] {
+  display: none;
+}
+
+.voyage-map__story-slide > a {
+  display: block;
+  position: relative;
+  overflow: hidden;
+  aspect-ratio: 16 / 8.5;
+  background: #c9c0ae;
+}
+
+.voyage-map__story-slide > a::after {
+  content: '';
+  position: absolute;
+  inset: auto 0 0;
+  height: 45%;
+  background: linear-gradient(transparent, rgb(17 30 31 / 35%));
+  pointer-events: none;
+}
+
+.voyage-map__story-slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: sepia(0.12) saturate(0.82) contrast(1.04);
+}
+
+.voyage-map__story-copy {
+  padding: 0.65rem 0.7rem 0.72rem;
+}
+
+.voyage-map__story-meta {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 0.5rem;
+}
+
+.voyage-map__story-meta time {
+  color: #8c2f23;
+  font: 600 0.64rem/1.2 var(--sans);
+  letter-spacing: 0.035rem;
+  text-transform: uppercase;
+}
+
+.voyage-map__story-meta span {
+  color: #6b6254;
+  font-size: 0.48rem;
+  font-weight: 600;
+  letter-spacing: 0.055rem;
+  text-align: right;
+  text-transform: uppercase;
+}
+
+.voyage-map__story-slide[data-voyage-tone='documented'] .voyage-map__story-meta span {
+  color: #27644f;
+}
+
+.voyage-map__story-slide[data-voyage-tone='context'] .voyage-map__story-meta span {
+  color: #31566e;
+}
+
+.voyage-map__story-copy h4 {
+  margin-top: 0.32rem;
+  color: #202923;
+  font: 500 1.05rem/1.05 var(--serif);
+}
+
+.voyage-map__story-copy p {
+  margin-top: 0.28rem;
+  color: #595a52;
+  font-size: 0.58rem;
+  line-height: 1.42;
+}
+
+.voyage-map__story-progress {
+  display: grid;
+  grid-template-columns: repeat(9, 1fr);
+  gap: 0.16rem;
+  padding: 0 0.7rem 0.55rem;
+}
+
+.voyage-map__story-progress i {
+  height: 0.12rem;
+  background: #b7ae9e;
+}
+
+.voyage-map__story-progress i[data-active='true'] {
+  background: var(--voyage-red);
 }
 
 .voyage-map__plate {
@@ -404,7 +543,7 @@
 
 .voyage-map[data-enhanced='true'] .voyage-map__ports {
   display: grid;
-  grid-template-columns: repeat(4, minmax(0, 1fr));
+  grid-template-columns: repeat(5, minmax(0, 1fr));
   gap: 0.4rem;
   margin-top: 0.6rem;
 }
@@ -474,7 +613,8 @@
 }
 
 .voyage-map__route-description,
-.voyage-map__historical-note {
+.voyage-map__historical-note,
+.voyage-map__source-trail {
   color: var(--muted);
   font-size: 0.7rem;
   line-height: 1.6;
@@ -496,6 +636,132 @@
   text-underline-offset: 0.2rem;
 }
 
+.voyage-map__source-trail {
+  margin-top: 0.75rem;
+}
+
+.voyage-map__source-trail a {
+  color: var(--accent);
+  text-decoration: underline;
+  text-underline-offset: 0.2rem;
+}
+
+.guanabara-dossier {
+  margin-top: clamp(4rem, 8vw, 7rem);
+  padding-top: clamp(2rem, 4vw, 3.5rem);
+  border-top: 0.0625rem solid var(--ink);
+}
+
+.guanabara-dossier > header {
+  display: grid;
+  grid-template-columns: minmax(16rem, 0.8fr) minmax(20rem, 1.2fr);
+  gap: 1rem clamp(2rem, 6vw, 6rem);
+  align-items: end;
+}
+
+.guanabara-dossier > header .eyebrow {
+  grid-column: 1 / -1;
+}
+
+.guanabara-dossier > header h3 {
+  max-width: 34rem;
+  font-size: clamp(2.25rem, 5vw, 4.7rem);
+  line-height: 0.94;
+  letter-spacing: -0.04em;
+}
+
+.guanabara-dossier > header p {
+  max-width: 42rem;
+  color: var(--muted);
+  font: 400 clamp(1.05rem, 1.7vw, 1.4rem)/1.35 var(--serif);
+}
+
+.guanabara-sequence {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: clamp(1.5rem, 3vw, 2.8rem);
+  margin-top: clamp(2.5rem, 5vw, 4.5rem);
+}
+
+.guanabara-sequence article {
+  display: grid;
+  grid-template-columns: minmax(0, 1.05fr) minmax(12rem, 0.95fr);
+  min-width: 0;
+  border-top: 0.0625rem solid var(--rule);
+}
+
+.guanabara-sequence .image-open {
+  display: block;
+  min-height: 24rem;
+  overflow: hidden;
+  background: var(--paper-deep);
+}
+
+.guanabara-sequence .image-open img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: saturate(0.82) sepia(0.08);
+}
+
+.guanabara-sequence article > div {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 0 0 1.15rem;
+}
+
+.guanabara-index {
+  color: var(--accent);
+  font-size: 0.58rem;
+  letter-spacing: 0.08rem;
+}
+
+.guanabara-sequence time {
+  margin-top: auto;
+  color: var(--accent);
+  font: 600 0.72rem/1.3 var(--sans);
+  letter-spacing: 0.055rem;
+  text-transform: uppercase;
+}
+
+.guanabara-sequence small {
+  margin-top: 0.3rem;
+  color: var(--muted);
+  font-size: 0.53rem;
+  font-weight: 600;
+  letter-spacing: 0.06rem;
+  text-transform: uppercase;
+}
+
+.guanabara-sequence h4 {
+  margin-top: 0.65rem;
+  font-size: clamp(1.35rem, 2vw, 1.85rem);
+  line-height: 1.05;
+}
+
+.guanabara-sequence p {
+  margin-top: 0.65rem;
+  color: var(--muted);
+  font-size: 0.69rem;
+  line-height: 1.55;
+}
+
+.guanabara-conclusion {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1.5rem 4rem;
+  margin-top: clamp(2rem, 4vw, 3.5rem);
+  padding: 1.4rem 0;
+  border-block: 0.0625rem solid var(--rule);
+  color: var(--muted);
+  font-size: 0.76rem;
+  line-height: 1.65;
+}
+
+.guanabara-conclusion strong {
+  color: var(--ink);
+}
+
 @media (max-width: 64rem) {
   .voyage-reading-layout {
     grid-template-columns: minmax(0, 2.35fr) minmax(13rem, 0.85fr);
@@ -508,6 +774,23 @@
   .voyage-map__scrubber {
     grid-column: 1 / -1;
     grid-row: 2;
+  }
+
+  .voyage-map__story {
+    width: min(16rem, 38%);
+  }
+
+  .guanabara-sequence article {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .guanabara-sequence .image-open {
+    min-height: 18rem;
+  }
+
+  .guanabara-sequence article > div {
+    min-height: 15rem;
+    padding-left: 0;
   }
 }
 
@@ -527,6 +810,25 @@
   .voyage-roster .passenger-roster {
     grid-template-columns: repeat(2, minmax(0, 1fr));
     gap: 0 1.5rem;
+  }
+
+  .guanabara-dossier > header,
+  .guanabara-sequence,
+  .guanabara-conclusion {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .guanabara-sequence article {
+    grid-template-columns: minmax(0, 1.05fr) minmax(11rem, 0.95fr);
+  }
+
+  .guanabara-sequence .image-open {
+    min-height: 22rem;
+  }
+
+  .guanabara-sequence article > div {
+    min-height: 22rem;
+    padding-left: 1rem;
   }
 }
 
@@ -552,11 +854,56 @@
   }
 
   .voyage-map__stage {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
     margin-inline: calc(var(--page-gutter) * -1);
     padding: 0.75rem var(--page-gutter) 1rem;
   }
 
+  .voyage-map__story {
+    position: relative;
+    top: auto;
+    left: auto;
+    order: 2;
+    width: 100%;
+    margin-top: 0.75rem;
+  }
+
+  .voyage-map__story-slide {
+    display: grid;
+    grid-template-columns: minmax(7rem, 0.8fr) minmax(0, 1.2fr);
+  }
+
+  .voyage-map__story-slide[aria-hidden='true'] {
+    display: none;
+  }
+
+  .voyage-map__story-slide > a {
+    aspect-ratio: auto;
+    min-height: 9.5rem;
+  }
+
+  .voyage-map__story-copy {
+    padding: 0.7rem;
+  }
+
+  .voyage-map__story-meta {
+    display: block;
+  }
+
+  .voyage-map__story-meta span {
+    display: block;
+    margin-top: 0.2rem;
+    text-align: left;
+  }
+
+  .voyage-map__story-progress {
+    grid-column: 1 / -1;
+  }
+
   .voyage-map__plate {
+    order: 1;
     border-width: 0.3rem;
     transform: rotateX(19deg) rotateZ(8deg) scale(0.92);
     transform-origin: 50% 52%;
@@ -610,6 +957,27 @@
 
   .voyage-roster .passenger-roster {
     gap: 0 1rem;
+  }
+
+  .guanabara-sequence article {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .guanabara-sequence .image-open,
+  .guanabara-sequence article > div {
+    min-height: 0;
+  }
+
+  .guanabara-sequence .image-open {
+    aspect-ratio: 4 / 3;
+  }
+
+  .guanabara-sequence article > div {
+    padding: 1rem 0 0;
+  }
+
+  .guanabara-sequence time {
+    margin-top: 1.75rem;
   }
 }
 

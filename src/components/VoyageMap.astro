@@ -39,6 +39,10 @@ const finalPort = ports.at(-1)!;
 const mapArchiveHref = media.href;
 const rossiniHref = route(locale, 'archive', 'context-colombo-rossini-1994');
 const arrivalHref = route(locale, 'archive', 'panzonato-hospedaria-1891');
+const decree641Href = route(locale, 'archive', 'decree-641-1891');
+const decree686Href = route(locale, 'archive', 'decree-686-1891');
+const crisisContextHref = route(locale, 'archive', 'context-first-republic-crisis-1891');
+const storyMedia = (id: string) => getMedia(id, locale);
 
 // The plate shows a tighter window of the full crop. The image is offset and scaled so the
 // SVG overlay, whose viewBox is the window, lines up with the printed map.
@@ -85,6 +89,15 @@ const copy = pt ? {
   noteRecord: 'registro da família',
   noteAfter: ' informa procedência do Rio de Janeiro e a Hospedaria de São Paulo em 15 de dezembro de 1891; os portos e as datas exatos de embarque e desembarque não estão confirmados. ',
   mapSource: 'Fonte do mapa',
+  storyLabel: 'Cronologia ilustrada',
+  documented: 'Documentado',
+  context: 'Contexto histórico',
+  reconstruction: 'Reconstrução',
+  evidenceLegend: 'As datas e imagens distinguem fatos documentados da família, contexto nacional e etapas reconstruídas da rota.',
+  sourceTrail: 'Fontes para a crise de 1891',
+  decree641: 'Decreto nº 641',
+  decree686: 'Decreto nº 686',
+  crisisContext: 'história institucional da Câmara',
   portContext: {
     genoa: 'No extremo mediterrâneo da linha: Gênova, porto italiano de partida do Colombo.',
     lisbon: 'A escala europeia programada antes da travessia atlântica rumo ao sul.',
@@ -118,6 +131,15 @@ const copy = pt ? {
   noteRecord: `family record`,
   noteAfter: ' gives Rio de Janeiro as provenance and the São Paulo Hospedaria on 15 December 1891; exact boarding and landing ports and dates are unconfirmed. ',
   mapSource: 'Map source',
+  storyLabel: 'Illustrated chronology',
+  documented: 'Documented',
+  context: 'Historical context',
+  reconstruction: 'Reconstruction',
+  evidenceLegend: 'Dates and images distinguish documented family facts, national context, and reconstructed route stages.',
+  sourceTrail: 'Sources for the 1891 crisis',
+  decree641: 'Decree no. 641',
+  decree686: 'Decree no. 686',
+  crisisContext: 'the Chamber’s institutional history',
   portContext: {
     genoa: `At the Mediterranean end of the line: Genoa, the Colombo's Italian departure port.`,
     lisbon: 'The scheduled European call before the southbound Atlantic crossing.',
@@ -126,6 +148,29 @@ const copy = pt ? {
     santos: 'Beyond Rio, the regular service continued to the São Paulo coast at Santos.',
   },
 };
+
+const storyFrames = pt ? [
+  { at: 0, mediaId: 'genoa-port-noack-1892', date: 'c. 20–25 out. 1891', status: copy.reconstruction, tone: 'reconstruction', title: 'A partida provável', copy: 'Gênova era o extremo europeu da linha do Colombo. O porto de embarque e a data exata da família não aparecem no registro do Brás.' },
+  { at: 0.12, mediaId: 'lisbon-cais-do-sodre-1890', date: 'c. 28–30 out. 1891', status: copy.reconstruction, tone: 'reconstruction', title: 'A escala de Lisboa', copy: 'A linha regular passava por Lisboa. Esta escala é plausível para a viagem, mas ainda não foi ligada por documento aos oito Panzonato.' },
+  { at: 0.25, mediaId: 'deodoro-da-fonseca-1891', date: '03 nov. 1891', status: copy.context, tone: 'context', title: 'Golpe na capital', copy: 'Enquanto o vapor cruzava o Atlântico, o Decreto nº 641 dissolveu o Congresso e o governo impôs estado de sítio na capital.' },
+  { at: 0.36, mediaId: 'cape-verde-porto-grande-1890', date: 'c. 05–07 nov. 1891', status: copy.reconstruction, tone: 'reconstruction', title: 'Carvão em Porto Grande', copy: 'Mindelo era um nó de abastecimento da navegação a vapor. A passagem do Colombo por aqui nesta viagem é reconstruída, não comprovada.' },
+  { at: 0.77, mediaId: 'rio-port-customs-ferrez', date: '20 nov. 1891', status: copy.reconstruction, tone: 'reconstruction', title: 'A Guanabara proposta', copy: 'A pesquisa propõe a entrada do Colombo no Rio nesta data. O registro familiar confirma apenas a procedência “Rio de Janeiro” em 15 de dezembro.' },
+  { at: 0.89, mediaId: 'riachuelo-ferrez-1891', date: '23 nov. 1891 · 09h', status: copy.context, tone: 'context', title: 'Canhões na baía', copy: 'Custódio de Melo liderou o levante naval e o Riachuelo ameaçou a capital. Se a chegada de 20 de novembro estiver correta, a família estava na região portuária durante a crise.' },
+  { at: 0.94, mediaId: 'floriano-peixoto-1891', date: '23 nov. 1891 · 15h', status: copy.context, tone: 'context', title: 'Renúncia e sucessão', copy: 'Deodoro renunciou; Floriano assumiu e revogou a dissolução do Congresso pelo Decreto nº 686. A duração e as causas da retenção do Colombo seguem em investigação.' },
+  { at: 0.985, mediaId: 'santos-valongo-ferrez', date: 'c. 06–07 dez. 1891', status: copy.reconstruction, tone: 'reconstruction', title: 'O desembarque provável', copy: 'Santos é compatível com a linha e com a viagem posterior a São Paulo, mas o dia e o trapiche exatos não constam no registro da família.' },
+  { at: 1, mediaId: 'panzonato-hospedaria-1891', date: '15 dez. 1891', status: copy.documented, tone: 'documented', title: 'Oito nomes no Brás', copy: 'Aqui a rota volta ao terreno firme: livro 031, página 283. Giuseppe, Fosca e os seis filhos aparecem juntos, procedentes do Rio e destinados a Tietê.' },
+] : [
+  { at: 0, mediaId: 'genoa-port-noack-1892', date: 'c. 20–25 Oct 1891', status: copy.reconstruction, tone: 'reconstruction', title: 'The probable departure', copy: 'Genoa was the European end of the Colombo line. The family entry gives neither their embarkation port nor an exact departure date.' },
+  { at: 0.12, mediaId: 'lisbon-cais-do-sodre-1890', date: 'c. 28–30 Oct 1891', status: copy.reconstruction, tone: 'reconstruction', title: 'The Lisbon call', copy: 'The regular line called at Lisbon. This stop is plausible for the voyage but has not yet been tied to the eight Panzonatos by a document.' },
+  { at: 0.25, mediaId: 'deodoro-da-fonseca-1891', date: '03 Nov 1891', status: copy.context, tone: 'context', title: 'A coup in the capital', copy: 'While the steamer crossed the Atlantic, Decree no. 641 dissolved Congress and the government imposed a state of siege in the capital.' },
+  { at: 0.36, mediaId: 'cape-verde-porto-grande-1890', date: 'c. 05–07 Nov 1891', status: copy.reconstruction, tone: 'reconstruction', title: 'Coal at Porto Grande', copy: 'Mindelo was a vital coaling station for steam navigation. The Colombo’s call here on this voyage is reconstructed, not proven.' },
+  { at: 0.77, mediaId: 'rio-port-customs-ferrez', date: '20 Nov 1891', status: copy.reconstruction, tone: 'reconstruction', title: 'The proposed Guanabara arrival', copy: 'Current research proposes that the Colombo entered Rio on this date. The family entry establishes only “Rio de Janeiro” as provenance on 15 December.' },
+  { at: 0.89, mediaId: 'riachuelo-ferrez-1891', date: '23 Nov 1891 · 09:00', status: copy.context, tone: 'context', title: 'Guns in the bay', copy: 'Custódio de Melo led the naval movement and the Riachuelo threatened the capital. If the 20 November arrival is correct, the family was in the port region during the crisis.' },
+  { at: 0.94, mediaId: 'floriano-peixoto-1891', date: '23 Nov 1891 · 15:00', status: copy.context, tone: 'context', title: 'Resignation and succession', copy: 'Deodoro resigned; Floriano took office and revoked the dissolution of Congress through Decree no. 686. The Colombo’s delay and its causes remain under investigation.' },
+  { at: 0.985, mediaId: 'santos-valongo-ferrez', date: 'c. 06–07 Dec 1891', status: copy.reconstruction, tone: 'reconstruction', title: 'The probable landing', copy: 'Santos fits the regular line and the onward journey to São Paulo, but the family entry does not name the exact day or wharf.' },
+  { at: 1, mediaId: 'panzonato-hospedaria-1891', date: '15 Dec 1891', status: copy.documented, tone: 'documented', title: 'Eight names at the Brás hostel', copy: 'Here the route returns to firm ground: book 031, page 283. Giuseppe, Fosca, and the six children appear together, from Rio and bound for Tietê.' },
+];
+const storySlides = storyFrames.map((frame) => ({ ...frame, media: storyMedia(frame.mediaId) }));
 ---
 
 <div class="voyage-map-shell">
@@ -156,9 +201,32 @@ const copy = pt ? {
     </div>
     <p class="voyage-map__sequence">{copy.sequence}</p>
   </header>
+  <p class="voyage-map__evidence-legend">{copy.evidenceLegend}</p>
 
   <figure>
     <div class="voyage-map__stage">
+      <aside class="voyage-map__story" data-voyage-story-panel aria-label={copy.storyLabel} aria-live="polite">
+        <span class="voyage-map__story-label">{copy.storyLabel}</span>
+        {storySlides.map((slide, index) => <article
+          class="voyage-map__story-slide"
+          data-voyage-story
+          data-voyage-at={slide.at}
+          data-voyage-tone={slide.tone}
+          aria-hidden={index === 0 ? 'false' : 'true'}
+        >
+          <a href={slide.media.href} aria-label={`${copy.inspect}: ${slide.media.title}`}>
+            <img src={slide.media.src} srcset={slide.media.srcset} sizes="(min-width: 768px) 18rem, 86vw" width={slide.media.width} height={slide.media.height} alt={slide.media.alt} loading={index === 0 ? 'eager' : 'lazy'} decoding="async" style={`object-position:${slide.media.focalPoint}`} />
+          </a>
+          <div class="voyage-map__story-copy">
+            <div class="voyage-map__story-meta"><time>{slide.date}</time><span>{slide.status}</span></div>
+            <h4>{slide.title}</h4>
+            <p>{slide.copy}</p>
+          </div>
+        </article>)}
+        <div class="voyage-map__story-progress" aria-hidden="true">
+          {storySlides.map((_, index) => <i data-voyage-story-dot data-active={index === 0 ? 'true' : 'false'}></i>)}
+        </div>
+      </aside>
       <div class="voyage-map__plate" style={`aspect-ratio:${win.width}/${win.height}`}>
         <p class="voyage-map__fallback" aria-hidden="true">{copy.mapFallback}</p>
         <img
@@ -250,6 +318,7 @@ const copy = pt ? {
 <p class="voyage-map__historical-note" id="voyage-historical-note">
   {copy.noteBefore}<a href={rossiniHref}>{copy.noteRoute}</a>{copy.noteMiddle}<a href={arrivalHref}>{copy.noteRecord}</a>{copy.noteAfter}<a href={data.source.url} rel="external">{copy.mapSource}: {data.source.title} ({data.source.date})</a>.
 </p>
+<p class="voyage-map__source-trail">{copy.sourceTrail}: <a href={decree641Href}>{copy.decree641}</a> · <a href={decree686Href}>{copy.decree686}</a> · <a href={crisisContextHref}>{copy.crisisContext}</a>.</p>
 </div>
 
 <script>

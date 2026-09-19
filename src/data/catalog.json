@@ -39,7 +39,15 @@
         "panzonato-hospedaria-1891",
         "panzonato-desembarque-certificate-2002",
         "jose-filho-birth-1899",
-        "giuseppe-death-1937"
+        "giuseppe-death-1937",
+        "genoa-port-noack-1892",
+        "rio-port-customs-ferrez",
+        "riachuelo-ferrez-1891",
+        "deodoro-da-fonseca-1891",
+        "floriano-peixoto-1891",
+        "decree-641-1891",
+        "decree-686-1891",
+        "context-first-republic-crisis-1891"
       ],
       "relationships": [
         {
@@ -145,7 +153,14 @@
         "giuseppe-fosca-marriage-1881",
         "panzonato-hospedaria-1891",
         "jose-filho-birth-1899",
-        "fosca-death-1927"
+        "fosca-death-1927",
+        "genoa-port-noack-1892",
+        "rio-port-customs-ferrez",
+        "riachuelo-ferrez-1891",
+        "santos-valongo-ferrez",
+        "decree-641-1891",
+        "decree-686-1891",
+        "context-first-republic-crisis-1891"
       ],
       "relationships": [
         {
@@ -737,6 +752,162 @@
     }
   ],
   "sources": [
+    {
+      "id": "decree-641-1891",
+      "publication": "preview",
+      "title": { "en": "Decree no. 641 of 3 November 1891", "pt-br": "Decreto nº 641, de 3 de novembro de 1891" },
+      "description": { "en": "The executive decree that dissolved the National Congress and called for new representatives.", "pt-br": "O decreto do Poder Executivo que dissolveu o Congresso Nacional e convocou a escolha de novos representantes." },
+      "citation": { "en": "Brazil, Decree no. 641, 3 November 1891, Collection of Laws of Brazil, 1891, vol. 2, pt. II, p. 641.", "pt-br": "Brasil, Decreto nº 641, de 3 de novembro de 1891, Coleção de Leis do Brasil, 1891, v. 2, pt. II, p. 641." },
+      "repository": { "en": "Chamber of Deputies — Federal legislation database", "pt-br": "Câmara dos Deputados — Legislação Informatizada" },
+      "locator": "https://www2.camara.leg.br/legin/fed/decret/1824-1899/decreto-641-3-novembro-1891-541881-norma-pe.html",
+      "kind": "reference",
+      "category": { "en": "Federal decree", "pt-br": "Decreto federal" },
+      "date": "1891-11-03"
+    },
+    {
+      "id": "decree-686-1891",
+      "publication": "preview",
+      "title": { "en": "Decree no. 686 of 23 November 1891", "pt-br": "Decreto nº 686, de 23 de novembro de 1891" },
+      "description": { "en": "Floriano Peixoto's decree annulling the decrees of 3 November after assuming the presidency.", "pt-br": "Decreto de Floriano Peixoto que anulou os decretos de 3 de novembro após assumir a Presidência." },
+      "citation": { "en": "Brazil, Decree no. 686, 23 November 1891, Collection of Laws of Brazil, 1891, vol. 2, pt. II, p. 753.", "pt-br": "Brasil, Decreto nº 686, de 23 de novembro de 1891, Coleção de Leis do Brasil, 1891, v. 2, pt. II, p. 753." },
+      "repository": { "en": "Chamber of Deputies — Federal legislation database", "pt-br": "Câmara dos Deputados — Legislação Informatizada" },
+      "locator": "https://www2.camara.leg.br/legin/fed/decret/1824-1899/decreto-686-23-novembro-1891-518390-norma-pe.html",
+      "kind": "reference",
+      "category": { "en": "Federal decree", "pt-br": "Decreto federal" },
+      "date": "1891-11-23"
+    },
+    {
+      "id": "context-first-republic-crisis-1891",
+      "publication": "preview",
+      "title": { "en": "The First Republic: the November 1891 crisis", "pt-br": "A Primeira República: a crise de novembro de 1891" },
+      "description": { "en": "The Chamber of Deputies' historical account of the dissolution of Congress, the revolt in Guanabara Bay, the threat to bombard the capital, Deodoro's resignation and Floriano's accession.", "pt-br": "Síntese histórica da Câmara dos Deputados sobre a dissolução do Congresso, a revolta na Baía de Guanabara, a ameaça de bombardeio da capital, a renúncia de Deodoro e a posse de Floriano." },
+      "citation": { "en": "Chamber of Deputies, A 1ª República, historical and legislative context, section on November 1891.", "pt-br": "Câmara dos Deputados, A 1ª República, contexto histórico, político e legislativo, seção sobre novembro de 1891." },
+      "repository": { "en": "Chamber of Deputies", "pt-br": "Câmara dos Deputados" },
+      "locator": "https://www2.camara.leg.br/a-camara/conheca/historia/a1republica.html/",
+      "kind": "reference",
+      "category": { "en": "Institutional history", "pt-br": "História institucional" },
+      "date": "1891-11",
+      "evidenceNote": { "en": "This source documents the national political crisis; it does not document the Colombo or the Panzonato family.", "pt-br": "Esta fonte documenta a crise política nacional; não documenta o Colombo nem a família Panzonato." }
+    },
+    {
+      "id": "genoa-port-noack-1892",
+      "mediaId": "genoa-port-noack-1892",
+      "publication": "preview",
+      "title": { "en": "Genoa New Port, September 1892", "pt-br": "Porto Nuovo de Gênova, setembro de 1892" },
+      "description": { "en": "Alfred Noack's view of Genoa's new harbour, steamships and passenger pier one year after the family's migration.", "pt-br": "Vista de Alfred Noack do porto novo de Gênova, seus vapores e a ponte de passageiros, um ano após a migração da família." },
+      "citation": { "en": "Alfred Noack, Genova — Porto Nuovo, September 1892, no. 6918.", "pt-br": "Alfred Noack, Genova — Porto Nuovo, setembro de 1892, nº 6918." },
+      "repository": { "en": "Wikimedia Commons / Noack collection", "pt-br": "Wikimedia Commons / coleção Noack" },
+      "locator": "https://commons.wikimedia.org/wiki/File:Noack,_Alfred_(1833-1895)_-_n._6918_-_Genova_-_Porto_Nuovo,_Settembre_1892.png",
+      "kind": "context",
+      "category": { "en": "Port photograph", "pt-br": "Fotografia portuária" },
+      "date": "1892-09",
+      "evidenceNote": { "en": "Period context only. The family record does not identify Genoa as their embarkation port.", "pt-br": "Apenas contexto de época. O registro familiar não identifica Gênova como porto de embarque." }
+    },
+    {
+      "id": "lisbon-cais-do-sodre-1890",
+      "mediaId": "lisbon-cais-do-sodre-1890",
+      "publication": "preview",
+      "title": { "en": "Cais do Sodré and the Tagus waterfront", "pt-br": "Cais do Sodré e a frente ribeirinha do Tejo" },
+      "description": { "en": "A period view of Lisbon's waterfront and anchorage around 1890–1895.", "pt-br": "Vista de época da frente ribeirinha e do ancoradouro de Lisboa por volta de 1890–1895." },
+      "citation": { "en": "Historic view of Cais do Sodré, Lisbon, c. 1890–1895.", "pt-br": "Vista histórica do Cais do Sodré, Lisboa, c. 1890–1895." },
+      "repository": { "en": "Wikimedia Commons; Lisbon Municipal Archive context", "pt-br": "Wikimedia Commons; contexto do Arquivo Municipal de Lisboa" },
+      "locator": "https://commons.wikimedia.org/wiki/File:Gare_original_do_Cais_do_Sodre_-_O_Caminho_de_Ferro_Revisitado.jpg",
+      "kind": "context",
+      "category": { "en": "Port photograph", "pt-br": "Fotografia portuária" },
+      "evidenceNote": { "en": "The Colombo's regular line called at Lisbon; this exact call is not documented in the family record.", "pt-br": "A linha regular do Colombo fazia escala em Lisboa; esta escala exata não está documentada no registro familiar." }
+    },
+    {
+      "id": "cape-verde-porto-grande-1890",
+      "mediaId": "cape-verde-porto-grande-1890",
+      "publication": "preview",
+      "title": { "en": "Porto Grande at Mindelo", "pt-br": "Porto Grande em Mindelo" },
+      "description": { "en": "Historic postcard view of Porto Grande bay on São Vicente, a major Atlantic coaling harbour.", "pt-br": "Vista em postal histórico da baía do Porto Grande, em São Vicente, importante porto carvoeiro do Atlântico." },
+      "citation": { "en": "Historic postcard, Porto Grande, São Vicente, c. 1890–1900.", "pt-br": "Postal histórico, Porto Grande, São Vicente, c. 1890–1900." },
+      "repository": { "en": "Wikimedia Commons", "pt-br": "Wikimedia Commons" },
+      "locator": "https://commons.wikimedia.org/wiki/File:Old_postcard_SaoVicente1.jpg",
+      "kind": "context",
+      "category": { "en": "Port postcard", "pt-br": "Postal portuário" },
+      "evidenceNote": { "en": "A Cape Verde coaling call is reconstructed from the line's operating pattern, not documented for this family voyage.", "pt-br": "A escala carvoeira em Cabo Verde é reconstruída a partir da operação da linha, não documentada para a viagem desta família." }
+    },
+    {
+      "id": "rio-port-customs-ferrez",
+      "mediaId": "rio-port-customs-ferrez",
+      "publication": "preview",
+      "title": { "en": "Rio Customs House and harbour from Gamboa", "pt-br": "Alfândega e porto do Rio vistos da Gamboa" },
+      "description": { "en": "Marc Ferrez's glass-plate view of ships, customs facilities and waterfront activity in Guanabara Bay.", "pt-br": "Vista em chapa de vidro de Marc Ferrez mostrando navios, instalações alfandegárias e movimento portuário na Baía de Guanabara." },
+      "citation": { "en": "Marc Ferrez, Vista da Alfândega e do Porto do Rio de Janeiro a partir da Gamboa, c. 1885–1890, IMS 0072137cx012-01.", "pt-br": "Marc Ferrez, Vista da Alfândega e do Porto do Rio de Janeiro a partir da Gamboa, c. 1885–1890, IMS 0072137cx012-01." },
+      "repository": { "en": "Instituto Moreira Salles / Wikimedia Commons", "pt-br": "Instituto Moreira Salles / Wikimedia Commons" },
+      "locator": "https://commons.wikimedia.org/wiki/File:Vista_da_Alf%C3%A2ndega_e_do_Porto_do_Rio_de_Janeiro_a_partir_da_Gamboa_(0072137cx012-01).jpg",
+      "kind": "context",
+      "category": { "en": "Port photograph", "pt-br": "Fotografia portuária" },
+      "evidenceNote": { "en": "The family register names Rio de Janeiro as provenance; the proposed arrival on 20 November remains a research reconstruction.", "pt-br": "O registro familiar informa procedência do Rio de Janeiro; a chegada proposta em 20 de novembro permanece uma reconstrução de pesquisa." }
+    },
+    {
+      "id": "santos-valongo-ferrez",
+      "mediaId": "santos-valongo-ferrez",
+      "publication": "preview",
+      "title": { "en": "The wooden wharves of Santos", "pt-br": "Os trapiches de madeira de Santos" },
+      "description": { "en": "Marc Ferrez's late-nineteenth-century view of the Santos estuary and the wooden wharves at Valongo and Paquetá.", "pt-br": "Vista de Marc Ferrez do estuário de Santos e dos trapiches de madeira do Valongo e Paquetá no fim do século XIX." },
+      "citation": { "en": "Marc Ferrez, Santos harbour, c. 1880–1890, IMS 0071824cx113-03.", "pt-br": "Marc Ferrez, porto de Santos, c. 1880–1890, IMS 0071824cx113-03." },
+      "repository": { "en": "Instituto Moreira Salles / Wikimedia Commons", "pt-br": "Instituto Moreira Salles / Wikimedia Commons" },
+      "locator": "https://commons.wikimedia.org/wiki/File:Marc_Ferrez_-_IMS_0071824cx113-03.jpg",
+      "kind": "context",
+      "category": { "en": "Port photograph", "pt-br": "Fotografia portuária" },
+      "evidenceNote": { "en": "Santos is consistent with the regular route and later São Paulo registration, but the exact landing date and wharf are not stated in the family entry.", "pt-br": "Santos é compatível com a rota regular e o registro posterior em São Paulo, mas a data e o trapiche exatos não constam no assento familiar." }
+    },
+    {
+      "id": "riachuelo-ferrez-1891",
+      "mediaId": "riachuelo-ferrez-1891",
+      "publication": "preview",
+      "title": { "en": "The battleship Riachuelo", "pt-br": "O encouraçado Riachuelo" },
+      "description": { "en": "Marc Ferrez's photograph of the Brazilian battleship associated with the naval ultimatum of 23 November 1891.", "pt-br": "Fotografia de Marc Ferrez do encouraçado brasileiro associado ao ultimato naval de 23 de novembro de 1891." },
+      "citation": { "en": "Marc Ferrez, Encouraçado Riachuelo, c. 1885–1890.", "pt-br": "Marc Ferrez, Encouraçado Riachuelo, c. 1885–1890." },
+      "repository": { "en": "Instituto Moreira Salles / Wikimedia Commons", "pt-br": "Instituto Moreira Salles / Wikimedia Commons" },
+      "locator": "https://commons.wikimedia.org/wiki/File:Encoura%C3%A7ado_Riachuelo,_Acervo_do_Instituto_Moreira_Salles.jpg",
+      "kind": "context",
+      "category": { "en": "Naval photograph", "pt-br": "Fotografia naval" },
+      "date": "1891-11-23",
+      "evidenceNote": { "en": "The revolt is documented national context. The family's presence in the bay that day depends on the proposed 20 November arrival chronology.", "pt-br": "A revolta é contexto nacional documentado. A presença da família na baía naquele dia depende da cronologia proposta de chegada em 20 de novembro." }
+    },
+    {
+      "id": "deodoro-da-fonseca-1891",
+      "mediaId": "deodoro-da-fonseca-1891",
+      "publication": "preview",
+      "title": { "en": "Deodoro da Fonseca in 1891", "pt-br": "Deodoro da Fonseca em 1891" },
+      "description": { "en": "Formal portrait of Deodoro da Fonseca in the year of the 3 November coup and his resignation on 23 November.", "pt-br": "Retrato formal de Deodoro da Fonseca no ano do golpe de 3 de novembro e de sua renúncia em 23 de novembro." },
+      "citation": { "en": "Deodoro da Fonseca, 1891; National Archive attribution.", "pt-br": "Deodoro da Fonseca, 1891; atribuição ao Arquivo Nacional." },
+      "repository": { "en": "Wikimedia Commons / Brazilian National Archive attribution", "pt-br": "Wikimedia Commons / atribuição ao Arquivo Nacional" },
+      "locator": "https://commons.wikimedia.org/wiki/File:Deodoro_da_Fonseca_1891.png",
+      "kind": "context",
+      "category": { "en": "Portrait", "pt-br": "Retrato" },
+      "date": "1891"
+    },
+    {
+      "id": "custodio-de-mello-1891",
+      "mediaId": "custodio-de-mello-1891",
+      "publication": "preview",
+      "title": { "en": "Rear Admiral Custódio José de Melo", "pt-br": "Contra-almirante Custódio José de Melo" },
+      "description": { "en": "Portrait of the naval officer who led the 23 November movement against Deodoro da Fonseca.", "pt-br": "Retrato do oficial da Marinha que liderou o movimento de 23 de novembro contra Deodoro da Fonseca." },
+      "citation": { "en": "Historic portrait of Custódio José de Melo, c. 1891–1893.", "pt-br": "Retrato histórico de Custódio José de Melo, c. 1891–1893." },
+      "repository": { "en": "Wikimedia Commons", "pt-br": "Wikimedia Commons" },
+      "locator": "https://commons.wikimedia.org/wiki/File:Cust%C3%B3dio-Jos%C3%A9-de-Mello.png",
+      "kind": "context",
+      "category": { "en": "Portrait", "pt-br": "Retrato" },
+      "date": "1891"
+    },
+    {
+      "id": "floriano-peixoto-1891",
+      "mediaId": "floriano-peixoto-1891",
+      "publication": "preview",
+      "title": { "en": "Floriano Peixoto in 1891", "pt-br": "Floriano Peixoto em 1891" },
+      "description": { "en": "Formal portrait of Floriano Peixoto, who assumed the presidency on 23 November and revoked Decree no. 641.", "pt-br": "Retrato formal de Floriano Peixoto, que assumiu a Presidência em 23 de novembro e revogou o Decreto nº 641." },
+      "citation": { "en": "Floriano Peixoto, 1891; Presidency of the Republic attribution.", "pt-br": "Floriano Peixoto, 1891; atribuição à Presidência da República." },
+      "repository": { "en": "Wikimedia Commons / Presidency of the Republic attribution", "pt-br": "Wikimedia Commons / atribuição à Presidência da República" },
+      "locator": "https://commons.wikimedia.org/wiki/File:Floriano_Peixoto_(1891).jpg",
+      "kind": "context",
+      "category": { "en": "Portrait", "pt-br": "Retrato" },
+      "date": "1891-11-23"
+    },
     {
       "id": "gambarare-church",
       "mediaId": "gambarare",
@@ -3683,7 +3854,8 @@
       },
       "publication": "preview",
       "sourceIds": [
-        "context-colombo-history"
+        "context-colombo-history",
+        "genoa-port-noack-1892"
       ],
       "description": {
         "en": "Genoa belongs to the Colombo's wider route and port history, but no supplied Panzonato family document establishes that the household embarked there. It must remain contextual rather than a confirmed family waypoint.",
@@ -3699,7 +3871,9 @@
       "publication": "preview",
       "sourceIds": [
         "panzonato-hospedaria-1891",
-        "panzonato-desembarque-certificate-2002"
+        "panzonato-desembarque-certificate-2002",
+        "rio-port-customs-ferrez",
+        "context-first-republic-crisis-1891"
       ],
       "description": {
         "en": "Both São Paulo immigration extracts record the Panzonato household as proceeding from Rio de Janeiro. The documents establish this prior recorded waypoint without explaining the family's earlier European leg.",
@@ -3715,7 +3889,8 @@
       "publication": "preview",
       "sourceIds": [
         "context-colombo-history",
-        "context-apesp-immigration"
+        "context-apesp-immigration",
+        "santos-valongo-ferrez"
       ],
       "description": {
         "en": "Santos was a major immigration port and appears in the Colombo's route history, but the family-specific records reviewed here do not document a Panzonato landing at Santos. Port images therefore serve as period context only.",
@@ -3831,6 +4006,61 @@
       "chapterKey": "origins",
       "sourceIds": [
         "giuseppe-fosca-marriage-1881"
+      ]
+    },
+    {
+      "id": "deodoro-coup-1891",
+      "year": "3 Nov 1891",
+      "kind": "context",
+      "sortDate": "1891-11-03",
+      "title": {
+        "en": "Deodoro dissolves the National Congress",
+        "pt-br": "Deodoro dissolve o Congresso Nacional"
+      },
+      "description": {
+        "en": "Decree no. 641 dissolved Congress and called for new representatives; the government also imposed a state of siege in the capital. This was the political setting developing while the family was probably still at sea.",
+        "pt-br": "O Decreto nº 641 dissolveu o Congresso e convocou novos representantes; o governo também impôs estado de sítio na capital. Era o cenário político em formação enquanto a família provavelmente ainda estava no mar."
+      },
+      "scope": {
+        "en": "Rio de Janeiro and federal government",
+        "pt-br": "Rio de Janeiro e governo federal"
+      },
+      "impact": {
+        "en": "The coup is documented national history. Its effect on the Colombo is not established by the family record.",
+        "pt-br": "O golpe é história nacional documentada. Seu efeito sobre o Colombo não é estabelecido pelo registro familiar."
+      },
+      "chapterKey": "crossing",
+      "sourceIds": [
+        "decree-641-1891",
+        "context-first-republic-crisis-1891"
+      ]
+    },
+    {
+      "id": "first-naval-revolt-1891",
+      "year": "23 Nov 1891",
+      "kind": "context",
+      "sortDate": "1891-11-23",
+      "title": {
+        "en": "A naval ultimatum forces Deodoro's resignation",
+        "pt-br": "Um ultimato naval força a renúncia de Deodoro"
+      },
+      "description": {
+        "en": "Custódio José de Melo's movement in Guanabara Bay threatened the capital. Deodoro resigned and Floriano Peixoto assumed the presidency, annulling the decrees of 3 November.",
+        "pt-br": "O movimento de Custódio José de Melo na Baía de Guanabara ameaçou a capital. Deodoro renunciou e Floriano Peixoto assumiu a Presidência, anulando os decretos de 3 de novembro."
+      },
+      "scope": {
+        "en": "Guanabara Bay and the federal capital",
+        "pt-br": "Baía de Guanabara e capital federal"
+      },
+      "impact": {
+        "en": "If the proposed 20 November Colombo arrival is correct, the family was in the port region during the crisis. That link remains conditional.",
+        "pt-br": "Se a chegada proposta do Colombo em 20 de novembro estiver correta, a família estava na região portuária durante a crise. Essa ligação permanece condicional."
+      },
+      "chapterKey": "crossing",
+      "sourceIds": [
+        "decree-686-1891",
+        "context-first-republic-crisis-1891",
+        "riachuelo-ferrez-1891"
       ]
     },
     {

@@ -40,6 +40,24 @@ const homeUsedMediaIds = new Set([hero.id, ...chapters.map(chapter => chapter.me
 const homeCollections = collections.filter(collection => !homeUsedMediaIds.has(collection.cover.id)).slice(0, 3);
 if (collections.length && homeCollections.length < 3) throw new Error('Homepage needs three collection covers distinct from its other image placements');
 const featuredPeople = people.filter(person => ['giuseppe-giacomo-panzonato', 'fosca-moro', 'jose-pansonatto-filho', 'assumpta-elvira-pessato'].includes(person.id));
+const rosterPeople: Record<string, ReturnType<typeof getPeople>[number] | undefined> = {
+  Giuseppe: people.find(person => person.id === 'giuseppe-giacomo-panzonato'),
+  Fosca: people.find(person => person.id === 'fosca-moro'),
+  Catarina: people.find(person => person.id === 'catharina-pansonato'),
+  Luigi: people.find(person => person.id === 'luiz-pansonatto'),
+};
+const passengers: [string, string][] = [['Giuseppe', '35'], ['Fosca', '30'], ['Luigia', '10'], ['Catarina', '9'], ['Candida', '7'], ['Luigi', '5'], ['Domenico', '3'], ['Eugenio', '1']];
+const crisisMoments = (pt ? [
+  { date: '03.11.1891', label: 'Contexto nacional documentado', title: 'Deodoro dissolve o Congresso.', copy: 'O Decreto nº 641 dissolve o Congresso; o governo também impõe estado de sítio na capital. Nesse momento, a família provavelmente ainda cruzava o Atlântico.', mediaId: 'deodoro-da-fonseca-1891' },
+  { date: '20.11.1891', label: 'Cronologia reconstruída', title: 'O Colombo teria entrado na Guanabara.', copy: 'A data vem da pesquisa de movimento portuário citada no novo dossiê. O documento da família confirma “procedente do Rio de Janeiro”, mas não registra o dia de entrada na baía.', mediaId: 'rio-port-customs-ferrez' },
+  { date: '23.11.1891 · 09h', label: 'Contexto nacional documentado', title: 'A esquadra impõe um ultimato.', copy: 'Custódio José de Melo lidera o movimento naval. O Riachuelo ameaça a capital. A presença dos Panzonato nesse cenário depende de a chegada proposta de 20 de novembro estar correta.', mediaId: 'riachuelo-ferrez-1891' },
+  { date: '23.11.1891 · 15h', label: 'Contexto nacional documentado', title: 'Deodoro renuncia; Floriano assume.', copy: 'Floriano Peixoto revoga a dissolução do Congresso pelo Decreto nº 686. A crise é certa; seu efeito operacional exato sobre o Colombo ainda precisa de prova direta.', mediaId: 'floriano-peixoto-1891' },
+] : [
+  { date: '03 Nov 1891', label: 'Documented national context', title: 'Deodoro dissolves Congress.', copy: 'Decree no. 641 dissolves Congress; the government also imposes a state of siege in the capital. At this point, the family was probably still crossing the Atlantic.', mediaId: 'deodoro-da-fonseca-1891' },
+  { date: '20 Nov 1891', label: 'Reconstructed chronology', title: 'The Colombo may have entered Guanabara.', copy: 'The date comes from port-movement research cited in the new dossier. The family entry confirms “from Rio de Janeiro” but does not record the day the ship entered the bay.', mediaId: 'rio-port-customs-ferrez' },
+  { date: '23 Nov 1891 · 09:00', label: 'Documented national context', title: 'The fleet delivers an ultimatum.', copy: 'Custódio José de Melo leads the naval movement. The Riachuelo threatens the capital. The Panzonatos’ presence in this scene depends on the proposed 20 November arrival being correct.', mediaId: 'riachuelo-ferrez-1891' },
+  { date: '23 Nov 1891 · 15:00', label: 'Documented national context', title: 'Deodoro resigns; Floriano takes office.', copy: 'Floriano Peixoto revokes the dissolution of Congress through Decree no. 686. The crisis is certain; its exact operational effect on the Colombo still needs direct evidence.', mediaId: 'floriano-peixoto-1891' },
+]).map(moment => ({ ...moment, media: getMedia(moment.mediaId, locale) }));
 const payload = exhibitionPayload(locale, media, chapters.map((chapter, index) => ({
   number: String(index + 1).padStart(2, '0'),
   title: chapter.data.question,
@@ -118,11 +136,33 @@ const payload = exhibitionPayload(locale, media, chapters.map((chapter, index) =
       <div class="voyage-reading-layout">
         <VoyageMap locale={locale} />
         <div class="voyage-roster">
-          <dl class="passenger-roster">{[['Giuseppe', '35'], ['Fosca', '30'], ['Luigia', '10'], ['Catarina', '9'], ['Candida', '7'], ['Luigi', '5'], ['Domenico', '3'], ['Eugenio', '1']].map(([name, age]) => <div><dt>{name}</dt><dd>{age} <span>{pt ? (age === '1' ? 'ano' : 'anos') : (age === '1' ? 'year' : 'years')}</span></dd></div>)}</dl>
+          <dl class="passenger-roster">{passengers.map(([name, age]) => {
+            const person = rosterPeople[name];
+            return <div><dt>{person ? <a href={person.href} aria-label={`${name} — ${pt ? 'abrir perfil biográfico' : 'open biographical profile'}`}>{name}</a> : name}</dt><dd>{age} <span>{pt ? (age === '1' ? 'ano' : 'anos') : (age === '1' ? 'year' : 'years')}</span></dd></div>;
+          })}</dl>
           <p class="roster-note">{pt ? 'Nomes e idades conforme o registro de chegada do Colombo. Hospedaria de Imigrantes, livro 031, página 283.' : 'Names and ages as recorded in the Colombo arrival entry. Hospedaria de Imigrantes, book 031, page 283.'}</p>
           <a class="text-link" href={crossing.href}>{t.readingLink}<span aria-hidden="true"></span></a>
         </div>
       </div>
+      <section class="guanabara-dossier" aria-labelledby="guanabara-title">
+        <header>
+          <span class="eyebrow">{pt ? 'Rio de Janeiro · novembro de 1891' : 'Rio de Janeiro · November 1891'}</span>
+          <h3 id="guanabara-title">{pt ? 'Uma família diante de uma República em crise.' : 'One family beside a republic in crisis.'}</h3>
+          <p>{pt ? 'A sequência abaixo separa o que os decretos e a história política documentam daquilo que a cronologia do Colombo ainda reconstrói. Essa diferença não enfraquece a história: mostra exatamente onde termina o arquivo e começa a hipótese.' : 'The sequence below separates what the decrees and political history document from what the Colombo chronology still reconstructs. That distinction does not weaken the story; it shows precisely where the archive ends and hypothesis begins.'}</p>
+        </header>
+        <div class="guanabara-sequence">
+          {crisisMoments.map((moment, index) => <article>
+            <a class="image-open" href={moment.media.href} data-evidence={moment.media.id} data-inspect-label={t.inspect} aria-label={`${t.inspect}: ${moment.media.title}`}>
+              <MediaImage media={moment.media} sizes="(min-width: 1000px) 21vw, (min-width: 600px) 45vw, 92vw" />
+            </a>
+            <div><span class="guanabara-index">{String(index + 1).padStart(2, '0')}</span><time>{moment.date}</time><small>{moment.label}</small><h4>{moment.title}</h4><p>{moment.copy}</p></div>
+          </article>)}
+        </div>
+        <div class="guanabara-conclusion">
+          <p><strong>{pt ? '24 de novembro–início de dezembro:' : '24 November–early December:'}</strong> {pt ? 'bloqueio de circulação, desorganização alfandegária, greve ferroviária e quarentena são explicações possíveis para a demora — ainda não causas comprovadas para este navio.' : 'restricted movement, customs disruption, railway strikes, and quarantine are possible explanations for the delay—not yet proven causes for this vessel.'}</p>
+          <p><strong>{pt ? '15 de dezembro:' : '15 December:'}</strong> {pt ? 'o registro do Brás oferece o próximo ponto seguro. Os oito nomes chegaram juntos à página 283.' : 'the Brás register supplies the next secure point. All eight names reached page 283 together.'}</p>
+        </div>
+      </section>
     </article>
   </section>
 
