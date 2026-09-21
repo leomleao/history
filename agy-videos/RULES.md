@@ -1,14 +1,36 @@
 # AGY Videos — Production Governance & Rules
 
-This document establishes the mandatory local rules and operational gates for producing AI-generated historical video shorts in the `agy-videos` project using the Higgsfield platform.
+This document establishes the mandatory local rules, organizational structure, and operational gates for producing AI-generated historical video shorts in the `agy-videos` project using the Higgsfield platform.
+
+---
+
+## Standard Directory Structure for Every Video Production
+
+Every video production must reside in its own self-contained directory (e.g., `01-fosca-at-sea/`) with the following standardized structure:
+
+```
+agy-videos/<XX-project-name>/
+  ├── README.md                      # Project overview and index
+  ├── script-draft.md                # Cinematic script with synchronized multilingual tracks (EN/PT-BR)
+  ├── higgsfield-production-plan.md  # Model selection, prompt blueprints, credit budget
+  ├── references/                    # Structured text copies of all historical records & research
+  │     ├── README.md                # Index of references and citation mapping
+  │     ├── <topic>-history.md       # Primary historical and technical source documents
+  │     └── ...
+  └── images/                        # High-resolution reference photographs and archival illustrations
+        ├── <vessel-name>.jpg        # Direct photographs of historical vessels / locations
+        ├── <archival-ledger>.jpg    # Direct primary document scans
+        └── ...
+```
 
 ---
 
 ## The Non-Negotiable Gates
 
-### Gate 1: Historical Source Alignment
-- Every story and script must be grounded in primary archival sources from this repository (e.g., passenger manifests, civil registration acts, ship engineering histories, contemporary passenger diaries).
-- **Hard Rule**: Clearly separate documented facts (names, dates, ages, ship dimensions, destinations) from dramatized sensory reconstruction. Never invent contradictory historical details.
+### Gate 1: Historical Source Alignment & Local Evidence Dossier
+- Every story and script must be grounded in primary archival sources from this repository.
+- A local **`references/`** folder and an **`images/`** folder containing actual copies of reference texts and photographic assets (e.g., ship photographs, archival ledgers, contemporary engravings) must be assembled before writing prompts.
+- **Hard Rule**: Clearly separate documented primary facts (names, dates, ages, ship dimensions, destinations) from dramatized sensory reconstruction. Never invent contradictory historical details or misattribute external passengers to the family vessel.
 
 ### Gate 2: Explicit Script Approval
 - **NO VIDEO MAY BE GENERATED UNTIL THE SCRIPT AND SHOT LIST RECEIVE FORMAL APPROVAL FROM THE USER.**
@@ -32,26 +54,18 @@ This document establishes the mandatory local rules and operational gates for pr
 ## Standard Production Pipeline
 
 ```
-[Phase 1: Historical Research] 
-   └── Analyze archive records & contemporary testimony (context-and-sources.md)
+[Phase 1: Assemble Dossier] 
+   └── Copy reference documents into `references/` and images into `images/`
 [Phase 2: Script & Storyboard] 
-   └── Write narrative script, scene beats, and camera instructions (script-draft.md)
+   └── Write dual-track (EN + PT-BR) narrative script linked to visual references
 [Phase 3: Human Gate - Script Approval] 
    └── User reviews and approves script (MANDATORY GATE)
 [Phase 4: Higgsfield Production Blueprint] 
-   └── Model selection, reference image prompts, video shot prompts, audio cues
+   └── Model selection, anchor image prompts (gpt_image_2_5), video shot prompts (kling3_0_turbo)
 [Phase 5: Human Gate - Credit & Job Approval] 
    └── Run `higgsfield account status` + cost estimate, user confirms job dispatch
 [Phase 6: Video & Audio Generation] 
    └── Dispatch jobs via Higgsfield CLI with `--wait`
 [Phase 7: Review & Final Assembly] 
-   └── Quality review, virality/hook check if applicable, archive deliverable
+   └── Quality review, export dual editions (EN and PT-BR)
 ```
-
----
-
-## Higgsfield Reference Baseline
-- **Primary Video Engine**: `seedance_2_5` (SOTA cinematic motion, image-to-video, 1080p, natural physics and human emotional expression) or `kling3_0` / `minimax_hailuo`.
-- **Anchor Keyframe Image Engine**: `gpt_image_2_5` / `soul_cinematic` for period-accurate costume, lighting, and face consistency.
-- **Audio & Sound Design Engine**: `seed_audio` for environmental foley (iron hull groaning, Atlantic waves, engine vibrations, wind, steerage murmurs).
-- **Authentication**: Current account authenticated as `leomleao@gmail.com`.

@@ -6,6 +6,10 @@
 **Audio Tracks**: Dual Production — English (EN) & Brazilian Portuguese (PT-BR)  
 **Tone**: Visceral, intimate, dignified, historically faithful  
 **Visual Style**: 1891 period realism; 35mm film grain, muted slate-grey Atlantic palette, chiaroscuro lantern light, macro archival ledger parchment  
+**Visual Grounding Assets**:
+- Ship Exterior: [`images/colombo-drydock-1901.jpg`](file:///Users/leo/dev/history/agy-videos/01-fosca-at-sea/images/colombo-drydock-1901.jpg)
+- Steerage & Deck Atmosphere: [`images/steerage-interior-1891.webp`](file:///Users/leo/dev/history/agy-videos/01-fosca-at-sea/images/steerage-interior-1891.webp), [`images/emigranti_ponte_ferraguti.jpg`](file:///Users/leo/dev/history/agy-videos/01-fosca-at-sea/images/emigranti_ponte_ferraguti.jpg)
+- Arrival Ledger: [`images/panzonato-hospedaria-1891-page.jpg`](file:///Users/leo/dev/history/agy-videos/01-fosca-at-sea/images/panzonato-hospedaria-1891-page.jpg)
 
 ---
 
@@ -29,6 +33,7 @@ SCENE 1: THE HULL AND THE SWELL (0:00 – 0:12)
 Visual: Wide cinematic tracking shot. The narrow black iron hull of the steamship Colombo (built 1873)
         plows through heavy slate-gray Atlantic swells. Plumes of black coal smoke stream from its
         tall funnel into an overcast sky. Cold salt spray hits the lens.
+Reference: images/colombo-drydock-1901.jpg (the real Colombo hull and single funnel)
 SFX:    Heavy rhythmic thud of the single-screw steam engine, Atlantic wind howling, deep bow-wave crash.
 ----------------------------------------------------------------------------------------------------
 [EN Voiceover]
@@ -41,22 +46,24 @@ terceira classe. Entre elas: uma mãe. E seis crianças pequenas."
 ====================================================================================================
 
 ====================================================================================================
-SCENE 2: THE ROLLING HOLD — IL SCONVOLGIMENTO (0:12 – 0:26)
-Visual: Interior steerage hold. Handheld camera pitching with the ship's 20-degree roll. A brass
-        kerosene lantern sways wildly on chains, throwing chiaroscuro shadows across wooden berths.
-        Sick passengers clutch wooden rosaries. Fosca sits braced against a heavy luggage trunk,
-        holding 1-year-old Eugenio to her chest while her right hand firmly anchors 3-year-old Domenico.
-SFX:    Oak beams groaning under tension, lantern chains clinking, distant whispered prayers in dialect,
-        sudden shudder as the propeller briefly lifts out of the sea.
+SCENE 2: THE ROLLING HOLD — LIFE IN STEERAGE (0:12 – 0:26)
+Visual: Interior steerage hold. Handheld camera pitching with the ship's heavy 20-degree roll. A brass
+        kerosene lantern sways wildly on chains, throwing chiaroscuro shadows across timber bunks.
+        Fosca sits braced against a luggage trunk, holding 1-year-old Eugenio to her chest while her
+        right hand firmly anchors 3-year-old Domenico between her knees.
+Reference: images/steerage-interior-1891.webp
+SFX:    Oak beams groaning under tension, lantern chains clinking, distant murmurs, sudden shudder
+        as the propeller lifts briefly near the surface.
 ----------------------------------------------------------------------------------------------------
 [EN Voiceover]
-"Francesco Costantin, another emigrant on that sea, wrote home: 'Non trovo parole per descrivere
-lo sconvolgimento...' No words for the violence of the ship. Where every breath was a battle
-against the sea."
+"In the converted hold, barely ten meters wide, the iron hull pitched and rolled with every swell.
+No surface was still. For Fosca, holding a sleeping infant while steadying a three-year-old was a
+continuous battle against the sea."
 
 [PT-BR Voiceover]
-"Francesco Costantin, outro imigrante naquele mesmo oceano, escreveu: 'Não encontro palavras para
-descrever o transtorno do navio...' O chão não parava. Cada respiração era uma batalha contra o mar."
+"No porão convertido, com apenas dez metros de largura, o casco de ferro mergulhava e balançava a cada vaga.
+O chão não parava. Para Fosca, segurar um bebê no colo e firmar um menino de três anos era uma batalha
+contínua contra a força do mar."
 ====================================================================================================
 
 ====================================================================================================
@@ -65,6 +72,7 @@ Visual: Warm, intimate medium shot. Giuseppe balances a battered tin bowl of shi
         Luigia carefully guides a metal cup to five-year-old Luigi's lips. Catarina and Candida sit
         tucked shoulder-to-shoulder, keeping blankets wrapped around their younger siblings. Fosca and
         Giuseppe exchange a silent, exhausted glance of absolute solidarity.
+Reference: images/emigranti_ponte_ferraguti.jpg (family huddled together in coarse woolens)
 SFX:    Gentle clinking of tin cups, wind whistling outside iron hull plates, soft murmur of a
         Venetian lullaby hummed quietly.
 ----------------------------------------------------------------------------------------------------
@@ -100,6 +108,7 @@ Visual: Macro cinematic shot transitioning from ocean mist to the aged, textured
         Hospedaria dos Imigrantes ledger (Book 031, Page 283). A vintage steel-nib dip pen writes in
         deep sepia ink: Giuseppe, Fosca, Luigia, Catarina, Candida, Luigi, Domenico, Eugenio.
         Subtle golden light dust motes float over the archival script.
+Reference: images/panzonato-hospedaria-1891-page.jpg (the actual historical ledger)
 SFX:    Steel nib scratching paper, distant steam locomotive bell and whistle, resonant closing chord.
 ----------------------------------------------------------------------------------------------------
 [EN Voiceover]
