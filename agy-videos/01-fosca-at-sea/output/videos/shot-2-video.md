@@ -1,31 +1,35 @@
 # Video Production Dossier: Shot 2 (`shot-2-video.mp4`)
 
 **Scene**: Shot 2 — The Train Across Italy & The Looming Hull (0:05 – 0:10)  
-**Planned Target File**: `output/videos/shot-2-video.mp4`  
+**Output Video File**: [`output/videos/shot-2-video.mp4`](file:///Users/leo/dev/history/agy-videos/01-fosca-at-sea/output/videos/shot-2-video.mp4)  
 **Input Keyframe**: [`output/stills/shot-2-still.png`](file:///Users/leo/dev/history/agy-videos/01-fosca-at-sea/output/stills/shot-2-still.png)  
-**Status**: Pre-Production Specification / Ready for Video Generation  
+**Status**: **COMPLETED & VERIFIED**  
+**Date Generated**: 21 September 2026, 14:07 local time  
 
 ---
 
 ## 1. Technical Video Parameters
 
-| Parameter | Planned Value |
+| Parameter | Value |
 | :--- | :--- |
 | **Model Engine** | `kling3_0_turbo` |
+| **Job ID** | `5d8f1d6c-c794-4f2f-bbd9-2d966b53ab19` |
 | **Input Keyframe (`--start-image`)** | [`output/stills/shot-2-still.png`](file:///Users/leo/dev/history/agy-videos/01-fosca-at-sea/output/stills/shot-2-still.png) |
-| **Duration** | 5 seconds |
+| **Duration** | 5.04 seconds (0:05 – 0:10) |
 | **Aspect Ratio** | 16:9 Landscape |
-| **Resolution** | 1080p (or 720p option) |
-| **Credit Cost** | 10.0 credits (1080p) / 7.5 credits (720p) |
+| **Resolution** | 1080p (1912 × 1080 px @ 24 fps) |
+| **Credit Cost** | 10.0 credits |
+| **Generation Time** | 3m 00s |
+| **Cloudfront Asset URL** | `https://d8j0ntlcm91z4.cloudfront.net/user_3GHWX50U2g5AXszCy8KUmkREGbm/hf_20260921_130414_5d8f1d6c-c794-4f2f-bbd9-2d966b53ab19.mp4` |
 
 ---
 
-## 2. Planned CLI Invocation & Exact Motion Prompt
+## 2. CLI Invocation & Exact Motion Prompt
 
 ### Command
 ```bash
 higgsfield generate create kling3_0_turbo \
-  --prompt "Subtle cinematic camera movement inside the vintage wooden third-class train carriage: rain streaks down the glass window as the misty Italian countryside speeds past outside, father Giuseppe gently tightens the rope on the wooden chest, mother Fosca softly cradles the sleeping infant, young Luigia blinks slowly and looks wistfully through the rain-streaked window toward the distant harbor, natural carriage vibrations, atmospheric 19th-century cinematic realism, 35mm film grain" \
+  --prompt "Subtle cinematic camera movement inside the vintage wooden third-class train carriage: gentle rhythmic carriage vibrations of the train on iron tracks, rain streaks sliding down the window glass as the port moves outside, father Giuseppe gently holds the rope on the wooden chest, mother Fosca softly cradles the resting infant in her shawl, young Luigia blinks slowly and looks through the rain-streaked window toward the looming steamship, atmospheric 19th-century cinematic realism, 35mm film grain" \
   --start-image output/stills/shot-2-still.png \
   --duration 5 \
   --resolution 1080p \
@@ -44,13 +48,14 @@ higgsfield generate create kling3_0_turbo \
 
 ---
 
-## 4. Cinematography & Motion Rationale
+## 4. Visual Motion Analysis & Quality Assessment
 
-1. **Rhythmic Carriage Sway**:
-   - The subtle rolling motion of an 1891 third-class carriage along the Rete Mediterranea line.
-2. **Rain & Atmospheric Depth**:
-   - Droplets running across the glass layer between the warm interior cabin and the stormy Ligurian coast.
-3. **Micro-Behaviors**:
-   - Giuseppe's hands resting firmly on the rough hemp rope of their only luggage trunk.
-   - Fosca's gentle breathing as she protects the infant from drafts.
-   - Luigia's contemplative eyes capturing the irrevocable leap into migration.
+1. **Carriage Dynamics**:
+   - The wooden carriage interior exhibits natural, organic physical vibrations consistent with a 19th-century steam train traversing the Rete Mediterranea line.
+2. **Rain & Maritime Background**:
+   - Droplets actively trace paths across the exterior glass pane.
+   - Through the glass, the stormy waters of Genoa harbor and the towering black iron hull and steam plume of the steamship *Colombo* drift past in perspective parallax.
+3. **Character Micro-Behaviors**:
+   - **Giuseppe (36)**: Weathered hands maintain an unyielding, protective grip on the rope-bound chest between his knees, breathing slowly with somber resolve.
+   - **Fosca (30)**: Gently cradles infant Eugenio against the chill, her eyes fixed on the horizon through the glass.
+   - **Luigia (10)**: Softly blinks and hugs younger brother Luigi closer on the wooden bench, conveying childhood vulnerability and quiet courage.
