@@ -1,25 +1,30 @@
-# Pre-Production Keyframe Dossier: Shot 1 End (`shot-1-still-end.png`)
+# Media Dossier: Shot 1 End Keyframe (`shot-1-still-end.png`)
 
 **Scene**: Shot 1 — The Home in Gambarare & The Irreversible Choice (Second 5.0 Transition)  
-**Planned Target File**: `output/stills/shot-1-still-end.png`  
+**Output File**: [`output/stills/shot-1-still-end.png`](file:///Users/leo/dev/history/agy-videos/01-fosca-at-sea/output/stills/shot-1-still-end.png)  
 **Matching Start Keyframe**: [`output/stills/shot-1-still-start.png`](file:///Users/leo/dev/history/agy-videos/01-fosca-at-sea/output/stills/shot-1-still-start.png)  
 **Next Sequence (Shot 2 Start)**: [`output/stills/shot-2-still-start.png`](file:///Users/leo/dev/history/agy-videos/01-fosca-at-sea/output/stills/shot-2-still-start.png) (Third-class train carriage speeding to Genoa)  
-**Status**: **Ready for User Approval to Generate**  
+**Status**: **COMPLETED & VERIFIED**  
+**Date Generated**: 21 September 2026, 14:57 local time  
 
 ---
 
-## 1. Cinematic & Narrative Function (Connecting Shot 1 to Shot 2)
+## 1. Technical Generation Metadata
 
-- **The Motion Arc (0:00 to 0:05)**:
-  - **Start (0.0s)**: Family sitting around the kitchen table in Gambarare by candlelight; Giuseppe tightens the hemp rope on the wooden chest; Fosca holds baby Eugenio.
-  - **Action Progression**: Giuseppe stands up, hoists the heavy rope-bound wooden chest by its handle. Fosca stands with infant Eugenio wrapped in her woolen shawl, guiding the children. They turn away from the empty room toward the open threshold.
-  - **End (5.0s)**: Giuseppe stands in the doorway of their humble Gambarare stone house, holding the heavy wooden chest, looking back one final time with solemn resolve. His hand reaches back to pull the heavy wooden latch shut forever. Fosca and the children are already stepping out into the cold autumn rain and dark mud. Behind Giuseppe, the kitchen is pitch black, the candle extinguished.
-- **Visual & Narrative Bridge into Shot 2**:
-  - The door closing on the dark kitchen provides a natural cinematic cut to black / cut on action into the rhythmic iron clatter of the third-class train carriage speeding across northern Italy in Shot 2.
+| Parameter | Value |
+| :--- | :--- |
+| **Model Engine** | `gpt_image_2_5` |
+| **Job ID** | `0d05d1c6-21ac-494f-99ea-2cc23873d85b` |
+| **Resolution** | 2K (2688 × 1520 px) |
+| **Aspect Ratio** | 16:9 Landscape |
+| **Format** | PNG RGB |
+| **Credit Cost** | 1.0 credit |
+| **Generation Time** | 24 seconds |
+| **Cloudfront Asset URL** | `https://d8j0ntlcm91z4.cloudfront.net/user_3GHWX50U2g5AXszCy8KUmkREGbm/hf_20260921_135715_0d05d1c6-21ac-494f-99ea-2cc23873d85b.png` |
 
 ---
 
-## 2. Planned CLI Invocation & Exact Prompt
+## 2. CLI Invocation & Exact Prompt
 
 ### Command
 ```bash
@@ -32,16 +37,17 @@ higgsfield generate create gpt_image_2_5 \
   --wait
 ```
 
-### Reference Inputs
-- **Giuseppe Panzonato Face Reference**: [`images/giuseppe.jpg`](file:///Users/leo/dev/history/agy-videos/01-fosca-at-sea/images/giuseppe.jpg) (Aged 36, lean build, dark hair and mustache)
-- **Fosca Moro Face Reference**: [`images/Fosca.jpg`](file:///Users/leo/dev/history/agy-videos/01-fosca-at-sea/images/Fosca.jpg) (Aged 30, Victorian travel dress, shawl)
+### Reference Inputs Passed
+- **Giuseppe Panzonato Face Reference**: [`images/giuseppe.jpg`](file:///Users/leo/dev/history/agy-videos/01-fosca-at-sea/images/giuseppe.jpg) (Aged 36, lean build, dark hair, full dark mustache)
+- **Fosca Moro Face Reference**: [`images/Fosca.jpg`](file:///Users/leo/dev/history/agy-videos/01-fosca-at-sea/images/Fosca.jpg) (Aged 30, dark hair in bun, shawl, dark travel dress)
 
 ---
 
-## 3. Historical Sources & Direct Connections
+## 3. Cinematic & Narrative Function (Connecting Shot 1 to Shot 2)
 
-1. **The Irrevocable Departure from Gambarare (Mira, Veneto)**:
-   - *Parish & Civil Records*: Giuseppe and Fosca were married in Mira in 1881 and lived in the frazione of Gambarare. In 1891, tenant farmers (*mezzadri*) facing agricultural collapse and flood damage had to liquidate their possessions to pay for third-class transit tickets.
-   - *Physical Action*: Leaving the house forever meant literally shutting the wooden latch on an empty, barren hearth.
-2. **The Rope-Bound Wooden Chest**:
-   - The same wooden chest tied with hemp rope appears in Giuseppe's hands, establishing strict physical continuity from the kitchen table into the night, onto the train (Shot 2), and across the ocean.
+- **The Motion Arc (0:00 to 0:05)**:
+  - **Start (0.0s)**: Family sitting around the kitchen table in Gambarare by candlelight; Giuseppe tightens the hemp rope on the wooden chest; Fosca holds baby Eugenio.
+  - **Action Progression**: Giuseppe stands up, hoists the heavy rope-bound wooden chest by its handle. Fosca stands with infant Eugenio wrapped in her woolen shawl, guiding the children. They turn away from the empty room toward the open threshold.
+  - **End (5.0s)**: Giuseppe stands in the doorway of their humble Gambarare stone house, holding the heavy wooden chest, looking back one final time with solemn resolve. His hand reaches back to pull the heavy wooden latch shut forever. Fosca and the children are already stepping out into the cold autumn rain and dark mud. Behind Giuseppe, the kitchen is pitch black, the candle extinguished.
+- **Visual & Narrative Bridge into Shot 2**:
+  - The door closing on the dark kitchen provides a natural cinematic cut to black / cut on action into the rhythmic iron clatter of the third-class train carriage speeding across northern Italy in Shot 2.

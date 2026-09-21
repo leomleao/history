@@ -2,9 +2,11 @@
 
 **Scene**: Shot 1 — The Home in Gambarare & The Irreversible Choice (0:00 – 0:05)  
 **Output Video File**: [`output/videos/shot-1-video.mp4`](file:///Users/leo/dev/history/agy-videos/01-fosca-at-sea/output/videos/shot-1-video.mp4)  
-**Input Keyframe**: [`output/stills/shot-1-still.png`](file:///Users/leo/dev/history/agy-videos/01-fosca-at-sea/output/stills/shot-1-still.png)  
-**Status**: **COMPLETED & VERIFIED**  
-**Date Generated**: 21 September 2026, 13:55 local time  
+**Archived Previous Version**: [`output/videos/old/shot-1-video-v1.mp4`](file:///Users/leo/dev/history/agy-videos/01-fosca-at-sea/output/videos/old/shot-1-video-v1.mp4)  
+**Input Keyframe Start (0.0s)**: [`output/stills/shot-1-still-start.png`](file:///Users/leo/dev/history/agy-videos/01-fosca-at-sea/output/stills/shot-1-still-start.png)  
+**Input Keyframe End (5.0s)**: [`output/stills/shot-1-still-end.png`](file:///Users/leo/dev/history/agy-videos/01-fosca-at-sea/output/stills/shot-1-still-end.png)  
+**Status**: **COMPLETED & VERIFIED (Dynamic Keyframe Interpolation)**  
+**Date Generated**: 21 September 2026, 14:59 local time  
 
 ---
 
@@ -12,15 +14,16 @@
 
 | Parameter | Value |
 | :--- | :--- |
-| **Model Engine** | `kling3_0_turbo` |
-| **Job ID** | `b478f23f-9da7-496b-a7c0-dbba675d0013` |
-| **Input Keyframe (`--start-image`)** | [`output/stills/shot-1-still.png`](file:///Users/leo/dev/history/agy-videos/01-fosca-at-sea/output/stills/shot-1-still.png) |
-| **Duration** | 5 seconds (0:00 – 0:05) |
+| **Model Engine** | `kling3_0` |
+| **Job ID** | `cfeb111e-71f9-4670-9531-78638c3a203c` |
+| **Start Image (`--start-image`)** | [`output/stills/shot-1-still-start.png`](file:///Users/leo/dev/history/agy-videos/01-fosca-at-sea/output/stills/shot-1-still-start.png) |
+| **End Image (`--end-image`)** | [`output/stills/shot-1-still-end.png`](file:///Users/leo/dev/history/agy-videos/01-fosca-at-sea/output/stills/shot-1-still-end.png) |
+| **Duration** | 5.04 seconds (0:00 – 0:05) |
 | **Aspect Ratio** | 16:9 Landscape |
-| **Resolution** | 1080p (Full HD) |
+| **Resolution** | 720p (1276 × 720 px @ 24 fps, mode `std`) |
 | **Credit Cost** | 10.0 credits |
-| **Generation Time** | 1m 51s |
-| **Cloudfront Asset URL** | `https://d8j0ntlcm91z4.cloudfront.net/user_3GHWX50U2g5AXszCy8KUmkREGbm/hf_20260921_125348_b478f23f-9da7-496b-a7c0-dbba675d0013.mp4` |
+| **Generation Time** | 1m 18s |
+| **Cloudfront Asset URL** | `https://d8j0ntlcm91z4.cloudfront.net/user_3GHWX50U2g5AXszCy8KUmkREGbm/hf_20260921_135829_cfeb111e-71f9-4670-9531-78638c3a203c.mp4` |
 
 ---
 
@@ -28,11 +31,12 @@
 
 ### Command
 ```bash
-higgsfield generate create kling3_0_turbo \
-  --prompt "Subtle cinematic camera push-in inside the candlelit stone kitchen in Gambarare: father Giuseppe pulls and knots the heavy hemp rope on the wooden trunk with steady determination, mother Fosca softly rocks the swaddled baby Eugenio in her shawl, candlelight flickers against the wet window as rain streaks the dark glass outside, solemn 19th-century atmospheric realism, 35mm film grain" \
-  --start-image output/stills/shot-1-still.png \
+higgsfield generate create kling3_0 \
+  --prompt "Dynamic cinematic camera movement following the departure from the stone cottage: father Giuseppe finishes pulling and knotting the heavy rope around the wooden chest, hoists it up by the hemp handle as he stands; mother Fosca rises with infant Eugenio held securely in her shawl, turning with 10-year-old Luigia and the children toward the open doorway; cold wind and rain blow in from the dark night, causing the candle flame to flicker wildly before extinguishing; Giuseppe steps across to the threshold and firmly pulls the heavy wooden door shut with a solid thud, leaving the bare kitchen behind as the family walks through the wet mud into the night. Authentic 19th-century historical realism, dramatic cinematic lighting, 35mm film grain" \
+  --start-image output/stills/shot-1-still-start.png \
+  --end-image output/stills/shot-1-still-end.png \
   --duration 5 \
-  --resolution 1080p \
+  --mode std \
   --wait
 ```
 
@@ -50,12 +54,10 @@ higgsfield generate create kling3_0_turbo \
 
 ## 4. Visual Motion Analysis & Quality Assessment
 
-1. **Camera Motion**:
-   - Smooth, deliberate slow push-in focusing toward Giuseppe and Fosca, heightening the emotional tension of departure without disorienting the viewer.
-2. **Character Micro-Behaviors**:
-   - **Giuseppe (36)**: Muscular forearms visibly tense and pull the hemp rope across the wooden slats of the trunk, cinching it tightly.
-   - **Fosca (30)**: Gently cradles baby Eugenio, her expression shifting with poignant, heartbreaking maternal protectiveness.
-   - **Children**: Stand quiet and watchful in their travel coats, capturing the solemnity of rural displacement.
-3. **Atmospheric Physics**:
-   - Dynamic candlelight softly dancing across the rough stone walls and timber surfaces.
-   - Real-time rain streaks running down the windowpanes into the autumn night.
+1. **True Cinematic Dynamic Blocking**:
+   - Unlike static single-image animation, the video executes a real physical camera move and character blocking arc across 5 seconds.
+   - **0.0s – 1.5s**: Giuseppe tightens the rope on the table, Fosca cradles Eugenio, children watch.
+   - **1.5s – 3.5s**: The camera sweeps dynamically across the cottage as Giuseppe hoists the chest, turns, and walks toward the door; Fosca leads the children into the stormy darkness.
+   - **3.5s – 5.0s**: Settles onto the threshold: Giuseppe stands at the doorway holding the chest, turning back with solemn grief as his hand pulls the thick wooden latch shut on the empty room, while the family proceeds down the muddy path into the cold rain.
+2. **Match-Cut Bridge into Shot 2**:
+   - The shot naturally resolves on the closing door / darkness, providing an organic, motivated cut to the rushing train carriage in Shot 2.
