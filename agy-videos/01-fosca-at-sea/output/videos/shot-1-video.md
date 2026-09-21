@@ -1,12 +1,10 @@
 # Video Production Dossier: Shot 1 (`shot-1-video.mp4`)
 
-**Scene**: Shot 1 — The Home in Gambarare & The Irreversible Choice (0:00 – 0:05)  
+**Scene**: Shot 1 — The Home in Gambarare & Exiting the Cottage (0:00 – 0:05)  
 **Output Video File**: [`output/videos/shot-1-video.mp4`](file:///Users/leo/dev/history/agy-videos/01-fosca-at-sea/output/videos/shot-1-video.mp4)  
-**Archived Previous Version**: [`output/videos/old/shot-1-video-v1.mp4`](file:///Users/leo/dev/history/agy-videos/01-fosca-at-sea/output/videos/old/shot-1-video-v1.mp4)  
-**Input Keyframe Start (0.0s)**: [`output/stills/shot-1-still-start.png`](file:///Users/leo/dev/history/agy-videos/01-fosca-at-sea/output/stills/shot-1-still-start.png)  
-**Input Keyframe End (5.0s)**: [`output/stills/shot-1-still-end.png`](file:///Users/leo/dev/history/agy-videos/01-fosca-at-sea/output/stills/shot-1-still-end.png)  
-**Status**: **COMPLETED & VERIFIED (Dynamic Keyframe Interpolation)**  
-**Date Generated**: 21 September 2026, 14:59 local time  
+**Input Keyframe**: [`output/stills/shot-1-still-start.png`](file:///Users/leo/dev/history/agy-videos/01-fosca-at-sea/output/stills/shot-1-still-start.png) (Kitchen table by candlelight)  
+**Status**: **COMPLETED & VERIFIED (Prompt-Driven Dynamic Motion & Wall Slide)**  
+**Date Generated**: 21 September 2026, 15:33 local time  
 
 ---
 
@@ -14,16 +12,14 @@
 
 | Parameter | Value |
 | :--- | :--- |
-| **Model Engine** | `kling3_0` |
-| **Job ID** | `cfeb111e-71f9-4670-9531-78638c3a203c` |
-| **Start Image (`--start-image`)** | [`output/stills/shot-1-still-start.png`](file:///Users/leo/dev/history/agy-videos/01-fosca-at-sea/output/stills/shot-1-still-start.png) |
-| **End Image (`--end-image`)** | [`output/stills/shot-1-still-end.png`](file:///Users/leo/dev/history/agy-videos/01-fosca-at-sea/output/stills/shot-1-still-end.png) |
+| **Model Engine** | `kling3_0_turbo` |
+| **Job ID** | `a10e695d-4726-423d-8c88-f36432a0c68a` |
+| **Input Keyframe (`--start-image`)** | [`output/stills/shot-1-still-start.png`](file:///Users/leo/dev/history/agy-videos/01-fosca-at-sea/output/stills/shot-1-still-start.png) |
 | **Duration** | 5.04 seconds (0:00 – 0:05) |
 | **Aspect Ratio** | 16:9 Landscape |
-| **Resolution** | 720p (1276 × 720 px @ 24 fps, mode `std`) |
+| **Resolution** | 1080p (1912 × 1080 px @ 24 fps) |
 | **Credit Cost** | 10.0 credits |
-| **Generation Time** | 1m 18s |
-| **Cloudfront Asset URL** | `https://d8j0ntlcm91z4.cloudfront.net/user_3GHWX50U2g5AXszCy8KUmkREGbm/hf_20260921_135829_cfeb111e-71f9-4670-9531-78638c3a203c.mp4` |
+| **Cloudfront Asset URL** | `https://d8j0ntlcm91z4.cloudfront.net/user_3GHWX50U2g5AXszCy8KUmkREGbm/hf_20260921_142850_a10e695d-4726-423d-8c88-f36432a0c68a.mp4` |
 
 ---
 
@@ -31,12 +27,11 @@
 
 ### Command
 ```bash
-higgsfield generate create kling3_0 \
-  --prompt "Dynamic cinematic camera movement following the departure from the stone cottage: father Giuseppe finishes pulling and knotting the heavy rope around the wooden chest, hoists it up by the hemp handle as he stands; mother Fosca rises with infant Eugenio held securely in her shawl, turning with 10-year-old Luigia and the children toward the open doorway; cold wind and rain blow in from the dark night, causing the candle flame to flicker wildly before extinguishing; Giuseppe steps across to the threshold and firmly pulls the heavy wooden door shut with a solid thud, leaving the bare kitchen behind as the family walks through the wet mud into the night. Authentic 19th-century historical realism, dramatic cinematic lighting, 35mm film grain" \
+higgsfield generate create kling3_0_turbo \
+  --prompt "Cinematic tracking shot inside the rustic stone cottage in Gambarare: father Giuseppe finishes knotting the heavy rope on the wooden travel chest, hoists it up by the hemp handle, and walks toward the open doorway; mother Fosca holding swaddled infant Eugenio and the children follow behind him; Giuseppe steps through the open door into the dark rainy night carrying the chest; the camera tracks behind him and dynamically slides to the right across the dark weathered stone wall of the cottage, wiping across the wall into darkness at the end of the shot. Cold wind and rain blow into the doorway, candle flame flickers and extinguishes, authentic 19th-century documentary realism, 35mm film grain" \
   --start-image output/stills/shot-1-still-start.png \
-  --end-image output/stills/shot-1-still-end.png \
   --duration 5 \
-  --mode std \
+  --resolution 1080p \
   --wait
 ```
 
@@ -54,10 +49,12 @@ higgsfield generate create kling3_0 \
 
 ## 4. Visual Motion Analysis & Quality Assessment
 
-1. **True Cinematic Dynamic Blocking**:
-   - Unlike static single-image animation, the video executes a real physical camera move and character blocking arc across 5 seconds.
-   - **0.0s – 1.5s**: Giuseppe tightens the rope on the table, Fosca cradles Eugenio, children watch.
-   - **1.5s – 3.5s**: The camera sweeps dynamically across the cottage as Giuseppe hoists the chest, turns, and walks toward the door; Fosca leads the children into the stormy darkness.
-   - **3.5s – 5.0s**: Settles onto the threshold: Giuseppe stands at the doorway holding the chest, turning back with solemn grief as his hand pulls the thick wooden latch shut on the empty room, while the family proceeds down the muddy path into the cold rain.
-2. **Match-Cut Bridge into Shot 2**:
-   - The shot naturally resolves on the closing door / darkness, providing an organic, motivated cut to the rushing train carriage in Shot 2.
+1. **Flawless Physical Pacing & Continuity**:
+   - **0.0s – 1.5s**: Giuseppe pulls the rope knot tight on the wooden chest on the table by candlelight.
+   - **1.5s – 3.5s**: Giuseppe heaves the heavy wooden chest up with physical effort and walks toward the open doorway. The camera tracks smoothly with his motion. Fosca and the children step forward directly behind him.
+   - **3.5s – 5.0s**: Giuseppe steps through the open doorway into the driving rain, carrying the chest. Fosca and the children follow right at his heels.
+2. **The Wall-Slide Wipe Setup**:
+   - As Giuseppe crosses the threshold, the camera dynamically pans/slides to the right across the dark, textured stone exterior wall of the cottage.
+   - The final frames fill the screen with the dark stone wall in motion, providing a natural in-camera wipe into Shot 2 (sliding past the wall into the wooden interior of the train carriage).
+3. **Zero Teleportation**:
+   - Every movement adheres to real human kinematics across 5 seconds.
