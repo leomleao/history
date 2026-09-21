@@ -12,9 +12,12 @@ This directory contains full transcriptions, audits, and analysis of the histori
 
 2. [**`panzonato-hospedaria-1891.md`**](./panzonato-hospedaria-1891.md)  
    Full archival extraction from Book 031, Page 283, Order 07264 of the Hospedaria dos Imigrantes do Brás (15 December 1891). Confirms all eight family members arrived alive.
-   - Direct Visual: [`../images/panzonato-hospedaria-1891-page.jpg`](../images/panzonato-hospedaria-1891-page.jpg)
+   - Direct Visual (Full Book Spread): [`../images/panzonato-hospedaria-1891-page.jpg`](../images/panzonato-hospedaria-1891-page.jpg)
 
-3. [**`steerage-conditions-1891.md`**](./steerage-conditions-1891.md)  
+3. **Portrait Reference**:
+   - Direct Visual (Authentic Portrait): [`../images/fosca.jpg`](../images/fosca.jpg) — Historical portrait of Fosca Moro used as direct photographic face reference for AI character consistency.
+
+4. [**`steerage-conditions-1891.md`**](./steerage-conditions-1891.md)  
    Contemporary 1889–1891 visual and descriptive accounts of steerage accommodation, deck life, and the Hospedaria arrival infrastructure.
    - Context Visuals:
      - [`../images/steerage-interior-1891.webp`](../images/steerage-interior-1891.webp)

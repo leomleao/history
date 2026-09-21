@@ -39,9 +39,10 @@ higgsfield generate create gpt_image_2_5 \
   --resolution 2k \
   --wait
 
-# 2. Interior Steerage Hold (Fosca & Toddlers)
+# 2. Interior Steerage Hold (Fosca & Toddlers) — Face grounded in images/fosca.jpg
 higgsfield generate create gpt_image_2_5 \
-  --prompt "Interior of an 1891 emigrant steamship steerage hold during an Atlantic storm, dim chiaroscuro lighting from a single swinging brass oil lantern, rough timber bunk frames, straw mattresses, 30-year-old Venetian peasant mother Fosca Moro wearing a dark woolen shawl and headscarf, clutching a 1-year-old infant to her chest while firmly anchoring a 3-year-old toddler between her knees on a rough wooden bench, exhausted yet fiercely resolute expression, cinematic period realism, 35mm film grain" \
+  --prompt "Interior of an 1891 emigrant steamship steerage hold during an Atlantic storm, dim chiaroscuro lighting from a single swinging brass oil lantern, rough timber bunk frames, straw mattresses, 30-year-old Venetian peasant mother Fosca Moro (facial features directly matching reference image) wearing a dark woolen shawl and headscarf, clutching a 1-year-old infant to her chest while firmly anchoring a 3-year-old toddler between her knees on a rough wooden bench, exhausted yet fiercely resolute expression, cinematic period realism, 35mm film grain" \
+  --image ./images/fosca.jpg \
   --aspect_ratio 16:9 \
   --resolution 2k \
   --wait
