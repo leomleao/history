@@ -17,8 +17,8 @@ const chapters = (await getChapters(locale)).filter((chapter) => person.chapterK
 const sources = getSources(locale).filter((source) => person.sourceIds.includes(source.id));
 const media = sources.map(source => source.media).filter((m): m is MediaView => !!m);
 const story = getPersonStory(person.id, locale);
-const storySections = story?.sections.map(section => ({ ...section, media: getMedia(section.mediaId, locale) })) ?? [];
-const pageMedia = [...new Map([...media, ...storySections.map(section => section.media)].map(item => [item.id, item])).values()];
+const storySections = story?.sections.map(section => ({ ...section, media: getMedia(section.mediaId, locale), relatedMedia: section.relatedMediaIds?.map(id => getMedia(id, locale)) ?? [] })) ?? [];
+const pageMedia = [...new Map([...media, ...storySections.flatMap(section => [section.media, ...section.relatedMedia])].map(item => [item.id, item])).values()];
 const people = getPeople(locale);
 const connections = person.relationships.map(relation => ({ ...relation, person: people.find(p => p.id === relation.personId) }));
 ---
@@ -34,12 +34,21 @@ const connections = person.relationships.map(relation => ({ ...relation, person:
     </header>
     {story ? <div class="profile-story">
       <p class="profile-story-note">{story.note}</p>
-      {storySections.map((section, index) => <section class="profile-story-section" data-evidence-tone={section.evidence}>
+      {storySections.map((section, index) => <section class="profile-story-section" data-evidence-tone={section.evidence} data-layout={section.relatedMedia.length ? 'document' : undefined}>
         <figure>
-          <a class="image-open" href={section.media.href} data-evidence={section.media.id} data-inspect-label={t.inspect} aria-label={`${t.inspect}: ${section.media.title}`} style={`--media-aspect: ${section.media.width} / ${section.media.height}`}>
-            <MediaImage media={section.media} sizes="(min-width: 1000px) 47vw, 94vw" />
-          </a>
+          <div class="profile-story-image-frame">
+            <a class="image-open" href={section.media.href} data-evidence={section.media.id} data-inspect-label={t.inspect} aria-label={`${t.inspect}: ${section.media.title}`} style={`--media-aspect: ${section.media.width} / ${section.media.height}`}>
+              <MediaImage media={section.media} sizes={section.relatedMedia.length ? '(min-width: 768px) 92vw, 44rem' : '(min-width: 1000px) 47vw, 94vw'} />
+            </a>
+          </div>
           <figcaption>{section.media.caption}</figcaption>
+          {section.relatedMedia.length > 0 && <p class="profile-story-swipe-hint">{locale === 'pt-br' ? 'No celular, deslize a imagem para ler toda a linha manuscrita.' : 'On a phone, swipe the image to read the whole handwritten line.'}</p>}
+          {section.relatedMedia.length > 0 && <div class="profile-story-companions" aria-label={locale === 'pt-br' ? 'Documentos relacionados' : 'Related documents'}>
+            {section.relatedMedia.map((related) => <a href={related.href}>
+              <MediaImage media={related} sizes="(min-width: 768px) 11rem, 35vw" />
+              <span>{related.title}</span>
+            </a>)}
+          </div>}
         </figure>
         <div>
           <span class="eyebrow">{String(index + 1).padStart(2, '0')} · {section.eyebrow}</span>

@@ -17,7 +17,7 @@ translation: "provisional"
 
 ## A family, not a passenger count
 
-The crossing begins with eight people. Giuseppe was recorded as thirty-five and Fosca as thirty. With them travelled Luigia, ten; Catarina, nine; Candida, seven; Luigi, five; Domenico, three; and Eugenio, one. Written in order in the [São Paulo immigrant-hostel register](/panzonato/en/archive/panzonato-hospedaria-1891/), the names look contained. Read aloud, they become a household spread across childhood: three daughters, three sons, one child old enough to approach adolescence and another barely beyond infancy.
+The crossing begins with eight people. The [2002 certified extract](/panzonato/en/archive/panzonato-desembarque-certificate-2002/) records Giuseppe as thirty-five and Fosca as thirty; Giuseppe's age appears to be thirty-six in the [original 1891 register](/panzonato/en/archive/panzonato-hospedaria-1891/). With them travelled Luigia, ten; Catarina, nine; Candida, seven; Luigi, five; Domenico, three; and Eugenio, one. Written in order, the names look contained. Read aloud, they become a household spread across childhood: three daughters, three sons, one child old enough to approach adolescence and another barely beyond infancy.
 
 That range matters. Luigi was five, while three-year-old Domenico and one-year-old Eugenio were the two youngest. Every movement through a port or ship involved adults who could understand instructions, older children who might keep close, and two very young children whose pace and balance were different. The family did not cross as eight interchangeable places on a manifest. They crossed as a web of dependence centred on two parents.
 

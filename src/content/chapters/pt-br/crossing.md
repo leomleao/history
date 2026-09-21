@@ -17,7 +17,7 @@ translation: "provisional"
 
 ## Uma família, não uma contagem de passageiros
 
-A travessia começa com oito pessoas. Giuseppe foi registrado com trinta e cinco anos; Fosca, com trinta. Com eles viajavam Luigia, dez; Catarina, nove; Candida, sete; Luigi, cinco; Domenico, três; e Eugenio, um. Escritos em ordem no [livro da Hospedaria de Imigrantes de São Paulo](/panzonato/pt-br/archive/panzonato-hospedaria-1891/), os nomes parecem contidos. Lidos em voz alta, tornam-se uma família espalhada por várias infâncias: três filhas, três filhos, uma criança perto da adolescência e outra pouco além de bebê.
+A travessia começa com oito pessoas. A [certidão de 2002](/panzonato/pt-br/archive/panzonato-desembarque-certificate-2002/) registra Giuseppe com trinta e cinco anos e Fosca com trinta; a idade de Giuseppe parece ser trinta e seis no [livro original de 1891](/panzonato/pt-br/archive/panzonato-hospedaria-1891/). Com eles viajavam Luigia, dez; Catarina, nove; Candida, sete; Luigi, cinco; Domenico, três; e Eugenio, um. Escritos em ordem, os nomes parecem contidos. Lidos em voz alta, tornam-se uma família espalhada por várias infâncias: três filhas, três filhos, uma criança perto da adolescência e outra pouco além de bebê.
 
 Essa diferença de idades importa. Luigi tinha cinco anos, enquanto Domenico, de três, e Eugenio, de um, eram os dois menores. Cada deslocamento por porto ou navio envolvia adultos capazes de compreender instruções, filhos mais velhos que podiam ficar por perto e duas crianças muito pequenas com outro ritmo e equilíbrio. A família não atravessou como oito lugares intercambiáveis numa lista. Atravessou como uma rede de dependência concentrada em dois pais.
 

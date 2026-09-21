@@ -6,6 +6,7 @@ type StorySection = {
   paragraphs: string[];
   mediaId: string;
   evidence: 'documented' | 'context' | 'reconstruction';
+  relatedMediaIds?: string[];
 };
 
 type PersonStory = {
@@ -40,7 +41,7 @@ const stories: Record<string, Record<Locale, PersonStory>> = {
           eyebrow: 'Late 1891 · reconstructed route',
           title: 'From a probable port to a named ship.',
           paragraphs: [
-            'The São Paulo entry associates the family with the steamship Colombo and gives Rio de Janeiro as their provenance. Genoa fits the ship’s regular line and the family’s northern Italian origin, but the entry does not name their European embarkation port.',
+            'The original São Paulo entry associates the family with the steamship Colombo; a certified extract issued in 2002 gives Rio de Janeiro as provenance. Genoa fits the ship’s regular line and the family’s northern Italian origin, but neither document names their European embarkation port.',
             'The dates proposed for Genoa, Lisbon, and Cape Verde should therefore be read as a working itinerary. The images show the ports and maritime world of the period, not the Panzonatos themselves.',
           ],
           mediaId: 'genoa-port-noack-1892', evidence: 'reconstruction',
@@ -58,7 +59,7 @@ const stories: Record<string, Record<Locale, PersonStory>> = {
           eyebrow: '15 December 1891–5 December 1937 · documented',
           title: 'Giuseppe becomes José.',
           paragraphs: [
-            'The Brás hostel register restores firm ground: Giuseppe, aged thirty-five, appears with Fosca and six children, from Rio de Janeiro and bound for Tietê. By 1899, the birth of a son places the household in Capivari.',
+            'The original Brás register restores firm ground: Giuseppe appears with Fosca and six children, the Colombo and Tietê. His handwritten age appears to be 36, while the 2002 certificate gives 35 and explicitly records Rio de Janeiro as provenance. By 1899, the birth of a son places the household in Capivari.',
             'His Capivari death record names him José Pansonatto, an agricultural worker and widower of Fosca Morro. Its age and parent names conflict with the contemporary Italian extract. Those differences are preserved here as evidence of how names and memories changed after migration.',
           ],
           mediaId: 'giuseppe-death-1937', evidence: 'documented',
@@ -90,7 +91,7 @@ const stories: Record<string, Record<Locale, PersonStory>> = {
           eyebrow: 'Fim de 1891 · rota reconstruída',
           title: 'De um porto provável a um navio nomeado.',
           paragraphs: [
-            'O registro de São Paulo associa a família ao vapor Colombo e informa procedência do Rio de Janeiro. Gênova é compatível com a linha regular do navio e com a origem norte-italiana da família, mas o assento não identifica o porto europeu de embarque.',
+            'O registro original de São Paulo associa a família ao vapor Colombo; uma certidão emitida em 2002 informa procedência do Rio de Janeiro. Gênova é compatível com a linha regular do navio e com a origem norte-italiana da família, mas nenhum dos documentos identifica o porto europeu de embarque.',
             'As datas propostas para Gênova, Lisboa e Cabo Verde devem, portanto, ser lidas como um itinerário de trabalho. As imagens mostram os portos e o mundo marítimo da época, não os Panzonato.',
           ],
           mediaId: 'genoa-port-noack-1892', evidence: 'reconstruction',
@@ -108,7 +109,7 @@ const stories: Record<string, Record<Locale, PersonStory>> = {
           eyebrow: '15 de dezembro de 1891–5 de dezembro de 1937 · documentado',
           title: 'Giuseppe se torna José.',
           paragraphs: [
-            'O livro da Hospedaria do Brás devolve terreno firme: Giuseppe, de 35 anos, aparece com Fosca e seis filhos, procedente do Rio de Janeiro e destinado a Tietê. Em 1899, o nascimento de um filho situa a família em Capivari.',
+            'O livro original da Hospedaria do Brás devolve terreno firme: Giuseppe aparece com Fosca, seis filhos, o Colombo e Tietê. A idade manuscrita parece ser 36 anos, enquanto a certidão de 2002 informa 35 e registra expressamente a procedência do Rio de Janeiro. Em 1899, o nascimento de um filho situa a família em Capivari.',
             'Seu óbito em Capivari o chama José Pansonatto, lavrador e viúvo de Fosca Morro. A idade e os nomes dos pais divergem do extrato italiano contemporâneo. Essas diferenças são preservadas como evidência de como nomes e memórias mudaram depois da migração.',
           ],
           mediaId: 'giuseppe-death-1937', evidence: 'documented',
@@ -161,9 +162,10 @@ const stories: Record<string, Record<Locale, PersonStory>> = {
           title: 'All eight names arrive together.',
           paragraphs: [
             'Book 031, page 283 records Fosca beside Giuseppe and above the six children. This is the documentary basis for saying the family reached the Brás hostel intact. It is a powerful result without assigning unrecorded heroics to her.',
-            'The entry gives Rio de Janeiro as provenance and Tietê as destination. It does not itself prove a 6–7 December landing at Santos or a fifteen-day military and sanitary confinement.',
+            'The original handwritten line names the household and Colombo, while the full spread shows Tietê. A certified extract issued in 2002 explicitly gives Rio de Janeiro as provenance; it also records Giuseppe as 35, where the manuscript appears to say 36. Neither document proves a 6–7 December landing at Santos or a fifteen-day military and sanitary confinement.',
           ],
           mediaId: 'panzonato-hospedaria-1891', evidence: 'documented',
+          relatedMediaIds: ['hospedaria-page-1891', 'panzonato-desembarque-certificate-2002'],
         },
         {
           eyebrow: '3 August 1927 · documented with conflict',
@@ -220,9 +222,10 @@ const stories: Record<string, Record<Locale, PersonStory>> = {
           title: 'Os oito nomes chegam juntos.',
           paragraphs: [
             'O livro 031, página 283, registra Fosca ao lado de Giuseppe e acima dos seis filhos. Essa é a base documental para dizer que a família chegou inteira à Hospedaria do Brás. É um resultado poderoso sem atribuir a ela heroísmos não registrados.',
-            'O assento informa procedência do Rio de Janeiro e destino a Tietê. Por si só, não comprova desembarque em Santos nos dias 6–7 de dezembro nem quinze dias de confinamento militar e sanitário.',
+            'A linha manuscrita original nomeia a família e o Colombo; a página completa mostra Tietê. A certidão emitida em 2002 registra explicitamente Rio de Janeiro como procedência e atribui 35 anos a Giuseppe, onde o manuscrito parece indicar 36. Nenhuma das duas peças comprova desembarque em Santos nos dias 6–7 de dezembro ou quinze dias de confinamento militar e sanitário.',
           ],
           mediaId: 'panzonato-hospedaria-1891', evidence: 'documented',
+          relatedMediaIds: ['hospedaria-page-1891', 'panzonato-desembarque-certificate-2002'],
         },
         {
           eyebrow: '3 de agosto de 1927 · documentado com divergência',

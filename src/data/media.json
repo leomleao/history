@@ -540,53 +540,46 @@
   {
     "id": "panzonato-hospedaria-1891",
     "sourceId": "panzonato-hospedaria-1891",
-    "publication": "preview",
     "role": "family-evidence",
+    "publication": "preview",
+    "focalPoint": "center center",
     "alt": {
-      "en": "A certified passenger-list extract names Giuseppe, Fosca, and six children in a table.",
-      "pt-br": "Um extrato certificado de lista de passageiros nomeia Giuseppe, Fosca e seis filhos em uma tabela."
+      "en": "Handwritten 1891 hostel register rows name Giuseppe, Fosca and six children beside the steamship Colombo.",
+      "pt-br": "Linhas manuscritas do livro de 1891 nomeiam Giuseppe, Fosca e seis filhos ao lado do vapor Colombo."
     },
     "caption": {
-      "en": "Certified extract issued in 2002 of the family’s 15 December 1891 entry: Giuseppe, Fosca, and six children, with Tietê recorded as their destination.",
-      "pt-br": "Certidão emitida em 2002 do registro familiar de 15 de dezembro de 1891: Giuseppe, Fosca e seis filhos, com Tietê indicado como destino."
+      "en": "Original 1891 register, book 031, page 283: the Panzonato household and the Colombo. This close-up does not show the destination columns.",
+      "pt-br": "Livro original de 1891, nº 031, página 283: a família Panzonato e o Colombo. Este recorte não mostra as colunas de destino."
     },
     "credit": {
-      "en": "Memorial do Imigrante; certified extract of Livro 031, p. 283, order 07264.",
-      "pt-br": "Memorial do Imigrante; certidão do Livro 031, p. 283, ordem 07264."
+      "en": "Museu da Imigração / Arquivo Público do Estado de São Paulo, Livro 031, p. 283; detail of the original scan.",
+      "pt-br": "Museu da Imigração / Arquivo Público do Estado de São Paulo, Livro 031, p. 283; detalhe do scan original."
     },
     "rights": {
-      "en": "Sanitized historical-record facsimile for local preview. Repository reproduction rights remain under review.",
-      "pt-br": "Fac-símile sanitizado de registro histórico para prévia local. Os direitos de reprodução do repositório permanecem em revisão."
+      "en": "Archival document reproduced for local research preview; repository reproduction terms remain under review.",
+      "pt-br": "Documento arquivístico reproduzido para prévia local de pesquisa; os termos de reprodução do acervo permanecem em análise."
     },
-    "focalPoint": "center center",
     "variants": [
       {
-        "path": "panzonato-hospedaria-1891/panzonato-hospedaria-1891-6a380d8c571b-480.webp",
+        "path": "panzonato-hospedaria-1891/panzonato-hospedaria-1891-fc1cf83452fa-480.webp",
         "width": 480,
-        "height": 339,
-        "bytes": 17652,
-        "sha256": "6a380d8c571b04af3cc72a6129c8dd7a0bb8e6ce37e34a9de76f9164b70c88a8"
+        "height": 135,
+        "bytes": 7996,
+        "sha256": "fc1cf83452fa8e41bc83ec272a413687ade7c31d602af4935e6a26315eff2b3b"
       },
       {
-        "path": "panzonato-hospedaria-1891/panzonato-hospedaria-1891-6d1fd11fac0f-960.webp",
+        "path": "panzonato-hospedaria-1891/panzonato-hospedaria-1891-0c7df5a21e6b-960.webp",
         "width": 960,
-        "height": 679,
-        "bytes": 55366,
-        "sha256": "6d1fd11fac0fecaa6db6a6fa837e0688628593899313b8479de421b2f0364b55"
+        "height": 270,
+        "bytes": 21010,
+        "sha256": "0c7df5a21e6b47438dc3d74d28a8f5730354f48742079d6c074e60e41039e591"
       },
       {
-        "path": "panzonato-hospedaria-1891/panzonato-hospedaria-1891-7ee81c648944-1600.webp",
-        "width": 1600,
-        "height": 1131,
-        "bytes": 111624,
-        "sha256": "7ee81c6489443f9ee43da6aed4dcb4a22cd7ea0846dae0b8570f1ebfbc78a512"
-      },
-      {
-        "path": "panzonato-hospedaria-1891/panzonato-hospedaria-1891-ef39482c61a1-2000.webp",
-        "width": 2000,
-        "height": 1414,
-        "bytes": 147360,
-        "sha256": "ef39482c61a15bb1c5e450a8605b90cd52fc6624c0d17b908992eec9fad830f5"
+        "path": "panzonato-hospedaria-1891/panzonato-hospedaria-1891-b2704b47f701-1024.webp",
+        "width": 1024,
+        "height": 288,
+        "bytes": 22734,
+        "sha256": "b2704b47f701175d232bf735facb8ae1b8659dacf85c7ca2b55e04a93071edb8"
       }
     ]
   },
@@ -3253,6 +3246,119 @@
         "height": 1574,
         "bytes": 77354,
         "sha256": "daa2c94f13efe845002d8fd7fa0098a27dd6ff08b59b720098a92ff78843a9e6"
+      }
+    ]
+  },
+  {
+    "id": "hospedaria-page-1891",
+    "sourceId": "hospedaria-page-1891",
+    "role": "family-evidence",
+    "publication": "preview",
+    "focalPoint": "center 70%",
+    "alt": {
+      "en": "Full two-page spread of the 1891 immigrant hostel register, with the Panzonato household near the bottom.",
+      "pt-br": "Página dupla completa do livro da Hospedaria de 1891, com a família Panzonato perto da margem inferior."
+    },
+    "caption": {
+      "en": "Full original spread, book 031, page 283. The Panzonato rows sit near the bottom; Colombo and Tietê are visible across the spread.",
+      "pt-br": "Página dupla original, livro 031, página 283. As linhas Panzonato ficam perto do rodapé; Colombo e Tietê aparecem ao longo da página."
+    },
+    "credit": {
+      "en": "Museu da Imigração / Arquivo Público do Estado de São Paulo, Livro 031, p. 283; original page scan.",
+      "pt-br": "Museu da Imigração / Arquivo Público do Estado de São Paulo, Livro 031, p. 283; scan da página original."
+    },
+    "rights": {
+      "en": "Archival document reproduced for local research preview; repository reproduction terms remain under review.",
+      "pt-br": "Documento arquivístico reproduzido para prévia local de pesquisa; os termos de reprodução do acervo permanecem em análise."
+    },
+    "variants": [
+      {
+        "path": "hospedaria-page-1891/hospedaria-page-1891-79101e74d222-480.webp",
+        "width": 480,
+        "height": 335,
+        "bytes": 19198,
+        "sha256": "79101e74d22222bfd14d5c4e5e007e5b8e2512a2f9fcfab34baf17c4518d6e43"
+      },
+      {
+        "path": "hospedaria-page-1891/hospedaria-page-1891-a39a7f1e025b-960.webp",
+        "width": 960,
+        "height": 669,
+        "bytes": 64548,
+        "sha256": "a39a7f1e025b3a976fb9251601db273f8de6872ca30c072dd4c0eaf8a02294b3"
+      },
+      {
+        "path": "hospedaria-page-1891/hospedaria-page-1891-86cd3284eb38-1600.webp",
+        "width": 1600,
+        "height": 1115,
+        "bytes": 156566,
+        "sha256": "86cd3284eb38b6ba73c09be7ea51bd188014d39275ccf1bbaf481650ef43c884"
+      },
+      {
+        "path": "hospedaria-page-1891/hospedaria-page-1891-a0e047af1f42-2400.webp",
+        "width": 2400,
+        "height": 1673,
+        "bytes": 326264,
+        "sha256": "a0e047af1f4295943e2f03cac6c17926073125215982a9dbc372fd70a2626f1f"
+      },
+      {
+        "path": "hospedaria-page-1891/hospedaria-page-1891-468637913ca5-4707.webp",
+        "width": 4707,
+        "height": 3281,
+        "bytes": 898392,
+        "sha256": "468637913ca5dbf8dd8469dcf0cabbd32c965a41b173fb6ff358c0827673775c"
+      }
+    ]
+  },
+  {
+    "id": "panzonato-desembarque-certificate-2002",
+    "sourceId": "panzonato-desembarque-certificate-2002",
+    "role": "family-evidence",
+    "publication": "preview",
+    "focalPoint": "center center",
+    "alt": {
+      "en": "The 2002 certified extract types the eight family names, Rio de Janeiro provenance, Colombo and Tietê destination.",
+      "pt-br": "A certidão de 2002 datilografa os oito nomes, a procedência Rio de Janeiro, o Colombo e o destino Tietê."
+    },
+    "caption": {
+      "en": "Certified extract issued in 2002 from the 1891 hostel record. It explicitly prints Rio de Janeiro as provenance and gives Giuseppe’s age as 35.",
+      "pt-br": "Certidão emitida em 2002 a partir do livro de 1891. Ela registra explicitamente Rio de Janeiro como procedência e informa 35 anos para Giuseppe."
+    },
+    "credit": {
+      "en": "Memorial do Imigrante, certificate 11262, issued 26 February 2002; family archive copy.",
+      "pt-br": "Memorial do Imigrante, certidão 11262, emitida em 26 de fevereiro de 2002; cópia do arquivo familiar."
+    },
+    "rights": {
+      "en": "Archival document reproduced for local research preview; repository reproduction terms remain under review.",
+      "pt-br": "Documento arquivístico reproduzido para prévia local de pesquisa; os termos de reprodução do acervo permanecem em análise."
+    },
+    "variants": [
+      {
+        "path": "panzonato-desembarque-certificate-2002/panzonato-desembarque-certificate-2002-9270cd1ac43c-480.webp",
+        "width": 480,
+        "height": 339,
+        "bytes": 18976,
+        "sha256": "9270cd1ac43c80c5ba0c8be45222ba6a7c4433fca372969ccfff4720e11bda81"
+      },
+      {
+        "path": "panzonato-desembarque-certificate-2002/panzonato-desembarque-certificate-2002-17c2bf671603-960.webp",
+        "width": 960,
+        "height": 679,
+        "bytes": 60768,
+        "sha256": "17c2bf671603ab6bc68338ce36e327b36bb2f4c37d3be72b6000e019ced14fb7"
+      },
+      {
+        "path": "panzonato-desembarque-certificate-2002/panzonato-desembarque-certificate-2002-5ccc841d9fc7-1600.webp",
+        "width": 1600,
+        "height": 1131,
+        "bytes": 120430,
+        "sha256": "5ccc841d9fc7bd820618be9a6dc2d4b591179bb2018562ba5be1164cd69ccd3c"
+      },
+      {
+        "path": "panzonato-desembarque-certificate-2002/panzonato-desembarque-certificate-2002-f09341c12604-2000.webp",
+        "width": 2000,
+        "height": 1414,
+        "bytes": 160794,
+        "sha256": "f09341c12604f32f015284cb931f54c299790ed3b6fa76cf7a5a9c92da52a751"
       }
     ]
   }

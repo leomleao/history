@@ -23,7 +23,7 @@ O [sistema paulista de imigração](/panzonato/pt-br/archive/context-apesp-immig
 
 ## Tietê escrito adiante
 
-Na margem direita do [registro familiar](/panzonato/pt-br/archive/panzonato-hospedaria-1891/) aparece uma palavra decisiva: *Tietê*. Rio de Janeiro é a procedência anotada; Tietê, o destino. A linha aponta para o interior, mas não informa a transferência, o patrão, uma fazenda ou o tempo de permanência. Essa lacuna faz parte da história. A família desaparece de vista justamente quando uma instituição a encaminha para uma paisagem nova.
+Na margem direita do [registro familiar original](/panzonato/pt-br/archive/panzonato-hospedaria-1891/) aparece uma palavra decisiva: *Tietê*. A [certidão de 2002](/panzonato/pt-br/archive/panzonato-desembarque-certificate-2002/) registra expressamente Rio de Janeiro como procedência; esse campo não está legível ao lado da família no scan original. A linha aponta para o interior, mas não informa a transferência, o patrão, uma fazenda ou o tempo de permanência. Essa lacuna faz parte da história. A família desaparece de vista justamente quando uma instituição a encaminha para uma paisagem nova.
 
 O próximo acontecimento seguro ocorre oito anos depois, em Capivari. Entre o destino escrito em 1891 e o nascimento registrado em 1899 está o trabalho difícil e cotidiano de estabelecer uma vida, sem diário preservado entre as fontes fornecidas. A partir de 1899, os documentos se tornam mais frequentes. Um nascimento, depois casamentos, profissões e mortes começam a fixar a família num município.
 

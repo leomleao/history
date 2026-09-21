@@ -36,12 +36,12 @@
     ],
     "paragraphs": {
       "en": [
-        "Begin with their ages. Fosca was recorded as thirty. Beside her were Luigia, ten; Catarina, nine; Candida, seven; Luigi, five; Domenico, three; and Eugenio, one. Giuseppe, thirty-five, completed a household of eight. The São Paulo hostel register preserves them in a neat sequence, but life aboard a moving ship would never have arranged itself so calmly. The children’s needs would have arrived together: hunger, thirst, sleep, fear, boredom, a hand to hold, a place to sit, a cup that must not spill.",
+        "Begin with their ages. Fosca was recorded as thirty. Beside her were Luigia, ten; Catarina, nine; Candida, seven; Luigi, five; Domenico, three; and Eugenio, one. Giuseppe's age appears as thirty-six in the original ledger and thirty-five in the 2002 certificate. The São Paulo hostel register preserves eight people in a neat sequence, but life aboard a moving ship would never have arranged itself so calmly. The children’s needs would have arrived together: hunger, thirst, sleep, fear, boredom, a hand to hold, a place to sit, a cup that must not spill.",
         "The Colombo was a former cargo vessel adapted to carry people. Rossini’s history describes roughly seven hundred emigrants in precarious common accommodation, with another eighty to one hundred cabin passengers. The family’s exact accommodation is not recorded. Yet wherever their places were, two parents travelling with six children would have needed to turn a crowded, unfamiliar space into a working household. Food and water had to reach seven other people as well as Fosca. A resting child still had to be watched; a one-year-old kept close while a three-year-old moved; older daughters were still children even if their hands could help. When the deck or floor shifted underfoot, every ordinary task would have required balance.",
         "This is not a hidden diary of heroism, and it does not require one. Care is visible in the arithmetic. Six children meant six bodies to count after every movement through a common space, six rhythms of fatigue, six sets of immediate needs that could not be postponed until the ocean was quiet. Giuseppe shared that burden, but the documentary row makes Fosca newly legible: not simply the wife named after the head of household, but the mother at the centre of an immense practical undertaking. On 15 December 1891, all eight names entered the São Paulo record together. The page cannot tell us her thoughts. It does show the family still gathered around her."
       ],
       "pt-br": [
-        "Comece pelas idades. Fosca foi registrada com trinta anos. Ao lado dela estavam Luigia, dez; Catarina, nove; Candida, sete; Luigi, cinco; Domenico, três; e Eugenio, um. Giuseppe, de trinta e cinco, completava uma família de oito pessoas. O livro da Hospedaria de São Paulo os preserva em sequência ordenada, mas a vida a bordo de um navio em movimento jamais se organizaria com tanta calma. As necessidades das crianças teriam chegado juntas: fome, sede, sono, medo, tédio, uma mão para segurar, um lugar para sentar, um copo que não podia derramar.",
+        "Comece pelas idades. Fosca foi registrada com trinta anos. Ao lado dela estavam Luigia, dez; Catarina, nove; Candida, sete; Luigi, cinco; Domenico, três; e Eugenio, um. A idade de Giuseppe parece ser 36 anos no livro original e 35 na certidão de 2002. O livro da Hospedaria de São Paulo preserva oito pessoas em sequência ordenada, mas a vida a bordo de um navio em movimento jamais se organizaria com tanta calma. As necessidades das crianças teriam chegado juntas: fome, sede, sono, medo, tédio, uma mão para segurar, um lugar para sentar, um copo que não podia derramar.",
         "O Colombo era um antigo cargueiro adaptado para transportar pessoas. A história escrita por Rossini descreve cerca de setecentos emigrantes em acomodações comuns precárias, além de oitenta a cem passageiros em cabines. Não se conhece a acomodação exata da família. Onde quer que estivessem, porém, dois pais viajando com seis filhos precisariam transformar um espaço cheio e desconhecido em uma casa possível. Comida e água tinham de chegar a outras sete pessoas além de Fosca. Uma criança adormecida continuava exigindo atenção; o bebê de um ano precisava ficar perto enquanto o menino de três se movia; as filhas mais velhas ainda eram crianças, mesmo que suas mãos pudessem ajudar. Quando o convés ou o piso oscilava sob os pés, cada tarefa comum exigia equilíbrio.",
         "Isto não é um diário oculto de heroísmo, nem precisa ser. O cuidado aparece na aritmética. Seis filhos significavam seis corpos para contar depois de cada deslocamento por um espaço coletivo, seis ritmos de cansaço, seis conjuntos de necessidades imediatas que não podiam esperar o oceano sossegar. Giuseppe dividia esse encargo, mas a linha documental torna Fosca novamente visível: não apenas a esposa nomeada depois do chefe da família, e sim a mãe no centro de uma tarefa prática imensa. Em 15 de dezembro de 1891, os oito nomes entraram juntos no registro de São Paulo. A página não revela seus pensamentos. Mostra, sim, a família ainda reunida ao redor dela."
       ]
@@ -428,8 +428,8 @@
       "pt-br": "Oito nomes em um livro"
     },
     "dek": {
-      "en": "A certified extract fixes one family to a date, a ship, a point of origin, and a destination—without filling the silences between them.",
-      "pt-br": "Uma certidão fixa uma família a uma data, um navio, uma procedência e um destino — sem preencher os silêncios entre esses pontos."
+      "en": "The original 1891 register names eight people, their ship and destination; a later certificate adds a stated provenance.",
+      "pt-br": "O livro original de 1891 nomeia oito pessoas, seu vapor e destino; uma certidão posterior acrescenta a procedência declarada."
     },
     "period": {
       "en": "15 December 1891",
@@ -440,26 +440,30 @@
       "pt-br": "Hospedaria de Imigrantes de São Paulo, Livro 031, p. 283"
     },
     "context": {
-      "en": "The displayed image is a certified extract issued in 2002 from the family’s 1891 hostel entry, not the original ledger page.",
-      "pt-br": "A imagem exibida é uma certidão emitida em 2002 a partir do registro familiar de 1891 na hospedaria, não a página original do livro."
+      "en": "The displayed close-up is from the original 1891 ledger. The full page and a separate certified extract issued in 2002 are available alongside it.",
+      "pt-br": "O recorte exibido vem do livro original de 1891. A página completa e uma certidão separada, emitida em 2002, também estão disponíveis."
     },
     "chapterKey": "brazil",
     "mediaIds": [
       "panzonato-hospedaria-1891",
+      "hospedaria-page-1891",
+      "panzonato-desembarque-certificate-2002",
       "immigrants-at-bras-courtyard"
     ],
     "sourceIds": [
       "panzonato-hospedaria-1891",
+      "hospedaria-page-1891",
+      "panzonato-desembarque-certificate-2002",
       "immigrants-at-bras-courtyard"
     ],
     "paragraphs": {
       "en": [
-        "The entry is compact: Giuseppe, thirty-five; Fosca, thirty; Luigia, ten; Catarina, nine; Candida, seven; Luigi, five; Domenico, three; Eugenio, one. Eight people appear together in the São Paulo immigrant hostel record dated 15 December 1891. The associated steamship is Colombo. The line gives Rio de Janeiro as provenance and Tietê as destination. In a few ruled cells, a household becomes visible at a precise administrative threshold.",
-        "The image preserved by the family is not the nineteenth-century ledger itself. It is a certified extract issued by the Memorial do Imigrante in 2002, pointing back to Livro 031, page 283, order 07264. The certificate gives the old entry a new documentary life. It carries forward names, reported ages, a date, and a direction of travel: Rio de Janeiro behind them, Tietê written ahead. The courtyard photograph shown alongside it depicts the Brás hostelry at another moment, opening the ruled line into the scale of an institution built to receive families in great numbers."
+        "Eight people appear together in the original São Paulo immigrant-hostel register dated 15 December 1891: Giuseppe, Fosca and their six children. The manuscript names the Colombo and the full spread shows Tietê as destination. Giuseppe's handwritten age appears to be 36; the later certificate gives 35. In a few ruled cells, a household becomes visible at a precise administrative threshold.",
+        "The 1891 close-up is the primary image here. The complete ledger page gives its setting and the certified extract issued by the Memorial do Imigrante in 2002 points back to book 031, page 283, order 07264. That later extract explicitly states Rio de Janeiro as provenance. The courtyard photograph depicts the Brás hostelry at another moment, opening the ruled line into the scale of an institution built to receive families in great numbers."
       ],
       "pt-br": [
-        "O registro é compacto: Giuseppe, trinta e cinco; Fosca, trinta; Luigia, dez; Catarina, nove; Candida, sete; Luigi, cinco; Domenico, três; Eugenio, um. Oito pessoas aparecem juntas no livro da Hospedaria de Imigrantes de São Paulo, com data de 15 de dezembro de 1891. O vapor associado é o Colombo. A linha traz Rio de Janeiro como procedência e Tietê como destino. Em poucas células pautadas, uma família se torna visível em um limiar administrativo preciso.",
-        "A imagem preservada pela família não é o livro do século XIX. É uma certidão emitida pelo Memorial do Imigrante em 2002, que remete ao Livro 031, página 283, ordem 07264. A certidão oferece nova vida documental ao assento antigo. Leva adiante nomes, idades declaradas, uma data e uma direção de viagem: Rio de Janeiro atrás deles, Tietê escrito adiante. A fotografia do pátio apresentada ao lado mostra a Hospedaria do Brás em outro momento e abre a linha pautada para a escala de uma instituição construída para receber famílias em grande número."
+        "Oito pessoas aparecem juntas no livro original da Hospedaria de Imigrantes de São Paulo, datado de 15 de dezembro de 1891: Giuseppe, Fosca e os seis filhos. O manuscrito nomeia o Colombo, e a página completa mostra Tietê como destino. A idade manuscrita de Giuseppe parece ser 36 anos; a certidão posterior informa 35. Em poucas células pautadas, uma família se torna visível em um limiar administrativo preciso.",
+        "O recorte de 1891 é a imagem principal. A página completa mostra o contexto do assento, e a certidão emitida pelo Memorial do Imigrante em 2002 remete ao livro 031, página 283, ordem 07264. Essa certidão posterior registra expressamente Rio de Janeiro como procedência. A fotografia do pátio mostra a Hospedaria do Brás em outro momento e amplia a linha pautada para a escala de uma instituição construída para receber famílias em grande número."
       ]
     }
   }

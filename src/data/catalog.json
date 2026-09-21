@@ -38,6 +38,7 @@
         "giuseppe-fosca-marriage-1881",
         "panzonato-hospedaria-1891",
         "panzonato-desembarque-certificate-2002",
+        "hospedaria-page-1891",
         "jose-filho-birth-1899",
         "giuseppe-death-1937",
         "genoa-port-noack-1892",
@@ -152,6 +153,8 @@
       "sourceIds": [
         "giuseppe-fosca-marriage-1881",
         "panzonato-hospedaria-1891",
+        "hospedaria-page-1891",
+        "panzonato-desembarque-certificate-2002",
         "jose-filho-birth-1899",
         "fosca-death-1927",
         "genoa-port-noack-1892",
@@ -840,7 +843,7 @@
       "locator": "https://commons.wikimedia.org/wiki/File:Vista_da_Alf%C3%A2ndega_e_do_Porto_do_Rio_de_Janeiro_a_partir_da_Gamboa_(0072137cx012-01).jpg",
       "kind": "context",
       "category": { "en": "Port photograph", "pt-br": "Fotografia portuária" },
-      "evidenceNote": { "en": "The family register names Rio de Janeiro as provenance; the proposed arrival on 20 November remains a research reconstruction.", "pt-br": "O registro familiar informa procedência do Rio de Janeiro; a chegada proposta em 20 de novembro permanece uma reconstrução de pesquisa." }
+      "evidenceNote": { "en": "The 2002 family certificate names Rio de Janeiro as provenance; the proposed arrival on 20 November remains a research reconstruction.", "pt-br": "A certidão familiar de 2002 informa procedência do Rio de Janeiro; a chegada proposta em 20 de novembro permanece uma reconstrução de pesquisa." }
     },
     {
       "id": "santos-valongo-ferrez",
@@ -1272,18 +1275,18 @@
         "pt-br": "Família Panzonato no registro da Hospedaria de Imigrantes de São Paulo"
       },
       "description": {
-        "en": "Register entry for Giuseppe, Fosca and six children, associated with the steamship Colombo, recorded from Rio de Janeiro with Tietê as their destination.",
-        "pt-br": "Registro de Giuseppe, Fosca e seis filhos, associado ao vapor Colombo, com procedência do Rio de Janeiro e destino a Tietê."
+        "en": "The original 1891 handwritten register names Giuseppe, Fosca and six children beside the steamship Colombo; the full spread shows Tietê as their destination.",
+        "pt-br": "O livro manuscrito original de 1891 nomeia Giuseppe, Fosca e seis filhos junto ao vapor Colombo; a página completa mostra Tietê como destino."
       },
       "citation": {
-        "en": "Hospedaria de Imigrantes de São Paulo, Livro 031, page 283, order 07264, entry dated 15 December 1891.",
-        "pt-br": "Hospedaria de Imigrantes de São Paulo, Livro 031, página 283, ordem 07264, registro de 15 de dezembro de 1891."
+        "en": "Hospedaria de Imigrantes de São Paulo, original register, Livro 031, page 283, entry dated 15 December 1891.",
+        "pt-br": "Hospedaria de Imigrantes de São Paulo, livro original nº 031, página 283, registro de 15 de dezembro de 1891."
       },
       "repository": {
         "en": "Museu da Imigração / Arquivo Público do Estado de São Paulo; family archive copy",
         "pt-br": "Museu da Imigração / Arquivo Público do Estado de São Paulo; cópia no arquivo familiar"
       },
-      "locator": "",
+      "locator": "https://www.museudaimigracao.org.br/uploads/portal/acervo/livros/pdfs/L031_283.pdf",
       "kind": "record",
       "category": {
         "en": "Immigration register",
@@ -1291,12 +1294,44 @@
       },
       "date": "1891-12-15",
       "evidenceNote": {
-        "en": "The image shows the certified extract issued by the Memorial do Imigrante in 2002, rather than the original 1891 ledger page. It documents the São Paulo hostel entry, with Rio de Janeiro as provenance and Tietê as destination. The underlying locator is Livro 031, page 283, order 07264.",
-        "pt-br": "A imagem mostra a certidão emitida pelo Memorial do Imigrante em 2002, e não a página original do livro de 1891. Documenta a entrada na hospedaria paulista, com procedência do Rio de Janeiro e destino Tietê. A referência do registro original é Livro 031, página 283, ordem 07264."
+        "en": "This is a detail from the original 1891 register, not the later certificate. The original line shows the household and Colombo; the full page shows Tietê. The 2002 certified extract explicitly states Rio de Janeiro as provenance. Giuseppe's age appears to be 36 in the manuscript, while the extract gives 35; retain this discrepancy rather than silently normalizing it.",
+        "pt-br": "Este é um detalhe do livro original de 1891, não da certidão posterior. A linha original mostra a família e o Colombo; a página inteira mostra Tietê. A certidão de 2002 registra expressamente Rio de Janeiro como procedência. A idade de Giuseppe parece ser 36 no manuscrito, enquanto a certidão informa 35; a divergência deve permanecer visível."
       },
       "transcript": {
-        "en": "Record reading: Giuseppe, 35; Fosca, 30; Luigia, 10; Catarina, 9; Candida, 7; Luigi, 5; Domenico, 3; Eugenio, 1. Provenance: Rio de Janeiro. Destination: Tietê.",
-        "pt-br": "Leitura do registro: Giuseppe, 35; Fosca, 30; Luigia, 10; Catarina, 9; Candida, 7; Luigi, 5; Domenico, 3; Eugenio, 1. Procedência: Rio de Janeiro. Destino: Tietê."
+        "en": "Original-page reading: Giuseppe, apparently 36; Fosca, 30; Luigia, 10; Catarina, 9; Candida, 7; Luigi, 5; Domenico, 3; Eugenio, 1. Ship: Colombo. Destination: Tietê on the full spread. Rio de Janeiro is explicit in the later certificate, not beside this family on the original page.",
+        "pt-br": "Leitura da página original: Giuseppe, aparentemente 36; Fosca, 30; Luigia, 10; Catarina, 9; Candida, 7; Luigi, 5; Domenico, 3; Eugenio, 1. Vapor: Colombo. Destino: Tietê na página completa. Rio de Janeiro é explícito na certidão posterior, não ao lado desta família no original."
+      }
+    },
+    {
+      "id": "hospedaria-page-1891",
+      "mediaId": "hospedaria-page-1891",
+      "publication": "preview",
+      "title": {
+        "en": "Original 1891 hostel register, book 031, page 283",
+        "pt-br": "Livro original da Hospedaria de 1891, nº 031, página 283"
+      },
+      "description": {
+        "en": "Complete two-page scan of the immigrant-hostel register with the Panzonato household near the bottom and Tietê written in the destination column.",
+        "pt-br": "Scan completo da página dupla da Hospedaria, com a família Panzonato perto do rodapé e Tietê na coluna de destino."
+      },
+      "citation": {
+        "en": "Museu da Imigração / Arquivo Público do Estado de São Paulo, Livro 031, page 283, 15 December 1891.",
+        "pt-br": "Museu da Imigração / Arquivo Público do Estado de São Paulo, Livro 031, página 283, 15 de dezembro de 1891."
+      },
+      "repository": {
+        "en": "Museu da Imigração / Arquivo Público do Estado de São Paulo",
+        "pt-br": "Museu da Imigração / Arquivo Público do Estado de São Paulo"
+      },
+      "locator": "https://www.museudaimigracao.org.br/uploads/portal/acervo/livros/pdfs/L031_283.pdf",
+      "kind": "record",
+      "category": {
+        "en": "Original immigration register",
+        "pt-br": "Livro original de imigração"
+      },
+      "date": "1891-12-15",
+      "evidenceNote": {
+        "en": "The page documents the household, Colombo and Tietê. The Rio provenance printed on the 2002 certificate cannot be read as a family-specific entry on this full page; see the later extract separately. The handwritten age for Giuseppe appears to be 36, not the later extract's 35.",
+        "pt-br": "A página documenta a família, o Colombo e Tietê. A procedência Rio impressa na certidão de 2002 não pode ser lida como anotação específica da família nesta página; consulte a certidão separadamente. A idade manuscrita de Giuseppe parece ser 36, não os 35 da certidão posterior."
       }
     },
     {
@@ -1870,6 +1905,7 @@
     },
     {
       "id": "panzonato-desembarque-certificate-2002",
+      "mediaId": "panzonato-desembarque-certificate-2002",
       "publication": "preview",
       "title": {
         "en": "Certified extract of the 1891 immigration entry",
@@ -1899,8 +1935,8 @@
         "pt-br": "Leitura do registro: a certidão 11262 reproduz a entrada da família em 15 de dezembro de 1891, procedente do Rio de Janeiro, com destino a Tietê."
       },
       "evidenceNote": {
-        "en": "The certificate was issued in 2002, not 2014; it is a later certification of the 1891 record, not a separate arrival event.",
-        "pt-br": "A certidão foi emitida em 2002, não em 2014; é uma certificação posterior do registro de 1891, não um desembarque distinto."
+        "en": "The certificate was issued in 2002, not 2014; it is a later certification of the 1891 record, not a separate arrival event. It explicitly gives Rio de Janeiro as provenance and Giuseppe's age as 35; the 1891 handwriting appears to give 36.",
+        "pt-br": "A certidão foi emitida em 2002, não em 2014; é uma certificação posterior do registro de 1891, não um desembarque distinto. Ela informa expressamente Rio de Janeiro como procedência e 35 anos para Giuseppe; o manuscrito de 1891 parece indicar 36."
       }
     },
     {
@@ -3823,8 +3859,8 @@
         "pt-br": "Mapas históricos"
       },
       "evidenceNote": {
-        "en": "The original map is dated 1903, not 1891. The animated line illustrates the Colombo’s regular Genoa–Lisbon–Rio de Janeiro–Santos service using a visually calibrated sea corridor; it is not a recorded track of the family’s voyage. The family record establishes Rio de Janeiro as provenance and registration at São Paulo’s Hospedaria on 15 December 1891, with Tietê as destination. Their exact European boarding port, Brazilian landing port and crossing duration remain unconfirmed.",
-        "pt-br": "O mapa original é de 1903, não de 1891. A linha animada ilustra o serviço regular Gênova–Lisboa–Rio de Janeiro–Santos do Colombo por um corredor marítimo calibrado visualmente; não é um trajeto registrado da viagem da família. O documento familiar estabelece procedência do Rio de Janeiro e registro na Hospedaria de São Paulo em 15 de dezembro de 1891, com destino a Tietê. O porto exato de embarque na Europa, o porto de desembarque no Brasil e a duração da travessia permanecem sem confirmação."
+        "en": "The original map is dated 1903, not 1891. The animated line illustrates the Colombo’s regular Genoa–Lisbon–Rio de Janeiro–Santos service using a visually calibrated sea corridor; it is not a recorded track of the family’s voyage. The original family register establishes entry at São Paulo’s Hospedaria on 15 December 1891 and Tietê as destination; a 2002 certificate explicitly gives Rio de Janeiro as provenance. Their exact European boarding port, Brazilian landing port and crossing duration remain unconfirmed.",
+        "pt-br": "O mapa original é de 1903, não de 1891. A linha animada ilustra o serviço regular Gênova–Lisboa–Rio de Janeiro–Santos do Colombo por um corredor marítimo calibrado visualmente; não é um trajeto registrado da viagem da família. O livro original comprova a matrícula na Hospedaria de São Paulo em 15 de dezembro de 1891 e o destino Tietê; a certidão de 2002 informa expressamente procedência do Rio de Janeiro. O porto exato de embarque na Europa, o porto de desembarque no Brasil e a duração da travessia permanecem sem confirmação."
       }
     }
   ],

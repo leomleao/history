@@ -23,7 +23,7 @@ The [São Paulo immigration system](/panzonato/en/archive/context-apesp-immigrat
 
 ## Tietê written ahead
 
-At the right edge of the [family entry](/panzonato/en/archive/panzonato-hospedaria-1891/) appears one decisive word: *Tietê*. Rio de Janeiro is recorded as their provenance; Tietê as their destination. The line points inland, but it does not give the transfer, the employer, a farm, or the length of their stay. That gap is part of the family story. They disappear from view at the moment when an institution directed them toward a new landscape.
+At the right edge of the [original family entry](/panzonato/en/archive/panzonato-hospedaria-1891/) appears one decisive word: *Tietê*. The [2002 certified extract](/panzonato/en/archive/panzonato-desembarque-certificate-2002/) explicitly gives Rio de Janeiro as provenance; that field is not legible beside this household in the original scan. The line points inland, but it does not give the transfer, the employer, a farm, or the length of their stay. That gap is part of the family story. They disappear from view at the moment when an institution directed them toward a new landscape.
 
 The next secure family event comes eight years later in Capivari. Between the destination written in 1891 and the birth recorded in 1899 lies the difficult, ordinary work of establishing a life, preserved in no supplied diary. From 1899 onward, documents become more frequent. A birth, then marriages, occupations, and deaths begin to pin the family to one municipality.
 
