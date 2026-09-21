@@ -1,27 +1,27 @@
-# Higgsfield Video Production Plan: Fosca and Six Children at Sea
+# Higgsfield Video Production Plan: "Through Luigia's Eyes"
 
 **Project**: `01-fosca-at-sea`  
+**Narrative Perspective**: Ten-Year-Old Luigia (In the Moment, Present Tense)  
+**Story Arc**: Linear Journey (Veneto → Colombo Embarkation → Rolling Hold → Deck at Dawn → São Paulo Platform & Ledger)  
 **Account Status**: `leomleao@gmail.com`  
 **Current Balance**: 194.9 credits *(Audited 21 Sep 2026)*  
 **Chosen Strategy**: **Lean Turbo Tier (~42.5 credits total)**  
 **Aspect Ratio**: 16:9 Landscape  
-**Language Editions**: Dual Track — English (`en`) & Brazilian Portuguese (`pt-br`)  
+**Language Editions**: Synchronized Dual Track — English (`en`) & Brazilian Portuguese (`pt-br`)  
 **Production Gate**: **HARD STOP** — No CLI jobs will be submitted until the user explicitly commands: *"Generate videos"*.
 
 ---
 
 ## 1. Budget Breakdown (Lean Turbo Strategy)
 
-By generating master anchor stills with `gpt_image_2_5` (1 credit each) and driving motion with `kling3_0_turbo` (7.5 credits each), we achieve high cinematic quality and historical accuracy while preserving **~152 credits (78% of balance)** for subsequent videos in the `agy-videos` series.
-
 | Asset | Model / Tool | Specs | Unit Cost | Total Cost |
 | :--- | :--- | :--- | :--- | :--- |
 | **5x Master Stills** | `gpt_image_2_5` | 16:9, 2K Resolution | 1.0 credit | **5.0 credits** |
-| **Shot 1 (Exterior)** | `kling3_0_turbo` | 5s, 16:9, Start Image | 7.5 credits | **7.5 credits** |
-| **Shot 2 (Steerage)** | `kling3_0_turbo` | 5s, 16:9, Start Image | 7.5 credits | **7.5 credits** |
-| **Shot 3 (Care)** | `kling3_0_turbo` | 5s, 16:9, Start Image | 7.5 credits | **7.5 credits** |
-| **Shot 4 (Dawn)** | `kling3_0_turbo` | 5s, 16:9, Start Image | 7.5 credits | **7.5 credits** |
-| **Shot 5 (Ledger)** | `kling3_0_turbo` | 5s, 16:9, Start Image | 7.5 credits | **7.5 credits** |
+| **Shot 1 (Veneto Departure)** | `kling3_0_turbo` | 5s, 16:9, Start Image | 7.5 credits | **7.5 credits** |
+| **Shot 2 (Colombo Embarkation)** | `kling3_0_turbo` | 5s, 16:9, Start Image | 7.5 credits | **7.5 credits** |
+| **Shot 3 (The Rolling Hold)** | `kling3_0_turbo` | 5s, 16:9, Start Image | 7.5 credits | **7.5 credits** |
+| **Shot 4 (Dawn on Deck)** | `kling3_0_turbo` | 5s, 16:9, Start Image | 7.5 credits | **7.5 credits** |
+| **Shot 5 (Ledger & Train)** | `kling3_0_turbo` | 5s, 16:9, Start Image | 7.5 credits | **7.5 credits** |
 | **Total Production Estimate** | | | | **42.5 credits** |
 | **Remaining Reserve** | | | | **~152.4 credits** |
 
@@ -32,38 +32,44 @@ By generating master anchor stills with `gpt_image_2_5` (1 credit each) and driv
 ### Step 1: Generate Master Anchor Stills (Cost: 5 credits)
 
 ```bash
-# 1. Exterior Steamship Colombo
+# Shot 1: Leaving Veneto (Stone Farmhouse, Damp Autumn, Packing the Trunk)
 higgsfield generate create gpt_image_2_5 \
-  --prompt "Wide angle cinematic historical photograph of the 1873-built steamship Colombo in 1891, single tall central black funnel billowing dark coal smoke, long narrow iron hull pitching through heavy slate-gray Atlantic ocean swell, white sea foam, dramatic overcast clouds, authentic 19th-century maritime realism, 35mm film grain" \
+  --prompt "Cinematic wide shot of rural Veneto Italy in autumn 1891, damp stone farmhouse, bare trees, muddy ground after river flooding, Italian laborer father Giuseppe Panzonato (facial features matching giuseppe reference image) tying thick hemp rope around a battered wooden chest, mother Fosca Moro (aged 30, facial features matching fosca reference image) wearing dark wool shawl holding 1-year-old infant on her hip, 10-year-old daughter Luigia holding 5-year-old brother's hand looking back, somber determined mood, 35mm film grain, 19th century historical realism" \
+  --image ./images/fosca.jpg \
+  --image ./images/giuseppe.jpg \
   --aspect_ratio 16:9 \
   --resolution 2k \
   --wait
 
-# 2. Interior Steerage Hold (Fosca & Toddlers) — Face grounded in images/fosca.jpg
+# Shot 2: Quayside & Steamship Colombo (Looking up at Black Iron Hull)
 higgsfield generate create gpt_image_2_5 \
-  --prompt "Interior of an 1891 emigrant steamship steerage hold during an Atlantic storm, dim chiaroscuro lighting from a single swinging brass oil lantern, rough timber bunk frames, straw mattresses, 30-year-old Venetian peasant mother Fosca Moro (facial features directly matching reference image) wearing a dark woolen shawl and headscarf, clutching a 1-year-old infant to her chest while firmly anchoring a 3-year-old toddler between her knees on a rough wooden bench, exhausted yet fiercely resolute expression, cinematic period realism, 35mm film grain" \
+  --prompt "Low angle cinematic photograph on wet stone European quayside in 1891, looking up at the towering black riveted iron hull of the steamship Colombo (matching historical reference image with single tall black smokestack billowing coal smoke), Italian emigrant families with wicker baskets ascending wooden gangplank, 10-year-old girl in coarse woolen coat looking up in wide-eyed awe, misty maritime atmosphere, 35mm photography" \
+  --image ./images/colombo-drydock-1901.jpg \
+  --aspect_ratio 16:9 \
+  --resolution 2k \
+  --wait
+
+# Shot 3: The Rolling Hold (Fosca Bracing the Children)
+higgsfield generate create gpt_image_2_5 \
+  --prompt "Interior of an 1891 emigrant steamship steerage hold during heavy Atlantic seas, dim chiaroscuro lighting from a single swinging brass oil lantern, rough timber bunk frames, straw mattresses, 30-year-old Venetian peasant mother Fosca Moro (facial features directly matching reference image) sitting braced on a wooden trunk, clutching a 1-year-old infant to her neck while firmly locking a 3-year-old toddler between her knees, 10-year-old daughter Luigia gently helping her 5-year-old brother drink from a tin cup, sisters huddled under blankets, intense maternal resilience, 35mm film texture" \
   --image ./images/fosca.jpg \
   --aspect_ratio 16:9 \
   --resolution 2k \
   --wait
 
-# 3. Family Care & Solidarity (Giuseppe & Daughters)
+# Shot 4: Dawn on Deck (First Warm Sun over Calm Atlantic)
 higgsfield generate create gpt_image_2_5 \
-  --prompt "Intimate medium cinematic shot inside 1891 steamship hold, Italian laborer father with dark mustache and flat wool cap carefully holding a tin cup of broth, passing it to his 10-year-old eldest daughter Luigia who gently feeds her 5-year-old younger brother, two younger sisters huddled close under a coarse blanket, warm amber lantern glow against cold dark wood, tender family resilience" \
+  --prompt "Cinematic wide-medium shot of Italian emigrant family on the damp wooden deck of a steamship at sunrise, calm tranquil ocean swell, cold morning sea fog illuminated by golden sun rays, Venetian mother Fosca (matching fosca reference) in dark woolen shawl holding baby, father Giuseppe (matching giuseppe reference) beside her with 5-year-old boy on his shoulders, 10-year-old Luigia and her two sisters standing by the wooden railing smiling toward the glowing sea horizon, salt wind blowing their hair, hopeful emotional relief, 35mm period photography" \
+  --image ./images/fosca.jpg \
+  --image ./images/giuseppe.jpg \
   --aspect_ratio 16:9 \
   --resolution 2k \
   --wait
 
-# 4. Dawn on Deck (The Family United)
+# Shot 5: São Paulo Arrival Platform & Archival Ledger
 higgsfield generate create gpt_image_2_5 \
-  --prompt "Cinematic wide-medium shot of Italian emigrant family on the damp wooden deck of a steamship at dawn, cold Atlantic mist clearing, first golden morning sun rays breaking through ocean clouds, Venetian mother wrapped in dark shawl holding baby, father beside her with small boy, three young daughters clustered close looking forward at the open sea horizon, hair blown by salt wind, emotional relief and quiet hope" \
-  --aspect_ratio 16:9 \
-  --resolution 2k \
-  --wait
-
-# 5. The Archival Ledger (Macro Close-up)
-higgsfield generate create gpt_image_2_5 \
-  --prompt "Cinematic macro photograph of a vintage 1891 immigrant registration ledger book, aged textured parchment paper, a vintage steel-nib dip pen actively writing names in dark sepia calligraphy ink: Giuseppe, Fosca, Luigia, Catarina, Candida, Luigi, Domenico, Eugenio, warm side lighting, soft depth of field, dust motes in soft light beam" \
+  --prompt "Macro cinematic split-composition photograph: in the foreground, sharp textured view of the authentic 1891 immigrant registration ledger book page (matching reference book spread) with handwritten calligraphy names Giuseppe, Fosca, Luigia, Catarina, Candida, Luigi, Domenico, Eugenio, and Tietê, in the warm golden background softly out of focus, sunlit 1891 São Paulo immigrant train platform with steam locomotive ready for the coffee plantations, dust motes floating in sunbeams" \
+  --image ./images/panzonato-hospedaria-1891-page.jpg \
   --aspect_ratio 16:9 \
   --resolution 2k \
   --wait
@@ -74,47 +80,51 @@ higgsfield generate create gpt_image_2_5 \
 ### Step 2: Animate Video Motion with Kling 3.0 Turbo (Cost: 37.5 credits)
 
 ```bash
-# Shot 1: Ship cutting through Atlantic swell
+# Shot 1: Packing the trunk in Veneto
 higgsfield generate create kling3_0_turbo \
-  --prompt "Cinematic tracking shot along the side of the 1891 steamship as it pitches deeply through rolling Atlantic swells, cold ocean spray, churning waves, heavy industrial steam engine motion" \
-  --start-image <IMAGE_1_ID_OR_PATH> \
+  --prompt "Slow cinematic tracking shot, cold autumn wind blowing dry leaves across the muddy ground, father Giuseppe tightens the rope around the wooden chest, 10-year-old Luigia squeezes her little brother's hand and turns to follow her mother, emotional period realism" \
+  --start-image <SHOT_1_STILL_ID> \
   --duration 5 \
   --wait
 
-# Shot 2: Steerage hold rolling with the sea
+# Shot 2: Boarding the Colombo
 higgsfield generate create kling3_0_turbo \
-  --prompt "Handheld cinematic camera rolling with the heave of the ship, the brass lantern overhead sways dramatically casting shifting amber shadows, the mother tightens her embrace on the infant as the hull creaks" \
-  --start-image <IMAGE_2_ID_OR_PATH> \
+  --prompt "Slow upward tilt from the wet cobblestone dock to the towering black iron hull of the steamship, black coal smoke drifting across the overcast sky, crowd of emigrants slowly moving up the gangplank, the young girl gazes up in awe" \
+  --start-image <SHOT_2_STILL_ID> \
   --duration 5 \
   --wait
 
-# Shot 3: Feeding and tending the children
+# Shot 3: The Rolling Hold
 higgsfield generate create kling3_0_turbo \
-  --prompt "Subtle tender cinematic camera movement, the father steadies the tin cup as the ship rolls gently, the elder sister softly comforts the younger boy, warm lantern light flickering" \
-  --start-image <IMAGE_3_ID_OR_PATH> \
+  --prompt "Handheld cinematic camera rolling with the 20-degree tilt of the ship, the brass lantern overhead sways violently casting dramatic shifting amber shadows, mother Fosca tightens her protective embrace on the sleeping baby as the wooden berths creak, the older daughter steadies the tin cup" \
+  --start-image <SHOT_3_STILL_ID> \
   --duration 5 \
   --wait
 
-# Shot 4: Morning wind on deck
+# Shot 4: Dawn on Deck
 higgsfield generate create kling3_0_turbo \
-  --prompt "Slow cinematic push-in on the family standing on deck at sunrise, golden sunlight reflecting off wet deck planks, shawls and hair fluttering in the fresh sea breeze, looking forward with hope" \
-  --start-image <IMAGE_4_ID_OR_PATH> \
+  --prompt "Slow cinematic push-in on the family standing on deck at sunrise, golden light reflecting on the sea, gentle sea breeze fluttering their shawls and hair, the mother smiles softly with relief, looking toward the horizon" \
+  --start-image <SHOT_4_STILL_ID> \
   --duration 5 \
   --wait
 
-# Shot 5: Pen gliding across the historical ledger
+# Shot 5: Ledger into Train Platform
 higgsfield generate create kling3_0_turbo \
-  --prompt "Smooth macro camera glide across the aged ledger page as the dip pen inscribes the final family names in rich sepia ink, soft golden particles floating in warm light" \
-  --start-image <IMAGE_5_ID_OR_PATH> \
+  --prompt "Smooth macro camera pan across the aged ledger page revealing the eight family names in rich sepia ink, then rack focusing to the sunlit steam train on the platform as steam billows into the golden morning air" \
+  --start-image <SHOT_5_STILL_ID> \
   --duration 5 \
   --wait
 ```
 
 ---
 
-## 3. Audio & Post-Production Plan
-- **Foley & Sound Design**: Generate iron hull creaks, engine thud, ocean spray, and brass lantern clinking using `higgsfield generate create seed_audio`.
-- **Narration**: Record/generate two vocal tracks (EN and PT-BR) matching the timestamps in `script-draft.md`.
-- **Export Editions**:
-  1. `01-fosca-at-sea-en.mp4` (English VO + English Title Cards)
-  2. `01-fosca-at-sea-pt-br.mp4` (Portuguese VO + Portuguese Title Cards)
+## 3. Audio & Soundscape Plan
+- **Narrator Voice Profile**: 10-year-old girl (Luigia), earnest, steady, observant, intimate.
+  - Track 1 (`en`): English narration with slight natural cadence.
+  - Track 2 (`pt-br`): Brazilian Portuguese narration.
+- **Foley Elements (`seed_audio`)**:
+  - Autumn wind and creaking rope on wood (Scene 1).
+  - Steam locomotive/ship hiss and quayside commotion (Scene 2).
+  - Heavy iron groaning, 20-degree roll wave crashes, clinking lantern chains (Scene 3).
+  - Peaceful morning sea wash and gentle breeze (Scene 4).
+  - Dip pen nib on paper and distant train whistle (Scene 5).
