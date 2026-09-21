@@ -2,7 +2,7 @@
 
 **Project**: `01-fosca-at-sea`  
 **Narrative Perspective**: Ten-Year-Old Luigia (In the Moment, Present Tense)  
-**Story Arc**: Linear Odyssey (Veneto Ruin → Ports of No Return → Rolling Hold & Doubt → Arriving into War in Rio → São Paulo Red Earth & Ledger)  
+**Story Arc**: Veneto Train → Genoa → Cape Verde Cage & Hold → War in Rio & Paranapiacaba Incline → Brás Hostel → Coffee Rows & Forbidden Tongue → Capivari Ledger  
 **Account Status**: `leomleao@gmail.com`  
 **Current Balance**: 194.9 credits *(Audited 21 Sep 2026)*  
 **Chosen Strategy**: **Lean Turbo Tier (~42.5 credits total)**  
@@ -17,11 +17,11 @@
 | Asset | Model / Tool | Specs | Unit Cost | Total Cost |
 | :--- | :--- | :--- | :--- | :--- |
 | **5x Master Stills** | `gpt_image_2_5` | 16:9, 2K Resolution | 1.0 credit | **5.0 credits** |
-| **Shot 1 (Veneto Desperation)** | `kling3_0_turbo` | 5s, 16:9, Start Image | 7.5 credits | **7.5 credits** |
-| **Shot 2 (Ports & Cape Verde)** | `kling3_0_turbo` | 5s, 16:9, Start Image | 7.5 credits | **7.5 credits** |
-| **Shot 3 (The Rolling Hold)** | `kling3_0_turbo` | 5s, 16:9, Start Image | 7.5 credits | **7.5 credits** |
-| **Shot 4 (War in Guanabara Bay)** | `kling3_0_turbo` | 5s, 16:9, Start Image | 7.5 credits | **7.5 credits** |
-| **Shot 5 (Ledger & Platform)** | `kling3_0_turbo` | 5s, 16:9, Start Image | 7.5 credits | **7.5 credits** |
+| **Shot 1 (Veneto-Genoa Train)** | `kling3_0_turbo` | 5s, 16:9, Start Image | 7.5 credits | **7.5 credits** |
+| **Shot 2 (Cape Verde & Hold)** | `kling3_0_turbo` | 5s, 16:9, Start Image | 7.5 credits | **7.5 credits** |
+| **Shot 3 (War & Paranapiacaba)** | `kling3_0_turbo` | 5s, 16:9, Start Image | 7.5 credits | **7.5 credits** |
+| **Shot 4 (Coffee & Forbidden Tongue)** | `kling3_0_turbo` | 5s, 16:9, Start Image | 7.5 credits | **7.5 credits** |
+| **Shot 5 (Ledger of 8 Names)** | `kling3_0_turbo` | 5s, 16:9, Start Image | 7.5 credits | **7.5 credits** |
 | **Total Production Estimate** | | | | **42.5 credits** |
 | **Remaining Reserve** | | | | **~152.4 credits** |
 
@@ -32,46 +32,47 @@
 ### Step 1: Generate Master Anchor Stills (Cost: 5 credits)
 
 ```bash
-# Shot 1: The Desperate Decision — Veneto
+# Shot 1: The Steam Train Across Italy (Veneto to Genoa)
 higgsfield generate create gpt_image_2_5 \
-  --prompt "Cinematic wide shot of flooded rural Veneto Italy in autumn 1891, cold thick river mist, muddy ground, ruined crop fields, Italian laborer father Giuseppe Panzonato (facial features matching giuseppe reference) fiercely pulling tight ropes around a single battered wooden chest, hands red and cold, mother Fosca Moro (aged 30, facial features matching fosca reference) in dark wool shawl holding 1-year-old infant to her breast, her eyes filled with tense fear, 10-year-old daughter Luigia holding 5-year-old brother's coat, somber dramatic lighting, 35mm film grain, 19th century historical realism" \
+  --prompt "Cinematic interior of an 1891 vintage third-class steam train carriage speeding through northern Italian countryside in autumn rain, 10-year-old girl Luigia holding her 5-year-old brother Luigi close on a wooden bench, Italian laborer father Giuseppe Panzonato (matching giuseppe reference) guarding a rope-bound wooden chest, mother Fosca Moro (matching fosca reference) holding an infant to her breast, looking through rain-streaked window toward the distant towering black iron hull of the steamship Colombo in Genoa harbor, authentic 19th century period realism, 35mm film grain" \
   --image ./images/fosca.jpg \
   --image ./images/giuseppe.jpg \
   --aspect_ratio 16:9 \
   --resolution 2k \
   --wait
 
-# Shot 2: The Point of No Return — Cape Verde Coaling Port
+# Shot 2: The Floating Cage (Cape Verde Cliffs from Deck)
 higgsfield generate create gpt_image_2_5 \
-  --prompt "Cinematic wide shot in Porto Grande Mindelo Cape Verde in 1891, harsh tropical equatorial sunlight, barren black jagged volcanic mountains in background (matching historical reference image), steamship Colombo anchored in turquoise water, black coal dust swirling in the hot air as coal lighters fuel the iron ship, on deck Italian emigrant mother Fosca with six small children clinging to her woolen skirts, sweaty faces smudged with black coal soot, looking out at the alien volcanic shore with deep apprehension, authentic 19th century maritime photography" \
+  --prompt "Cinematic photograph on the iron deck of the steamship Colombo anchored off Porto Grande Mindelo Cape Verde in 1891, harsh tropical sun, jagged black volcanic cliffs in background (matching reference image), Italian peasant mother Fosca Moro and her six small children clutching the iron railing from which they are forbidden to leave, black coal dust swirling in the air smudging their sweaty faces, deep isolation and longing, 35mm photography" \
   --image ./images/cape-verde-porto-grande-1890.webp \
   --image ./images/fosca.jpg \
   --aspect_ratio 16:9 \
   --resolution 2k \
   --wait
 
-# Shot 3: The Rolling Hold & Agony of Doubt
+# Shot 3: War in Rio & The Mountain Incline (Paranapiacaba)
 higgsfield generate create gpt_image_2_5 \
-  --prompt "Interior of an 1891 emigrant steamship steerage hold during heavy Atlantic storm, dim chiaroscuro lighting from a single swinging brass oil lantern, rough timber bunk frames, straw mattresses, 30-year-old Venetian peasant mother Fosca Moro (facial features directly matching reference image) sitting braced on a wooden trunk, clutching a 1-year-old infant to her neck while firmly locking a 3-year-old toddler between her knees, tears tracing through grime on her cheeks in silent terror for her children's survival, 10-year-old daughter Luigia gently helping her 5-year-old brother drink from a tin cup, intense maternal resilience, 35mm film texture" \
-  --image ./images/fosca.jpg \
-  --aspect_ratio 16:9 \
-  --resolution 2k \
-  --wait
-
-# Shot 4: Arriving into War — Guanabara Bay (Battleship Riachuelo)
-higgsfield generate create gpt_image_2_5 \
-  --prompt "Dramatic cinematic photograph from the deck of the steamship Colombo entering Guanabara Bay Rio de Janeiro in November 1891, cloudy dramatic tropical sky, looming nearby in the water is the massive black ironclad Brazilian battleship Riachuelo (matching historical photograph with twin heavy naval gun turrets) trained directly toward the capital city, steam patrol launches with armed soldiers, on the Colombo deck father Giuseppe (matching giuseppe reference) and mother Fosca (matching fosca reference) stand clutching their six children in shock and horror, fear of arriving into a war zone, 35mm period photography" \
+  --prompt "Cinematic split transition concept: on one side, dramatic view of Guanabara Bay in late November 1891 with the menacing black ironclad battleship Riachuelo (matching reference image) aiming heavy cannons at the city, on the other side, an authentic São Paulo Railway funicular passenger carriage being hauled up steep tropical mountain rainforest cliffs by heavy steel cables into the freezing dense mist of Paranapiacaba (matching historical railway reference image), dramatic tension, 35mm film grain" \
   --image ./images/encouracado-riachuelo-1891-ferrez.webp \
-  --image ./images/giuseppe.jpg \
+  --image ./images/paranapiacaba-funicular-railway.jpg \
+  --aspect_ratio 16:9 \
+  --resolution 2k \
+  --wait
+
+# Shot 4: The Red Earth & The Forbidden Tongue (Coffee Rows & Whispers)
+higgsfield generate create gpt_image_2_5 \
+  --prompt "Cinematic wide-medium shot in a Brazilian coffee plantation in 1891, harsh blinding tropical sun over endless rows of green coffee trees in red soil (matching historical Gaensly harvest photo), Italian laborer father Giuseppe and young daughter Luigia hoeing red dirt with blistered hands, while in foreground shadow under the eaves of a humble wooden colono house, mother Fosca Moro (matching fosca reference) wraps her shawl around her children, whispering secretly with a hand over her lips, protective defiance against cultural erasure, 35mm historical film" \
+  --image ./images/colheita-cafe-gaensly.jpg \
   --image ./images/fosca.jpg \
   --aspect_ratio 16:9 \
   --resolution 2k \
   --wait
 
-# Shot 5: The Archival Ledger & São Paulo Train Platform
+# Shot 5: The Ledger of Eight Living Souls
 higgsfield generate create gpt_image_2_5 \
-  --prompt "Macro cinematic split-composition photograph: in foreground, sharp textured view of the authentic 1891 immigrant registration ledger book page (matching reference book spread) with handwritten calligraphy names Giuseppe, Fosca, Luigia, Catarina, Candida, Luigi, Domenico, Eugenio, and Tietê, in the warm golden background softly out of focus, sunlit 1891 São Paulo immigrant train platform with steam locomotive ready for the coffee plantations, dust motes floating in sunbeams" \
+  --prompt "Cinematic macro photograph of the authentic 1891 immigrant registration ledger book page (matching reference book spread Book 031, Page 283) with handwritten names Giuseppe, Fosca, Luigia, Catarina, Candida, Luigi, Domenico, Eugenio, and destination Tietê in dark sepia calligraphy, warmly illuminated by golden light, in the soft background the eight family members stand together on the red earth of Capivari outside the historic station, proud, resilient, unbroken" \
   --image ./images/panzonato-hospedaria-1891-page.jpg \
+  --image ./images/estacao-capivari-historica.jpg \
   --aspect_ratio 16:9 \
   --resolution 2k \
   --wait
@@ -82,37 +83,37 @@ higgsfield generate create gpt_image_2_5 \
 ### Step 2: Animate Video Motion with Kling 3.0 Turbo (Cost: 37.5 credits)
 
 ```bash
-# Shot 1: Tense Packing in Veneto
+# Shot 1: The Rushing Train to Genoa
 higgsfield generate create kling3_0_turbo \
-  --prompt "Slow cinematic tracking shot, cold autumn wind blowing dry leaves across the muddy ground, father Giuseppe desperately pulls the hemp rope tight around the wooden trunk, mother Fosca exchanges a terrified glance with him while holding the baby, young Luigia looks at her brother's trembling hand" \
+  --prompt "Slow cinematic camera pan inside the rattling wooden train carriage, rain lashing against the glass, the father steadies the rope on the trunk, young Luigia looks up with wide eyes as the locomotive whistle screams into the echoing port station" \
   --start-image <SHOT_1_STILL_ID> \
   --duration 5 \
   --wait
 
-# Shot 2: Volcanic Winds & Coal Dust at Cape Verde
+# Shot 2: Trapped at Cape Verde
 higgsfield generate create kling3_0_turbo \
-  --prompt "Slow cinematic pan across the deck of the ship under the blinding tropical sun, black coal dust blowing in the trade winds, the jagged volcanic peaks of Cape Verde towering in the background, the mother pulls her children closer against her skirts with anxious determination" \
+  --prompt "Cinematic slow push-in on the children clutching the iron railing of the ship under the blinding equatorial sun, black coal dust blowing across their faces, barren volcanic mountains in the background, the mother places her protective hands on their shoulders" \
   --start-image <SHOT_2_STILL_ID> \
   --duration 5 \
   --wait
 
-# Shot 3: The Rolling Hold & Tears in the Dark
+# Shot 3: Riachuelo Cannons into Paranapiacaba Mist
 higgsfield generate create kling3_0_turbo \
-  --prompt "Handheld cinematic camera rolling heavily with the 20-degree tilt of the ship, the brass lantern swings violently overhead casting dramatic shifting amber shadows, mother Fosca weeps quietly while bracing her toddler between her knees, holding her infant tight as the wooden frames groan" \
+  --prompt "Dramatic cinematic movement: dark smoke drifts past the massive naval gun turrets of the battleship Riachuelo in the harbor, dissolving into the funicular train carriage being hauled up steep mountain cliffs through swirling white fog" \
   --start-image <SHOT_3_STILL_ID> \
   --duration 5 \
   --wait
 
-# Shot 4: Battleship Riachuelo & The Threat of War
+# Shot 4: Coffee Hoeing into Secret Venetian Whisper
 higgsfield generate create kling3_0_turbo \
-  --prompt "Cinematic tracking shot past the menacing black ironclad battleship Riachuelo in Guanabara bay, smoke drifting from gun turrets, naval launch cutting the water with soldiers, on the passenger deck the father pulls his children behind him in disbelief and protective terror" \
+  --prompt "Cinematic rack focus from the father hoeing the dusty red earth under the burning sun to the mother inside the dim colono shack, gently pulling her children close, whispering quietly in secret, emotional maternal warmth amidst hardship" \
   --start-image <SHOT_4_STILL_ID> \
   --duration 5 \
   --wait
 
-# Shot 5: The Ledger into São Paulo Sunlight
+# Shot 5: The Archival Ledger to the Living Family
 higgsfield generate create kling3_0_turbo \
-  --prompt "Smooth macro camera glide across the aged ledger page revealing the eight family names in rich sepia ink, then rack focusing to the sunlit steam train on the platform as steam billows into the golden morning air, sense of overwhelming relief and rebirth" \
+  --prompt "Smooth macro camera glide across the aged manuscript ledger revealing the eight family names in rich sepia ink, rack focusing to the family standing together in the golden light of Capivari, unbroken and eternal" \
   --start-image <SHOT_5_STILL_ID> \
   --duration 5 \
   --wait
@@ -121,12 +122,12 @@ higgsfield generate create kling3_0_turbo \
 ---
 
 ## 3. Audio & Soundscape Plan
-- **Narrator Voice Profile**: 10-year-old girl (Luigia), urgent, emotionally taut, observant, vulnerable yet resilient.
+- **Narrator Voice Profile**: 10-year-old girl (Luigia), urgent, vulnerable, fiercely protective, intimate.
   - Track 1 (`en`): English narration.
   - Track 2 (`pt-br`): Brazilian Portuguese narration.
-- **Foley & Music (`seed_audio`)**:
-  - Whistling cold autumn wind, dripping eaves, tightening hemp rope (Scene 1).
-  - Clanging coal shovels on iron, steam venting, seagulls over volcanic waters (Scene 2).
-  - Violent crash of Atlantic waves against iron plates, creaking timbers, infant crying, whispering prayers (Scene 3).
-  - Military drums, distant harbor bells, deep steam launch engines, tense low string drone (Scene 4).
-  - Triumphant, warm acoustic cello and locomotive steam release, steel dip pen scratching paper (Scene 5).
+- **Foley & Sound Design (`seed_audio`)**:
+  - Steam locomotive rhythm and train whistle on iron rails (Scene 1).
+  - Equatorial trade winds, heavy coal shovels on iron barges, ocean swell (Scene 2).
+  - Naval alarm bells, muffled artillery boom, screeching funicular steel cables, echoing hostel clamor (Scene 3).
+  - Iron hoes cutting dry red soil, distant overseer calls, hushed Venetian dialect bedtime prayer (Scene 4).
+  - Dip pen on parchment, train whistle over coffee hills, deep resonant cello conclusion (Scene 5).
