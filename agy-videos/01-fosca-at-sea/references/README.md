@@ -26,3 +26,16 @@ This directory contains full transcriptions, audits, and analysis of the histori
      - [`../images/hospedaria_dos_imigrantes_patio_1890_gaensly.jpg`](../images/hospedaria_dos_imigrantes_patio_1890_gaensly.jpg)
      - [`../images/dormitorio_hospedaria_dos_imigrantes.jpg`](../images/dormitorio_hospedaria_dos_imigrantes.jpg)
      - [`../images/trem_imigrantes_hospedaria.jpg`](../images/trem_imigrantes_hospedaria.jpg)
+
+5. [**`voyage-stops-and-hardships.md`**](./voyage-stops-and-hardships.md)  
+   Historical reconstruction of the *Colombo*'s voyage stops, Atlantic coaling, and steerage tribulations.
+   - Context Visuals:
+     - Genoa Embarkation: [`../images/genoa-port-1892-noack.webp`](../images/genoa-port-1892-noack.webp)
+     - Lisbon Port: [`../images/lisbon-cais-do-sodre-1890.webp`](../images/lisbon-cais-do-sodre-1890.webp)
+     - Cape Verde Coaling Stop: [`../images/cape-verde-porto-grande-1890.webp`](../images/cape-verde-porto-grande-1890.webp)
+
+6. [**`rio-crisis-and-naval-revolt-1891.md`**](./rio-crisis-and-naval-revolt-1891.md)  
+   The November 1891 political crisis, coup d'état, and First Naval Revolt in Guanabara Bay confronting the family upon arrival.
+   - Context Visuals:
+     - Battleship *Riachuelo*: [`../images/encouracado-riachuelo-1891-ferrez.webp`](../images/encouracado-riachuelo-1891-ferrez.webp)
+     - Admiral Custódio de Mello: [`../images/custodio-de-mello-1891.webp`](../images/custodio-de-mello-1891.webp)

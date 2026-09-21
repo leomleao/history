@@ -2,31 +2,28 @@
 *The Atlantic Crossing of Fosca Moro and Her Six Children (1891)*
 
 **Perspective**: **Ten-Year-Old Luigia (In the Moment)** — Present-tense, intimate child's eyewitness memory  
-**Structure**: **Linear Journey** (Veneto Departure → Boarding Colombo → Pitching Hold → Calm Deck → São Paulo Arrival)  
-**Theme**: **The Migration Leap** — The existential courage of leaving a ruined homeland across 3,000 miles of ocean into the unknown Brazilian frontier  
-**Format**: 60–70 second cinematic short (16:9 Landscape)  
+**Structure**: **Linear Odyssey (5 Dramatic Beats)**:
+1. *The Desperate Decision* (Veneto floods & packing)
+2. *The Point of No Return* (Genoa quayside, Lisbon fading, Cape Verde coal dust)
+3. *The Belly of the Sea* (Pitching steerage hold, sickness, Fosca bracing the babies, the terror of wrong choices)
+4. *Arriving into War* (Guanabara Bay, battleship *Riachuelo*, naval cannons pointed at the capital)
+5. *The Miracle of the Ledger* (São Paulo platform, red earth train, eight names recorded alive)
+**Theme**: **The Agony of the Unknown** — Escaping ruin only to face the brutal ocean and an armed revolution, holding six young children together through sheer maternal will  
+**Format**: 75–85 second cinematic short (16:9 Landscape)  
 **Budget Tier**: Lean Turbo (~42.5 credits via `gpt_image_2_5` + `kling3_0_turbo`)  
 **Language Editions**: Synchronized Dual Track — English (EN) and Brazilian Portuguese (PT-BR)  
 
 ---
 
 ## Visual Grounding & Primary Assets
-- **Fosca's Likeness**: [`images/fosca.jpg`](file:///Users/leo/dev/history/agy-videos/01-fosca-at-sea/images/fosca.jpg) (authentic portrait reference)
-- **The Ship**: [`images/colombo-drydock-1901.jpg`](file:///Users/leo/dev/history/agy-videos/01-fosca-at-sea/images/colombo-drydock-1901.jpg) (steamship *Colombo* hull & funnel)
-- **Steerage Atmosphere**: [`images/steerage-interior-1891.webp`](file:///Users/leo/dev/history/agy-videos/01-fosca-at-sea/images/steerage-interior-1891.webp) & [`images/emigranti_ponte_ferraguti.jpg`](file:///Users/leo/dev/history/agy-videos/01-fosca-at-sea/images/emigranti_ponte_ferraguti.jpg)
-- **Arrival Station & Hostel**: [`images/trem_imigrantes_hospedaria.jpg`](file:///Users/leo/dev/history/agy-videos/01-fosca-at-sea/images/trem_imigrantes_hospedaria.jpg) & [`images/hospedaria_dos_imigrantes_patio_1890_gaensly.jpg`](file:///Users/leo/dev/history/agy-videos/01-fosca-at-sea/images/hospedaria_dos_imigrantes_patio_1890_gaensly.jpg)
-- **Archival Threshold**: [`images/panzonato-hospedaria-1891-page.jpg`](file:///Users/leo/dev/history/agy-videos/01-fosca-at-sea/images/panzonato-hospedaria-1891-page.jpg) (Book 031, Page 283)
-
----
-
-## The Family Cast
-- **Luigia** (10): Narrator. Watchful, steady, carrying blankets and water, holding her younger brothers' hands.
-- **Fosca Moro** (30): Mother of six. Resolute, watchful, dark hair under a wool scarf, holding infant Eugenio (1) and anchoring Domenico (3).
-- **Giuseppe Panzonato** (35): Father. Lean laborer, mustache, flat cap, hauling the luggage trunk and balancing on deck.
-- **Catarina** (9) & **Candida** (7): Sisters huddled shoulder-to-shoulder.
-- **Luigi** (5): Clinging to Giuseppe's coat hem.
-- **Domenico** (3): Toddler secured between Fosca's knees.
-- **Eugenio** (1): Sleeping infant wrapped against Fosca's chest.
+- **Fosca & Giuseppe**: [`images/fosca.jpg`](file:///Users/leo/dev/history/agy-videos/01-fosca-at-sea/images/fosca.jpg) & [`images/giuseppe.jpg`](file:///Users/leo/dev/history/agy-videos/01-fosca-at-sea/images/giuseppe.jpg)
+- **The Ports & Coaling**: 
+  - Genoa: [`images/genoa-port-1892-noack.webp`](file:///Users/leo/dev/history/agy-videos/01-fosca-at-sea/images/genoa-port-1892-noack.webp)
+  - Lisbon: [`images/lisbon-cais-do-sodre-1890.webp`](file:///Users/leo/dev/history/agy-videos/01-fosca-at-sea/images/lisbon-cais-do-sodre-1890.webp)
+  - Cape Verde (Mindelo): [`images/cape-verde-porto-grande-1890.webp`](file:///Users/leo/dev/history/agy-videos/01-fosca-at-sea/images/cape-verde-porto-grande-1890.webp)
+- **The Vessel & Steerage**: [`images/colombo-drydock-1901.jpg`](file:///Users/leo/dev/history/agy-videos/01-fosca-at-sea/images/colombo-drydock-1901.jpg) & [`images/steerage-interior-1891.webp`](file:///Users/leo/dev/history/agy-videos/01-fosca-at-sea/images/steerage-interior-1891.webp)
+- **The War in Rio**: [`images/encouracado-riachuelo-1891-ferrez.webp`](file:///Users/leo/dev/history/agy-videos/01-fosca-at-sea/images/encouracado-riachuelo-1891-ferrez.webp) (Battleship *Riachuelo*)
+- **Arrival & Archival Book**: [`images/trem_imigrantes_hospedaria.jpg`](file:///Users/leo/dev/history/agy-videos/01-fosca-at-sea/images/trem_imigrantes_hospedaria.jpg) & [`images/panzonato-hospedaria-1891-page.jpg`](file:///Users/leo/dev/history/agy-videos/01-fosca-at-sea/images/panzonato-hospedaria-1891-page.jpg)
 
 ---
 
@@ -34,107 +31,112 @@
 
 ```
 ====================================================================================================
-SCENE 1: THE WATER AND THE TRUNK — VENETO (0:00 – 0:12)
-Visual: Cold, damp autumnal landscape of the Veneto near the Brenta River. Bare trees, muddy road.
-        In front of a stone farmhouse, Giuseppe binds coarse hemp ropes tightly around a single worn
-        wooden trunk. Fosca (facial features matching images/fosca.jpg) stands wrapped in a dark
-        woolen shawl, cradling 1-year-old baby Eugenio on her hip, checking her children.
-        Ten-year-old Luigia holds five-year-old Luigi's small hand, looking back one final time.
-SFX:    Cold autumn wind in bare branches, creaking hemp rope pulled taut against wood, distant church bell.
+SCENE 1: THE GAMBLE IN THE MUD — VENETO (0:00 – 0:15)
+Visual: Cold autumn mist over the flooded, muddy plains of the Brenta river in Veneto. Giuseppe
+        (matching images/giuseppe.jpg) fiercely yanks a wet hemp rope around their sole wooden chest,
+        hands raw and shaking. Fosca (matching images/fosca.jpg) holds 1-year-old Eugenio tight to
+        her breast, her face taut with silent fear as she stares into the fog. Ten-year-old Luigia
+        clutches five-year-old Luigi's coat, listening to her parents' frantic whispers.
+SFX:    Biting autumn wind, water dripping from ruined eaves, hemp rope groaning against timber.
 ----------------------------------------------------------------------------------------------------
 [EN Voiceover — Luigia (10)]
-"The floods had ruined our fields in Veneto. Papa tied the ropes around our only wooden chest.
-Mamma told us we were crossing the great water to a land where we could begin again.
-I am ten, and I held Luigi's hand so he wouldn't look back."
+"The river floods had swallowed our harvest. We had nothing left to eat. At night, I heard Mamma
+and Papa whispering in the dark—terrified of leaving, more terrified of starving. We packed our
+only chest. Six children. Eight tickets. A gamble on an ocean we had never seen."
 
 [PT-BR Voiceover — Luigia (10)]
-"As águas das cheias levaram nossa terra no Vêneto. O papai amarrou as cordas no nosso único baú.
-A mamãe disse que íamos cruzar o grande mar para uma terra onde recomeçar.
-Eu tenho dez anos, e apertei a mão do Luigi para ele não olhar para trás."
+"As cheias do rio levaram toda a nossa colheita. Não sobrou nada para comer. À noite, eu ouvia mamãe
+e papai sussurrando no escuro—com medo de partir, com mais medo ainda de passar fome. Fechamos
+nosso único baú. Seis crianças. Oito passagens. Uma aposta num mar que nunca tínhamos visto."
 ====================================================================================================
 
 ====================================================================================================
-SCENE 2: THE BLACK IRON SHIP — GENOA EMBARKATION (0:12 – 0:24)
-Visual: Low-angle tracking shot along a busy stone quayside. Looming above is the massive black iron
-        hull of the steamship Colombo (matching images/colombo-drydock-1901.jpg), dense black coal smoke
-        billowing from its single central smokestack. Immigrant families carrying bundles climb the narrow
-        wooden gangplank. Luigia gazes upward with a mix of awe and trepidation at the towering rivets.
-SFX:    Hissing steam pressure, deep industrial engine hum, shouting port voices, seagulls crying.
+SCENE 2: THE PORTS OF NO RETURN — GENOA, LISBON, CAPE VERDE (0:15 – 0:32)
+Visual: Rapid cinematic progression through the ports of call:
+        - Genoa: Crowded wet stone wharves (images/genoa-port-1892-noack.webp), climbing under the
+          towering black iron hull of the steamship Colombo (images/colombo-drydock-1901.jpg).
+        - Lisbon: Looking back from the deck as the shores of Cais do Sodré (images/lisbon-cais-do-sodre-1890.webp)
+          dissolve into open Atlantic fog—the last view of Europe.
+        - Cape Verde: Porto Grande, Mindelo (images/cape-verde-porto-grande-1890.webp). Harsh tropical sun,
+          black jagged volcanic peaks, barges shoveling black coal into the ship's furnaces, coal dust
+          clinging to sweaty children's faces.
+SFX:    Steam hissing from valves, heavy coal shovels clanging on iron, seagulls, tropical wind.
 ----------------------------------------------------------------------------------------------------
 [EN Voiceover — Luigia (10)]
-"The ship was the Colombo. Black iron, towering higher than our parish steeple.
-Seven hundred people crowded into the belly of the vessel. Mamma whispered:
-'Hold tight, children. Never let go of each other's coats.'"
+"In Genoa, the Colombo rose like a black iron mountain. At Lisbon, we watched the last edge of Europe
+vanish into the gray. Then came Cape Verde—a scorched black volcanic rock in the middle of the sea,
+choking us with coal dust. Mamma held our hands so tight they bruised. There was no turning back."
 
 [PT-BR Voiceover — Luigia (10)]
-"O navio era o Colombo. De ferro escuro, mais alto que a torre da nossa igreja.
-Setecentas pessoas entraram na barriga do vapor. A mamãe sussurrou:
-'Segurem firme, crianças. Nunca soltem a roupa um do outro.'"
+"Em Gênova, o Colombo parecia uma montanha de ferro escuro. Em Lisboa, vimos o último pedaço da Europa
+sumir na névoa. Depois veio Cabo Verde—uma rocha vulcânica preta no meio do nada, sufocando a gente
+de poeira de carvão. A mamãe apertava nossas mãos até doer. Não havia mais volta."
 ====================================================================================================
 
 ====================================================================================================
-SCENE 3: IN THE BELLY OF THE SWELL — THE ROLLING HOLD (0:24 – 0:38)
-Visual: Claustrophobic steerage hold (matching images/steerage-interior-1891.webp). The narrow ten-meter
-        hull rolls violently at 20 degrees through Atlantic waves. A brass gimbaled oil lantern swings
-        wildly overhead, throwing amber shadows across stacked timber bunks. Fosca sits braced on a trunk,
-        feet wedged to counter the violent sway, holding baby Eugenio against her neck while firmly locking
-        3-year-old Domenico between her knees. Luigia gently guides a tin cup of water to Luigi's mouth
-        while Catarina and Candida shelter under a wool blanket.
-SFX:    Heavy groan of iron frames flexing, clinking lantern chains, violent thud of bow-waves,
-        propeller shuddering near the surface.
+SCENE 3: THE ROLLING ABYSS & THE AGONY OF DOUBT (0:32 – 0:50)
+Visual: Interior steerage hold (images/steerage-interior-1891.webp). The narrow ten-meter hull rolls
+        violently at 20 degrees. Seawater leaks through companionway seams. The gimbaled lantern swings
+        wildly, casting chaotic shadows across 700 sick, praying passengers. Fosca sits braced on the
+        trunk, feet wedged to counter the violent sway, holding baby Eugenio to her neck while locking
+        toddler Domenico (3) between her knees. Tears streak through the grime on her cheeks as the hull
+        shudders. Luigia steadies a tin cup of foul water for Luigi (5).
+SFX:    Violent crash of towering Atlantic waves against iron plating, wood splintering, frantic murmurs
+        of the Rosary, infant crying, heavy propeller shuddering.
 ----------------------------------------------------------------------------------------------------
 [EN Voiceover — Luigia (10)]
-"In the hold, the floor never stopped moving. Waves slammed the iron plates like thunder.
-People cried and prayed. But in the dark, Mamma never slept. She held the baby to her neck,
-braced Domenico with her knees, and counted our heads every time the lantern swung."
+"For three weeks, the ocean tried to break the ship. The floor pitched like a wild horse. People were
+burning with fever; yellow fever had killed fifteen on this same vessel months before. In the dark,
+I saw Mamma crying, terrified that she had led all six of us to die in the water. But she never let go."
 
 [PT-BR Voiceover — Luigia (10)]
-"Lá embaixo, o chão não parava quieto. As ondas batiam no ferro como trovão.
-Muita gente chorava e rezava. Mas no escuro, a mamãe não dormia. Segurava o bebê no pescoço,
-firmava o Domenico nos joelhos e contava nossas cabeças a cada balanço da lamparina."
+"Por três semanas, o mar tentou partir o navio ao meio. O chão sacudia como bicho bravo. A febre
+queimava nos beliches; a febre amarela já tinha matado quinze naquele mesmo barco. No escuro, vi a mamãe
+chorar, com medo de ter nos trazido para morrer no mar. Mas ela nunca soltou os braços."
 ====================================================================================================
 
 ====================================================================================================
-SCENE 4: FIRST WARMTH — DAWN ON THE OPEN DECK (0:38 – 0:50)
-Visual: Open wooden deck at sunrise (matching images/emigranti_ponte_ferraguti.jpg). The storm has cleared
-        into a rolling, tranquil ocean swell. Golden morning sunlight washes over the family huddled
-        against the wooden bulwark. Fosca wraps her shawl tight against the salt breeze, looking out toward
-        the horizon with quiet, exhausted relief. Giuseppe holds Luigi on his shoulders; Luigia, Catarina,
-        and Candida stand close, breathing in the warm ocean air.
-SFX:    Calm rhythmic wash of ocean wake, wind gentle through the rigging, soft melancholic cello melody.
+SCENE 4: ARRIVING INTO WAR — GUANABARA BAY (0:50 – 1:06)
+Visual: Dramatic exterior shot of Guanabara Bay in late November 1891. Instead of peaceful shores, the
+        Colombo navigates past massive black ironclad warships. In the center looms the battleship
+        Riachuelo (matching images/encouracado-riachuelo-1891-ferrez.webp), its heavy twin-turret naval
+        cannons aimed directly at the city of Rio de Janeiro. Soldiers on steam launches patrol with
+        rifles; alarm bells toll from the waterfront. Giuseppe and Fosca stand frozen on deck, holding
+        the children back, eyes wide with horror: have they crossed the world into a revolution?
+SFX:    Muffled military drums, naval steam launches cutting water, distant shore alarm bells, tense cello.
 ----------------------------------------------------------------------------------------------------
 [EN Voiceover — Luigia (10)]
-"Weeks passed where there was nothing but grey water. Then one morning, Papa brought us to the deck.
-The air had turned warm. Mamma looked out at the sunrise and smiled for the first time in twenty days.
-We had survived the sea."
+"When we finally entered the bay of Rio de Janeiro, we thought we were saved. But the bay was filled
+with warships. The great battleship Riachuelo had its cannons pointed at the capital. Revolt. Gunfire.
+Soldiers on the docks. Papa grabbed our coats and gasped: 'My God, we sailed straight into a war.'"
 
 [PT-BR Voiceover — Luigia (10)]
-"Passamos semanas vendo apenas água cinzenta. Até que uma manhã, papai nos trouxe ao convés.
-O ar já era morno. A mamãe olhou para o nascer do sol e sorriu pela primeira vez em vinte dias.
-Nós tínhamos vencido o oceano."
+"Quando finalmente entramos na baía do Rio de Janeiro, achamos que tínhamos chegado à paz. Mas a baía
+estava cheia de navios de guerra. O encouraçado Riachuelo apontava seus canhões para a cidade. Revolta.
+Soldados armados no porto. O papai nos puxou e sussurrou: 'Meu Deus, viemos cair numa guerra.'"
 ====================================================================================================
 
 ====================================================================================================
-SCENE 5: EIGHT NAMES ON THE BOOK — SÃO PAULO ARRIVAL (0:50 – 1:05)
-Visual: Transition from sea mist into the sunlit train platform of the Hospedaria dos Imigrantes do Brás
-        (matching images/trem_imigrantes_hospedaria.jpg & images/hospedaria_dos_imigrantes_patio_1890_gaensly.jpg).
-        Giuseppe carries their trunk; Fosca walks holding the children toward the red-earth passenger train
-        bound for Tietê.
-        Dissolve into a macro camera glide across the authentic historical ledger (images/panzonato-hospedaria-1891-page.jpg,
-        Book 031, Page 283), highlighting the ink entries: Giuseppe, Fosca, Luigia, Catarina, Candida,
-        Luigi, Domenico, Eugenio, and the destination column: Tietê.
-SFX:    Locomotive steam whistle, train bell clanging, fountain pen nib smoothly gliding on parchment,
-        resonant orchestral finish.
+SCENE 5: THE RED EARTH & THE EIGHT LIVING NAMES (1:06 – 1:22)
+Visual: Rushing forward through smoke and chaos onto the train platform of the Hospedaria dos Imigrantes
+        in São Paulo (images/trem_imigrantes_hospedaria.jpg). Tropical sunlight breaks through. A red-earth
+        passenger train stands ready for Tietê.
+        Macro dissolve into the authentic historical ledger (images/panzonato-hospedaria-1891-page.jpg,
+        Book 031, Page 283). A fountain pen nib glides across the manuscript rows:
+        Giuseppe, Fosca, Luigia, Catarina, Candida, Luigi, Domenico, Eugenio... and destination Tietê.
+        Fosca looks down at her six children gathered on the platform. All eight are breathing.
+SFX:    Train whistle echoing, locomotive steam pressure released, pen scratching parchment,
+        triumphant, emotional orchestral resolution.
 ----------------------------------------------------------------------------------------------------
 [EN Voiceover — Luigia (10)]
-"15 December 1891. São Paulo. In the great book at the station, the clerk wrote eight names.
-Papa, Mamma, and all six of us. The ocean had claimed none of us.
-Ahead lay the red earth, the coffee rows, and our new life."
+"We fled the turmoil of the coast on the first train to São Paulo. 15 December 1891. In the great book
+at the station, the clerk wrote eight names. The floods did not destroy us. The fever did not take us.
+The war did not touch us. All eight survived. Ahead lay the red earth, the coffee, and our new life."
 
 [PT-BR Voiceover — Luigia (10)]
-"15 de dezembro de 1891. São Paulo. No livro grande da estação, o escrivão escreveu oito nomes.
-Papai, mamãe e todos nós seis. O mar não levou ninguém.
-Pela frente, a terra vermelha, os cafezais e a nossa nova vida."
+"Fugimos do tumulto da costa no primeiro trem para São Paulo. 15 de dezembro de 1891. No livro da
+Hospedaria, o escrivão escreveu oito nomes. A enchente não nos venceu. A febre não nos levou. A guerra
+não nos tocou. Todos os oito sobreviveram. Pela frente, a terra vermelha, o café e a nossa nova vida."
 ====================================================================================================
 ```
 
@@ -147,11 +149,13 @@ Pela frente, a terra vermelha, os cafezais e a nossa nova vida."
 15 December 1891 — Hospedaria dos Imigrantes, São Paulo
 Giuseppe (35) · Fosca (30) · Luigia (10) · Catarina (9) · Candida (7)
 Luigi (5) · Domenico (3) · Eugenio (1)
-From Veneto to Tietê. All eight survived.
+Through flood, ocean fever, and the 1891 naval revolt:
+All eight survived.
 
 [PT-BR Edition]
 15 de Dezembro de 1891 — Hospedaria dos Imigrantes, São Paulo
 Giuseppe (35) · Fosca (30) · Luigia (10) · Catarina (9) · Candida (7)
 Luigi (5) · Domenico (3) · Eugenio (1)
-Do Vêneto para Tietê. Todos os oito sobreviveram.
+Através das cheias, da febre no mar e da revolta armada de 1891:
+Todos os oito sobreviveram.
 ```
