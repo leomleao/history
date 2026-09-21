@@ -1,9 +1,9 @@
 # Video Production Dossier: Shot 1 (`shot-1-video.mp4`)
 
-**Scene**: Scene 1 — The Steam Train Across Italy (Veneto to Genoa, October 1891)  
+**Scene**: Shot 1 — The Home in Gambarare & The Irreversible Choice (0:00 – 0:05)  
 **Planned Target File**: `output/videos/shot-1-video.mp4`  
 **Input Keyframe**: [`output/stills/shot-1-still.png`](file:///Users/leo/dev/history/agy-videos/01-fosca-at-sea/output/stills/shot-1-still.png)  
-**Status**: Pre-Production Specification / Awaiting User Execution Confirmation  
+**Status**: Pre-Production Specification / Ready for Video Generation  
 
 ---
 
@@ -25,7 +25,7 @@
 ### Command
 ```bash
 higgsfield generate create kling3_0_turbo \
-  --prompt "Subtle cinematic camera movement inside the vintage wooden third-class train carriage: rain streaks down the glass window as the misty Italian countryside speeds past outside, father Giuseppe gently tightens the rope on the wooden chest, mother Fosca softly cradles the sleeping infant, young Luigia blinks slowly and looks wistfully through the rain-streaked window toward the distant harbor, natural carriage vibrations, atmospheric 19th-century cinematic realism, 35mm film grain" \
+  --prompt "Subtle cinematic camera push-in inside the candlelit stone kitchen in Gambarare: father Giuseppe pulls and knots the heavy hemp rope on the wooden trunk with steady determination, mother Fosca softly rocks the swaddled baby Eugenio in her shawl, candlelight flickers against the wet window as rain streaks the dark glass outside, solemn 19th-century atmospheric realism, 35mm film grain" \
   --start-image output/stills/shot-1-still.png \
   --duration 5 \
   --resolution 1080p \
@@ -38,19 +38,17 @@ higgsfield generate create kling3_0_turbo \
 
 - **Narrative Perspective**: 10-year-old Luigia Panzonato in the present tense (October 1891).
 - **VO Track (EN)**:
-  > *"In our home in Gambarare, the river floods had ruined the harvest. Father said: 'We starve here, or we take the ship.' We packed our only wooden chest and shut the door forever. In the train to Genoa, nobody spoke. Father stared at his hands; Mother held baby Eugenio tight. Neither of them knew if we were escaping death... or leading all six of us straight into it."*
+  > *"In the dead of night, Father looked around our bare kitchen and made the choice: 'We starve here, or we take the ship.' We packed our only wooden chest and shut the door of our house in Gambarare forever. We walked through the cold mud to catch the train across Italy to Genoa."*
 - **VO Track (PT-BR)**:
-  > *"Na nossa casa em Gambarare, as cheias do rio tinham destruído a colheita. Meu pai disse: 'Ou morremos de fome aqui, ou pegamos o navio.' Guardamos tudo num único baú e fechamos a porta para sempre. No trem até Gênova, ninguém falava. Meu pai olhava para as próprias mãos; minha mãe apertava o bebê Eugenio no peito. Nenhum dos dois sabia se estávamos fugindo da morte... ou levando os seis filhos para a desgraça."*
+  > *"No meio da noite, meu pai olhou para a nossa cozinha vazia e tomou a decisão: 'Ou morremos de fome aqui, ou pegamos o navio.' Guardamos tudo num único baú e fechamos a porta da nossa casa em Gambarare para sempre. Caminhamos pela lama fria até pegar o trem que cruzava a Itália rumo a Gênova."*
 
 ---
 
 ## 4. Cinematography & Motion Rationale
 
-1. **Rhythmic Carriage Sway**:
-   - The subtle rolling motion of an 1891 third-class carriage along the Rete Mediterranea line.
-2. **Rain & Atmospheric Depth**:
-   - Droplets running across the glass layer between the warm interior cabin and the stormy Ligurian coast.
-3. **Micro-Behaviors**:
-   - Giuseppe's hands resting firmly on the rough hemp rope of their only luggage trunk.
-   - Fosca's gentle breathing as she protects the infant from drafts.
-   - Luigia's contemplative eyes capturing the irrevocable leap into migration.
+1. **Intimate Lighting & Flame Physics**:
+   - The subtle flicker of candlelight casting shifting shadows across Giuseppe's hands and Fosca's profile.
+2. **Rain & The Cold World Outside**:
+   - Rain droplets lashing the dark window, emphasizing the contrast between the warmth of their ancestral hearth and the bleak exile awaiting them.
+3. **The Physical Burden**:
+   - The tension in the hemp rope as Giuseppe cinches the chest closed, embodying the irreversible seal on their Italian past.
