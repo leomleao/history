@@ -1,8 +1,9 @@
 # Media Dossier: Shot 8 Master Still (`shot-8-still.png`)
 
-**Scene**: Shot 8 — The Archival Ledger & The Resilient Roots (Capivari Station, December 1891)  
-**Output File**: [`shot-8-still.png`](file:///Users/leo/dev/history/agy-videos/01-fosca-at-sea/output/stills/shot-8-still.png)  
-**Date Generated**: 21 September 2026, 13:17 local time  
+**Scene**: Shot 8 — The Coffee Plantation & The Stolen Tongue (The Living Roots) (0:35 – 0:40)  
+**Output File**: [`output/stills/shot-8-still.png`](file:///Users/leo/dev/history/agy-videos/01-fosca-at-sea/output/stills/shot-8-still.png)  
+**Historical Setting**: Fazenda de Café, Capivari / Tietê, São Paulo (December 1891)  
+**Date Generated**: 21 September 2026, 13:22 local time  
 
 ---
 
@@ -11,12 +12,12 @@
 | Parameter | Value |
 | :--- | :--- |
 | **Model Engine** | `gpt_image_2_5` |
-| **Job ID** | `f8b1f7dc-1175-4548-8f93-669eb0d9075a` |
+| **Job ID** | `bce74e9a-2cf5-4859-93bb-a3e2db325448` |
 | **Resolution** | 2K (2688 × 1520 px) |
 | **Aspect Ratio** | 16:9 Landscape |
 | **Format** | PNG RGB |
 | **Credit Cost** | 1.0 credit |
-| **Cloudfront Asset URL** | `https://d8j0ntlcm91z4.cloudfront.net/user_3GHWX50U2g5AXszCy8KUmkREGbm/hf_20260921_121623_f8b1f7dc-1175-4548-8f93-669eb0d9075a.png` |
+| **Cloudfront Asset URL** | `https://d8j0ntlcm91z4.cloudfront.net/user_3GHWX50U2g5AXszCy8KUmkREGbm/hf_20260921_122215_bce74e9a-2cf5-4859-93bb-a3e2db325448.png` |
 
 ---
 
@@ -25,9 +26,8 @@
 ### Command
 ```bash
 higgsfield generate create gpt_image_2_5 \
-  --prompt "Cinematic historic photograph in golden late-afternoon sunlight in December 1891, on the vibrant red clay earth road outside the historic two-story red-brick Capivari railway station with its arched windows matching the station reference photo. In the foreground resting on a wooden travel crate is an open 1891 immigration registration ledger showing sepia ink cursive handwriting matching the ledger document reference. Standing beside their rustic wooden trunks and cloth bundles on the red soil is the Italian immigrant family: father Giuseppe (aged 36, matching giuseppe reference, lean athletic build, dark hair and dark mustache, no white hair) in brown waistcoat and wool cap, and mother Fosca Moro (aged 30, matching fosca reference, hair in neat bun, wearing high-necked fully buttoned dark Victorian dress and shawl) holding baby Eugenio swaddled in a blanket, surrounded by 10-year-old daughter Luigia and their younger children. In the rolling background are green coffee plantation hills under a soft warm sky, solemn expressions of endurance, quiet dignity, and resilience, authentic 19th century historical documentary realism, cinematic wide shot, natural lighting, 35mm film grain" \
-  --image ./images/estacao-capivari-historica.jpg \
-  --image ./images/panzonato-hospedaria-1891-page.jpg \
+  --prompt "Cinematic historic photograph in late afternoon golden sunlight on a São Paulo coffee plantation in December 1891. Rolling red earth hills covered in lush green coffee shrubs matching the historical Gaensly plantation reference. In the foreground on the vibrant red dirt soil, Italian immigrant father Giuseppe (aged 36, matching giuseppe reference, lean athletic build, dark hair and dark full mustache, no white hair) in work shirt, suspenders and cap, rests his hands on a wooden field hoe beside a wicker coffee basket. Beside him under the shade of a rustic wooden colono house eave, mother Fosca Moro (aged 30, matching fosca reference, hair in neat bun, wearing high-necked fully buttoned dark Victorian dress and apron) leans close to whisper secretly into the ear of her 10-year-old daughter Luigia, placing a gentle finger to her lips, quietly teaching her children their ancestral Veneto dialect in defiance of cultural suppression. The young children sit close on the red earth listening intently with solemn, resilient eyes. Deep maternal warmth, authentic 19th century historical documentary realism, cinematic wide shot, natural lighting, 35mm film grain" \
+  --image ./images/colheita-cafe-gaensly.jpg \
   --image ./images/giuseppe.jpg \
   --image ./images/Fosca.jpg \
   --aspect_ratio 16:9 \
@@ -36,30 +36,33 @@ higgsfield generate create gpt_image_2_5 \
 ```
 
 ### Reference Inputs Passed
-- **Capivari Historic Station**: [`images/estacao-capivari-historica.jpg`](file:///Users/leo/dev/history/agy-videos/01-fosca-at-sea/images/estacao-capivari-historica.jpg) (Two-story red-brick building with central tower, tile roof, and yellow arched door/windows)
-- **Hospedaria do Brás Ledger Page**: [`images/panzonato-hospedaria-1891-page.jpg`](file:///Users/leo/dev/history/agy-videos/01-fosca-at-sea/images/panzonato-hospedaria-1891-page.jpg) (Livro 031, Página 283, Ordem 07264–07271)
-- **Giuseppe Panzonato Face Reference**: [`images/giuseppe.jpg`](file:///Users/leo/dev/history/agy-videos/01-fosca-at-sea/images/giuseppe.jpg) (Authentic family portrait, de-aged to 36)
-- **Fosca Moro Face Reference**: [`images/Fosca.jpg`](file:///Users/leo/dev/history/agy-videos/01-fosca-at-sea/images/Fosca.jpg) (Authentic family portrait, aged 30)
+- **Coffee Plantation Reference**: [`images/colheita-cafe-gaensly.jpg`](file:///Users/leo/dev/history/agy-videos/01-fosca-at-sea/images/colheita-cafe-gaensly.jpg) (Guilherme Gaensly photograph of coffee harvest in São Paulo)
+- **Giuseppe Panzonato Face Reference**: [`images/giuseppe.jpg`](file:///Users/leo/dev/history/agy-videos/01-fosca-at-sea/images/giuseppe.jpg) (Family archival portrait, de-aged to 36)
+- **Fosca Moro Face Reference**: [`images/Fosca.jpg`](file:///Users/leo/dev/history/agy-videos/01-fosca-at-sea/images/Fosca.jpg) (Family archival portrait, aged 30)
 
 ---
 
 ## 3. Historical Sources & Direct Connections
 
-1. **The Registration Ledger (Hospedaria dos Imigrantes do Brás)**:
-   - *Source*: Livro de Matrícula de Imigrantes nº 031, p. 283, data de entrada: 15 de dezembro de 1891.
-   - *Documented Details*:
-     - Ordem 07264: Giuseppe Panzonato (36)
-     - Ordem 07265: Fosca Moro (30)
-     - Ordem 07266–07271: Luigia (10), Catarina (9), Candida (7), Luigi (5), Domenico (3), Eugenio (1).
-     - Destino: Tietê / Capivari, Estado de São Paulo.
-   - *Visual Feature*: The open ledger in the foreground bears the authentic printed header `MATRICULA DOS IMMIGRANTES ENTRADOS NA HOSPEDARIA DO ESTADO DE S. PAULO` with columnized sepia ledger entries.
+1. **The Coffee Plantation (*Colonato*) in Capivari/Tietê**:
+   - *Primary Source*: Museu da Imigração do Estado de São Paulo & Fundação Seade.
+   - *Documented Reality*: Upon arrival in the Capivari/Tietê agricultural zone from Hospedaria do Brás, immigrant families entered contracts binding all family members—including children—to cultivate hundreds of coffee trees. They were housed in rustic timber-and-mud dwellings (*casas de colono*) directly bordering the red earth coffee rows.
+   - *Visual Feature*: The authentic wicker harvesting basket (*balaio*), the iron field hoe, rustic wooden porch timbers, and endless terraced rows of coffee shrubs (*Coffea arabica*) laden with ripe cherries.
 
-2. **Capivari Station & The Sorocabana/Ituana Railway**:
-   - *Architecture*: The distinctive two-story red-brick station with decorative white friezes, central attic pediment, yellow arched doors, and the painted station board reading `CAPIVARI` matches the actual historical terminus where immigrants departed for the coffee plantations.
+2. **Cultural Suppression & Dialect Erasure**:
+   - *Historical Context*: Immigrants were subjected to institutional pressure and plantation discipline demanding complete linguistic assimilation. Speaking regional Italian dialects (*veneto*, *trevisan*) in public was prohibited or penalized by farm administrators (*fiscais*).
+   - *Connection to Script*: The composition captures the core narrative climax of the exhibition:
+     > *"The overseers forbade our dialect; they rewrote our names. But at dusk, Mother gathered us in the red dirt, whispering our Veneto words: 'Never forget where your blood began.' All eight survived."*
+
+3. **Demographic & Physiological Fidelity**:
+   - *Giuseppe*: Depicted at age 36 with lean muscular vigor, dark hair, and full dark mustache, holding his hoe.
+   - *Fosca*: Depicted at age 30, matching archival facial structure, leaning with protective intimacy toward 10-year-old Luigia.
 
 ---
 
-## 4. Directional Rationale & Composition
+## 4. Directional Rationale & Re-ordering
 
-- **Narrative Culmination**: Bridges primary archival documentation with cinematic human drama.
-- **The Living Monument**: Giuseppe (36), Fosca (30), and their six children stand together on the *terra roxa*, tired but proud, having survived flood, sea, quarantine, yellow fever, naval insurrection, and cultural exile.
+- **Sequence Realignment**: Re-ordered from Shot 7 to Shot 8 to serve as the ultimate emotional and psychological climax of the documentary. 
+- **Framing**: Split-focus narrative composition. On the left, Giuseppe stands vigilant beside his tools, guarding the family perimeter. On the right, sheltered beneath the rustic eaves of the colono house, Fosca initiates Luigia and the younger siblings into their clandestine cultural inheritance.
+- **Gesture**: Fosca’s raised index finger against her lips is the visual anchor of the scene, symbolizing the silent resistance of memory against forced assimilation.
+- **Lighting**: Warm late-afternoon golden hour sunlight sweeping across the red clay earth (*terra roxa*), illuminating dust motes and creating an amber halo around the family.

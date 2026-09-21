@@ -9,8 +9,8 @@
 4. **Shot 4 (0:15 – 0:20)**: *The Steerage Hold & The Atlantic Abyss* (Cramped tween-deck hold, numbered bays 23 & 27, 700 passengers, violent rolling, sickness, the fear of fever, shaft of daylight through the hatchway)
 5. **Shot 5 (0:20 – 0:25)**: *Arriving into War — Rio de Janeiro & Battleship Riachuelo* (Guanabara Bay, warships, battleship *Riachuelo* cannons pointed at Rio, First Naval Revolt, the terrifying shock of war)
 6. **Shot 6 (0:25 – 0:30)**: *The Ascent into the Clouds (Paranapiacaba) & Hospedaria do Brás* (Cable funicular climbing vertical cliffs of Serra do Mar through freezing mist; entry into the deafening stone dormitories of Hospedaria do Brás)
-7. **Shot 7 (0:30 – 0:35)**: *The Coffee Plantation & The Stolen Tongue* (Train to Capivari, coffee rows on the *terra roxa*, manual labor, dialect forbidden, names rewritten, Fosca secretly whispering the mother tongue under the porch eaves)
-8. **Shot 8 (0:35 – 0:40)**: *The Archival Ledger & The Resilient Family* (Capivari Station on the red earth road, the open Hospedaria ledger Book 031, Page 283; all eight names inscribed, unbroken)
+7. **Shot 7 (0:30 – 0:35)**: *Arrival at Capivari Station & Facing the Unknown* (Stepping out from the red-brick railway station onto the red clay earth road, sole wooden chest on the dirt, gazing across the dusty Paulista frontier, figuring out how to start a new life from scratch)
+8. **Shot 8 (0:35 – 0:40)**: *The Coffee Plantation & The Stolen Tongue (The Living Roots)* (Endless coffee rows on the *terra roxa*, manual labor, dialect forbidden, names rewritten, Fosca secretly whispering the mother tongue under the porch eaves, all eight souls unbroken)
 
 **Theme**: **The Cost of Survival & Cultural Resilience** — Escaping famine only to face the storm, civil war, punishing plantation labor, and the erasure of their identity  
 **Format**: 40-second cinematic historical micro-documentary (16:9 Landscape)  
@@ -29,8 +29,8 @@
 | **Shot 4** | [`output/stills/shot-4-still.png`](file:///Users/leo/dev/history/agy-videos/01-fosca-at-sea/output/stills/shot-4-still.png) | [`references/steerage-conditions-1891.md`](file:///Users/leo/dev/history/agy-videos/01-fosca-at-sea/references/steerage-conditions-1891.md), [`references/colombo-ship-history.md`](file:///Users/leo/dev/history/agy-videos/01-fosca-at-sea/references/colombo-ship-history.md) |
 | **Shot 5** | [`output/stills/shot-5-still.png`](file:///Users/leo/dev/history/agy-videos/01-fosca-at-sea/output/stills/shot-5-still.png) | [`images/encouracado-riachuelo-1891-ferrez.webp`](file:///Users/leo/dev/history/agy-videos/01-fosca-at-sea/images/encouracado-riachuelo-1891-ferrez.webp), [`references/rio-crisis-and-naval-revolt-1891.md`](file:///Users/leo/dev/history/agy-videos/01-fosca-at-sea/references/rio-crisis-and-naval-revolt-1891.md) |
 | **Shot 6** | [`output/stills/shot-6-still.png`](file:///Users/leo/dev/history/agy-videos/01-fosca-at-sea/output/stills/shot-6-still.png) | [`images/paranapiacaba-funicular-railway.jpg`](file:///Users/leo/dev/history/agy-videos/01-fosca-at-sea/images/paranapiacaba-funicular-railway.jpg), [`images/hospedaria_dos_imigrantes_patio_1890_gaensly.jpg`](file:///Users/leo/dev/history/agy-videos/01-fosca-at-sea/images/hospedaria_dos_imigrantes_patio_1890_gaensly.jpg) |
-| **Shot 7** | [`output/stills/shot-7-still.png`](file:///Users/leo/dev/history/agy-videos/01-fosca-at-sea/output/stills/shot-7-still.png) | [`images/colheita-cafe-gaensly.jpg`](file:///Users/leo/dev/history/agy-videos/01-fosca-at-sea/images/colheita-cafe-gaensly.jpg), [`references/immigration-hardships-and-cultural-erasure.md`](file:///Users/leo/dev/history/agy-videos/01-fosca-at-sea/references/immigration-hardships-and-cultural-erasure.md) |
-| **Shot 8** | [`output/stills/shot-8-still.png`](file:///Users/leo/dev/history/agy-videos/01-fosca-at-sea/output/stills/shot-8-still.png) | [`images/estacao-capivari-historica.jpg`](file:///Users/leo/dev/history/agy-videos/01-fosca-at-sea/images/estacao-capivari-historica.jpg), [`images/panzonato-hospedaria-1891-page.jpg`](file:///Users/leo/dev/history/agy-videos/01-fosca-at-sea/images/panzonato-hospedaria-1891-page.jpg) |
+| **Shot 7** | [`output/stills/shot-7-still.png`](file:///Users/leo/dev/history/agy-videos/01-fosca-at-sea/output/stills/shot-7-still.png) | [`images/estacao-capivari-historica.jpg`](file:///Users/leo/dev/history/agy-videos/01-fosca-at-sea/images/estacao-capivari-historica.jpg), [`images/giuseppe.jpg`](file:///Users/leo/dev/history/agy-videos/01-fosca-at-sea/images/giuseppe.jpg), [`images/Fosca.jpg`](file:///Users/leo/dev/history/agy-videos/01-fosca-at-sea/images/Fosca.jpg) |
+| **Shot 8** | [`output/stills/shot-8-still.png`](file:///Users/leo/dev/history/agy-videos/01-fosca-at-sea/output/stills/shot-8-still.png) | [`images/colheita-cafe-gaensly.jpg`](file:///Users/leo/dev/history/agy-videos/01-fosca-at-sea/images/colheita-cafe-gaensly.jpg), [`images/panzonato-hospedaria-1891-page.jpg`](file:///Users/leo/dev/history/agy-videos/01-fosca-at-sea/images/panzonato-hospedaria-1891-page.jpg), [`references/immigration-hardships-and-cultural-erasure.md`](file:///Users/leo/dev/history/agy-videos/01-fosca-at-sea/references/immigration-hardships-and-cultural-erasure.md) |
 
 ---
 
@@ -157,43 +157,48 @@ dormindo em chão de pedra."
 ====================================================================================================
 
 ====================================================================================================
-SHOT 7: THE COFFEE PLANTATION & THE FORBIDDEN TONGUE (0:30 – 0:35)
+SHOT 7: ARRIVAL AT CAPIVARI STATION & FACING THE UNKNOWN (0:30 – 0:35)
+Visual: Outside the historic two-story red-brick Capivari railway station in warm late afternoon sunlight.
+        The Italian immigrant family has just stepped outside onto the vast red clay earth road (terra roxa).
+        Giuseppe (aged 36) in waistcoat and cap stands with his hand resting on their sole rope-bound wooden
+        travel chest on the red dirt, staring across the dusty Paulista frontier with deep uncertainty.
+        Beside him, Fosca (aged 30) holds bundled baby Eugenio, with ten-year-old Luigia and her young siblings
+        gathered close, gazing around at the foreign red earth, wondering how they will begin life from scratch.
+SFX:    Distant steam locomotive whistle echoing away, dry wind rustling red dust, faint evening cicadas,
+        solemn acoustic guitar / cello chord.
+----------------------------------------------------------------------------------------------------
+[EN Voiceover — Luigia (10)]
+"Another train carried us to the end of the line: Capivari.
+We stepped down onto a road of red dust with only one wooden chest between the eight of us.
+Nobody spoke our tongue. We didn't know where we would sleep, or how we were going to survive."
+
+[PT-BR Voiceover — Luigia (10)]
+"Outro trem nos levou até o fim da linha: Capivari.
+Descemos numa estrada de terra vermelha, com um único baú de madeira para nós oito.
+Ninguém falava a nossa língua. Não sabíamos onde íamos dormir, nem como íamos sobreviver."
+====================================================================================================
+
+====================================================================================================
+SHOT 8: THE COFFEE PLANTATION & THE FORBIDDEN TONGUE (0:35 – 0:40)
 Visual: Late afternoon golden hour on a coffee plantation in Capivari.
         Endless rolling hills covered in lush green coffee shrubs in vibrant red earth (terra roxa).
-        Giuseppe (36) leans on his field hoe by a wicker harvest basket. Under the rustic colono porch roof,
-        Fosca (30) sits with Luigia and siblings, placing a finger to her lips, secretly whispering in Veneto dialect.
-SFX:    Hoes chopping into dry clay, evening crickets, hushed melodic Venetian whisper, distant horse snort.
+        Giuseppe (36) rests his hands on a wooden field hoe beside a wicker harvest basket. Under the rustic
+        wooden colono porch roof, Fosca (30) sits with Luigia and siblings, placing a gentle finger to her lips,
+        secretly whispering in Veneto dialect. The children listen intently with resilient, unbroken eyes.
+SFX:    Evening crickets, gentle wind rustling coffee leaves, hushed melodic Venetian whisper,
+        triumphant, resonant acoustic strings.
 ----------------------------------------------------------------------------------------------------
 [EN Voiceover — Luigia (10)]
-"Another train carried us to the red earth of Capivari. From sunrise to dark, we picked coffee
-until our hands bled. The overseers forbade our dialect; they rewrote our names.
-But at dusk, Mother gathered us in the red dirt, whispering our Veneto words:
-'Never forget where your blood began.'"
+"From sunrise to dark, we tended the coffee rows across the red hills. The overseers forbade our dialect; they rewrote our names.
+But at dusk, Mother gathered us in the red dirt, whispering: 'Never forget where your roots began.'
+The flood did not stop us. The ocean did not claim us. The storm did not break us.
+All eight of us survived."
 
 [PT-BR Voiceover — Luigia (10)]
-"Outro trem nos levou para a terra vermelha de Capivari. Do amanhecer à noite, colhíamos café
-até as mãos sangrarem. Os administradores proibiram nosso dialeto; mudaram nossos nomes nos papéis.
-Mas à tardinha, mamãe nos juntava no terreiro, sussurrando nosso vêneto:
-'Nunca esqueçam de onde veio o sangue de vocês.'"
-====================================================================================================
-
-====================================================================================================
-SHOT 8: THE ARCHIVAL LEDGER & THE EIGHT LIVING ROOTS (0:35 – 0:40)
-Visual: In golden late-afternoon sunlight outside Capivari Station on the red dirt road, an open 1891
-        Hospedaria do Brás ledger rests on a wooden travel chest, displaying Book 031, Page 283 in sepia ink.
-        Beside it stand Giuseppe (36), Fosca (30) holding baby Eugenio, and the children—weathered, proud, unbroken.
-SFX:    Steel dip pen scratching parchment, distant steam train whistle echoing across coffee hills,
-        solemn, resonant acoustic chord.
-----------------------------------------------------------------------------------------------------
-[EN Voiceover — Luigia (10)]
-"Book 031, page 283. 15 December 1891.
-The flood didn't drown us. The ocean didn't claim us. The war didn't kill us. The silence didn't erase us.
-Eight names inscribed on the book. Eight souls who took root in the red earth."
-
-[PT-BR Voiceover — Luigia (10)]
-"Livro 031, página 283. 15 de dezembro de 1891.
-A cheia não nos afogou. O mar não nos engoliu. A guerra não nos matou. O silêncio não nos apagou.
-Oito nomes escritos no livro. Oito almas que fincaram raiz na terra vermelha."
+"Do amanhecer à noite, cuidávamos dos cafezais pela terra vermelha. Os administradores proibiram nosso dialeto; mudaram nossos nomes.
+Mas à tardinha, mamãe nos juntava na terra vermelha, sussurrando: 'Nunca esqueçam de onde vieram as suas raízes.'
+A cheia não nos deteve. O mar não nos engoliu. A tormenta não nos quebrou.
+Nós oito sobrevivemos."
 ====================================================================================================
 ```
 
