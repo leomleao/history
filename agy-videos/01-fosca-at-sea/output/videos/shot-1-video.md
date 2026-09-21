@@ -1,26 +1,30 @@
 # Video Production Dossier: Shot 1 (`shot-1-video.mp4`)
 
 **Scene**: Shot 1 — The Home in Gambarare & The Irreversible Choice (0:00 – 0:05)  
-**Planned Target File**: `output/videos/shot-1-video.mp4`  
+**Output Video File**: [`output/videos/shot-1-video.mp4`](file:///Users/leo/dev/history/agy-videos/01-fosca-at-sea/output/videos/shot-1-video.mp4)  
 **Input Keyframe**: [`output/stills/shot-1-still.png`](file:///Users/leo/dev/history/agy-videos/01-fosca-at-sea/output/stills/shot-1-still.png)  
-**Status**: Pre-Production Specification / Ready for Video Generation  
+**Status**: **COMPLETED & VERIFIED**  
+**Date Generated**: 21 September 2026, 13:55 local time  
 
 ---
 
 ## 1. Technical Video Parameters
 
-| Parameter | Planned Value |
+| Parameter | Value |
 | :--- | :--- |
 | **Model Engine** | `kling3_0_turbo` |
+| **Job ID** | `b478f23f-9da7-496b-a7c0-dbba675d0013` |
 | **Input Keyframe (`--start-image`)** | [`output/stills/shot-1-still.png`](file:///Users/leo/dev/history/agy-videos/01-fosca-at-sea/output/stills/shot-1-still.png) |
-| **Duration** | 5 seconds |
+| **Duration** | 5 seconds (0:00 – 0:05) |
 | **Aspect Ratio** | 16:9 Landscape |
-| **Resolution** | 1080p (or 720p option) |
-| **Credit Cost** | 10.0 credits (1080p) / 7.5 credits (720p) |
+| **Resolution** | 1080p (Full HD) |
+| **Credit Cost** | 10.0 credits |
+| **Generation Time** | 1m 51s |
+| **Cloudfront Asset URL** | `https://d8j0ntlcm91z4.cloudfront.net/user_3GHWX50U2g5AXszCy8KUmkREGbm/hf_20260921_125348_b478f23f-9da7-496b-a7c0-dbba675d0013.mp4` |
 
 ---
 
-## 2. Planned CLI Invocation & Exact Motion Prompt
+## 2. CLI Invocation & Exact Motion Prompt
 
 ### Command
 ```bash
@@ -44,11 +48,14 @@ higgsfield generate create kling3_0_turbo \
 
 ---
 
-## 4. Cinematography & Motion Rationale
+## 4. Visual Motion Analysis & Quality Assessment
 
-1. **Intimate Lighting & Flame Physics**:
-   - The subtle flicker of candlelight casting shifting shadows across Giuseppe's hands and Fosca's profile.
-2. **Rain & The Cold World Outside**:
-   - Rain droplets lashing the dark window, emphasizing the contrast between the warmth of their ancestral hearth and the bleak exile awaiting them.
-3. **The Physical Burden**:
-   - The tension in the hemp rope as Giuseppe cinches the chest closed, embodying the irreversible seal on their Italian past.
+1. **Camera Motion**:
+   - Smooth, deliberate slow push-in focusing toward Giuseppe and Fosca, heightening the emotional tension of departure without disorienting the viewer.
+2. **Character Micro-Behaviors**:
+   - **Giuseppe (36)**: Muscular forearms visibly tense and pull the hemp rope across the wooden slats of the trunk, cinching it tightly.
+   - **Fosca (30)**: Gently cradles baby Eugenio, her expression shifting with poignant, heartbreaking maternal protectiveness.
+   - **Children**: Stand quiet and watchful in their travel coats, capturing the solemnity of rural displacement.
+3. **Atmospheric Physics**:
+   - Dynamic candlelight softly dancing across the rough stone walls and timber surfaces.
+   - Real-time rain streaks running down the windowpanes into the autumn night.
