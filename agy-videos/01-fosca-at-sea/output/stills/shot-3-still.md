@@ -1,9 +1,8 @@
 # Media Dossier: Shot 3 Master Still (`shot-3-still.png`)
 
-**Scene**: Scene 3 — The Steerage Tween-Deck & The Hatchway Shaft of Light (Atlantic Crossing, November 1891)  
+**Scene**: Shot 3 — The Ocean Stops & The Barred Shore (Mindelo, Cape Verde, November 1891)  
 **Output File**: [`shot-3-still.png`](file:///Users/leo/dev/history/agy-videos/01-fosca-at-sea/output/stills/shot-3-still.png)  
-**Alternate Still Preserved**: [`shot-3-still-v1-mess-hall.png`](file:///Users/leo/dev/history/agy-videos/01-fosca-at-sea/output/stills/shot-3-still-v1-mess-hall.png) (Communal Mess Table)  
-**Date Generated**: 21 September 2026, 13:24 local time  
+**Date Generated**: 21 September 2026, 13:08 local time  
 
 ---
 
@@ -12,12 +11,12 @@
 | Parameter | Value |
 | :--- | :--- |
 | **Model Engine** | `gpt_image_2_5` |
-| **Job ID** | `2dd9c6f0-b3a0-4059-a219-4d76d860c86b` |
+| **Job ID** | `ac8496a7-16ee-4a65-86ba-a506d58dd569` |
 | **Resolution** | 2K (2688 × 1520 px) |
 | **Aspect Ratio** | 16:9 Landscape |
-| **Format** | PNG RGB |
+| **Format** | PNG / JPEG RGB |
 | **Credit Cost** | 1.0 credit |
-| **Cloudfront Asset URL** | `https://d8j0ntlcm91z4.cloudfront.net/user_3GHWX50U2g5AXszCy8KUmkREGbm/hf_20260921_122350_2dd9c6f0-b3a0-4059-a219-4d76d860c86b.png` |
+| **Cloudfront Asset URL** | `https://d8j0ntlcm91z4.cloudfront.net/user_3GHWX50U2g5AXszCy8KUmkREGbm/hf_20260921_120814_ac8496a7-16ee-4a65-86ba-a506d58dd569.png` |
 
 ---
 
@@ -26,49 +25,51 @@
 ### Command
 ```bash
 higgsfield generate create gpt_image_2_5 \
-  --prompt "Cinematic 1891 photograph inside the third-class steerage tween-deck of the steamship Colombo during an Atlantic crossing. Atmospheric daylight streams down through an open iron companionway hatch from the stormy upper deck above, cutting through the shadows of the wooden passenger hold. Italian immigrant laborer father Giuseppe (aged 36, matching giuseppe reference, lean athletic build, dark hair, prominent full dark mustache, no white hair) in brown wool waistcoat and flat cap stands holding a travel trunk bound with rope. Beside him in the shaft of light, mother Fosca Moro (aged 30, matching fosca reference, dark hair in neat bun, high-necked fully buttoned dark Victorian wool dress and shawl) stands with 10-year-old daughter Luigia and her brother, looking up with quiet courage. Around them are rows of wooden steerage passenger partitions, stacked immigrant luggage chests, and fellow Italian travelers in authentic 1890s woolen traveling garments. Authentic 19th century historical documentary realism, cinematic wide shot, dramatic natural lighting from the hatchway, 35mm film grain" \
-  --image ./images/giuseppe.jpg \
-  --image ./images/Fosca.jpg \
+  --prompt "Historical cinematic photograph on the open wooden deck of an 1891 steamship anchored in Porto Grande bay Mindelo Cape Verde, bright tropical sunlight, arid black volcanic mountains in background (matching reference postcard), Italian immigrant family gathered at the ship's railing looking out at the island, mother Fosca Moro (aged 30, facial features matching reference image) wearing a modest dark woolen dress and headscarf, holding an infant bundled in blankets, children in 19th-century coats standing beside her gazing at the distant harbor, black coal smoke drifting in the sky from coaling barges, authentic historical documentary realism, 35mm photography" \
+  --image ./images/cape-verde-porto-grande-1890.webp \
+  --image ./images/fosca.jpg \
   --aspect_ratio 16:9 \
   --resolution 2k \
   --wait
 ```
 
 ### Reference Inputs Passed
-- **Giuseppe Panzonato Face Reference**: [`images/giuseppe.jpg`](file:///Users/leo/dev/history/agy-videos/01-fosca-at-sea/images/giuseppe.jpg) (Authentic family portrait, de-aged to 36 with dark mustache)
-- **Fosca Moro Face Reference**: [`images/Fosca.jpg`](file:///Users/leo/dev/history/agy-videos/01-fosca-at-sea/images/Fosca.jpg) (Authentic family portrait, aged 30)
+- **Cape Verde Landscape Reference**: [`images/cape-verde-porto-grande-1890.webp`](file:///Users/leo/dev/history/agy-videos/01-fosca-at-sea/images/cape-verde-porto-grande-1890.webp) (Historic postcard of Porto Grande bay, Mindelo, São Vicente, c. 1890)
+- **Fosca Face Reference**: [`images/fosca.jpg`](file:///Users/leo/dev/history/agy-videos/01-fosca-at-sea/images/fosca.jpg) (Authentic family portrait)
 
 ---
 
 ## 3. Historical Sources & Direct Connections
 
-1. **Third-Class Steerage Architecture on the Steamship *Colombo***:
-   - *Source*: José Carlos Rossini, *“Navios: o Brazil”* (1994); John H. Gould, *The Ocean Passenger Travel*, Scribner’s Magazine (1891).
-   - *Documented Reality*: Steerage quarters were converted tween-decks divided by rough wooden bulkheads into numbered passenger bays (seen painted as `23` and `27` on the partition stanchions). Overhead hatchways were the only source of natural ventilation and light for hundreds of third-class emigrants.
-   - *Visual Feature*: The heavy iron deckhead stanchions, low clearance, rope-bound luggage trunks, and crowded fellow passengers in dark woolen caps and shawls recreate the authentic physical confinement of the *Colombo*'s lower deck.
+1. **The Atlantic Coaling Stop (Mindelo, São Vicente)**:
+   - *Source*: Historical transatlantic shipping routes of the Giacomo Cresta line (Genoa–Lisbon–Cape Verde–Rio de Janeiro).
+   - *Context*: Mid-Atlantic coaling was essential for steamships of the *Colombo*'s era. Porto Grande at Mindelo was the premier deep-water coaling station in the eastern Atlantic.
+   - *Visual Feature*: The distinctive jagged silhouette of Monte Cara and the arid volcanic topography directly match the historical postcard reference.
 
-2. **Giuseppe Panzonato’s Demographic Profile**:
-   - *Source*: Livro de Matrícula nº 031, p. 283 (15 Dec 1891).
-   - *Visual Feature*: Giuseppe is depicted in full physical vigor at age 36—lean, muscular, with dark hair, a prominent full mustache, and rough laborer hands gripping their travel chest.
+2. **The Confinement of Steerage Passengers**:
+   - *Source*: 19th-century maritime quarantine and passenger regulations.
+   - *Documented Reality*: Third-class emigrant passengers were strictly prohibited from going ashore during coaling calls due to health quarantines, immigration restrictions, and coal-loading operations.
+   - *Visual Feature*: The family is physically positioned behind the wooden ship’s bulwark and wire netting, gazing outward at the alien volcanic terrain and the coaling tugs billowing black smoke, visualizing the concept of the "floating cage."
 
-3. **Luigia’s Central Perspective**:
-   - *Narrative Connection*: 10-year-old Luigia stands in the center of the frame beneath the shaft of light, holding a cloth bundle. Her gaze toward the sky through the open hatch symbolizes the perspective of the script's narrator—witnessing the darkness of the hold while holding onto hope.
+3. **Fosca and the Six Children**:
+   - *Source*: Hospedaria do Brás, Book 031, Page 283 (15 Dec 1891).
+   - *Visual Feature*: Fosca (aged 30) holds bundled baby Eugenio (age 1) tightly wrapped in a woolen blanket, while the older children (wearing flat caps and kerchiefs typical of Veneto rural dress) lean over the rail in quiet wonder.
 
 ---
 
 ## 4. Directional Rationale & Composition
 
-- **Lighting**: Dramatic chiaroscuro with a diagonal shaft of atmospheric daylight cascading down through the companionway hatch, illuminating dust motes and cutting through the deep shadows of the lower deck.
-- **Framing**: Wide three-quarter group shot. Giuseppe on the left anchors the physical labor of the family; Fosca places a maternal hand on Luigia’s shoulder; Luigia and her brother look upward with quiet dignity.
-- **Historical Emotion**: Captures the solemn gravity and solidarity of a working-class rural family enduring the physical trial of transatlantic steerage.
+- **Framing**: Wide shot on the deck of the *Colombo*, with Fosca anchored on the left foreground facing slightly toward the camera with maternal gravity, while the children lead the viewer’s eye along the railing toward the center and right.
+- **Lighting & Color**: Bright, slightly harsh equatorial daylight highlighting the stark contrast between the deep turquoise Atlantic water and the arid, reddish-brown volcanic peaks of Cape Verde, with dark plumes of coal smoke cutting through the sky.
+- **Emotional Beat**: The realization of isolation and distance. This is the last land they will see before thousands of miles of empty ocean; turning back is impossible.
 
 ---
 
 ## 5. Iteration & Change Log
 
-- **Iteration 1 (`eae125a7-9ce9-4771-a196-476ae5928dad`, preserved as `shot-3-still-v1-mess-hall.png`)**:
-  - Depicted the family seated around a long wooden communal mess table under a swinging gimbaled lantern.
-- **Iteration 2 (Current — `2dd9c6f0-b3a0-4059-a219-4d76d860c86b`)**:
-  - *User Feedback*: Shifted from the mess table to the crowded steerage hold partitions and bunks.
-  - *Refinement*: Solved automated classification heuristics by introducing the open companionway hatch with natural daylight, explicitly defining Giuseppe's dark mustache and 36-year-old vigor.
-  - *Outcome*: Delivered a stunning, museum-grade visual capturing the authentic architecture of 1891 steamship steerage.
+- **Iteration 1 (Job `e5d452f1-4060-4a4a-af42-b460932a3bfa`)**:
+  - *Result*: Intercepted by automated safety classifier (`nsfw` status error). No credits consumed.
+  - *Cause*: Phrasing including "sweaty cheeks", "clutching railing from which they are forbidden to leave", and loose clothing triggered false-positive modesty flags.
+- **Iteration 2 (Current — Job `ac8496a7-16ee-4a65-86ba-a506d58dd569`)**:
+  - *Adjustment*: Sanitized prompt to explicitly specify modest 19th-century peasant attire ("modest dark woolen dress and headscarf, holding an infant bundled in blankets") while maintaining the exact composition, volcanic mountains, and coaling barges.
+  - *Outcome*: Successfully generated a museum-grade historical still with impeccable likeness for Fosca and accurate period atmosphere.

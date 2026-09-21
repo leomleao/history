@@ -1,8 +1,8 @@
 # Media Dossier: Shot 2 Master Still (`shot-2-still.png`)
 
-**Scene**: Scene 2 — The Floating Cage (Cape Verde / Mindelo Coaling Stop)  
+**Scene**: Shot 2 — The Train Across Italy & The Looming Hull (Veneto to Genoa, October 1891)  
 **Output File**: [`shot-2-still.png`](file:///Users/leo/dev/history/agy-videos/01-fosca-at-sea/output/stills/shot-2-still.png)  
-**Date Generated**: 21 September 2026, 13:08 local time  
+**Date Generated**: 21 September 2026, 13:05 local time  
 
 ---
 
@@ -11,12 +11,12 @@
 | Parameter | Value |
 | :--- | :--- |
 | **Model Engine** | `gpt_image_2_5` |
-| **Job ID** | `ac8496a7-16ee-4a65-86ba-a506d58dd569` |
+| **Job ID** | `a30c6489-0d8e-4148-a4de-36687cab6883` |
 | **Resolution** | 2K (2688 × 1520 px) |
 | **Aspect Ratio** | 16:9 Landscape |
 | **Format** | PNG / JPEG RGB |
 | **Credit Cost** | 1.0 credit |
-| **Cloudfront Asset URL** | `https://d8j0ntlcm91z4.cloudfront.net/user_3GHWX50U2g5AXszCy8KUmkREGbm/hf_20260921_120814_ac8496a7-16ee-4a65-86ba-a506d58dd569.png` |
+| **Cloudfront Asset URL** | `https://d8j0ntlcm91z4.cloudfront.net/user_3GHWX50U2g5AXszCy8KUmkREGbm/hf_20260921_120511_a30c6489-0d8e-4148-a4de-36687cab6883.png` |
 
 ---
 
@@ -25,51 +25,55 @@
 ### Command
 ```bash
 higgsfield generate create gpt_image_2_5 \
-  --prompt "Historical cinematic photograph on the open wooden deck of an 1891 steamship anchored in Porto Grande bay Mindelo Cape Verde, bright tropical sunlight, arid black volcanic mountains in background (matching reference postcard), Italian immigrant family gathered at the ship's railing looking out at the island, mother Fosca Moro (aged 30, facial features matching reference image) wearing a modest dark woolen dress and headscarf, holding an infant bundled in blankets, children in 19th-century coats standing beside her gazing at the distant harbor, black coal smoke drifting in the sky from coaling barges, authentic historical documentary realism, 35mm photography" \
-  --image ./images/cape-verde-porto-grande-1890.webp \
+  --prompt "Cinematic interior of an 1891 vintage third-class steam train carriage speeding through northern Italian countryside in autumn rain, 10-year-old girl Luigia holding her 5-year-old brother Luigi close on a wooden bench, Italian laborer father Giuseppe Panzonato in his mid-30s (aged 36, younger version of reference portrait: dark hair, dark brown full mustache, lean weathered face of a 36-year-old agricultural laborer, NOT elderly, NO white hair) guarding a rope-bound wooden chest, mother Fosca Moro (aged 30, facial features matching reference image) holding an infant to her breast, looking through rain-streaked window toward the distant towering black iron hull of the steamship Colombo in Genoa harbor, authentic 19th century period realism, 35mm film grain" \
   --image ./images/fosca.jpg \
+  --image ./images/giuseppe.jpg \
   --aspect_ratio 16:9 \
   --resolution 2k \
   --wait
 ```
 
 ### Reference Inputs Passed
-- **Cape Verde Landscape Reference**: [`images/cape-verde-porto-grande-1890.webp`](file:///Users/leo/dev/history/agy-videos/01-fosca-at-sea/images/cape-verde-porto-grande-1890.webp) (Historic postcard of Porto Grande bay, Mindelo, São Vicente, c. 1890)
 - **Fosca Face Reference**: [`images/fosca.jpg`](file:///Users/leo/dev/history/agy-videos/01-fosca-at-sea/images/fosca.jpg) (Authentic family portrait)
+- **Giuseppe Face Reference**: [`images/giuseppe.jpg`](file:///Users/leo/dev/history/agy-videos/01-fosca-at-sea/images/giuseppe.jpg) (Authentic family portrait)
 
 ---
 
 ## 3. Historical Sources & Direct Connections
 
-1. **The Atlantic Coaling Stop (Mindelo, São Vicente)**:
-   - *Source*: Historical transatlantic shipping routes of the Giacomo Cresta line (Genoa–Lisbon–Cape Verde–Rio de Janeiro).
-   - *Context*: Mid-Atlantic coaling was essential for steamships of the *Colombo*'s era. Porto Grande at Mindelo was the premier deep-water coaling station in the eastern Atlantic.
-   - *Visual Feature*: The distinctive jagged silhouette of Monte Cara and the arid volcanic topography directly match the historical postcard reference.
+1. **The Ages Recorded at Immigration**:
+   - *Source*: Hospedaria de Imigrantes de São Paulo, Livro 031, Página 283 (15 Dec 1891).
+   - *Documented Fact*: Giuseppe was recorded as age 36 in the original manuscript register (35 in the later 2002 certificate extract); Fosca was recorded as age 30; Luigia as 10; Luigi as 5; Eugenio as 1.
+   - *Application*: Characters are depicted in exact alignment with their late-1891 ages rather than later family photographs.
 
-2. **The Confinement of Steerage Passengers**:
-   - *Source*: 19th-century maritime quarantine and passenger regulations.
-   - *Documented Reality*: Third-class emigrant passengers were strictly prohibited from going ashore during coaling calls due to health quarantines, immigration restrictions, and coal-loading operations.
-   - *Visual Feature*: The family is physically positioned behind the wooden ship’s bulwark and wire netting, gazing outward at the alien volcanic terrain and the coaling tugs billowing black smoke, visualizing the concept of the "floating cage."
+2. **The Rail Journey Across Italy**:
+   - *Source*: Historical Italian railway network (Rete Mediterranea / Ferrovie dell'Alta Italia, 1891).
+   - *Context*: Emigrant families from the Veneto plains (Gambarare/Mira near Venice) traveled in third-class (*III Classe*) wooden carriages across Northern Italy through Milan to Genoa to reach their chartered steamship.
+   - *Visual Feature*: The *"TERZA CLASSE 1891"* brass badge above the wooden paneling directly establishes this historical reality.
 
-3. **Fosca and the Six Children**:
-   - *Source*: Hospedaria do Brás, Book 031, Page 283 (15 Dec 1891).
-   - *Visual Feature*: Fosca (aged 30) holds bundled baby Eugenio (age 1) tightly wrapped in a woolen blanket, while the older children (wearing flat caps and kerchiefs typical of Veneto rural dress) lean over the rail in quiet wonder.
+3. **The Steamship Colombo**:
+   - *Source*: José Carlos Rossini, *“Navios: o Brazil”* (1994); photograph in Orlando drydock ([`images/colombo-drydock-1901.jpg`](file:///Users/leo/dev/history/agy-videos/01-fosca-at-sea/images/colombo-drydock-1901.jpg)).
+   - *Visual Feature*: Visible through the rain-streaked train window across Genoa harbor is the black iron hull, tall single funnel, and rigging of the *Colombo*, establishing the immediate looming presence of their transatlantic vessel.
+
+4. **Peasant Material Culture**:
+   - *Source*: Contemporary records of late-19th-century Venetian rural emigration.
+   - *Visual Feature*: A single wooden chest tied with rough hemp rope—representing the entirety of the family’s worldly possessions after abandoning flooded Veneto.
 
 ---
 
 ## 4. Directional Rationale & Composition
 
-- **Framing**: Wide shot on the deck of the *Colombo*, with Fosca anchored on the left foreground facing slightly toward the camera with maternal gravity, while the children lead the viewer’s eye along the railing toward the center and right.
-- **Lighting & Color**: Bright, slightly harsh equatorial daylight highlighting the stark contrast between the deep turquoise Atlantic water and the arid, reddish-brown volcanic peaks of Cape Verde, with dark plumes of coal smoke cutting through the sky.
-- **Emotional Beat**: The realization of isolation and distance. This is the last land they will see before thousands of miles of empty ocean; turning back is impossible.
+- **Framing**: Wide interior shot with a dynamic contrast: the tight, protective family huddle inside the warm, dimly lit wooden carriage on the left, juxtaposed against the cold, rain-streaked window on the right revealing the open harbor and the black iron ship.
+- **Lighting**: Chiaroscuro from an overhead oil lantern casting warm amber tones on Fosca's shawl, Luigia's hair, and Giuseppe's coat, contrasting with the gloomy grey overcast of the Ligurian coast outside.
+- **Emotional Beat**: Tense, resolute anticipation. The decision to leave has been made; turning back is impossible.
 
 ---
 
 ## 5. Iteration & Change Log
 
-- **Iteration 1 (Job `e5d452f1-4060-4a4a-af42-b460932a3bfa`)**:
-  - *Result*: Intercepted by automated safety classifier (`nsfw` status error). No credits consumed.
-  - *Cause*: Phrasing including "sweaty cheeks", "clutching railing from which they are forbidden to leave", and loose clothing triggered false-positive modesty flags.
-- **Iteration 2 (Current — Job `ac8496a7-16ee-4a65-86ba-a506d58dd569`)**:
-  - *Adjustment*: Sanitized prompt to explicitly specify modest 19th-century peasant attire ("modest dark woolen dress and headscarf, holding an infant bundled in blankets") while maintaining the exact composition, volcanic mountains, and coaling barges.
-  - *Outcome*: Successfully generated a museum-grade historical still with impeccable likeness for Fosca and accurate period atmosphere.
+- **Iteration 1 (Job `5212a1a7-4e00-43cc-90ef-8ca202341078`)**:
+  - *Result*: Giuseppe was generated with white hair, white handlebar mustache, and deeply aged wrinkles directly replicating the elderly reference portrait (`giuseppe.jpg`).
+  - *Critique*: Giuseppe was only 36 in 1891; he looked 65–70, which was historically inaccurate.
+- **Iteration 2 (Current — Job `a30c6489-0d8e-4148-a4de-36687cab6883`)**:
+  - *Adjustment*: Injected explicit de-aging parameters into the prompt: *"in his mid-30s (aged 36, younger version of reference portrait: dark hair, dark brown full mustache, lean weathered face of a 36-year-old agricultural laborer, NOT elderly, NO white hair)"*.
+  - *Outcome*: Successfully preserved Giuseppe's ancestral bone structure, jawline, and nose while restoring dark hair, dark mustache, and prime physical vigor appropriate for his documented age on the 1891 manifest.
