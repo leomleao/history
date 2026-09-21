@@ -38,9 +38,9 @@ higgsfield generate create kling3_0_turbo \
 
 - **Narrative Perspective**: 10-year-old Luigia Panzonato in the present tense (October 1891).
 - **VO Track (EN)**:
-  > *"The train smelled of wet wool and coal smoke. Father kept his hands locked on our wooden trunk — everything we owned was inside it. Mother didn't speak. She just held baby Eugenio against her chest, watching the grey Veneto fields vanish behind us. We were going to Genoa. We were crossing an ocean we had never seen."*
+  > *"In our home in Gambarare, the river floods had ruined the harvest. Father said: 'We starve here, or we take the ship.' We packed our only wooden chest and shut the door forever. In the train to Genoa, nobody spoke. Father stared at his hands; Mother held baby Eugenio tight. Neither of them knew if we were escaping death... or leading all six of us straight into it."*
 - **VO Track (PT-BR)**:
-  > *"O trem cheirava a lã molhada e fumaça de carvão. Meu pai mantinha as mãos presas no nosso baú de madeira — tudo o que tínhamos no mundo estava ali dentro. Minha mãe não dizia nada. Apenas segurava o pequeno Eugenio contra o peito, vendo os campos cinzentos do Vêneto desaparecerem pela janela. Estávamos indo para Gênova. Íamos atravessar um oceano que nunca tínhamos visto."*
+  > *"Na nossa casa em Gambarare, as cheias do rio tinham destruído a colheita. Meu pai disse: 'Ou morremos de fome aqui, ou pegamos o navio.' Guardamos tudo num único baú e fechamos a porta para sempre. No trem até Gênova, ninguém falava. Meu pai olhava para as próprias mãos; minha mãe apertava o bebê Eugenio no peito. Nenhum dos dois sabia se estávamos fugindo da morte... ou levando os seis filhos para a desgraça."*
 
 ---
 
