@@ -49,6 +49,15 @@ agy-videos/<XX-project-name>/
 - If credits are insufficient or generation would deplete the starter budget unexpectedly, stop and notify the user.
 - No blind or background batch generations. Every generation run must specify the exact model, parameters, cost, and expected output.
 
+### Gate 4: Mandatory Companion Dossier Markdown for Every Generated Media Asset
+- **EVERY image, still, video clip, or audio asset generated must be immediately accompanied by a structured `.md` file with the exact same base name** (e.g. `output/stills/shot-1-still.md` for `shot-1-still.png`).
+- Each companion file must strictly follow the standard dossier structure:
+  1. **Technical Generation Metadata**: Model, Job ID, resolution, aspect ratio, credits spent, Cloudfront URL.
+  2. **Exact CLI Invocation & Prompts**: Full command line, parameters, and reference file inputs passed.
+  3. **Historical Sources & Direct Connections**: Primary records cited, documented facts applied, and contextual evidence used.
+  4. **Directional & Creative Rationale**: Why elements were framed, lit, and composed this way.
+  5. **Iteration & Change Log**: Record of changes between iterations, including the "why" and historical justifications.
+
 ---
 
 ## Standard Production Pipeline
