@@ -1,8 +1,8 @@
 # Video Production Dossier: Shot 8 (`shot-8-video.mp4`)
 
-**Scene**: Shot 8 — The Coffee Plantation & The Living Roots (0:35 – 0:40)  
+**Scene**: Shot 8 — Arrival at Capivari Station & Facing the Unknown (0:35 – 0:40)  
 **Planned Target File**: `output/videos/shot-8-video.mp4`  
-**Input Keyframe**: [`output/stills/shot-8-still.png`](file:///Users/leo/dev/history/agy-videos/01-fosca-at-sea/output/stills/shot-8-still.png)  
+**Input Keyframe**: [`output/stills/shot-8-still-start.png`](file:///Users/leo/dev/history/agy-videos/01-fosca-at-sea/output/stills/shot-8-still-start.png)  
 **Status**: Pre-Production Specification / Ready for Video Generation  
 
 ---
@@ -12,8 +12,8 @@
 | Parameter | Planned Value |
 | :--- | :--- |
 | **Model Engine** | `kling3_0_turbo` |
-| **Input Keyframe (`--start-image`)** | [`output/stills/shot-8-still.png`](file:///Users/leo/dev/history/agy-videos/01-fosca-at-sea/output/stills/shot-8-still.png) |
-| **Duration** | 5 seconds (0:35 – 0:40) |
+| **Input Keyframe (`--start-image`)** | [`output/stills/shot-7-still.png`](file:///Users/leo/dev/history/agy-videos/01-fosca-at-sea/output/stills/shot-7-still.png) |
+| **Duration** | 5 seconds (0:30 – 0:35) |
 | **Aspect Ratio** | 16:9 Landscape |
 | **Resolution** | 1080p |
 | **Credit Cost** | 10.0 credits |
@@ -25,8 +25,8 @@
 ### Command
 ```bash
 higgsfield generate create kling3_0_turbo \
-  --prompt "Slow cinematic camera push-in across the coffee plantation in warm late afternoon light: father Giuseppe stands holding his field hoe beside the harvest basket, mother Fosca softly leans to whisper into young Luigia's ear with a gentle finger to her lips, the children sit close on the red earth listening with calm resilient eyes, soft breeze gently swaying coffee shrub branches in the background, authentic 19th-century historical realism, 35mm film grain" \
-  --start-image output/stills/shot-8-still.png \
+  --prompt "Slow cinematic camera drift and subtle pull-back outside the Capivari railway station: warm late afternoon golden light shines across the red clay road, father Giuseppe stands holding their wooden travel chest, blinking slowly and looking across the unfamiliar frontier with solemn uncertainty, mother Fosca softly adjusts the swaddled infant Eugenio against her shawl, 10-year-old Luigia and her young siblings look around at the foreign red dust with hesitant, watchful eyes, light breeze softly rustling fabrics and stirring fine dust particles, atmospheric 19th-century documentary realism, 35mm film grain" \
+  --start-image output/stills/shot-7-still.png \
   --duration 5 \
   --resolution 1080p \
   --wait
@@ -38,19 +38,20 @@ higgsfield generate create kling3_0_turbo \
 
 - **Narrative Perspective**: 10-year-old Luigia Panzonato in the present tense (December 1891).
 - **VO Track (EN)**:
-  > *"From sunrise to dark, we tended the coffee rows across the red hills. They told us to forget our old ways and altered our family names. But at dusk, Mother gathered us close, whispering in our native tongue: 'Never forget your roots.' The flood did not stop us. The ocean did not claim us. All eight of us stood together, unbroken."*
+  > *"Another train carried us to the end of the line: Capivari. We stepped down onto a road of red dust with only one wooden chest between the eight of us. Nobody spoke our tongue. We didn't know where we would sleep, or how we were going to survive."*
 - **VO Track (PT-BR)**:
-  > *"Do amanhecer à noite, cuidávamos dos cafezais pela terra vermelha. Disseram para esquecer nossos costumes e mudaram nossos nomes. Mas ao entardecer, mamãe nos reunia e sussurrava em nossa língua: 'Nunca esqueçam de suas raízes.' A cheia não nos deteve. O oceano não nos levou. Nós oito continuamos de pé, unidos."*
+  > *"Outro trem nos levou até o fim da linha: Capivari. Descemos numa estrada de terra vermelha, com um único baú de madeira para nós oito. Ninguém falava a nossa língua. Não sabíamos onde íamos dormir, nem como íamos sobreviver."*
 
 ---
 
 ## 4. Cinematography & Motion Rationale
 
-1. **Intimacy and Endurance**:
-   - A delicate push-in toward Fosca and Luigia beneath the porch eave, focusing on the preservation of heritage and maternal warmth.
-2. **Environmental Movement**:
-   - Subtle movement of coffee foliage across the rolling hillside under late afternoon sunlight.
+1. **The Threshold of the Unknown**:
+   - The camera begins anchored on the family and subtly pulls back, expanding the frame to emphasize their isolation in the vast red-dirt landscape of the São Paulo frontier.
+2. **Atmospheric Texture**:
+   - Swirling red dust motes caught in the horizontal late-afternoon sunbeams.
+   - The contrast between the rigid Victorian brickwork of the station and the untamed red earth road.
 3. **Character Micro-Behaviors**:
-   - Giuseppe leaning on his hoe with calm dignity.
-   - Fosca whispering to her daughter while gently touching her shoulder.
-   - The children holding their gaze steady into the lens, embodying resilience.
+   - Giuseppe’s weathered hands resting firmly on the wooden chest, his shoulder muscles taking a steady breath.
+   - Fosca gently soothing infant Eugenio against the evening chill.
+   - Luigia’s observant gaze scanning the surroundings, registering the sheer scale of the new world.

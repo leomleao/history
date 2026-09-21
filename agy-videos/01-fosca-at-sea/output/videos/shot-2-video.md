@@ -1,38 +1,36 @@
 # Video Production Dossier: Shot 2 (`shot-2-video.mp4`)
 
-**Scene**: Shot 2 — The Train Across Italy & The Looming Hull (0:05 – 0:10)  
-**Output Video File**: [`output/videos/shot-2-video.mp4`](file:///Users/leo/dev/history/agy-videos/01-fosca-at-sea/output/videos/shot-2-video.mp4)  
-**Input Keyframe**: [`output/stills/shot-2-still.png`](file:///Users/leo/dev/history/agy-videos/01-fosca-at-sea/output/stills/shot-2-still.png)  
-**Status**: **COMPLETED & VERIFIED**  
-**Date Generated**: 21 September 2026, 14:07 local time  
+**Scene**: Shot 2 — The Wall-Slide Transition & Returning to the Train Seat (0:05 – 0:10)  
+**Planned Target File**: `output/videos/shot-2-video.mp4`  
+**Previous Sequence (Shot 1)**: [`output/videos/shot-1-video.mp4`](file:///Users/leo/dev/history/agy-videos/01-fosca-at-sea/output/videos/shot-1-video.mp4) (Exiting cottage door, camera sliding right across wall)  
+**Next Sequence (Shot 3)**: [`output/videos/shot-3-video.mp4`](file:///Users/leo/dev/history/agy-videos/01-fosca-at-sea/output/videos/shot-3-video.mp4) (Seated on train bench, Luigia looking out window at Genoa harbor)  
+**Status**: **Pre-Production Specification / Ready for Video Generation**  
 
 ---
 
-## 1. Technical Video Parameters
+## 1. Cinematic & Transition Function (Connecting Gambarare to Genoa Train)
 
-| Parameter | Value |
-| :--- | :--- |
-| **Model Engine** | `kling3_0_turbo` |
-| **Job ID** | `5d8f1d6c-c794-4f2f-bbd9-2d966b53ab19` |
-| **Input Keyframe (`--start-image`)** | [`output/stills/shot-2-still.png`](file:///Users/leo/dev/history/agy-videos/01-fosca-at-sea/output/stills/shot-2-still.png) |
-| **Duration** | 5.04 seconds (0:05 – 0:10) |
-| **Aspect Ratio** | 16:9 Landscape |
-| **Resolution** | 1080p (1912 × 1080 px @ 24 fps) |
-| **Credit Cost** | 10.0 credits |
-| **Generation Time** | 3m 00s |
-| **Cloudfront Asset URL** | `https://d8j0ntlcm91z4.cloudfront.net/user_3GHWX50U2g5AXszCy8KUmkREGbm/hf_20260921_130414_5d8f1d6c-c794-4f2f-bbd9-2d966b53ab19.mp4` |
+- **The Transition Concept**:
+  - **Start (0.0s)**: The camera completes a continuous, dynamic slide to the right across a dark wall: transitioning from the wet stone exterior wall of the Gambarare cottage into the dark wooden paneling of the third-class train carriage interior.
+  - **Action Progression (0.0s – 5.0s)**:
+    - Inside the rattling wooden train carriage: Giuseppe (aged 36, wet coat and cap from the rain) has just boarded with the family. He heaves the heavy rope-bound wooden chest down onto the carriage floor between the wooden benches.
+    - He catches his breath, shakes rain from his cap, and turns to sit down beside Fosca (who is already seated holding baby Eugenio wrapped in her dark shawl, with Luigia and the children beside her).
+    - Giuseppe lowers himself onto the wooden bench, placing both hands firmly over the hemp rope on the chest between his knees.
+  - **End (5.0s)**: Giuseppe is fully settled on the wooden bench, hands locked on the rope-bound chest, staring ahead with tense resolution.
+- **Why This Transition Works**:
+  - Creates a fluid, motivated match cut between the rural stone cottage and the industrial train journey.
+  - Perfectly matches the opening frame of [`output/videos/shot-3-video.mp4`](file:///Users/leo/dev/history/agy-videos/01-fosca-at-sea/output/videos/shot-3-video.mp4) (where Giuseppe is seated in that exact posture, holding the chest).
 
 ---
 
-## 2. CLI Invocation & Exact Motion Prompt
+## 2. Planned CLI Invocation & Motion Prompt
 
 ### Command
 ```bash
-higgsfield generate create kling3_0_turbo \
-  --prompt "Subtle cinematic camera movement inside the vintage wooden third-class train carriage: gentle rhythmic carriage vibrations of the train on iron tracks, rain streaks sliding down the window glass as the port moves outside, father Giuseppe gently holds the rope on the wooden chest, mother Fosca softly cradles the resting infant in her shawl, young Luigia blinks slowly and looks through the rain-streaked window toward the looming steamship, atmospheric 19th-century cinematic realism, 35mm film grain" \
-  --start-image output/stills/shot-2-still.png \
+higgsfield generate create kling3_0 \
+  --prompt "Dynamic cinematic camera slide to the right across a dark wooden wall into the interior of a rattling vintage third-class train carriage in October 1891: father Giuseppe (aged 36, wet coat and cap from the rain, full dark mustache) heaves the heavy rope-bound wooden travel chest onto the carriage floor between the benches, wipes rain from his brow, and turns to sit down on the wooden bench beside mother Fosca holding baby Eugenio. Giuseppe settles firmly onto his seat, resting his weathered hands over the rope on the chest between his knees, carriage vibrating on iron tracks, warm lantern light against rainy window, authentic 19th-century railway documentary realism, 35mm film grain" \
   --duration 5 \
-  --resolution 1080p \
+  --mode std \
   --wait
 ```
 
@@ -42,20 +40,16 @@ higgsfield generate create kling3_0_turbo \
 
 - **Narrative Perspective**: 10-year-old Luigia Panzonato in the present tense (October 1891).
 - **VO Track (EN)**:
-  > *"On the train to Genoa, nobody spoke. Father stared at his hands; Mother held baby Eugenio so tight. Neither knew if we were escaping death... or leading all six of us straight into it. And then, through the rain, we saw the ship. A black iron monster called Colombo."*
+  > *"We walked through the cold mud in the dark to catch the early train across Italy. Father hoisted our chest into the wooden carriage and took his seat beside us, shaking the rain from his coat."*
 - **VO Track (PT-BR)**:
-  > *"No trem até Gênova, ninguém falava. Meu pai olhava para as próprias mãos; minha mãe apertava o bebê no peito. Nenhum dos dois sabia se estávamos fugindo da morte... ou levando os seis filhos para a desgraça. E então, pela janela na chuva, vimos o navio. Um monstro de ferro preto chamado Colombo."*
+  > *"Caminhamos pela lama fria no escuro para pegar o primeiro trem que cruzava a Itália. Meu pai ergueu nosso baú para dentro do vagão de madeira e se sentou ao nosso lado, sacudindo a chuva do casaco."*
 
 ---
 
-## 4. Visual Motion Analysis & Quality Assessment
+## 4. Embedded Sound Effects (SFX)
 
-1. **Carriage Dynamics**:
-   - The wooden carriage interior exhibits natural, organic physical vibrations consistent with a 19th-century steam train traversing the Rete Mediterranea line.
-2. **Rain & Maritime Background**:
-   - Droplets actively trace paths across the exterior glass pane.
-   - Through the glass, the stormy waters of Genoa harbor and the towering black iron hull and steam plume of the steamship *Colombo* drift past in perspective parallax.
-3. **Character Micro-Behaviors**:
-   - **Giuseppe (36)**: Weathered hands maintain an unyielding, protective grip on the rope-bound chest between his knees, breathing slowly with somber resolve.
-   - **Fosca (30)**: Gently cradles infant Eugenio against the chill, her eyes fixed on the horizon through the glass.
-   - **Luigia (10)**: Softly blinks and hugs younger brother Luigi closer on the wooden bench, conveying childhood vulnerability and quiet courage.
+- **Audio Track**:
+  - Camera slide across wall transitions from exterior rain into interior acoustic resonance.
+  - Heavy wooden chest thumping onto carriage floorboards.
+  - Wooden bench creaking as Giuseppe sits down.
+  - Rhythmic mechanical clatter of iron wheels speeding on train tracks and locomotive steam chugging.

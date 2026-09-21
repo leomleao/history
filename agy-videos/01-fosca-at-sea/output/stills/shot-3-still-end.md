@@ -1,21 +1,21 @@
-# Pre-Production Keyframe Dossier: Shot 3 End (`shot-3-still-end.png`)
+# Pre-Production Keyframe Dossier: Shot 2 End (`shot-2-still-end.png`)
 
-**Scene**: Shot 3 — The Ocean Stops & The Barred Shore (Second 5.0 Transition)  
-**Planned Target File**: `output/stills/shot-3-still-end.png`  
-**Matching Start Keyframe**: [`output/stills/shot-3-still-start.png`](file:///Users/leo/dev/history/agy-videos/01-fosca-at-sea/output/stills/shot-3-still-start.png)  
-**Next Sequence (Shot 4 Start)**: [`output/stills/shot-4-still-start.png`](file:///Users/leo/dev/history/agy-videos/01-fosca-at-sea/output/stills/shot-4-still-start.png) (Tween-deck steerage hold in Atlantic storm)  
+**Scene**: Shot 2 — The Train Across Italy & The Looming Hull (Second 5.0 Transition)  
+**Planned Target File**: `output/stills/shot-2-still-end.png`  
+**Matching Start Keyframe**: [`output/stills/shot-2-still-start.png`](file:///Users/leo/dev/history/agy-videos/01-fosca-at-sea/output/stills/shot-2-still-start.png)  
+**Next Sequence (Shot 3 Start)**: [`output/stills/shot-3-still-start.png`](file:///Users/leo/dev/history/agy-videos/01-fosca-at-sea/output/stills/shot-3-still-start.png) (Deck of Colombo at Cape Verde coaling stop)  
 **Status**: **Ready for User Approval to Generate**  
 
 ---
 
-## 1. Cinematic & Narrative Function (Connecting Shot 3 to Shot 4)
+## 1. Cinematic & Narrative Function (Connecting Shot 2 to Shot 3)
 
-- **The Motion Arc (0:10 to 0:15)**:
-  - **Start (0.0s)**: Immigrant family standing at the wooden deck railing of the *Colombo* in Porto Grande bay (Mindelo, Cape Verde), staring wistfully at the volcanic peaks through iron bars under blinding midday sun.
-  - **Action Progression**: Giant iron steam winches roar to life, hoisting heavy wicker coal baskets from black lighters. Clouds of dense black coal dust blow violently across the deck. Ship crew in white maritime uniforms and brass buttons aggressively shout orders and wave batons, forcing all steerage passengers away from the open air.
-  - **End (5.0s)**: At the open iron hatchway leading down into the tween-deck hold: dark coal dust swirls in the air. 10-year-old Luigia pulls her collar up over her nose and mouth, turning her face back toward the open hatch. Giuseppe (36), with coal dust coating his coat and brow, wraps his muscular arm protectively around Fosca and infant Eugenio, forcefully guiding the children down the steep iron companionway ladder into the pitch-black hold below.
-- **Visual & Narrative Bridge into Shot 4**:
-  - Descending through the iron hatchway leads seamlessly into Shot 4—the cramped, rolling steerage hold where 700 passengers are confined during the Atlantic crossing.
+- **The Motion Arc (0:05 to 0:10)**:
+  - **Start (0.0s)**: Interior of rattling wooden third-class carriage; Giuseppe gripping the chest; Fosca holding baby; Luigia looking through rain-streaked glass as the port appears in the distance.
+  - **Action Progression**: The train slows and screeches to a halt along the wet stone harbor tracks of Genoa. 10-year-old Luigia reaches up with her woolen sleeve and wipes a clear circle through the misty condensation on the window. Outside the glass, the colossal black iron hull of the *Colombo* looms immediately overhead.
+  - **End (5.0s)**: Looking past Luigia’s hand against the freshly wiped window circle: directly outside in the driving rain, the massive black-and-red iron plates, riveted hull, and smoking black funnel of the steamship *Colombo* fill the window view. On the stone pier, hundreds of Italian emigrants in dark caps and shawls queue at the wooden gangplank under umbrella-bearing port officials. Giuseppe has risen from the carriage bench, hoisting the wooden chest, shouting to the family to gather their bundles.
+- **Visual & Narrative Bridge into Shot 3**:
+  - The looming black hull of the *Colombo* and the family boarding cuts directly to their life aboard the ship as it leaves Europe, crosses the Atlantic, and coals in Cape Verde.
 
 ---
 
@@ -24,9 +24,9 @@
 ### Command
 ```bash
 higgsfield generate create gpt_image_2_5 \
-  --prompt "Cinematic historic photograph in harsh tropical sunlight and swirling black coal dust on the wooden steerage deck of the steamship Colombo anchored off the volcanic cliffs of Cape Verde in November 1891. Giant iron steam winches and cables hoist heavy coal baskets in the background, filling the air with soot. In the foreground at the steep iron companionway hatch leading down into the ship's dark hold, Italian immigrant father Giuseppe (aged 36, matching giuseppe reference, lean athletic build, dark hair and dark mustache, no white hair, work clothes dusted with coal soot) stands with protective urgency, ushering his family toward the ladder. Beside him, mother Fosca Moro (aged 30, matching fosca reference, dark Victorian dress and shawl) shields swaddled baby Eugenio from the blowing coal dust, while 10-year-old daughter Luigia pulls her dress collar over her face to breathe, her young eyes wide with apprehension as she steps down into the dark abyss of the lower hold. Authentic 19th-century maritime documentary realism, cinematic framing, dynamic motion, dramatic contrast, 35mm film grain" \
-  --image ./images/cape-verde-porto-grande-1890.webp \
+  --prompt "Cinematic historic photograph in heavy autumn rain at the Port of Genoa in October 1891, viewed from inside the vintage wooden third-class train carriage that has just stopped at the harbor quay. 10-year-old Luigia Panzonato has just wiped a clear circle through the foggy condensation on the carriage window with her wool sleeve, staring out with wide, astonished eyes. Directly through the window glass, towering colossal over the wet stone pier, is the massive black-and-red iron hull and tall smoking black funnel of the steamship Colombo matching the drydock ship reference photo. On the wet cobblestone quay below the ship's steep wooden gangway, crowds of poor Italian emigrants in dark wool coats and shawls wait in the rain. Inside the carriage behind Luigia, father Giuseppe (aged 36, matching giuseppe reference, lean athletic build, dark hair, dark mustache) stands up from the wooden bench hoisting the heavy rope-bound wooden chest onto his shoulder, while mother Fosca (aged 30, matching fosca reference) gathers the children. Dramatic scale, cinematic composition, authentic 19th-century documentary realism, natural moody harbor light, 35mm film grain" \
   --image ./images/colombo-drydock-1901.jpg \
+  --image ./images/genoa-port-1892-noack.webp \
   --image ./images/giuseppe.jpg \
   --image ./images/Fosca.jpg \
   --aspect_ratio 16:9 \
@@ -35,17 +35,17 @@ higgsfield generate create gpt_image_2_5 \
 ```
 
 ### Reference Inputs
-- **Porto Grande Cape Verde**: [`images/cape-verde-porto-grande-1890.webp`](file:///Users/leo/dev/history/agy-videos/01-fosca-at-sea/images/cape-verde-porto-grande-1890.webp)
-- **Steamship Colombo**: [`images/colombo-drydock-1901.jpg`](file:///Users/leo/dev/history/agy-videos/01-fosca-at-sea/images/colombo-drydock-1901.jpg)
-- **Giuseppe Face Reference**: [`images/giuseppe.jpg`](file:///Users/leo/dev/history/agy-videos/01-fosca-at-sea/images/giuseppe.jpg)
-- **Fosca Face Reference**: [`images/Fosca.jpg`](file:///Users/leo/dev/history/agy-videos/01-fosca-at-sea/images/Fosca.jpg)
+- **Steamship Colombo Hull**: [`images/colombo-drydock-1901.jpg`](file:///Users/leo/dev/history/agy-videos/01-fosca-at-sea/images/colombo-drydock-1901.jpg) (Riveted black iron plates, red lower hull, clipper bow)
+- **Port of Genoa Historic Quay**: [`images/genoa-port-1892-noack.webp`](file:///Users/leo/dev/history/agy-videos/01-fosca-at-sea/images/genoa-port-1892-noack.webp) (Alfred Noack 1892 emigrant quayside)
+- **Giuseppe Panzonato Face Reference**: [`images/giuseppe.jpg`](file:///Users/leo/dev/history/agy-videos/01-fosca-at-sea/images/giuseppe.jpg)
+- **Fosca Moro Face Reference**: [`images/Fosca.jpg`](file:///Users/leo/dev/history/agy-videos/01-fosca-at-sea/images/Fosca.jpg)
 
 ---
 
 ## 3. Historical Sources & Direct Connections
 
-1. **Quarantine & Coaling Brutality**:
-   - *Primary Source*: Italian Maritime Sanitary Regulations (1890s) & *Colombo* voyage logs.
-   - Steerage passengers were strictly barred from coming ashore during coaling at Mindelo to prevent desertion, yellow fever introduction, and maritime delays. When coaling began, passengers were locked below decks (*stiva*) to keep them out of working rigging, enduring extreme suffocating heat.
-2. **Physical Action**:
-   - Giuseppe physically shielding his family and driving them down the hatchway captures the sheer physical hardship and loss of dignity suffered by third-class emigrants treated as human cargo.
+1. **Porto di Genova & The Emigrant Trains**:
+   - The Rete Mediterranea line brought emigrant trains directly to the maritime quays of Genoa (Ponte dei Mille).
+   - Immigrants walked directly from third-class rail carriages to the gangways of transatlantic liners.
+2. **The Visual Shock of the Machine Age**:
+   - For rural Venetian peasant children like Luigia, who had only seen canal barges and village fields, the sight of a 104-meter, 3,000-ton ocean-going iron steamship was an overwhelming, terrifying encounter with modern industrial power.

@@ -1,21 +1,21 @@
-# Pre-Production Keyframe Dossier: Shot 8 End (`shot-8-still-end.png`)
+# Pre-Production Keyframe Dossier: Shot 7 End (`shot-7-still-end.png`)
 
-**Scene**: Shot 8 — The Coffee Plantation & The Living Roots (Climatic Second 5.0 Resolution)  
-**Planned Target File**: `output/stills/shot-8-still-end.png`  
-**Matching Start Keyframe**: [`output/stills/shot-8-still-start.png`](file:///Users/leo/dev/history/agy-videos/01-fosca-at-sea/output/stills/shot-8-still-start.png)  
-**Next Sequence**: Concluding Archival Title Cards (0:40 – 0:45)  
+**Scene**: Shot 7 — Arrival at Capivari Station & The First Steps into the Frontier (Second 5.0 Transition)  
+**Planned Target File**: `output/stills/shot-7-still-end.png`  
+**Matching Start Keyframe**: [`output/stills/shot-7-still-start.png`](file:///Users/leo/dev/history/agy-videos/01-fosca-at-sea/output/stills/shot-7-still-start.png)  
+**Next Sequence (Shot 8 Start)**: [`output/stills/shot-8-still-start.png`](file:///Users/leo/dev/history/agy-videos/01-fosca-at-sea/output/stills/shot-8-still-start.png) (Coffee plantation rows & whispering the mother tongue)  
 **Status**: **Ready for User Approval to Generate**  
 
 ---
 
-## 1. Cinematic & Narrative Function (The Final Climax of the Exhibition)
+## 1. Cinematic & Narrative Function (Connecting Shot 7 to Shot 8)
 
-- **The Motion Arc (0:35 to 0:40)**:
-  - **Start (0.0s)**: Late afternoon golden hour in the coffee rows; Giuseppe leaning on his hoe; Fosca sitting under the rustic colono porch roof with Luigia, whispering the forbidden Veneto tongue with a finger to her lips.
-  - **Action Progression**: The golden sunlight fades behind the rolling coffee ridges, giving way to deep twilight. Giuseppe walks over from the field, sets down his iron hoe, and sits down beside Fosca. A small brass kerosene lantern is lit, casting a warm golden circle of light onto the red earth.
-  - **End (5.0s)**: At dusk on the plantation: deep indigo and purple sky over the silhouettes of coffee hills. Under the weathered timber eaves of the colono house, all eight members of the Panzonato family sit tightly gathered together in the warm amber glow of the lantern. Giuseppe (36) and Fosca (30) flank their children with calm dignity. In the center, 10-year-old Luigia raises her eyes and looks directly into the camera lens with quiet, luminous pride and unbreakable resilience. All eight living faces are illuminated in the warm light—the living roots that survived the Atlantic abyss.
-- **Visual & Narrative Bridge into Title Cards**:
-  - Luigia looking into the camera creates the ultimate human connection before cutting to the archival inscription (Book 031, Page 283) and closing credits: *"All eight survived."*
+- **The Motion Arc (0:30 to 0:35)**:
+  - **Start (0.0s)**: Family standing outside the red-brick Capivari railway station on the red dirt road, Giuseppe with his hand resting on the wooden chest, stunned by the vastness of the frontier.
+  - **Action Progression**: Giuseppe takes a deep breath, bends down, and hoists the heavy wooden chest onto his muscular shoulder. He turns his back to the station and begins walking down the open red dirt road. Fosca, Luigia, and the children fall into step beside him.
+  - **End (5.0s)**: Walking down the wide red clay road (*terra roxa*) away from Capivari Station into the open countryside: Giuseppe (36) carries the rope-bound chest on his right shoulder, his trousers and boots caked in red dust, walking with determined strides. Fosca (30) walks at his left side holding baby Eugenio in her shawl, while 10-year-old Luigia leads her younger brother by the hand. In the background behind them stands the receding red-brick station, and in the distance ahead rise the green coffee-covered hills under the late afternoon golden sun. A rustic wooden farm wagon passes in the distance, stirring up an amber cloud of red dust.
+- **Visual & Narrative Bridge into Shot 8**:
+  - Walking down the red road into the coffee hills directly places them in the coffee rows of Shot 8, where their physical labor and cultural survival begin.
 
 ---
 
@@ -24,8 +24,8 @@
 ### Command
 ```bash
 higgsfield generate create gpt_image_2_5 \
-  --prompt "Cinematic historic photograph at dusk on a São Paulo coffee plantation in December 1891. In the background, the rolling hills of coffee bushes are silhouetted against a deep indigo and purple twilight sky. Under the rustic wooden porch of a simple timber colono house on the red clay earth, a small brass kerosene lantern rests on the ground, casting a warm, glowing amber circle of light. All eight members of the Italian immigrant family sit huddled closely together in the lantern light: father Giuseppe (aged 36, matching giuseppe reference, lean athletic build, dark hair, full dark mustache, no white hair) with his field hoe resting against the post beside him, and mother Fosca Moro (aged 30, matching fosca reference, dark hair in bun, dark dress) cradling infant Eugenio. In the center, 10-year-old daughter Luigia Panzonato looks directly into the camera with an expression of quiet pride, profound resilience, and enduring strength, flanked by her young siblings. Authentic 19th-century documentary realism, intimate cinematic composition, warm golden lantern light against twilight blue, 35mm film grain" \
-  --image ./images/colheita-cafe-gaensly.jpg \
+  --prompt "Cinematic historic photograph in warm late afternoon golden sunlight on the wide, unpaved red clay road (terra roxa) in Capivari, São Paulo, in December 1891. The Italian immigrant family is walking down the red dirt road away from the historic red-brick Capivari railway station visible in the background, heading into the vast frontier toward distant green coffee hills. In the lead, father Giuseppe (aged 36, matching giuseppe reference, lean athletic build, dark hair, full dark mustache, work trousers, vest and wool cap, boots caked in red dust) carries the heavy rope-bound wooden travel chest on his shoulder with rugged determination. Walking beside him, mother Fosca Moro (aged 30, matching fosca reference, dark hair in bun, dark Victorian travel dress) cradles infant Eugenio against her chest, while 10-year-old Luigia holds the hand of her 5-year-old brother, their simple clothes dusted with red earth as they take their first steps into their new life. Fine red dust motes glow in the golden sunbeams. Authentic 19th-century documentary realism, cinematic wide tracking shot, natural warm lighting, 35mm film grain" \
+  --image ./images/estacao-capivari-historica.jpg \
   --image ./images/giuseppe.jpg \
   --image ./images/Fosca.jpg \
   --aspect_ratio 16:9 \
@@ -34,7 +34,7 @@ higgsfield generate create gpt_image_2_5 \
 ```
 
 ### Reference Inputs
-- **Coffee Plantation Atmosphere**: [`images/colheita-cafe-gaensly.jpg`](file:///Users/leo/dev/history/agy-videos/01-fosca-at-sea/images/colheita-cafe-gaensly.jpg)
+- **Capivari Station Architecture**: [`images/estacao-capivari-historica.jpg`](file:///Users/leo/dev/history/agy-videos/01-fosca-at-sea/images/estacao-capivari-historica.jpg)
 - **Giuseppe Face Reference**: [`images/giuseppe.jpg`](file:///Users/leo/dev/history/agy-videos/01-fosca-at-sea/images/giuseppe.jpg)
 - **Fosca Face Reference**: [`images/Fosca.jpg`](file:///Users/leo/dev/history/agy-videos/01-fosca-at-sea/images/Fosca.jpg)
 
@@ -42,8 +42,7 @@ higgsfield generate create gpt_image_2_5 \
 
 ## 3. Historical Sources & Direct Connections
 
-1. **The Culmination of Survival**:
-   - *Primary Source*: Hospedaria dos Imigrantes do Brás, Livro 031, Página 283 (15 December 1891).
-   - Despite traversing cholera/fever-ridden ports, living through the First Naval Revolt in Rio, and facing grueling debt-labor in the coffee fields, all eight members of the family survived and established deep roots in Capivari and Tietê.
-2. **Luigia as Eyewitness**:
-   - The documentary’s perspective has been Luigia’s memory throughout. Her direct gaze into the lens in the final frame bridges the gap of 135 years, cementing the transition from archival record to living family heritage.
+1. **The Walk from Station to Fazenda**:
+   - Rural railway stations in 1891 São Paulo were simple drop-off points. Immigrants walked on foot or were transported on flatbed ox-carts along unpaved dirt tracks directly to the plantation colonies (*colônias de fazenda*).
+2. **The "Terra Roxa" Encounter**:
+   - For northern Italians accustomed to the humid green pastures and stone pathways of Veneto, the fine, staining red dust of the Paulista interior was an indelible sensory shock that permanently altered their clothing, skin, and memories.

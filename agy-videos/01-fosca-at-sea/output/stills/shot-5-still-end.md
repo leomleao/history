@@ -1,21 +1,21 @@
-# Pre-Production Keyframe Dossier: Shot 5 End (`shot-5-still-end.png`)
+# Pre-Production Keyframe Dossier: Shot 4 End (`shot-4-still-end.png`)
 
-**Scene**: Shot 5 — Arriving into War: Rio & Battleship Riachuelo (Second 5.0 Transition)  
-**Planned Target File**: `output/stills/shot-5-still-end.png`  
-**Matching Start Keyframe**: [`output/stills/shot-5-still-start.png`](file:///Users/leo/dev/history/agy-videos/01-fosca-at-sea/output/stills/shot-5-still-start.png)  
-**Next Sequence (Shot 6 Start)**: [`output/stills/shot-6-still-start.png`](file:///Users/leo/dev/history/agy-videos/01-fosca-at-sea/output/stills/shot-6-still-start.png) (Platform of Hospedaria do Brás)  
+**Scene**: Shot 4 — The Steerage Hold & The Atlantic Abyss (Second 5.0 Transition)  
+**Planned Target File**: `output/stills/shot-4-still-end.png`  
+**Matching Start Keyframe**: [`output/stills/shot-4-still-start.png`](file:///Users/leo/dev/history/agy-videos/01-fosca-at-sea/output/stills/shot-4-still-start.png)  
+**Next Sequence (Shot 5 Start)**: [`output/stills/shot-5-still-start.png`](file:///Users/leo/dev/history/agy-videos/01-fosca-at-sea/output/stills/shot-5-still-start.png) (Upper deck entering Guanabara Bay / Rio)  
 **Status**: **Ready for User Approval to Generate**  
 
 ---
 
-## 1. Cinematic & Narrative Function (Connecting Shot 5 to Shot 6)
+## 1. Cinematic & Narrative Function (Connecting Shot 4 to Shot 5)
 
-- **The Motion Arc (0:20 to 0:25)**:
-  - **Start (0.0s)**: Family standing at the upper deck rail of the *Colombo* looking in disbelief across Guanabara Bay as the ironclad battleship *Riachuelo* points heavy cannons at the city.
-  - **Action Progression**: An armed naval steam launch speeds alongside the ship with signal flags flying, ordering merchant traffic away from the insurgent naval line. The *Colombo*’s massive steam whistle roars as the rudder turns hard, leaving a foaming wake as the ship swings south away from the conflict.
-  - **End (5.0s)**: Giuseppe (36) pulls Fosca and 10-year-old Luigia back from the iron railing with protective urgency, turning them toward the stern. In the background over the retreating churning wake of the ship, the silhouette of the armored battleship *Riachuelo* and Sugarloaf Mountain fade into distant smoke and sea spray as the ship flees south toward Santos.
-- **Visual & Narrative Bridge into Shot 6**:
-  - The diversion south away from the Rio insurrection leads directly into Shot 6, where the family lands at Santos, climbs the Serra do Mar by funicular, and enters the sorting platform at Hospedaria do Brás.
+- **The Motion Arc (0:15 to 0:20)**:
+  - **Start (0.0s)**: Cramped, violent rolling steerage tween-deck hold of the *Colombo*; Giuseppe bracing their wooden chest against iron stanchions; Fosca holding the children close as a thin ray of hatch daylight cuts the gloom.
+  - **Action Progression**: The violent swaying slowly settles as the ship leaves the stormy Atlantic waters. Overhead, the heavy iron hatchway locks click open, and the tarpaulins are drawn back by crew members.
+  - **End (5.0s)**: A brilliant, blinding column of pure tropical golden daylight pours directly down through the open hatchway into the dark hold. Giuseppe (36) stands tall, extending a steady hand to help Fosca rise with sleeping baby Eugenio. 10-year-old Luigia and her young brother stand beside them, their upturned faces bathed in glorious golden sunlight, eyes wide with profound relief and awe as crew above shout that the coast of South America has appeared.
+- **Visual & Narrative Bridge into Shot 5**:
+  - The family looking up into the flood of open tropical daylight cuts directly to the open upper deck in Shot 5 as they emerge into the sunlit expanse of Guanabara Bay and see Rio de Janeiro.
 
 ---
 
@@ -24,8 +24,7 @@
 ### Command
 ```bash
 higgsfield generate create gpt_image_2_5 \
-  --prompt "Cinematic historic documentary photograph on the upper wooden deck of the steamship Colombo in late November 1891, as the vessel sharply turns away from the entrance of Guanabara Bay in Rio de Janeiro. In the background across the foaming ocean wake, the massive black ironclad battleship Riachuelo with its heavy artillery turrets and Sugarloaf Mountain fade into tropical haze and distant artillery smoke. In the foreground on deck, Italian immigrant father Giuseppe (aged 36, matching giuseppe reference, lean athletic build, dark hair and dark mustache, no white hair, brown waistcoat and cap) turns with fierce protective resolve, shielding mother Fosca Moro (aged 30, matching fosca reference) who cradles baby Eugenio close to her chest. 10-year-old Luigia looks back over her shoulder at the armed warships with wide, tense eyes, holding her brother's hand as sea wind whips through their hair and clothing. Tense dramatic action, authentic 19th-century maritime historical realism, cinematic wide framing, natural sea lighting, 35mm film grain" \
-  --image ./images/encouracado-riachuelo-1891-ferrez.webp \
+  --prompt "Cinematic historic photograph inside the dark tween-deck steerage hold of the steamship Colombo in late November 1891. The stormy darkness is dramatically broken as the wide square cargo hatchway directly above is opened, flooding the gloomy hold with a brilliant, glorious beam of tropical golden sunlight and blue sky from the open ocean deck above. In the center of the radiant light beam standing beside their rope-bound wooden chest, Italian immigrant father Giuseppe (aged 36, matching giuseppe reference, lean athletic build, dark hair, dark mustache, no white hair, rustic work clothes) extends his hand with exhausted relief to support mother Fosca Moro (aged 30, matching fosca reference, dark Victorian dress and shawl) holding baby Eugenio. Beside them, 10-year-old daughter Luigia and her young siblings look straight up toward the open sky with expressions of profound wonder, survival, and rebirth, dust and straw motes dancing in the radiant sunbeam. Dramatic chiaroscuro lighting, emotional historical documentary realism, cinematic wide shot, 35mm film grain" \
   --image ./images/giuseppe.jpg \
   --image ./images/Fosca.jpg \
   --aspect_ratio 16:9 \
@@ -34,7 +33,6 @@ higgsfield generate create gpt_image_2_5 \
 ```
 
 ### Reference Inputs
-- **Battleship Riachuelo**: [`images/encouracado-riachuelo-1891-ferrez.webp`](file:///Users/leo/dev/history/agy-videos/01-fosca-at-sea/images/encouracado-riachuelo-1891-ferrez.webp) (Marc Ferrez 1891 historical photo)
 - **Giuseppe Face Reference**: [`images/giuseppe.jpg`](file:///Users/leo/dev/history/agy-videos/01-fosca-at-sea/images/giuseppe.jpg)
 - **Fosca Face Reference**: [`images/Fosca.jpg`](file:///Users/leo/dev/history/agy-videos/01-fosca-at-sea/images/Fosca.jpg)
 
@@ -42,7 +40,8 @@ higgsfield generate create gpt_image_2_5 \
 
 ## 3. Historical Sources & Direct Connections
 
-1. **The First Naval Revolt (November 1891)**:
-   - On 23 November 1891, Custódio de Mello trained the *Riachuelo*'s 9.2-inch Armstrong guns on Rio de Janeiro. Ships carrying European emigrants were warned away or diverted south to Santos to avoid crossfire and civil unrest.
-2. **The Turn to Santos**:
-   - The diversion from Rio to the Port of Santos directly determined the family's destination, funneling them through the São Paulo immigration pipeline (*Hospedaria do Brás*).
+1. **Surviving the Atlantic Crossing on the *Colombo***:
+   - *Source*: Commissariato Generale dell’Emigrazione & *Archivio di Stato*.
+   - Voyages across the Atlantic took between 24 and 30 days. Steerage passengers lived in cramped, windowless tween-decks with numbered berths (Bays 23 & 27). Surviving the crossing without losing a child to yellow fever or measles was regarded as a miracle.
+2. **The Emergence to Light**:
+   - The opening of the main hatchway signaled the end of open-ocean steerage confinement and the arrival in Brazilian territorial waters.

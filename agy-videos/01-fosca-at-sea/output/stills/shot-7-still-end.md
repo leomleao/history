@@ -1,21 +1,21 @@
-# Pre-Production Keyframe Dossier: Shot 7 End (`shot-7-still-end.png`)
+# Pre-Production Keyframe Dossier: Shot 6 End (`shot-6-still-end.png`)
 
-**Scene**: Shot 7 — Arrival at Capivari Station & The First Steps into the Frontier (Second 5.0 Transition)  
-**Planned Target File**: `output/stills/shot-7-still-end.png`  
-**Matching Start Keyframe**: [`output/stills/shot-7-still-start.png`](file:///Users/leo/dev/history/agy-videos/01-fosca-at-sea/output/stills/shot-7-still-start.png)  
-**Next Sequence (Shot 8 Start)**: [`output/stills/shot-8-still-start.png`](file:///Users/leo/dev/history/agy-videos/01-fosca-at-sea/output/stills/shot-8-still-start.png) (Coffee plantation rows & whispering the mother tongue)  
+**Scene**: Shot 6 — Hospedaria do Brás & Departure for the Interior (Second 5.0 Transition)  
+**Planned Target File**: `output/stills/shot-6-still-end.png`  
+**Matching Start Keyframe**: [`output/stills/shot-6-still-start.png`](file:///Users/leo/dev/history/agy-videos/01-fosca-at-sea/output/stills/shot-6-still-start.png)  
+**Next Sequence (Shot 7 Start)**: [`output/stills/shot-7-still-start.png`](file:///Users/leo/dev/history/agy-videos/01-fosca-at-sea/output/stills/shot-7-still-start.png) (Arrival outside Capivari Station on the red earth road)  
 **Status**: **Ready for User Approval to Generate**  
 
 ---
 
-## 1. Cinematic & Narrative Function (Connecting Shot 7 to Shot 8)
+## 1. Cinematic & Narrative Function (Connecting Shot 6 to Shot 7)
 
-- **The Motion Arc (0:30 to 0:35)**:
-  - **Start (0.0s)**: Family standing outside the red-brick Capivari railway station on the red dirt road, Giuseppe with his hand resting on the wooden chest, stunned by the vastness of the frontier.
-  - **Action Progression**: Giuseppe takes a deep breath, bends down, and hoists the heavy wooden chest onto his muscular shoulder. He turns his back to the station and begins walking down the open red dirt road. Fosca, Luigia, and the children fall into step beside him.
-  - **End (5.0s)**: Walking down the wide red clay road (*terra roxa*) away from Capivari Station into the open countryside: Giuseppe (36) carries the rope-bound chest on his right shoulder, his trousers and boots caked in red dust, walking with determined strides. Fosca (30) walks at his left side holding baby Eugenio in her shawl, while 10-year-old Luigia leads her younger brother by the hand. In the background behind them stands the receding red-brick station, and in the distance ahead rise the green coffee-covered hills under the late afternoon golden sun. A rustic wooden farm wagon passes in the distance, stirring up an amber cloud of red dust.
-- **Visual & Narrative Bridge into Shot 8**:
-  - Walking down the red road into the coffee hills directly places them in the coffee rows of Shot 8, where their physical labor and cultural survival begin.
+- **The Motion Arc (0:25 to 0:30)**:
+  - **Start (0.0s)**: Immigrant families arriving at the vast, noisy brick platform of Hospedaria dos Imigrantes do Brás in São Paulo.
+  - **Action Progression**: The family moves through registration (Book 031, Page 283, registered for Tietê/Capivari), exiting the medical and dorm buildings toward the internal railway spur where the rural immigrant train is boarding.
+  - **End (5.0s)**: Beside the wooden passenger train cars on the Brás rail siding: steam billows around the iron wheels. Giuseppe (aged 36) heaves their rope-bound wooden travel chest up into the open baggage door of the wooden carriage. Fosca (aged 30), holding infant Eugenio, steps up onto the iron train steps, while 10-year-old Luigia ushers her younger siblings aboard. A station conductor in uniform checks their paper transit slip.
+- **Visual & Narrative Bridge into Shot 7**:
+  - Boarding the train at Brás directly explains how they arrive in Shot 7, where they step down outside Capivari Station at the terminus of that exact rail line.
 
 ---
 
@@ -24,8 +24,9 @@
 ### Command
 ```bash
 higgsfield generate create gpt_image_2_5 \
-  --prompt "Cinematic historic photograph in warm late afternoon golden sunlight on the wide, unpaved red clay road (terra roxa) in Capivari, São Paulo, in December 1891. The Italian immigrant family is walking down the red dirt road away from the historic red-brick Capivari railway station visible in the background, heading into the vast frontier toward distant green coffee hills. In the lead, father Giuseppe (aged 36, matching giuseppe reference, lean athletic build, dark hair, full dark mustache, work trousers, vest and wool cap, boots caked in red dust) carries the heavy rope-bound wooden travel chest on his shoulder with rugged determination. Walking beside him, mother Fosca Moro (aged 30, matching fosca reference, dark hair in bun, dark Victorian travel dress) cradles infant Eugenio against her chest, while 10-year-old Luigia holds the hand of her 5-year-old brother, their simple clothes dusted with red earth as they take their first steps into their new life. Fine red dust motes glow in the golden sunbeams. Authentic 19th-century documentary realism, cinematic wide tracking shot, natural warm lighting, 35mm film grain" \
-  --image ./images/estacao-capivari-historica.jpg \
+  --prompt "Cinematic historic photograph in mid-December 1891 at the railway platform of Hospedaria dos Imigrantes do Brás in São Paulo. A vintage wooden immigrant train with steam locomotive stands on the tracks, white steam billowing along the platform. Italian immigrant father Giuseppe (aged 36, matching giuseppe reference, lean athletic build, dark hair, full dark mustache, work trousers and vest) uses both hands to heave their sole rope-bound wooden travel chest into the open baggage doorway of the train car. Beside the coach entrance, mother Fosca Moro (aged 30, matching fosca reference, dark hair in bun, dark Victorian dress and shawl) holds infant Eugenio in her arms as she steps up onto the iron train footstep, while 10-year-old Luigia helps her young brothers and sisters climb aboard into the carriage. Other immigrant families with sacks and bundles move along the platform in the background under the high brick walls of the hostel. Authentic 19th-century railway documentary realism, cinematic wide shot, natural daylight, 35mm film grain" \
+  --image ./images/trem_imigrantes_hospedaria.jpg \
+  --image ./images/hospedaria_dos_imigrantes_patio_1890_gaensly.jpg \
   --image ./images/giuseppe.jpg \
   --image ./images/Fosca.jpg \
   --aspect_ratio 16:9 \
@@ -34,7 +35,8 @@ higgsfield generate create gpt_image_2_5 \
 ```
 
 ### Reference Inputs
-- **Capivari Station Architecture**: [`images/estacao-capivari-historica.jpg`](file:///Users/leo/dev/history/agy-videos/01-fosca-at-sea/images/estacao-capivari-historica.jpg)
+- **Immigrant Train at Brás**: [`images/trem_imigrantes_hospedaria.jpg`](file:///Users/leo/dev/history/agy-videos/01-fosca-at-sea/images/trem_imigrantes_hospedaria.jpg)
+- **Hospedaria Courtyard**: [`images/hospedaria_dos_imigrantes_patio_1890_gaensly.jpg`](file:///Users/leo/dev/history/agy-videos/01-fosca-at-sea/images/hospedaria_dos_imigrantes_patio_1890_gaensly.jpg)
 - **Giuseppe Face Reference**: [`images/giuseppe.jpg`](file:///Users/leo/dev/history/agy-videos/01-fosca-at-sea/images/giuseppe.jpg)
 - **Fosca Face Reference**: [`images/Fosca.jpg`](file:///Users/leo/dev/history/agy-videos/01-fosca-at-sea/images/Fosca.jpg)
 
@@ -42,7 +44,7 @@ higgsfield generate create gpt_image_2_5 \
 
 ## 3. Historical Sources & Direct Connections
 
-1. **The Walk from Station to Fazenda**:
-   - Rural railway stations in 1891 São Paulo were simple drop-off points. Immigrants walked on foot or were transported on flatbed ox-carts along unpaved dirt tracks directly to the plantation colonies (*colônias de fazenda*).
-2. **The "Terra Roxa" Encounter**:
-   - For northern Italians accustomed to the humid green pastures and stone pathways of Veneto, the fine, staining red dust of the Paulista interior was an indelible sensory shock that permanently altered their clothing, skin, and memories.
+1. **Hospedaria do Brás Railway Spur**:
+   - The Hospedaria dos Imigrantes possessed its own private internal railway platform directly linked to the São Paulo Railway and Sorocabana network. Immigrants boarded subsidized trains directly inside the hostel complex for transit to plantation destinations.
+2. **Contract 15 December 1891 (Book 031, Page 283)**:
+   - On 15 December 1891, the Panzonato family was formally assigned to Tietê / Capivari, boarding the train with their contract slip and single travel chest.

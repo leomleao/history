@@ -1,21 +1,21 @@
-# Pre-Production Keyframe Dossier: Shot 6 End (`shot-6-still-end.png`)
+# Pre-Production Keyframe Dossier: Shot 5 End (`shot-5-still-end.png`)
 
-**Scene**: Shot 6 — Hospedaria do Brás & Departure for the Interior (Second 5.0 Transition)  
-**Planned Target File**: `output/stills/shot-6-still-end.png`  
-**Matching Start Keyframe**: [`output/stills/shot-6-still-start.png`](file:///Users/leo/dev/history/agy-videos/01-fosca-at-sea/output/stills/shot-6-still-start.png)  
-**Next Sequence (Shot 7 Start)**: [`output/stills/shot-7-still-start.png`](file:///Users/leo/dev/history/agy-videos/01-fosca-at-sea/output/stills/shot-7-still-start.png) (Arrival outside Capivari Station on the red earth road)  
+**Scene**: Shot 5 — Arriving into War: Rio & Battleship Riachuelo (Second 5.0 Transition)  
+**Planned Target File**: `output/stills/shot-5-still-end.png`  
+**Matching Start Keyframe**: [`output/stills/shot-5-still-start.png`](file:///Users/leo/dev/history/agy-videos/01-fosca-at-sea/output/stills/shot-5-still-start.png)  
+**Next Sequence (Shot 6 Start)**: [`output/stills/shot-6-still-start.png`](file:///Users/leo/dev/history/agy-videos/01-fosca-at-sea/output/stills/shot-6-still-start.png) (Platform of Hospedaria do Brás)  
 **Status**: **Ready for User Approval to Generate**  
 
 ---
 
-## 1. Cinematic & Narrative Function (Connecting Shot 6 to Shot 7)
+## 1. Cinematic & Narrative Function (Connecting Shot 5 to Shot 6)
 
-- **The Motion Arc (0:25 to 0:30)**:
-  - **Start (0.0s)**: Immigrant families arriving at the vast, noisy brick platform of Hospedaria dos Imigrantes do Brás in São Paulo.
-  - **Action Progression**: The family moves through registration (Book 031, Page 283, registered for Tietê/Capivari), exiting the medical and dorm buildings toward the internal railway spur where the rural immigrant train is boarding.
-  - **End (5.0s)**: Beside the wooden passenger train cars on the Brás rail siding: steam billows around the iron wheels. Giuseppe (aged 36) heaves their rope-bound wooden travel chest up into the open baggage door of the wooden carriage. Fosca (aged 30), holding infant Eugenio, steps up onto the iron train steps, while 10-year-old Luigia ushers her younger siblings aboard. A station conductor in uniform checks their paper transit slip.
-- **Visual & Narrative Bridge into Shot 7**:
-  - Boarding the train at Brás directly explains how they arrive in Shot 7, where they step down outside Capivari Station at the terminus of that exact rail line.
+- **The Motion Arc (0:20 to 0:25)**:
+  - **Start (0.0s)**: Family standing at the upper deck rail of the *Colombo* looking in disbelief across Guanabara Bay as the ironclad battleship *Riachuelo* points heavy cannons at the city.
+  - **Action Progression**: An armed naval steam launch speeds alongside the ship with signal flags flying, ordering merchant traffic away from the insurgent naval line. The *Colombo*’s massive steam whistle roars as the rudder turns hard, leaving a foaming wake as the ship swings south away from the conflict.
+  - **End (5.0s)**: Giuseppe (36) pulls Fosca and 10-year-old Luigia back from the iron railing with protective urgency, turning them toward the stern. In the background over the retreating churning wake of the ship, the silhouette of the armored battleship *Riachuelo* and Sugarloaf Mountain fade into distant smoke and sea spray as the ship flees south toward Santos.
+- **Visual & Narrative Bridge into Shot 6**:
+  - The diversion south away from the Rio insurrection leads directly into Shot 6, where the family lands at Santos, climbs the Serra do Mar by funicular, and enters the sorting platform at Hospedaria do Brás.
 
 ---
 
@@ -24,9 +24,8 @@
 ### Command
 ```bash
 higgsfield generate create gpt_image_2_5 \
-  --prompt "Cinematic historic photograph in mid-December 1891 at the railway platform of Hospedaria dos Imigrantes do Brás in São Paulo. A vintage wooden immigrant train with steam locomotive stands on the tracks, white steam billowing along the platform. Italian immigrant father Giuseppe (aged 36, matching giuseppe reference, lean athletic build, dark hair, full dark mustache, work trousers and vest) uses both hands to heave their sole rope-bound wooden travel chest into the open baggage doorway of the train car. Beside the coach entrance, mother Fosca Moro (aged 30, matching fosca reference, dark hair in bun, dark Victorian dress and shawl) holds infant Eugenio in her arms as she steps up onto the iron train footstep, while 10-year-old Luigia helps her young brothers and sisters climb aboard into the carriage. Other immigrant families with sacks and bundles move along the platform in the background under the high brick walls of the hostel. Authentic 19th-century railway documentary realism, cinematic wide shot, natural daylight, 35mm film grain" \
-  --image ./images/trem_imigrantes_hospedaria.jpg \
-  --image ./images/hospedaria_dos_imigrantes_patio_1890_gaensly.jpg \
+  --prompt "Cinematic historic documentary photograph on the upper wooden deck of the steamship Colombo in late November 1891, as the vessel sharply turns away from the entrance of Guanabara Bay in Rio de Janeiro. In the background across the foaming ocean wake, the massive black ironclad battleship Riachuelo with its heavy artillery turrets and Sugarloaf Mountain fade into tropical haze and distant artillery smoke. In the foreground on deck, Italian immigrant father Giuseppe (aged 36, matching giuseppe reference, lean athletic build, dark hair and dark mustache, no white hair, brown waistcoat and cap) turns with fierce protective resolve, shielding mother Fosca Moro (aged 30, matching fosca reference) who cradles baby Eugenio close to her chest. 10-year-old Luigia looks back over her shoulder at the armed warships with wide, tense eyes, holding her brother's hand as sea wind whips through their hair and clothing. Tense dramatic action, authentic 19th-century maritime historical realism, cinematic wide framing, natural sea lighting, 35mm film grain" \
+  --image ./images/encouracado-riachuelo-1891-ferrez.webp \
   --image ./images/giuseppe.jpg \
   --image ./images/Fosca.jpg \
   --aspect_ratio 16:9 \
@@ -35,8 +34,7 @@ higgsfield generate create gpt_image_2_5 \
 ```
 
 ### Reference Inputs
-- **Immigrant Train at Brás**: [`images/trem_imigrantes_hospedaria.jpg`](file:///Users/leo/dev/history/agy-videos/01-fosca-at-sea/images/trem_imigrantes_hospedaria.jpg)
-- **Hospedaria Courtyard**: [`images/hospedaria_dos_imigrantes_patio_1890_gaensly.jpg`](file:///Users/leo/dev/history/agy-videos/01-fosca-at-sea/images/hospedaria_dos_imigrantes_patio_1890_gaensly.jpg)
+- **Battleship Riachuelo**: [`images/encouracado-riachuelo-1891-ferrez.webp`](file:///Users/leo/dev/history/agy-videos/01-fosca-at-sea/images/encouracado-riachuelo-1891-ferrez.webp) (Marc Ferrez 1891 historical photo)
 - **Giuseppe Face Reference**: [`images/giuseppe.jpg`](file:///Users/leo/dev/history/agy-videos/01-fosca-at-sea/images/giuseppe.jpg)
 - **Fosca Face Reference**: [`images/Fosca.jpg`](file:///Users/leo/dev/history/agy-videos/01-fosca-at-sea/images/Fosca.jpg)
 
@@ -44,7 +42,7 @@ higgsfield generate create gpt_image_2_5 \
 
 ## 3. Historical Sources & Direct Connections
 
-1. **Hospedaria do Brás Railway Spur**:
-   - The Hospedaria dos Imigrantes possessed its own private internal railway platform directly linked to the São Paulo Railway and Sorocabana network. Immigrants boarded subsidized trains directly inside the hostel complex for transit to plantation destinations.
-2. **Contract 15 December 1891 (Book 031, Page 283)**:
-   - On 15 December 1891, the Panzonato family was formally assigned to Tietê / Capivari, boarding the train with their contract slip and single travel chest.
+1. **The First Naval Revolt (November 1891)**:
+   - On 23 November 1891, Custódio de Mello trained the *Riachuelo*'s 9.2-inch Armstrong guns on Rio de Janeiro. Ships carrying European emigrants were warned away or diverted south to Santos to avoid crossfire and civil unrest.
+2. **The Turn to Santos**:
+   - The diversion from Rio to the Port of Santos directly determined the family's destination, funneling them through the São Paulo immigration pipeline (*Hospedaria do Brás*).

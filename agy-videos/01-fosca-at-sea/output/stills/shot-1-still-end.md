@@ -1,35 +1,30 @@
-# Media Dossier: Shot 1 End Keyframe (`shot-1-still-end.png`)
+# Pre-Production Keyframe Dossier: Shot 1 End (`shot-1-still-end.png`)
 
-**Scene**: Shot 1 — The Home in Gambarare & The Irreversible Choice (Option A: The First Steps Away from the Hearth)  
-**Output File**: [`output/stills/shot-1-still-end.png`](file:///Users/leo/dev/history/agy-videos/01-fosca-at-sea/output/stills/shot-1-still-end.png)  
-**Matching Start Keyframe**: [`output/stills/shot-1-still-start.png`](file:///Users/leo/dev/history/agy-videos/01-fosca-at-sea/output/stills/shot-1-still-start.png)  
-**Archived Doorway Iteration**: [`output/stills/old/shot-1-still-end-v1-doorway.png`](file:///Users/leo/dev/history/agy-videos/01-fosca-at-sea/output/stills/old/shot-1-still-end-v1-doorway.png)  
-**Status**: **PENDING USER APPROVAL**  
-**Date Generated**: 21 September 2026, 15:10 local time  
-
----
-
-## 1. Technical Generation Metadata
-
-| Parameter | Value |
-| :--- | :--- |
-| **Model Engine** | `gpt_image_2_5` |
-| **Job ID** | `ad478391-6039-47a7-b46a-9fc60f6769d3` |
-| **Resolution** | 2K (2688 × 1520 px) |
-| **Aspect Ratio** | 16:9 Landscape |
-| **Format** | PNG RGB |
-| **Credit Cost** | 1.0 credit |
-| **Generation Time** | 30 seconds |
-| **Cloudfront Asset URL** | `https://d8j0ntlcm91z4.cloudfront.net/user_3GHWX50U2g5AXszCy8KUmkREGbm/hf_20260921_140947_ad478391-6039-47a7-b46a-9fc60f6769d3.png` |
+**Scene**: Shot 1 — The Home in Gambarare & Exiting the Cottage (Second 5.0 Transition)  
+**Planned Target File**: `output/stills/shot-1-still-end.png`  
+**Matching Start Keyframe**: [`output/stills/shot-1-still-start.png`](file:///Users/leo/dev/history/agy-videos/01-fosca-at-sea/output/stills/shot-1-still-start.png) (Kitchen table by candlelight)  
+**Next Sequence (Shot 2 Start)**: Wall-Slide Transition into Train Carriage  
+**Status**: **Ready for User Approval to Generate**  
 
 ---
 
-## 2. CLI Invocation & Exact Prompt
+## 1. Cinematic & Narrative Function (Connecting Shot 1 to Shot 2)
+
+- **The Motion Arc (0:00 to 0:05)**:
+  - **Start (0.0s)**: Family grouped around the kitchen table in Gambarare by candlelight; Giuseppe cinches the hemp rope around the wooden chest; Fosca holds baby Eugenio; children watch solemnly.
+  - **Action Progression**: Giuseppe finishes knotting the rope, hoists the heavy wooden chest by its hemp rope handle, and walks toward the open doorway. Fosca and the children follow immediately behind him.
+  - **End (5.0s)**: Giuseppe is in mid-stride stepping out through the open wooden doorway of the Gambarare cottage into the driving rain and dark mud. The cold blue night light catches his determined profile and the wet wooden chest. On the right side of the frame, the dark weathered stone cottage wall looms, setting up a dynamic camera slide to the right across the wall. Behind Giuseppe in the doorway, Fosca holding infant Eugenio and the children are stepping right behind him.
+- **Visual & Camera Bridge into Shot 2**:
+  - The shot concludes with the camera sliding to the right across the dark stone cottage wall, wiping across the wall into the wooden interior wall of the third-class train carriage in Shot 2.
+
+---
+
+## 2. Planned CLI Invocation & Exact Prompt
 
 ### Command
 ```bash
 higgsfield generate create gpt_image_2_5 \
-  --prompt "Cinematic historic documentary photograph inside the rustic stone kitchen of a humble peasant cottage in Gambarare, Veneto, in October 1891. Father Giuseppe Panzonato (aged 36, matching giuseppe reference, lean athletic build, dark hair, full dark mustache, no white hair, rustic work trousers, vest, and wool cap) has hoisted their heavy rope-bound wooden travel chest onto his muscular shoulder, standing tall beside the bare wooden table, taking his first resolute steps forward away from the cold hearth. Beside him, mother Fosca Moro (aged 30, matching fosca reference, dark hair in neat bun, wearing a high-necked dark Victorian dress and woolen shawl) holds sleeping infant Eugenio wrapped tightly in her shawl, stepping forward with her husband. Flanking them, 10-year-old daughter Luigia and her young siblings hold their small cloth bundles, stepping forward with solemn, resilient expressions. On the edge of the rustic wooden table behind them, a single candle flame flickers wildly in a strong draft, casting long dramatic shadows across the rough stone walls. Outside the dark rain-streaked windowpanes, cold night presses against the glass. Authentic 19th-century documentary realism, cinematic wide shot, dramatic chiaroscuro candlelight, 35mm film grain" \
+  --prompt "Cinematic historic documentary photograph in cold autumn darkness and driving rain in October 1891, at the open doorway of a humble stone peasant cottage in Gambarare, Veneto. Father Giuseppe Panzonato (aged 36, matching giuseppe reference, lean athletic build, dark hair, full dark mustache, no white hair, rustic work trousers, vest, and wool cap) is captured in mid-motion stepping out through the weathered wooden doorway into the rainy night, carrying the heavy rope-bound wooden travel chest by its hemp handle. Cold blue rain light illuminates his determined profile as he steps over the stone threshold. To his right, the thick dark stone exterior wall of the cottage fills the right edge of the frame, setting up a camera pan. Inside the dark doorway behind him, mother Fosca Moro (aged 30, matching fosca reference) holding bundled infant Eugenio and the children follow closely at his heels. Atmospheric 19th-century documentary realism, cinematic framing, dramatic chiaroscuro lighting, 35mm film grain" \
   --image ./images/giuseppe.jpg \
   --image ./images/Fosca.jpg \
   --aspect_ratio 16:9 \
@@ -38,22 +33,15 @@ higgsfield generate create gpt_image_2_5 \
 ```
 
 ### Reference Inputs Passed
-- **Giuseppe Panzonato Face Reference**: [`images/giuseppe.jpg`](file:///Users/leo/dev/history/agy-videos/01-fosca-at-sea/images/giuseppe.jpg) (Aged 36, lean build, dark hair and mustache)
+- **Giuseppe Panzonato Face Reference**: [`images/giuseppe.jpg`](file:///Users/leo/dev/history/agy-videos/01-fosca-at-sea/images/giuseppe.jpg) (Aged 36, lean athletic build, dark hair, dark mustache)
 - **Fosca Moro Face Reference**: [`images/Fosca.jpg`](file:///Users/leo/dev/history/agy-videos/01-fosca-at-sea/images/Fosca.jpg) (Aged 30, dark hair in bun, Victorian travel dress, shawl)
 
 ---
 
-## 3. Spatial & Physical Continuity Analysis (Eliminating Teleportation)
+## 3. Directional Rationale & Pacing
 
-- **The Start Keyframe (0.0s)**:
-  - Giuseppe sits by the wooden table, cinching the hemp rope around the chest.
-  - Fosca cradles infant Eugenio by her side.
-  - The children stand close around the hearth by the candlelight and rain window.
-- **The End Keyframe (5.0s — Option A)**:
-  - Giuseppe stands tall having hoisted the heavy rope-bound chest onto his shoulder, taking his first heavy steps forward.
-  - Fosca steps forward beside him, holding baby Eugenio close.
-  - Luigia (10) and her young siblings hold their cloth sacks, stepping forward with their parents.
-  - The candle flame on the table flings long shadows in the incoming draft.
-- **Why Teleportation is Completely Eliminated**:
-  - All 8 family members remain physically inside the kitchen across the entire 5 seconds.
-  - The total physical distance covered in 5 seconds is a natural 2 to 3 steps forward, perfectly matching real human kinematics and eliminating AI morphing artifacts.
+- **Eliminating the Teleportation Issue**:
+  - Fosca and the children are not 20 meters away outside; they are grouped immediately behind Giuseppe as he crosses the threshold.
+  - The movement from table to doorway is unified in one continuous forward motion.
+- **The Wall-Slide Transition**:
+  - The right-side stone wall serves as a motivated whip/slide wipe that seamlessly matches into the wooden wall of the train carriage in Shot 2.
