@@ -3,7 +3,7 @@
 
 **Perspective**: **Ten-Year-Old Luigia (In the Moment)** — Present-tense, intimate child's eyewitness memory  
 **Structure**: **5-Act Linear Odyssey (Mapped 1:1 to Production Shots)**:
-1. **Scene 1 (Shot 1)**: *The Train to the Abyss & The Agony of Choice* (Veneto floods, third-class rail carriage, rain on glass, the unknown, Genoa port & *Colombo*)
+1. **Scene 1 (Shot 1)**: *The Home in Gambarare & The Train to Genoa* (Flooded lowlands of Mira/Gambarare, packing the chest, shutting the door forever, the agonizing choice, third-class rail carriage across Italy, rain on glass, Genoa port & *Colombo*)
 2. **Scene 2 (Shot 2)**: *The Ocean Stops & The Forbidden Shore* (Lisbon fading, Cape Verde / Mindelo coaling, volcanic cliffs, coal dust, locked behind iron deck rails, barred from land)
 3. **Scene 3 (Shot 3)**: *The Steerage Hold & The Atlantic Abyss* (Cramped tween-deck hold, numbered bays 23 & 27, 700 passengers, violent rolling, sickness, the fear of drowning, shaft of daylight through the companionway hatch)
 4. **Scene 4 (Shot 4)**: *Arriving into War & The Ascent into the Clouds* (Guanabara Bay, warships, battleship *Riachuelo* cannons pointed at Rio, the panic of war; escaping to Santos, the Paranapiacaba cable incline through freezing mountain mist, and the overcrowded dormitories of Hospedaria do Brás)
@@ -32,30 +32,34 @@
 
 ```
 ====================================================================================================
-SCENE 1: THE TRAIN TO THE ABYSS & THE AGONY OF CHOICE (0:00 – 0:18)
-Visual: Cold autumn rain streaks down the wooden window of a third-class train carriage speeding across
-        Northern Italy. Inside, ten-year-old Luigia holds five-year-old Luigi close.
-        Giuseppe (aged 36) clutches the rope binding their only wooden chest, his knuckles white.
-        Fosca (aged 30) holds sleeping infant Eugenio against her chest, her eyes wide with terror and resolve.
-        The train screeches into the echoing port station of Genoa; outside looms the monstrous black iron
-        hull of the steamship Colombo, belching thick coal smoke into the grey sky.
-SFX:    Rhythmic clatter of train wheels on iron tracks, mournful locomotive whistle, rain beating on glass,
-        frightened murmur of passengers, echoing clamor of Genoa harbor.
+SCENE 1: THE HOME IN GAMBARARE & THE TRAIN TO GENOA (0:00 – 0:18)
+Visual: Inside the modest peasant cottage in Gambarare (Mira, Veneto): cold rain beats against the small
+        paned window. Giuseppe (aged 36) ties the hemp rope securely around their only wooden travel chest.
+        Fosca (aged 30) bundles one-year-old infant Eugenio in her woolen shawl, casting one final, heartbreaking
+        glance at their bare home before Giuseppe pulls the wooden latch shut forever.
+        Dissolve to the rattling third-class train carriage speeding through autumn rain across Northern Italy.
+        Ten-year-old Luigia holds five-year-old Luigi against her side. Giuseppe's hands remain locked on the trunk.
+        Outside the streaming glass, the train screeches into Genoa port; through the mist looms the monstrous
+        black iron hull of the steamship Colombo, belching thick coal smoke.
+SFX:    Muffled wooden door latch thud, cold autumn rain and wind, rhythmic clatter of steam train tracks,
+        mournful locomotive whistle, rain beating on glass, echoing clamor of Genoa harbor.
 ----------------------------------------------------------------------------------------------------
 [EN Voiceover — Luigia (10)]
-"The floods took our crops in Veneto. There was nothing left to eat.
-In the dead of night, Father made the choice: 'We starve here, or we take the ship.'
-We sold everything we owned to buy third-class tickets.
-On the train to Genoa, nobody spoke. Father stared at his hands. Mother held baby Eugenio so tight.
+"In our home in Gambarare, the river floods had ruined the harvest. There was nothing left to eat.
+In the dead of night, Father looked around our bare kitchen and made the choice: 'We starve here, or we take the ship.'
+We packed our only wooden chest and shut the door of our house in Gambarare forever.
+We walked through the cold mud to catch the train across Italy to Genoa.
+In the third-class carriage, nobody spoke. Father stared at his hands. Mother held baby Eugenio so tight.
 Neither of them knew if we were escaping death... or leading all six of us straight into it.
 And then, through the rain, we saw the ship. A black iron monster called Colombo.
 There was no turning back."
 
 [PT-BR Voiceover — Luigia (10)]
-"As enchentes levaram nossas plantações no Vêneto. Não sobrou nada para comer.
-No meio da noite, meu pai tomou a decisão: 'Ou morremos de fome aqui, ou pegamos o navio.'
-Vendemos tudo o que tínhamos para pagar as passagens de terceira classe.
-No trem até Gênova, ninguém falava. Meu pai olhava para as próprias mãos. Minha mãe apertava o bebê Eugenio contra o peito.
+"Na nossa casa em Gambarare, as cheias do rio tinham destruído a colheita. Não sobrou nada para comer.
+No meio da noite, meu pai olhou para a nossa cozinha vazia e tomou a decisão: 'Ou morremos de fome aqui, ou pegamos o navio.'
+Guardamos tudo o que restava num único baú e fechamos a porta da nossa casa em Gambarare para sempre.
+Caminhamos pela lama fria até pegar o trem que cruzava a Itália rumo a Gênova.
+No vagão de terceira classe, ninguém falava. Meu pai olhava para as próprias mãos. Minha mãe apertava o bebê Eugenio contra o peito.
 Nenhum dos dois sabia se estávamos fugindo da morte... ou levando os seis filhos para a desgraça.
 E então, pela janela na chuva, vimos o navio. Um monstro de ferro preto chamado Colombo.
 Não tinha mais volta."
@@ -232,9 +236,10 @@ Todos os oito sobreviveram.
 
 ## Historical Evidence Notes for Production & Narration
 
-1. **The Flood & Agony of Departure**:
-   - In the autumn of 1882 and continuing into the late 1880s and 1891, catastrophic floods along the Adige, Brenta, and Po river basins shattered the tenant farming economy (*mezzadria*) of the Veneto plains, triggering the mass exodus known as *la grande emigrazione*.
-   - Giuseppe and Fosca had to make the agonizing decision to sell their few possessions and take six children aged 1 to 10 onto an ocean liner.
+1. **The Home in Gambarare (Mira, Veneto) & Agony of Departure**:
+   - Primary archival records in the parish of Gambarare document Giuseppe Giacomo Panzonato's birth on 22 July 1856. On 26 November 1881, Giuseppe and Fosca Moro married in the municipality of Mira, raising their family in the village of Gambarare.
+   - Decades later in Brazil, the 1902 Capivari parish marriage record of their daughter Catharina explicitly identifies her as *"natural de Gambarare, Veneza"*, proving the family's deep connection to this specific Venetian community.
+   - Repeated catastrophic floods along the Brenta canal and Venetian plains in the late 1880s and 1891 destroyed the tenant farming subsistence of peasant families (*mezzadria*), forcing Giuseppe and Fosca to abandon their ancestral home in Gambarare, sell their belongings to purchase third-class passage, and board the train across Italy to Genoa.
 
 2. **The Stops: Genoa, Lisbon, Cape Verde**:
    - The *Colombo* departed Genoa, called at Lisbon (Cais do Sodré) to collect Portuguese passengers, and stopped at Porto Grande (Mindelo, São Vicente, Cape Verde) for coaling.
