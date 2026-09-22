@@ -22,7 +22,8 @@
 | **Duration** | 5.04 seconds (0:05 – 0:10) |
 | **Aspect Ratio** | 16:9 Landscape |
 | **Resolution** | 720p (1276 × 720 px @ 24 fps) |
-| **Credit Cost** | 7.5 credits (Sound off) |
+| **Audio Stream** | AAC stereo (192 kbps, 44.1 kHz, muxed with `output/audio/shot-2-sfx.mp3`) |
+| **Credit Cost** | 7.5 credits (Video) + 1.25 credits (SFX) |
 | **Cloudfront Asset URL** | `https://d8j0ntlcm91z4.cloudfront.net/user_3GHWX50U2g5AXszCy8KUmkREGbm/hf_20260921_144021_ab1ca4b1-8b59-43be-bc42-9101265eccb5.mp4` |
 
 ---
