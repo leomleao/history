@@ -42,6 +42,7 @@ for (const hub of [
 ]) {
   const html = htmlByPath.get(localFile(new URL(hub.path, site)));
   if (!html) throw new Error(`Missing history hub route: ${hub.path}`);
+  if (!/<a\b[^>]*href=["']\/cardross\/["'][^>]*>/.test(html)) throw new Error(`Missing Cardross entrance: ${hub.path}`);
   if (attr(html.match(/<html\b[^>]*>/i)?.[0] || '', 'lang')?.toLowerCase() !== hub.lang.toLowerCase()) throw new Error(`Wrong hub page language: ${hub.path}`);
   if ((html.match(/<h1\b/g) || []).length !== 1) throw new Error(`Expected one hub page heading: ${hub.path}`);
   const { canonicalHref, alternates } = metadataLinks(html);
@@ -99,6 +100,11 @@ for (const [file, html] of htmlByPath) {
       if (url.origin !== site.origin || !['http:','https:'].includes(url.protocol)) continue;
       if (url.pathname.startsWith('/media/')) {
         if (!knownMedia.has(url.pathname)) throw new Error(`Unknown media URL in ${path}: ${raw}`);
+        continue;
+      }
+      // This exact route is supplied by the read-only Cardross mount at runtime.
+      if (url.pathname === '/cardross/' && !url.search && !url.hash) {
+        checkedLinks++;
         continue;
       }
       const target = localFile(url);
