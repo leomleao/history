@@ -26,8 +26,7 @@ const copy = isPortuguese
       panzonatoAction: 'Explorar a história Panzonato',
       cardrossPlace: 'Menteith · Escócia',
       cardrossDescription: 'Uma casa, uma paisagem e as pessoas que lhes deram forma.',
-      cardrossStatus: 'Em preparação',
-      cardrossExplanation: 'Esta história está sendo preparada. A entrada será disponibilizada quando a exposição estiver pronta.',
+      cardrossAction: 'Explorar a história de Cardross',
       closing: 'Duas histórias independentes, exploradas por meio de fotografias, mapas, documentos e dos vestígios deixados pelas pessoas.',
       credits: 'Créditos e direitos das imagens',
       panzonatoCreditLabel: 'Imagem Panzonato',
@@ -49,8 +48,7 @@ const copy = isPortuguese
       panzonatoAction: 'Explore Panzonato history',
       cardrossPlace: 'Menteith · Scotland',
       cardrossDescription: 'A house, a landscape, and the people who shaped them.',
-      cardrossStatus: 'In progress',
-      cardrossExplanation: 'This history is being prepared. Its entrance will be added when the exhibition is ready.',
+      cardrossAction: 'Explore Cardross history',
       closing: 'Two independent histories, explored through photographs, maps, documents, and the traces people leave behind.',
       credits: 'Image credits and rights',
       panzonatoCreditLabel: 'Panzonato image',
@@ -136,13 +134,13 @@ const copy = isPortuguese
         </figure>
 
         <div class="history-entrance-copy">
-          <div class="history-place-row">
-            <p class="history-place">{copy.cardrossPlace}</p>
-            <p class="history-status">{copy.cardrossStatus}</p>
-          </div>
+          <p class="history-place">{copy.cardrossPlace}</p>
           <h2>Cardross</h2>
           <p class="history-description">{copy.cardrossDescription}</p>
-          <p class="history-pending-note">{copy.cardrossExplanation}</p>
+          <a class="history-action" href="/cardross/">
+            <span>{copy.cardrossAction}</span>
+            <span class="history-action-mark" aria-hidden="true">→</span>
+          </a>
         </div>
       </article>
     </section>

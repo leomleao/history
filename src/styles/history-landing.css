@@ -101,8 +101,7 @@ figure { margin: 0; }
 }
 
 .history-eyebrow,
-.history-place,
-.history-status {
+.history-place {
   font-size: 0.68rem;
   letter-spacing: 0.115em;
   text-transform: uppercase;
@@ -199,23 +198,7 @@ figure { margin: 0; }
   padding-top: clamp(1rem, 1.4vw, 1.4rem);
 }
 
-.history-place-row {
-  display: flex;
-  width: 100%;
-  align-items: center;
-  justify-content: space-between;
-  gap: 1rem;
-}
-
 .history-place { color: var(--history-muted); }
-
-.history-status {
-  padding: 0.38rem 0.58rem 0.32rem;
-  border: 1px solid var(--history-green);
-  color: var(--history-green);
-  font-weight: 600;
-  line-height: 1;
-}
 
 .history-entrance h2 {
   margin-top: clamp(0.55rem, 0.8vw, 0.8rem);
@@ -258,20 +241,10 @@ figure { margin: 0; }
   background: var(--history-red);
 }
 
-.history-entrance--panzonato:has(.history-action:hover) .history-visual img,
-.history-entrance--panzonato:focus-within .history-visual img {
+.history-entrance:has(.history-action:hover) .history-visual img,
+.history-entrance:focus-within .history-visual img {
   filter: saturate(0.84) sepia(0.05) contrast(1.04);
   transform: scale(1.018);
-}
-
-.history-pending-note {
-  max-width: 34rem;
-  margin-top: clamp(1rem, 1.4vw, 1.4rem);
-  padding-left: 1rem;
-  border-left: 0.18rem solid var(--history-green);
-  color: var(--history-green);
-  font-size: 0.84rem;
-  line-height: 1.5;
 }
 
 .history-closing {
@@ -358,14 +331,12 @@ figure { margin: 0; }
   .history-entrance-copy { padding-top: 0.9rem; }
   .history-entrance h2 { font-size: clamp(2rem, 15vw, 4.5rem); }
   .history-action { width: 100%; }
-  .history-pending-note { margin-top: 1rem; }
   .history-closing { grid-template-columns: 1fr; gap: 0.75rem; padding-block: 1.5rem; }
   .history-footer { flex-direction: column; gap: 0.45rem; }
 }
 
 @media (max-width: 23rem) {
   .history-introduction h1 { font-size: 3.3rem; }
-  .history-place-row { align-items: flex-start; flex-direction: column; gap: 0.7rem; }
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -373,6 +344,6 @@ figure { margin: 0; }
   .history-entrance { animation: none; }
   .history-visual img,
   .history-action { transition: none; }
-  .history-entrance--panzonato:has(.history-action:hover) .history-visual img,
-  .history-entrance--panzonato:focus-within .history-visual img { transform: none; }
+  .history-entrance:has(.history-action:hover) .history-visual img,
+  .history-entrance:focus-within .history-visual img { transform: none; }
 }
